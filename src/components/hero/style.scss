@@ -1,0 +1,57 @@
+.hero {
+	$spacing: $container-gutter;
+	$inner-spacing: 2em;
+
+	position: relative;
+	z-index: 1;
+	color: $white;
+	background-color: $accent;
+	overflow: hidden;
+	
+	&__container {
+		@extend %container;
+		padding: ($inner-spacing * 2) $spacing ($inner-spacing * 3);
+	}
+
+	&__title {
+		margin-top: 0;
+		margin-bottom: .2em;
+		font-size: map-get($font-sizes, 'grand');
+		line-height: 1.2;
+
+		&--color {
+			color: $action;
+		}
+	}
+
+	&__text {
+		font-size: 17px;
+		font-weight: 500;
+		line-height: 1.5;
+		margin-bottom: ($inner-spacing * 1.5);
+	}
+
+	&__hint {
+		font-size: 17px;
+		font-weight: 700;
+		line-height: 1.5;
+		margin-bottom: $spacing;
+	}
+
+	&__image {
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: auto;
+		height: 100%;
+		z-index: -1;
+		transform: translateX(25%);
+	}
+
+	@media #{$screen-md} {
+		&__title,
+		&__text {
+			max-width: 55%;
+		}
+	}
+}

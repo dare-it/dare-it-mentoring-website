@@ -1,0 +1,7 @@
+.heading {
+  color: $action;
+  margin-top: 0;
+  margin-bottom: .2em;
+  font-size: map-get($font-sizes, 'grand');
+  line-height: 1.2;
+}

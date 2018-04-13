@@ -1,27 +1,24 @@
 @import 'base/reset';
 @import 'base/colors';
 @import 'base/variables';
+@import 'base/fonts';
 @import 'base/typography';
 @import 'base/layout';
 @import 'base/helpers';
 
-html, body {
-	height: 100%;
-	width: 100%;
+html,
+body {
+	position: relative;	
 	padding: 0;
 	margin: 0;
-	background: lightcyan;
-	font-family: 'Helvetica Neue', arial, sans-serif;
+	color: $text;
+	font-family: 'Gilroy', 'Helvetica', arial, sans-serif;
 	font-weight: 400;
-	color: #444;
+	background: $white;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
 
 * {
 	box-sizing: border-box;
-}
-
-#app {
-	height: 100%;
 }

@@ -1,0 +1,13 @@
+.home {
+	$spacing: $container-gutter;
+
+	&__section {
+		//
+	}
+
+	&__container {
+		@extend %container;
+
+		padding: ($spacing * 3) $spacing;
+	}
+}
