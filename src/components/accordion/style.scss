@@ -1,0 +1,105 @@
+.accordion {
+  $button-size: 44px;
+  $button-margin: 30px;
+  $header-padding: 30px;
+  $header-padding-bottom: 17px;
+  $sign-width: 14px;
+  $sign-height: 3px;
+  $category-margin: 70px;
+  $stroke: rgba($line, .5);
+
+  list-style: none;
+
+  &__item {
+    width: 100%;
+    color: $accent;
+    border-bottom: 1px solid $stroke;
+
+    &--active {
+      .accordion__button:after {
+        transform: rotate(0);
+      }
+    }
+  }
+
+  &__header,
+  &__button {
+    cursor: pointer;
+  }
+
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: $header-padding 0;
+    font-size: map-get($font-sizes, 'super');
+    font-weight: 600;
+    line-height: 1.3;
+    color: $text;
+  }
+
+  &__button {
+    position: relative;
+    flex-shrink: 0;
+    width: $button-size;
+    height: $button-size;
+    margin-right: $button-margin;
+    border-radius: 100%;
+    outline: none;
+
+    &:before,
+    &:after {
+      position: absolute;
+      left: ($button-size - $sign-width) / 2;
+      width: $sign-width;
+      height: $sign-height;
+      background-color: $action;
+      border-radius: 10px;
+      content: '';
+      transition: background-color .3s ease-in-out;
+    }
+
+    &:after {
+      transform: rotate(90deg);
+      transition: transform .2s ease-in-out;
+    }
+  }
+
+  &__body {
+    height: 0;
+    padding-left: $button-size + $button-margin;
+    overflow: hidden;
+    line-height: 1.5em;
+    color: $text;
+    transition: height .5s ease;
+    will-change: height;
+
+    a {
+      color: $accent;
+      text-decoration: underline;
+
+      &:hover {
+        font-weight: 700;
+      }
+    }
+
+    &-content {
+      padding-bottom: $header-padding;
+    }
+  }
+
+  &__category {
+    margin-top: $category-margin;
+    margin-bottom: $category-margin/6;
+  }
+
+  @media #{$screen-lg} {
+    &__hedaer {
+      padding-right: $button-size + $button-margin;
+    }
+
+    &__body {
+      padding: 0 ($button-size + $button-margin);
+    }
+  }
+}
