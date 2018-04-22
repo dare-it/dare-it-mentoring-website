@@ -8,12 +8,23 @@
     "build": "preact build",
     "serve": "preact build && preact serve",
     "dev": "preact watch",
-    "lint": "eslint ./src --ext .jsx --ext .js && stylelint ./src/**/*.scss ./src/**/**/*.scss",
+    "lint": "eslint ./src --ext .jsx --ext .js",
+    "lint:css": "stylelint ./src/**/*.scss ./src/**/**/*.scss",
     "test": "yarn run lint && jest",
     "test:watch": "jest --watch"
   },
   "eslintConfig": {
-    "extends": "eslint-config-synacor"
+    "extends": "eslint-config-synacor",
+    "rules": {
+      "react/jsx-indent-props": [
+        2,
+        2
+      ],
+      "indent": [
+        "error",
+        2
+      ]
+    }
   },
   "eslintIgnore": [
     "build/*"
