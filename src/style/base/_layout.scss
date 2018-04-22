@@ -1,1 +1,42 @@
-// layout
+$screen-sizes: (
+  'sm': 480px,
+  'md': 768px,
+  'lg': 1058px,
+  'xl': 1440px
+);
+
+@function media-min-width($screen-sizes-name) {
+  @return ('only screen and (min-width: #{map-get($screen-sizes, $screen-sizes-name)})');
+}
+
+@function media-max-width($screen-sizes-name) {
+  @return ('only screen and (max-width: #{map-get($screen-sizes, $screen-sizes-name) - 1px})');
+}
+
+$screen-sm: media-min-width('sm');
+$screen-md: media-min-width('md');
+$screen-lg: media-min-width('lg');
+$screen-xl: media-min-width('xl');
+
+$screen-only-xs: 'only screen and (max-width: #{map-get($screen-sizes, 'sm') - 1px})';
+$screen-only-sm: 'only screen and (min-width: #{map-get($screen-sizes, 'sm')}) and (max-width: #{map-get($screen-sizes, 'md') - 1px})';
+$screen-only-md: 'only screen and (min-width: #{map-get($screen-sizes, 'md')}) and (max-width: #{map-get($screen-sizes, 'lg') - 1px})';
+
+$screen-max-sm: media-max-width('sm');
+$screen-max-md: media-max-width('md');
+$screen-max-lg: media-max-width('lg');
+
+$container-width: map-get($screen-sizes, 'lg');
+$container-gutter: 15px;
+
+%container {
+  display: block;
+  max-width: $container-width;
+  margin: 0 auto;
+  padding-right: $container-gutter;
+  padding-left: $container-gutter;
+}
+
+.container {
+  @extend %container;
+}

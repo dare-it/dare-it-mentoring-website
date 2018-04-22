@@ -1,0 +1,32 @@
+.heading {
+  margin-top: 0;
+  margin-bottom: .7em;
+  font-size: calc(40px + (57 - 40) * ((100vw - 320px) / (1440 - 320)));
+  line-height: 1.2;
+  color: $action;
+
+  &--white {
+    color: $white;
+    text-shadow: 1px 1px 16px rgba($text, .2);
+  }
+
+  &--pushed {
+    @extend %container;
+
+    position: relative;
+    z-index: 2;
+    margin-bottom: 0;
+  }
+
+  @media #{$screen-sm} {
+    &--pushed {
+      margin-left: 33%;
+    }
+  }
+
+  @media #{$screen-md} {
+    &--pushed {
+      margin-left: 20%;
+    }
+  }
+}
