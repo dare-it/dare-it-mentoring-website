@@ -48,27 +48,23 @@
         { 
           "type": "top-left",
           "title": "Poszukująca",
-          "icon": "/",
+          "icon": "../../assets/icon-magnifier.svg",
           "list": [
-            "Stoisz przed wyborem ścieżki zawodowej lub myślisz o jej zmianie;",
-            "Stoisz przed wyborem ścieżki zawodowej lub myślisz o jej zmianie;",
-            "Stoisz przed wyborem ścieżki zawodowej lub myślisz o jej zmianie;",
-            "Stoisz przed wyborem ścieżki zawodowej lub myślisz o jej zmianie;",
-            "Stoisz przed wyborem ścieżki zawodowej lub myślisz o jej zmianie;",
-            "Stoisz przed wyborem ścieżki zawodowej lub myślisz o jej zmianie;"
+            "Stoisz przed wyborem ścieżki zawodowej lub myślisz o zmianie;",
+            "Jesteś zainteresowana branżą tech, ale nie masz doświadczenia;",
+            "Chcesz się dowiedzieć, czy dany kierunek (np. UX, UI) jest dla Ciebie;",
+            "Chcesz zacząć, ale nie wiesz jak i gdzie."
           ]
         },
         {
           "type": "top-right",
           "title": "Początkująca",
-          "icon": "/",
+          "icon": "../../assets/icon-graduation.svg",
           "list": [
-            "Stoisz przed wyborem ścieżki zawodowej lub myślisz o jej zmianie;",
-            "Stoisz przed wyborem ścieżki zawodowej lub myślisz o jej zmianie;",
-            "Stoisz przed wyborem ścieżki zawodowej lub myślisz o jej zmianie;",
-            "Stoisz przed wyborem ścieżki zawodowej lub myślisz o jej zmianie;",
-            "Stoisz przed wyborem ścieżki zawodowej lub myślisz o jej zmianie;",
-            "Stoisz przed wyborem ścieżki zawodowej lub myślisz o jej zmianie;"
+            "Już wiesz, w jakim kierunku chcesz się rozwijać;",
+            "Masz już podstawową wiedzę teoretyczną i/lub doświadczenie;",
+            "Szukasz kogoś, od kogo mogłabyś się uczyć;",
+            "Myślisz o podjęciu pierwszej pracy w branży IT."
           ]
         }
       ]
