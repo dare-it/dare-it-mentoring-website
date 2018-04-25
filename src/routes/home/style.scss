@@ -15,7 +15,6 @@
     &--with-waves {
       margin-bottom: -90px;
       padding-bottom: $spacing * 6;
-      padding-bottom: 200px;
       overflow: hidden;
       background-color: $background;
 
@@ -86,6 +85,18 @@
     &--spaced {
       margin-bottom: 2em;
     }
+
+    &:last-of-type {
+      margin-bottom: 2em;
+    }
+
+    & + & {
+      margin-top: .5em;
+    }
+  }
+
+  &__image {
+    margin: 1em;
   }
 
   @media #{$screen-md} {
@@ -95,11 +106,6 @@
       &--no-spacing {
         padding: 0 $spacing;
       }
-    }
-
-    &__row,
-    &__row--flex {
-      // margin: 0 -20px;
     }
   }
 }
@@ -114,11 +120,22 @@ $spacing: $container-gutter;
 
     @media #{$screen-md} {
       flex: calc((100% / #{$colsNumber} * #{$i}) - (#{$spacing} * #{$i}));
-      // padding: 0 20px;
 
       & + & {
         margin-left: $spacing;
       }
     }
+  }
+}
+
+@media #{$screen-md} {
+  .col-narrow {
+    padding-right: 4em;
+  }
+}
+
+@media #{$screen-lg} {
+  .col-narrow {
+    padding-right: 7em;
   }
 }

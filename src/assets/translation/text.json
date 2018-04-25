@@ -13,7 +13,7 @@
 
     "about": {
       "title": "O co chodzi?",
-      "subtitle1": "software.sisters to inicjatywa stworzona przez Aleksandrę Bis i Natalie Pilling w celu ułatwienia kobietom startu w branży IT.",
+      "subtitle1": "go for IT to inicjatywa stworzona przez Aleksandrę Bis i Natalie Pilling w celu ułatwienia kobietom startu w branży IT.",
       "subtitle2": "Wspólnie z grupą mentorek pomożemy Ci postawić pierwsze kroki w IT lub rozwinąć posiadane już umiejętności.",
       "quotation": {
         "text": "Technologia zmienia i będzie zmieniać to, w jaki sposób funkcjonuje świat. Chcemy, by kobiety były częścią tych zmian i miały na nie realny wpływ. Wierzymy, że poprzez dawanie przykładu, wsparcia oraz dzielenie się wiedzą możemy zachęcić więcej dziewczyn do kształtowania naszej codzienności.",
@@ -132,57 +132,57 @@
           "name": "Aleksandra Bis",
           "job": "Pomysłodawczyni, UX Designer",
           "info": "Zamieniam pomysły w użyteczne produkty. Lubię pracować ze startupami.",
-          "image": "../../assets/image-placeholder-2.jpg",
+          "image": "../../assets/ola-bis.jpg",
           "alt": "Aleksandra Bis photo"
         },
         {
-          "name": "Aleksandra Bis",
-          "job": "Pomysłodawczyni, UX Designer",
-          "info": "Zamieniam pomysły w użyteczne produkty. Lubię pracować ze startupami.",
-          "image": "../../assets/image-placeholder-2.jpg",
-          "alt": "Aleksandra Bis photo"
+          "name": "Joanna Erd",
+          "job": "Frontend Developer",
+          "info": "Pixel-perfekcyjna pani domu. Puka w klawiaturę, aż stanie się coś dobrego.",
+          "image": "../../assets/joanna-erd.jpg",
+          "alt": "Joanna Erd photo"
         },
         {
-          "name": "Aleksandra Bis",
-          "job": "Pomysłodawczyni, UX Designer",
-          "info": "Zamieniam pomysły w użyteczne produkty. Lubię pracować ze startupami.",
-          "image": "../../assets/image-placeholder-2.jpg",
-          "alt": "Aleksandra Bis photo"
+          "name": "Dorota Badzian",
+          "job": "Project Manager",
+          "info": "Ogarniam projekty",
+          "image": "../../assets/dorota-badzian.jpg",
+          "alt": "Dorota Badzian photo"
         },
         {
-          "name": "Aleksandra Bis",
-          "job": "Pomysłodawczyni, UX Designer",
-          "info": "Zamieniam pomysły w użyteczne produkty. Lubię pracować ze startupami.",
-          "image": "../../assets/image-placeholder-2.jpg",
-          "alt": "Aleksandra Bis photo"
+          "name": "Kasia Łaszczewska",
+          "job": "Backend Developer",
+          "info": "Pisze backend aplikacji internetowych",
+          "image": "../../assets/kasia-laszczewska.jpg",
+          "alt": "Kasia Łaszczewska photo"
         },
         {
-          "name": "Aleksandra Bis",
-          "job": "Pomysłodawczyni, UX Designer",
-          "info": "Zamieniam pomysły w użyteczne produkty. Lubię pracować ze startupami.",
-          "image": "../../assets/image-placeholder-2.jpg",
-          "alt": "Aleksandra Bis photo"
+          "name": "Ulyana Yasinovska",
+          "job": "Customer Success Specialist",
+          "info": "Po latach w marketingu wylądowałam w biznes developmencie. Teraz płacą mi za to, że gadam z ludźmi i pomagam realizować ich projekty. Na własnym przykładzie wiem czym jest kariera marzenia.",
+          "image": "../../assets/ulyana-yasinovska.png",
+          "alt": "Ulyana Yasinovska photo"
         },
         {
-          "name": "Aleksandra Bis",
-          "job": "Pomysłodawczyni, UX Designer",
-          "info": "Zamieniam pomysły w użyteczne produkty. Lubię pracować ze startupami.",
-          "image": "../../assets/image-placeholder-2.jpg",
-          "alt": "Aleksandra Bis photo"
+          "name": "Ula Kowalska",
+          "job": "Backend Developer",
+          "info": "Fanka kotów, pand i durnych żartów. Możesz ze mną pogadać nie tylko o web devie, ale też o dobrej muzyce i wszelkiej maści serialach.",
+          "image": "../../assets/ula-kowalska.jpg",
+          "alt": "Ula Kowalska photo"
         },
         {
-          "name": "Aleksandra Bis",
-          "job": "Pomysłodawczyni, UX Designer",
-          "info": "Zamieniam pomysły w użyteczne produkty. Lubię pracować ze startupami.",
-          "image": "../../assets/image-placeholder-2.jpg",
-          "alt": "Aleksandra Bis photo"
+          "name": "Natalie Pilling",
+          "job": "CEO",
+          "info": "I believe in leading by example. I would like to see more women in leadership roles.",
+          "image": "../../assets/natalie-pilling.jpg",
+          "alt": "Natalie Pilling photo"
         },
         {
-          "name": "Aleksandra Bis",
-          "job": "Pomysłodawczyni, UX Designer",
+          "name": "Kinga Sieminiak",
+          "job": "Frontend Developer",
           "info": "Zamieniam pomysły w użyteczne produkty. Lubię pracować ze startupami.",
-          "image": "../../assets/image-placeholder-2.jpg",
-          "alt": "Aleksandra Bis photo"
+          "image": "../../assets/kinga-sieminiak.jpg",
+          "alt": "Kinga Sieminiak"
         },
         {
           "name": "Aleksandra Bis",

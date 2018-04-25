@@ -28,6 +28,17 @@
 
   &--big {
     padding: 3em;
+    
+    &:after {
+      position: absolute;
+      top: 25px;
+      right: -25px;
+      width: 50px;
+      height: 50px;
+      background-image: url('../../assets/quotation-icon.svg');
+      border: 1px solid $yellow;
+      content: '';
+    }
   }
 
   &__header {

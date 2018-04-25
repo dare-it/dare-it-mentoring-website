@@ -21,6 +21,14 @@
     color: $text;
   }
 
+  &--small {
+    font-size: 40px;
+  }
+
+  &:not(:last-child) {
+    margin-bottom: .8em;
+  }
+
   @media #{$screen-sm} {
     &--pushed {
       margin-left: 33%;
