@@ -1,4 +1,4 @@
-import { Component } from 'preact';
+import { h } from 'preact';
 import classNames from 'classnames';
 import style from './style.scss';
 import Nav from './../nav';
@@ -13,19 +13,24 @@ export default ({ text, title, action, className, ...otherProps }) => {
 
       <div class={style.hero__container}>
         <h1 class={style.hero__title}>
-          <span class={style['hero__title--color']}>Program mentorski</span> dla dziewczyn: Start w branży tech
+          Program mentorski
+          <br />
+          dla dziewczyn:
+          <br />
+          <span class={style['hero__title--color']}>Pierwsze kroki w IT</span>
         </h1>
 
         <p class={style.hero__text}>
-          Chciałabyś projektować, kodować, prowadzić projekty digitalowe? Na własnych przykładach pokażemy Ci, że ta branża jest dla każdej. Pomożemy Ci postawić pierwsze kroki lub rozwijać umiejętności poprzez dzielenie się naszą wiedzą i doświadczeniem #grupawsparcia
+          Chciałabyś projektować, kodować, zarządzać projektami technologicznymi? Pomożemy Ci to osiągnąć korzystając z własnych doświadczeń.
         </p>
 
-        <p class={style.hero__hint}>Pomożemy jak mozemy!</p>
+        <p class={style.hero__hint}>Zgłoszenia do 23 maja!</p>
 
         <Button text="Aplikuj do programu" type="action" />
       </div>
 
-      <img src="../../assets/hero-image.png" alt="" class={style.hero__image} />
+      <img src="../../assets/hero-image.png" alt="" class={style['hero__image-md']} />
+      <img src="../../assets/hero-image-xs.svg" alt="" class={style['hero__image-xs']} />
     </header>
   );
 };

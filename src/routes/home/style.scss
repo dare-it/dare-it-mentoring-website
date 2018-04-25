@@ -53,7 +53,11 @@
 
     position: relative;
     z-index: 1;
-    padding: ($spacing * 6) $spacing;
+    padding: ($spacing * 3) $spacing;
+
+    &--no-spacing {
+      padding: 0 $spacing;
+    }
   }
 
   &__row {
@@ -68,26 +72,53 @@
     padding-top: 3em;
   }
 
-  &__column {
-    flex: 0 0 100%;
+  &__row--flex + &__row--flex {
+    padding-top: 3em;
   }
 
   &__column + &__column {
-    margin-top: $spacing;
+    margin-top: 2 * $spacing;
   }
 
   &__text {
-    margin-bottom: 2em;
+    @extend %text;
+
+    &--spaced {
+      margin-bottom: 2em;
+    }
   }
 
   @media #{$screen-md} {
-    &__column {
-      flex: 0 0 calc(50% - #{$spacing});
+    &__container {
+      padding: ($spacing * 6) $spacing;
+
+      &--no-spacing {
+        padding: 0 $spacing;
+      }
     }
 
-    &__column + &__column {
-      margin-top: 0;
-      margin-left: $spacing;
+    &__row,
+    &__row--flex {
+      // margin: 0 -20px;
+    }
+  }
+}
+
+$colsNumber: 12;
+$spacing: $container-gutter;
+
+@for $i from 1 through $colsNumber {
+  .col-#{$i} {
+    flex: 0 0 100%;
+    padding: 10px 0;
+
+    @media #{$screen-md} {
+      flex: calc((100% / #{$colsNumber} * #{$i}) - (#{$spacing} * #{$i}));
+      // padding: 0 20px;
+
+      & + & {
+        margin-left: $spacing;
+      }
     }
   }
 }

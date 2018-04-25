@@ -15,11 +15,12 @@
   cursor: pointer;
 
   &--action {
-    font-size: 20px;
+    @include flex-font(17, 20);
+
     letter-spacing: 1px;
     background-color: $action;
     border-radius: $button-radius;
-    box-shadow: 0 10px 12px 0 rgba($text, .4);
+    box-shadow: 0 10px 23px 0 rgba($text, .4);
     transition: background-color .3s, color .2s, box-shadow .3s;
 
     &:hover,

@@ -25,4 +25,41 @@
   &--bottom-right:before {
     box-shadow: 8px 8px 0 0 $accent;
   }
+
+  &--big {
+    padding: 3em;
+  }
+
+  &__header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2em;
+  }
+
+  &__icon {
+    flex-shrink: 0;
+    width: 25px;
+    height: auto;
+    margin-right: 1em;
+  }
+
+  &__title {
+    margin: 0;
+    font-size: map-get($font-sizes, 'large');
+  }
+
+  &__list {
+    padding-left: 1.3em;
+  }
+
+  &__item {
+    font-size: map-get($font-sizes, 'small');
+    font-weight: 500;
+    line-height: 1.5;
+    list-style-type: disc;
+  }
+
+  &__item + &__item {
+    margin-top: .6em;
+  }
 }

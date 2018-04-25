@@ -3,6 +3,7 @@
   flex-wrap: wrap;
 
   &__item {
+    @extend %text;
     @extend %list-item-dotted;
 
     flex: 0 0 50%;

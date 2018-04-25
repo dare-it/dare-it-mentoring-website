@@ -1,8 +1,15 @@
 .quotation {
   margin: 0;
 
+  &__text,
+  &__cite {
+    @extend %text;
+  }
+
   &__cite {
     display: block;
+    margin-top: 1.5em;
     text-align: right;
+    text-decoration: none;
   }
 }

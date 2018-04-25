@@ -1,21 +1,39 @@
-import { Component } from 'preact';
+import { h } from 'preact';
 import style from './style.scss';
 import classNames from 'classnames';
 
 export default ({ data, className, type }) => {
   const timelineClass = classNames(style.timeline, className, style[`timeline--${type}`]);
+  const partClassnamesTop = classNames(style.timeline__part, style['timeline__part--top']);
+  const partClassnamesBottom = classNames(style.timeline__part, style['timeline__part--bottom']);
 
   return (
     <article class={timelineClass}>
       <div class={style.timeline__content}>
-        <div class={style.timeline__part}>
-          <div class={style.timeline__step}>Aplikacja</div>
-          <div class={style.timeline__step}>Ogłoszenie uczestników</div>
-        </div>
 
-        <div class={style.timeline__part}>
-          <div class={style.timeline__step}>Aplikacja</div>
-          <div class={style.timeline__step}>Ogłoszenie uczestników</div>
+        <section class={partClassnamesTop}>
+          <div class={style.timeline__step}>
+            <h4 class={style.timeline__title}>Aplikacja</h4>
+            <p class={style.timeline__time}>do 23.05</p>
+          </div>
+
+          <div class={style.timeline__step}>
+            <h4 class={style.timeline__title}>Aplikacja</h4>
+            <p class={style.timeline__time}>do 23.05</p>
+          </div>
+        </section>
+
+        <section class={partClassnamesBottom}>
+          <div class={style.timeline__stepWrapper}>
+            <div class={style.timeline__step}>
+              <h4 class={style.timeline__title}>Aplikacja</h4>
+              <p class={style.timeline__time}>do 23.05</p>
+            </div>
+            <div class={style.timeline__step}>
+              <h4 class={style.timeline__title}>Aplikacja</h4>
+              <p class={style.timeline__time}>do 23.05</p>
+            </div>
+          </div>
 
           <ul class={style.timeline__details}>
             <div class={style.timeline__detail}>
@@ -31,7 +49,8 @@ export default ({ data, className, type }) => {
               <p>Afterparty</p>
             </div>
           </ul>
-        </div>
+        </section>
+
       </div>
     </article>
   );

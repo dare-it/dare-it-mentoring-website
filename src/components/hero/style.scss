@@ -1,6 +1,6 @@
 .hero {
   $spacing: $container-gutter;
-  $inner-spacing: 2em;
+  $inner-spacing: 1.5em;
 
   position: relative;
   z-index: 1;
@@ -8,17 +8,29 @@
   color: $white;
   background-color: $accent;
 
+  &:before {
+    position: absolute;
+    right: 50px;
+    bottom: -15px;
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+    background: palegreen;
+    content: '';
+  }
+
   &__container {
     @extend %container;
 
-    padding: ($inner-spacing * 2) $spacing ($inner-spacing * 3);
+    padding: ($inner-spacing * 2) $spacing ($inner-spacing * 2);
   }
 
   &__title {
+    @include flex-font(40, 58);
+
     margin-top: 0;
-    margin-bottom: .2em;
-    font-size: map-get($font-sizes, 'grand');
-    line-height: 1.2;
+    margin-bottom: .5em;
+    line-height: 1.1;
 
     &--color {
       color: $action;
@@ -26,39 +38,64 @@
   }
 
   &__text {
-    margin-bottom: ($inner-spacing * 1.5);
-    font-size: 17px;
-    font-weight: 500;
-    line-height: 1.5;
+    @extend %text;
+
+    max-width: 440px;
   }
 
   &__hint {
-    margin-bottom: $spacing;
-    font-size: 17px;
+    @include flex-font(18, 20);
+
+    margin: $inner-spacing 0;
     font-weight: 700;
     line-height: 1.5;
   }
 
-  &__image {
+  &__image-xs,
+  &__image-md {
     position: absolute;
     top: 0;
     right: 0;
     z-index: -1;
-    display: block;
     width: auto;
     height: 100%;
-    transform: translateX(70%);
+  }
+
+  &__image-md {
+    display: none;
+  }
+
+  &__image-xs {
+    transform: translateX(40%);
   }
 
   @media #{$screen-md} {
-    &__title,
-    &__text {
+    &:before {
+      display: none;
+      visibility: hidden;
+    }
+
+    &__title {
       max-width: 55%;
+    }
+
+    &__image-xs {
+      display: none;
+    }
+
+    &__image-md {
+      display: block;
+      transform: translateX(30%);
     }
   }
 
   @media #{$screen-lg} {
-    &__image {
+    &__container {
+      padding-top: ($inner-spacing * 4);
+      padding-bottom: ($inner-spacing * 4);
+    }
+
+    &__image-md {
       transform: translateX(10%);
     }
   }

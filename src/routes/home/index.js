@@ -1,9 +1,9 @@
 
 import { h, Component } from 'preact';
 import text from '../../assets/translation/text.json';
-import style from './style.scss';
+import style from './style.scss'
+import classNames from 'classnames';
 
-import Hero from '../../components/hero';
 import Button from '../../components/button';
 import Heading from '../../components/heading';
 import PeopleGrid from '../../components/peopleGrid';
@@ -17,24 +17,30 @@ import AccordionList from '../../components/accordionList';
 
 export default class Home extends Component {
   render() {
+    console.log(style)
     return (
-      <div>
-        <Hero />
+      <main>
         <section class={style.home__section}>
           <div class={style.home__container}>
-            <Heading text={text.home.about.title} />
+            <div class={style['home__row--flex']}>
+              <div class={style['col-6']}>
+                <Heading text={text.home.about.title} />
+
+                <Subtitle text={text.home.about.subtitle1} />
+              </div>
+
+              <div class={style['col-6']}>
+                <Quotation text={text.home.about.quotation.text} cite={text.home.about.quotation.cite} />
+              </div>
+            </div>
 
             <div class={style['home__row--flex']}>
-              <div class={style.home__column}>
-                <Subtitle text={text.home.about.subtitle1} />
-
+              <div class={style['col-6']}>
                 <Subtitle text={text.home.about.subtitle2} />
               </div>
 
-              <div class={style.home__column}>
-                <div class={style.home__row}>
-                  <Quotation text={text.home.about.quotation.text} cite={text.home.about.quotation.cite} />
-                </div>
+              <div class={style['col-6']}>
+                <p class={style.home__text}>W ramach programu będziesz mogła bezpłatnie zgłębiać wiedzę w wybranym obszarze:</p>
 
                 <List className={style.home__column} items={text.home.about.list} />
               </div>
@@ -42,18 +48,18 @@ export default class Home extends Component {
           </div>
         </section>
 
-        <section class={style['home__section--with-waves']}>
+        <section class={classNames(style['home__section--with-waves'], style.home__section)}>
           <div class={style.home__container}>
             <Heading text={text.home.work.title} />
 
             <div class={style['home__row--flex']}>
-              <div class={style.home__column}>
+              <div class={style['col-6']}>
                 <p class={style.home__text}>{text.home.work.text}</p>
 
                 <Subtitle text={text.home.work.subtitle} />
               </div>
 
-              <List className={style.home__column} items={text.home.about.list} />
+              <List className={style['col-6']} items={text.home.about.list} />
             </div>
           </div>
         </section>
@@ -66,11 +72,21 @@ export default class Home extends Component {
 
         <section class={style.home__section}>
           <div class={style.home__container}>
-            <Heading text="Program" />
-            
+            <div class={style['home__row--flex']}>
+              <div class={style['col-5']}>
+                <Heading text="Program" />
+              </div>
+
+              <div class={style['col-7']}>
+                <Subtitle text="Twoje wykształcenie, zawód i wiek nie mają znaczenia!" />
+
+                <p class={style.home__text}>W ramach programu możesz wybrać dwie ścieżki: poszukująca i początkująca.</p>
+              </div>
+            </div>
+
             <div class={style['home__row--flex']}>
               {text.home.program.cards.map(card => (
-                <div class={style.home__column}>
+                <div class={classNames(style['col-6'], style.home__column)}>
                   <Card card={card} type={card.type} double={false} />
                 </div>
               ))}
@@ -84,19 +100,57 @@ export default class Home extends Component {
           </div>
         </section>
 
-        <section class={style['home__section--dark']}>
+        <section class={style.home__section}>
+          <Pattern items={text.home.about.list} />
+
           <div class={style.home__container}>
-            <Card double className="card-double" type="bottom-right">
+            <div class={style['home__row--flex']}>
+              <div class={style['col-6']}>
+                <Heading text="Nie tylko dla programistek i projektantek" type="white" />
+              </div>
+
+              <div class={style['col-6']}>
+                <p>Niezależnie od Twoich zainteresowań, umiejętności czy mocnych stron, możesz rozwijać się w branży tech w wielu kierunkach</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class={style.home__section}>
+          <div class={style.home__container}>
+            <div class={style['home__row--flex']}>
+              <div class={style['col-5']}>
+                <Heading text="Główny partner" />
+
+                <img src="../../assets/elpassion-logo.png" alt="" />
+              </div>
+
+              <div class={style['col-7']}>
+                <Heading text="Wspierają nas" />
+
+                <img src="../../assets/elpassion-logo.png" alt="" />
+                <img src="../../assets/elpassion-logo.png" alt="" />
+                <img src="../../assets/elpassion-logo.png" alt="" />
+                <img src="../../assets/elpassion-logo.png" alt="" />
+                <img src="../../assets/elpassion-logo.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class={style.home__section}>
+          <div class={classNames(style.home__container, style["home__container--no-spacing"])}>
+            <Card double size="big" type="bottom-right">
               <div class={style['home__row--flex']}>
-                <div class={style.home__column}>
+                <div class={style['col-6']}>
                   <Heading text="Pomagaj z nami" />
 
                   <p class={style.home__text}>Jest wiele sposobów w jakie możesz się zaangażować. Zostań mentorką, partnerem lub po prostu powiedz innym o programie!</p>
                 </div>
 
-                <div class={style.home__column}>
+                <div class={style['col-6']}>
                   <div class={style.home__row}>
-                    <Subtitle text={text.home.about.subtitle1} />
+                    <Subtitle text="Podoba Ci się nasza inicjatywa i chcesz  się przyłączyć?" />
                   </div>
 
                   <div class={style.home__row}>
@@ -108,30 +162,14 @@ export default class Home extends Component {
           </div>
         </section>
 
-        <section class={style['home__section--dark']}>
+        <section class={style.home__section}>
           <div class={style.home__container}>
-            <Heading text="Faq" />
+            <Heading text="Częste pytania" type="dark" />
 
             <AccordionList />
           </div>
         </section>
-
-        <section class={style.home__section}>
-          <Pattern items={text.home.about.list} />
-
-          <div class={style.home__container}>
-            <div class={style['home__row--flex']}>
-              <div class={style.home__column}>
-                <Heading text="Nie tylko dla programistek i projektantek" type="white" />
-              </div>
-
-              <div class={style.home__column}>
-                <p>Niezależnie od Twoich zainteresowań, umiejętności czy mocnych stron, możesz rozwijać się w branży tech w wielu kierunkach</p>
-              </div>
-            </div>
-          </div>
-        </section>
-      </div>
+      </main>
     );
   }
 }

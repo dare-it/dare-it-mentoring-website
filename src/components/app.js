@@ -2,6 +2,8 @@ import { h, Component } from 'preact';
 import { Router } from 'preact-router';
 import Home from '../routes/home';
 import Grid from './grid';
+import Hero from './hero';
+import Footer from './footer';
 
 if (module.hot) {
   require('preact/debug');
@@ -21,9 +23,11 @@ export default class App extends Component {
     return (
       <div id="app">
         <Grid />
+        <Hero />
         <Router onChange={this.handleRoute}>
           <Home path="/" />
         </Router>
+        <Footer />
       </div>
     );
   }

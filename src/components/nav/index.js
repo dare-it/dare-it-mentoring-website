@@ -1,5 +1,4 @@
-import { Component } from 'preact';
-import classNames from 'classnames';
+import { h } from 'preact';
 import style from './style.scss';
 import Logo from '../../assets/logo.svg';
 
