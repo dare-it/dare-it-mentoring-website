@@ -1,52 +1,44 @@
 import style from './style.scss';
 import classNames from 'classnames';
 
-export default ({ data, className, type }) => {
+export default ({ data, className, type, content }) => {
   const timelineClass = classNames(style.timeline, className, style[`timeline--${type}`]);
   const partClassnamesTop = classNames(style.timeline__part, style['timeline__part--top']);
   const partClassnamesBottom = classNames(style.timeline__part, style['timeline__part--bottom']);
 
+  const generateSteps = (steps) => {
+    return (
+      steps.map(step => {
+        return (
+          <div class={style.timeline__step}>
+            <h4 class={style.timeline__title}>{step.title}</h4>
+            <p class={style.timeline__time}>{step.date}</p>
+          </div>
+        )
+      })
+    );
+  }
+
+  const generateDetails = (details) => {
+    return (
+      details.map(detail => <li class={style.timeline__detail}>{detail.items.map(item => <p>{item}</p>)}</li>)
+    )
+  }
+
   return (
     <article class={timelineClass}>
       <div class={style.timeline__content}>
-
         <section class={partClassnamesTop}>
-          <div class={style.timeline__step}>
-            <h4 class={style.timeline__title}>Aplikacja</h4>
-            <p class={style.timeline__time}>do 23.05</p>
-          </div>
-
-          <div class={style.timeline__step}>
-            <h4 class={style.timeline__title}>Aplikacja</h4>
-            <p class={style.timeline__time}>do 23.05</p>
-          </div>
+          {generateSteps(content.top.steps)}
         </section>
 
         <section class={partClassnamesBottom}>
           <div class={style.timeline__stepWrapper}>
-            <div class={style.timeline__step}>
-              <h4 class={style.timeline__title}>Aplikacja</h4>
-              <p class={style.timeline__time}>do 23.05</p>
-            </div>
-            <div class={style.timeline__step}>
-              <h4 class={style.timeline__title}>Aplikacja</h4>
-              <p class={style.timeline__time}>do 23.05</p>
-            </div>
+            {generateSteps(content.bottom.steps)}
           </div>
 
           <ul class={style.timeline__details}>
-            <div class={style.timeline__detail}>
-              <p>Obiad inauguracyjny</p>
-            </div>
-            <div class={style.timeline__detail}>
-              <p>Spotkania min. co 2 tygodnie</p>
-              <p>Praca z Mentorką</p>
-              <p>Konsultacje HR</p>
-            </div>
-            <div class={style.timeline__detail}>
-              <p>Podsumowanie programu</p>
-              <p>Afterparty</p>
-            </div>
+            {generateDetails(content.bottom.details)}
           </ul>
         </section>
 

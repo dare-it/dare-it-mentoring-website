@@ -1,7 +1,14 @@
 {
   "home": {
     "hero": {
-
+      "title": "Program mentorski dla dziewczyn:",
+      "title2": "pierwsze kroki w IT",
+      "text": "Chciałabyś projektować, kodować, zarządzać projektami technologicznymi? Pomożemy Ci to osiągnąć korzystając z własnych doświadczeń.",
+      "subtitle": "Zgłoszenia do 23 maja!",
+      "cta": {
+        "text": "Aplikuj do programu",
+        "link": "/"
+      }
     },
 
     "about": {
@@ -12,38 +19,40 @@
         "text": "Technologia zmienia i będzie zmieniać to, w jaki sposób funkcjonuje świat. Chcemy, by kobiety były częścią tych zmian i miały na nie realny wpływ. Wierzymy, że poprzez dawanie przykładu, wsparcia oraz dzielenie się wiedzą możemy zachęcić więcej dziewczyn do kształtowania naszej codzienności.",
         "cite": "Aleksandra i Natalie"
       },
+      "listTitle": "W ramach programu będziesz mogła bezpłatnie zgłębiać wiedzę w wybranym obszarze:",
       "list": [
-        "know-how",
-        "Spotkania z rekruterką",
-        "#community",
-        "Narzędzia",
-        "Wiedza",
-        "Pierwsze CV",
-        "Spotkania z mentorką 1:1",
-        "Branża tech od kuchni",
-        "Przygotowanie portfolio"
+        "User Experience Design",
+        "UI & Visual Design",
+        "Web Development",
+        "Project Management",
+        "Digital Marketing"
       ]
     },
 
     "work": {
       "title": "Jak będziemy pracować",
       "subtitle": "My też byłyśmy kiedyś na Twoim miejscu, dlatego wiemy, jak trudne może być zrobienie pierwszego kroku. Chcemy Ci w tym pomóc.",
-      "text": "Jak zacząć, jeśli nie wiesz od czego? Jak wybrać lub zmienić zawód? ",
+      "text": [
+        "Jak wybrać lub zmienić zawód?", 
+        "Jak zacząć, jeśli nie wiesz od czego?"
+      ],
       "list": [
-        "know-how",
-        "Spotkania z rekruterką",
-        "#community",
-        "Narzędzia",
-        "Wiedza",
-        "Pierwsze CV",
+        "Jedna z nas będzie Twoją mentorką przez 3 miesiące",
+        "Skonsultujesz się z rekruterką IT na temat ścieżki kariery",
+        "Pokażemy Ci, jak wygląda branża IT od kuchni",
+        "Poznasz nasze codzienne narzędzia pracy",
+        "Podzielimy się z Tobą teorią i praktyką",
+        "Pomożemy z CV, portfolio i rozmową rekrutacyjną",
+        "Podpowiemy, co czytać i gdzie szukać",
         "Spotkania z mentorką 1:1",
-        "Branża tech od kuchni",
-        "Przygotowanie portfolio"
+        "Poznasz grupę fajnych, ogarniętych dziewczyn z IT!"
       ]
     },
 
     "program": {
       "title": "Program",
+      "subtitle": "Twoje wykształcenie, zawód i wiek nie mają znaczenia!",
+      "text": "W ramach programu możesz wybrać dwie ścieżki: poszukująca i początkująca.",
       "cards": [
         { 
           "type": "top-left",
@@ -68,6 +77,52 @@
           ]
         }
       ]
+    },
+
+    "timeline": {
+      "top": {
+        "steps": [
+          {
+            "title": "Aplikacja",
+            "date": "do 23.05"
+          },
+          {
+            "title": "Ogłoszenie uczestniczek",
+            "date": "01.06"
+          }
+        ]
+      },
+      "bottom": {
+        "steps": [
+          {
+            "title": "Start programu",
+            "date": "14.06"
+          },
+          {
+            "title": "Zakończenie programu",
+            "date": "06.09"
+          }
+        ],
+        "details": [
+          {
+            "items": [
+              "Obiad inauguracyjny"
+            ]
+          },
+          {
+            "items": [
+              "Min. 6 indywidualnychsesji mentorskich",
+              "Konsultacje HR"
+            ]
+          },
+          {
+            "items": [
+              "Podsumowanie programu",
+              "Afterparty"
+            ]
+          }
+        ]
+      }
     },
 
     "mentors": {
@@ -144,6 +199,97 @@
           "alt": "Aleksandra Bis photo"
         }
       ]
+    },
+
+    "cta": {
+      "title": "Nie tylko dla programistek i projektantek",
+      "subtitle": "Możesz pracować w IT niezależnie od Twoich zainteresowań, umiejętnościczy mocnych stron.",
+      "text": "Zastanawiasz się, czy to branża dla Ciebie? Czekamy na Twoje pytania:",
+      "email": "girls@gmail.com"
+    },
+
+    "partners": {
+      "main": {
+        "title": "Główny partner",
+        "partners": [
+          {
+            "src": "elpassion-logo",
+            "alt": "El Passion logo"
+          }
+        ]
+      },
+      "support": {
+        "title": "Wspierają nas",
+        "partners": [
+          {
+            "src": "coderslab-logo",
+            "alt": "El Passion logo"
+          },
+          {
+            "src": "girlscodefun-logo",
+            "alt": "El Passion logo"
+          },
+          {
+            "src": "futuredesign-logo",
+            "alt": "El Passion logo"
+          },
+          {
+            "src": "ladiesthatux-logo",
+            "alt": "El Passion logo"
+          }
+        ]
+      }
+    },
+
+    "getInvolved": {
+      "title": "Pomagaj z nami",
+      "subtitle": "Podoba Ci się nasza inicjatywa i chcesz  się przyłączyć?",
+      "text": "Jest wiele sposobów w jakie możesz się zaangażować. Zostań mentorką, partnerem lub po prostu powiedz innym o programie!",
+      "cta": {
+        "text": "Napisz do nas",
+        "link": "/"
+      }
+    },
+
+    "faq": {
+      "title": "Ograniczenia wiekowe",
+      "questions": [
+        {
+          "title": "Koszt uczestnictwa",
+          "text": "No wszędzie. Technologia zmienia i będzie zmieniać to, w jaki sposób funkcjonuje świat. Chcemy, by kobiety były częścią tych zmian i miały na nie realny wpływ. Wierzymy, że poprzez dawanie przykładu, wsparcia oraz dzielenie się wiedzą możemy zachęcić więcej dziewczyn do kształtowania naszej codzienności.”"
+        },
+        {
+          "title": "Koszt uczestnictwa",
+          "text": "No wszędzie. Technologia zmienia i będzie zmieniać to, w jaki sposób funkcjonuje świat. Chcemy, by kobiety były częścią tych zmian i miały na nie realny wpływ. Wierzymy, że poprzez dawanie przykładu, wsparcia oraz dzielenie się wiedzą możemy zachęcić więcej dziewczyn do kształtowania naszej codzienności.”"
+        },
+        {
+          "title": "Koszt uczestnictwa",
+          "text": "No wszędzie. Technologia zmienia i będzie zmieniać to, w jaki sposób funkcjonuje świat. Chcemy, by kobiety były częścią tych zmian i miały na nie realny wpływ. Wierzymy, że poprzez dawanie przykładu, wsparcia oraz dzielenie się wiedzą możemy zachęcić więcej dziewczyn do kształtowania naszej codzienności.”"
+        },
+        {
+          "title": "Koszt uczestnictwa",
+          "text": "No wszędzie. Technologia zmienia i będzie zmieniać to, w jaki sposób funkcjonuje świat. Chcemy, by kobiety były częścią tych zmian i miały na nie realny wpływ. Wierzymy, że poprzez dawanie przykładu, wsparcia oraz dzielenie się wiedzą możemy zachęcić więcej dziewczyn do kształtowania naszej codzienności.”"
+        },
+        {
+          "title": "Koszt uczestnictwa",
+          "text": "No wszędzie. Technologia zmienia i będzie zmieniać to, w jaki sposób funkcjonuje świat. Chcemy, by kobiety były częścią tych zmian i miały na nie realny wpływ. Wierzymy, że poprzez dawanie przykładu, wsparcia oraz dzielenie się wiedzą możemy zachęcić więcej dziewczyn do kształtowania naszej codzienności.”"
+        },
+        {
+          "title": "Koszt uczestnictwa",
+          "text": "No wszędzie. Technologia zmienia i będzie zmieniać to, w jaki sposób funkcjonuje świat. Chcemy, by kobiety były częścią tych zmian i miały na nie realny wpływ. Wierzymy, że poprzez dawanie przykładu, wsparcia oraz dzielenie się wiedzą możemy zachęcić więcej dziewczyn do kształtowania naszej codzienności.”"
+        }
+      ]
+    },
+
+    "footer": {
+      "title": "Czekamy na aplikacje",
+      "title2": "do 23 maja",
+      "subtitle": "Pomożemy, jak możemy!",
+      "copyright": "lalazdigitala.pl Wszelkie prawa zastrzeżone.",
+      "cta": {
+        "text": "Aplikuj do programu",
+        "link": "/"
+      }
     }
   }
 }

@@ -37,7 +37,7 @@ export default () => {
             </div>
 
             <div class={style['col-6']}>
-              <p class={style.home__text}>W ramach programu będziesz mogła bezpłatnie zgłębiać wiedzę w wybranym obszarze:</p>
+              <p class={style.home__text}>{text.home.about.listTitle}</p>
 
               <List className={style.home__column} items={text.home.about.list} />
             </div>
@@ -51,12 +51,12 @@ export default () => {
 
           <div class={style['home__row--flex']}>
             <div class={style['col-6']}>
-              <p class={style.home__text}>{text.home.work.text}</p>
+              {text.home.work.text.map(text => <p class={style.home__text}>{text}</p>)}
 
               <Subtitle text={text.home.work.subtitle} />
             </div>
 
-            <List className={style['col-6']} items={text.home.about.list} />
+            <List className={style['col-6']} items={text.home.work.list} />
           </div>
         </div>
       </section>
@@ -71,13 +71,13 @@ export default () => {
         <div class={style.home__container}>
           <div class={style['home__row--flex']}>
             <div class={style['col-5']}>
-              <Heading text="Program" />
+              <Heading text={text.home.program.title} />
             </div>
 
             <div class={style['col-7']}>
-              <Subtitle text="Twoje wykształcenie, zawód i wiek nie mają znaczenia!" />
+              <Subtitle text={text.home.program.subtitle} />
 
-              <p class={style.home__text}>W ramach programu możesz wybrać dwie ścieżki: poszukująca i początkująca.</p>
+              <p class={style.home__text}>{text.home.program.text}</p>
             </div>
           </div>
 
@@ -93,7 +93,7 @@ export default () => {
 
       <section class={style['home__section--dark']}>
         <div class={style.home__container}>
-          <Timeline />
+          <Timeline content={text.home.timeline} />
         </div>
       </section>
 
@@ -103,12 +103,12 @@ export default () => {
         <div class={style.home__container}>
           <div class={style['home__row--flex']}>
             <div class={style['col-6']}>
-              <Heading text="Nie tylko dla programistek i projektantek" type="white" />
+              <Heading text={text.home.cta.title} type="white" />
             </div>
 
             <div class={style['col-6']}>
-              <Subtitle text="Niezależnie od Twoich zainteresowań, umiejętności czy mocnych stron, możesz rozwijać się w branży tech w wielu kierunkach" type="secondary" />
-              <Subtitle text="Zastanawiasz się, czy to branża dla Ciebie? Czekamy na Twoje pytania: girls@gmail.com" type="white" />
+              <Subtitle text={text.home.cta.subtitle} type="secondary" />
+              <Subtitle text={text.home.cta.text} type="white" />
             </div>
           </div>
         </div>
@@ -118,19 +118,15 @@ export default () => {
         <div class={style.home__container}>
           <div class={style['home__row--flex']}>
             <div class={style['col-5']}>
-              <Heading text="Główny partner" />
+              <Heading text={text.home.partners.main.title} />
 
-              <img src="../../assets/elpassion-logo.png" alt="" />
+              {text.home.partners.main.partners.map(partner => <img src={`../../assets/${partner.src}.png`} alt={partner.alt} />)}
             </div>
 
             <div class={style['col-7']}>
-              <Heading text="Wspierają nas" />
+              <Heading text={text.home.partners.support.title} />
 
-              <img src="../../assets/elpassion-logo.png" alt="" />
-              <img src="../../assets/elpassion-logo.png" alt="" />
-              <img src="../../assets/elpassion-logo.png" alt="" />
-              <img src="../../assets/elpassion-logo.png" alt="" />
-              <img src="../../assets/elpassion-logo.png" alt="" />
+              {text.home.partners.support.partners.map(partner => <img src={`../../assets/${partner.src}.png`} alt={partner.alt} />)}
             </div>
           </div>
         </div>
@@ -141,18 +137,18 @@ export default () => {
           <Card double size="big" type="bottom-right">
             <div class={style['home__row--flex']}>
               <div class={style['col-6']}>
-                <Heading text="Pomagaj z nami" />
+                <Heading text={text.home.getInvolved.title} />
 
-                <p class={style.home__text}>Jest wiele sposobów w jakie możesz się zaangażować. Zostań mentorką, partnerem lub po prostu powiedz innym o programie!</p>
+                <p class={style.home__text}>{text.home.getInvolved.text}</p>
               </div>
 
               <div class={style['col-6']}>
                 <div class={style.home__row}>
-                  <Subtitle text="Podoba Ci się nasza inicjatywa i chcesz się przyłączyć?" />
+                  <Subtitle text={text.home.getInvolved.subtitle} />
                 </div>
 
                 <div class={style.home__row}>
-                  <Button text="Napisz do nas" type="action" />
+                  <Button text={text.home.getInvolved.cta.text} href={text.home.getInvolved.cta.link} type="action" />
                 </div>
               </div>
             </div>
@@ -164,7 +160,7 @@ export default () => {
         <div class={style.home__container}>
           <Heading text="Częste pytania" type="dark" />
 
-          <AccordionList />
+          <AccordionList items={text.home.faq.questions} />
         </div>
       </section>
     </main>
