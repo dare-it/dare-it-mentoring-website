@@ -15,7 +15,7 @@ import Card from '../../components/card';
 import AccordionList from '../../components/accordionList';
 
 export default () => {
-  (
+  return (
     <main>
       <section class={style.home__section}>
         <div class={style.home__container}>
