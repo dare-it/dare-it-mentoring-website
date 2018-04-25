@@ -5,12 +5,10 @@ function whichTransition() {
     transition: 'transitionend',
     OTransition: 'oTransitionEnd',
     MozTransition: 'transitionend',
-    WebkitTransition: 'webkitTransitionEnd',
+    WebkitTransition: 'webkitTransitionEnd'
   };
 
-  const t = Object.keys(transitions).find((x) => {
-    return el.style[x] !== undefined;
-  });
+  const t = Object.keys(transitions).find((x) => el.style[x] !== undefined);
 
   return transitions[t];
 }

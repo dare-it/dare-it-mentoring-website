@@ -1,4 +1,3 @@
-import { h } from 'preact';
 import style from './style.scss';
 import classNames from 'classnames';
 import Button from './../button';

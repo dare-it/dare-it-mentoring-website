@@ -1,4 +1,3 @@
-import { h } from 'preact';
 import style from './style.scss';
 import Portrait from './../portrait';
 import classNames from 'classnames';

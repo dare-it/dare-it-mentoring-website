@@ -1,6 +1,5 @@
 .heading {
-  margin-top: 0;
-  margin-bottom: .7em;
+  margin: 0;
   font-size: calc(40px + (55 - 40) * ((100vw - 320px) / (1440 - 320)));
   line-height: 1.2;
   color: $action;
