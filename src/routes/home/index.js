@@ -125,8 +125,13 @@ export default () => {
 
             <div class={style['col-7']}>
               <Heading text={text.home.partners.support.title} type="small" />
-
-              {text.home.partners.support.partners.map(partner => <img src={`../../assets/${partner.src}.png`} alt={partner.alt} class={style.home__image}/>)}
+                <figure class={style.home__images}>
+                  {text.home.partners.support.partners.map(partner => {
+                    return (
+                      <img src={`../../assets/${partner.src}.png`} alt={partner.alt} class={style.home__image}/>
+                    )
+                  })}
+                </figure>
             </div>
           </div>
         </div>
@@ -134,7 +139,7 @@ export default () => {
 
       <section class={style.home__section}>
         <div class={classNames(style.home__container, style['home__container--no-spacing'])}>
-          <Card double size="big" type="bottom-right">
+          <Card double size="big" type="bottom-left">
             <div class={style['home__row--flex']}>
               <div class={classNames(style['col-6'], style['col-narrow'])}>
                 <Heading text={text.home.getInvolved.title} />

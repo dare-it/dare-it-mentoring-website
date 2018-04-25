@@ -15,10 +15,14 @@
     min-width: 100%;
 
     @media #{$screen-sm} {
-      min-width: calc(100% / 3);
+      min-width: calc(100% / 2);
     }
 
     @media #{$screen-md} {
+      min-width: calc(100% / 3);
+    }
+
+    @media #{$screen-lg} {
       min-width: calc(100% / 5);
     }
   }

@@ -52,10 +52,12 @@
 
     position: relative;
     z-index: 1;
-    padding: ($spacing * 3) $spacing;
+    padding-top: ($spacing * 3);
+    padding-bottom: ($spacing * 3);
 
     &--no-spacing {
-      padding: 0 $spacing;
+      padding-top: 0;
+      padding-bottom: 0;
     }
   }
 
@@ -95,16 +97,27 @@
     }
   }
 
+  &__images {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
   &__image {
-    margin: 1em;
+    max-width: 40%;
+    height: auto;
+    margin-left: 1.5em;
+    padding: 1.5em 0;
   }
 
   @media #{$screen-md} {
     &__container {
-      padding: ($spacing * 6) $spacing;
+      padding-top: ($spacing * 6);
+      padding-bottom: ($spacing * 6);
 
       &--no-spacing {
-        padding: 0 $spacing;
+        padding-top: 0;
+        padding-bottom: 0;
       }
     }
   }

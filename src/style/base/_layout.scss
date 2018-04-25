@@ -33,8 +33,13 @@ $container-gutter: 15px;
   display: block;
   max-width: $container-width;
   margin: 0 auto;
+  padding-right: $container-gutter * 2;
+  padding-left: $container-gutter * 2;
+
+  @media #{$screen-md} {
   padding-right: $container-gutter;
   padding-left: $container-gutter;
+  }
 }
 
 .container {

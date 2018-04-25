@@ -59,12 +59,30 @@
     }
   }
 
+  &__title,
+  &__time {
+    @include flex-font(15, 17);
+  }
+
   &__title {
+
     margin: 0;
+    padding-bottom: .5em;
+    font-weight: 500;
   }
 
   &__time {
     font-weight: 700;
+  }
+
+  &__text {
+    font-size: map-get($font-sizes, 'tiny');
+    font-weight: 600;
+    color: lighten($text, 40%);
+
+    & + & {
+      margin-top: .5em;
+    }
   }
 
   &__stepWrapper {
@@ -74,7 +92,7 @@
     width: 50%;
   }
 
-  @media (max-width: 750px) {
+  @media #{$screen-max-md} {
     &__content {
       display: flex;
       flex-direction: column;
@@ -231,7 +249,7 @@
 
     &__step {
       position: relative;
-      width: 100%;
+      width: auto;
 
       &:after {
         bottom: calc(-#{$inner-spacing} - #{$circle-size} + 1px);
@@ -259,7 +277,6 @@
 
     &__detail {
       flex: 0 0 33%;
-      font-size: 13px;
 
       &:last-child {
         text-align: right;

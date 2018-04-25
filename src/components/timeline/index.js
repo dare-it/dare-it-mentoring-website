@@ -21,7 +21,7 @@ export default ({ data, className, type, content }) => {
 
   const generateDetails = (details) => {
     return (
-      details.map(detail => <li class={style.timeline__detail}>{detail.items.map(item => <p>{item}</p>)}</li>)
+      details.map(detail => <li class={style.timeline__detail}>{detail.items.map(item => <p class={style.timeline__text}>{item}</p>)}</li>)
     )
   }
 

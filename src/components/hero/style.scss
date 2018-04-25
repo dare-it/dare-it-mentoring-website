@@ -22,7 +22,7 @@
   &__container {
     @extend %container;
 
-    padding: ($inner-spacing * 2) $spacing ($inner-spacing * 2);
+    padding: ($inner-spacing * 2) ($spacing * 2) ($inner-spacing * 2);
   }
 
   &__title {
@@ -86,6 +86,13 @@
     &__image-md {
       display: block;
       transform: translateX(30%);
+    }
+  }
+
+  @media #{$screen-md} {
+    &__container {
+      padding-left: $spacing;
+      padding-right: $spacing;
     }
   }
 

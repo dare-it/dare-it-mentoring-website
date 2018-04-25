@@ -223,19 +223,23 @@
         "partners": [
           {
             "src": "coderslab-logo",
-            "alt": "El Passion logo"
+            "alt": "Coders Lab logo"
           },
           {
             "src": "girlscodefun-logo",
-            "alt": "El Passion logo"
+            "alt": "Girls Code Fun logo"
           },
           {
             "src": "futuredesign-logo",
-            "alt": "El Passion logo"
+            "alt": "Future Design logo"
           },
           {
             "src": "ladiesthatux-logo",
-            "alt": "El Passion logo"
+            "alt": "Ladies that Ux logo"
+          },
+          {
+            "src": "theawwwesomes-logo",
+            "alt": "The Awwwesomes logo"
           }
         ]
       }
