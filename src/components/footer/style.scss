@@ -1,0 +1,29 @@
+.footer {
+  $spacing: $container-gutter;
+
+  // position: fixed;
+  // left: 0;
+  // bottom: 0;
+  z-index: 3;
+  width: 100%;
+  color: $white;
+  background-color: $accent;
+
+  &__content {
+    @extend %container;
+
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: $spacing;
+  }
+
+  &__copyright {
+    // display: none;
+    flex: 0 0 100%;
+    padding: $spacing;
+    text-align: center;
+  }
+}
+
