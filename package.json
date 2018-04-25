@@ -23,7 +23,8 @@
       "indent": [
         "error",
         2
-      ]
+      ],
+      "react/display-name": 0
     }
   },
   "eslintIgnore": [
@@ -50,7 +51,8 @@
     "classnames": "^2.2.5",
     "preact": "^8.2.6",
     "preact-compat": "^3.17.0",
-    "preact-router": "^2.5.7"
+    "preact-router": "^2.5.7",
+    "raf": "^3.4.0"
   },
   "jest": {
     "verbose": true,
