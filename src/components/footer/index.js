@@ -27,12 +27,6 @@ export default class Footer extends Component {
   }
 
   componentDidMount() {
-    this.content.addEventListener(transitionEvent, () => {
-      if (this.state.isFixed) {
-        this.content.style.height = '0px';
-      }
-    });
-
     window.addEventListener('scroll', this.handleScroll);
   }
 

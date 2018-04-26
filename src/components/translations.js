@@ -1,4 +1,4 @@
-{
+const translations = {
   "home": {
     "hero": {
       "title": "Program mentorski dla dziewczyn:",
@@ -253,7 +253,7 @@
 
     "getInvolved": {
       "title": "Pomagaj z nami",
-      "subtitle": "Podoba Ci się nasza inicjatywa i chcesz  się przyłączyć?",
+      "subtitle": "Podoba Ci się nasza inicjatywa i chcesz się przyłączyć?",
       "text": "Jest wiele sposobów w jakie możesz się zaangażować. Zostań mentorką, partnerem lub po prostu powiedz innym o programie!",
       "cta": {
         "text": "Napisz do nas",
@@ -315,3 +315,5 @@
     }
   }
 }
+
+export default translations;
