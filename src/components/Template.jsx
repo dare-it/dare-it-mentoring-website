@@ -22,15 +22,35 @@ export default (props) => {
   return (
     <html>
       <head>
+        <title>Go For IT</title>
+
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width,initial-scale=1" />
         <meta name="mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="fragment" content="!" />
 
-        <title>Go For IT</title>
-        <meta name="description" content="go for IT to program mentorski dla dziewczyn stworzony w celu ułatwienia kobietom startu w IT. Uczestniczki będą mogły bezpłatnie zgłębiać wiedzę w wybranym przez siebie obszarze: UX, UI, Web Development, Product Management lub Digital Marketing." />
-        <meta name="keywords" content="HTML, CSS, XML, JavaScript" />
+        <meta name="keywords" content="kobiety w it, dziewczyny w it, programistki, kobiety-programistki, jak zostać programistką, technologie dla dziewczyn" />
+        <meta name="description" content="Go For IT to program mentorski dla dziewczyn stworzony w celu ułatwienia kobietom startu w IT. Uczestniczki będą mogły bezpłatnie zgłębiać wiedzę w wybranym przez siebie obszarze: UX, UI, Web Development, Product Management lub Digital Marketing." />
+
+        <meta itemprop="name" content="Go For IT" />
+        <meta itemprop="description" content="" />
+        <meta itemprop="image" content="" />
+        <meta itemprop="url" content="gofor-it.org" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="" />
+        <meta name="twitter:title" content="Go For IT | Program mentorski dla dziewczyn stworzony w celu ułatwienia kobietom startu w IT." />
+        <meta name="twitter:description" content="" />
+        <meta name="twitter:image:src" content="fotka" />
+        <meta name="twitter:image:alt" content="Go For IT" />
+
+        <meta property="og:title" content="Go For IT | Program mentorski dla dziewczyn stworzony w celu ułatwienia kobietom startu w IT." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="gofor-it.org" />
+        <meta property="og:image" content="" />
+        <meta property="og:description" content="" />
+        <meta property="og:site_name" content="Go For IT | Home" />
 
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
