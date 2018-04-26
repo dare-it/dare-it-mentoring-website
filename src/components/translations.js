@@ -160,7 +160,7 @@ const translations = {
           "name": "Ulyana Yasinovska",
           "job": "Customer Success Specialist",
           "info": "Po latach w marketingu wylądowałam w biznes developmencie. Teraz płacą mi za to, że gadam z ludźmi i pomagam realizować ich projekty.",
-          "image": "../../assets/ulyana-yasinovska.png",
+          "image": "../../assets/ulyana-yasinovska.jpg",
           "alt": "Ulyana Yasinovska photo"
         },
         {
@@ -195,7 +195,7 @@ const translations = {
           "name": "Agnieszka Sobańska",
           "job": "Pomysłodawczyni, UX Designer",
           "info": "Poluję na ludzi, a potem dbam o to, żeby dobrze się im było w jednym w warszwskich software housów.",
-          "image": "../../assets/agnieszka-sobanska.png",
+          "image": "../../assets/agnieszka-sobanska.jpg",
           "alt": "Agnieszka Sobańska photo"
         },
         {
