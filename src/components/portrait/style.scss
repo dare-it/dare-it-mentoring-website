@@ -102,23 +102,23 @@
       .portrait__description {
         opacity: 1;
       }
-  
+
       .portrait__title,
       .portrait__text {
         opacity: 1;
         transform: translateY(0);
       }
-  
+
       .portrait__image {
         transform: scale(1.05) translate(-50%, -50%);
         transform-origin: (50% 50%);
       }
-  
+
       &:before {
         background: transparent;
         box-shadow: 8px 8px 0 0 $yellow;
       }
-  
+
       &:after {
         opacity: 1;
       }

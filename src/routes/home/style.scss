@@ -11,6 +11,9 @@
     }
 
     &--gradient {
+      position: relative;
+      max-width: map-get($screen-sizes, 'xl');
+      margin: 0 auto;
       background-image: linear-gradient(to bottom, $background 0, transparent 40%);
     }
 
@@ -26,8 +29,8 @@
         &:before,
         &:after {
           position: absolute;
-          width: 600px;
-          height: 500px;
+          width: 800px;
+          height: 650px;
           background-image: url('../../assets/waves-pattern.png');
           background-repeat: no-repeat;
           background-size: contain;
@@ -37,13 +40,13 @@
         &:before {
           top: 0;
           right: 0;
-          transform: rotate(180deg) translate(-370px, 190px);
+          transform: rotate(180deg) translate(-390px, 260px);
         }
 
         &:after {
-          bottom: -90px;
+          bottom: 0;
           left: 0;
-          transform: translate(-300px, 260px);
+          transform: translate(-320px, 380px);
         }
       }
     }
@@ -113,6 +116,10 @@
   }
 
   @media #{$screen-md} {
+    &__section--with-waves {
+      padding-bottom: 200px;
+    }
+
     &__container {
       padding-top: ($spacing * 6);
       padding-bottom: ($spacing * 6);
@@ -126,6 +133,15 @@
 
   @media #{$screen-lg} {
     padding-bottom: 150px;
+  }
+
+  @media #{$screen-xl} {
+    &__section--with-waves {
+      .home__container:before,
+      .home__container:after {
+        display: none;
+      }
+    }
   }
 }
 

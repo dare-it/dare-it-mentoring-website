@@ -31,7 +31,7 @@ export default (props) => {
         <meta name="fragment" content="!" />
 
         <meta name="keywords" content="kobiety w it, dziewczyny w it, programistki, kobiety-programistki, jak zostać programistką, technologie dla dziewczyn" />
-        <meta name="description" content="Go For IT to program mentorski dla dziewczyn stworzony w celu ułatwienia kobietom startu w IT. Uczestniczki będą mogły bezpłatnie zgłębiać wiedzę w wybranym przez siebie obszarze: UX, UI, Web Development, Product Management lub Digital Marketing." />
+        <meta name="description" content="Go For IT to program mentorski dla dziewcztn stworzony w celu ułatwienia im startu w IT. Uczestniczki będą mogły bezpłatnie zgłębiać wiedzę w wybranym przez siebie obszarze: UX, UI, Web Development, Product Management lub Digital Marketing." />
 
         <meta itemprop="name" content="Go For IT" />
         <meta itemprop="description" content="" />
@@ -71,5 +71,5 @@ export default (props) => {
         {/* eslint-enable react/no-danger */}
       </body>
     </html>
-);
+  );
 };

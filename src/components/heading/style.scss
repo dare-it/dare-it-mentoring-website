@@ -1,6 +1,7 @@
 .heading {
+  @include flex-font(40, 55);
+
   margin: 0;
-  font-size: calc(40px + (55 - 40) * ((100vw - 320px) / (1440 - 320)));
   line-height: 1.2;
   color: $action;
 
@@ -10,11 +11,10 @@
   }
 
   &--pushed {
-    @extend %container;
+    @include flex-font(40, 50);
 
-    position: relative;
     z-index: 2;
-    margin-bottom: 0;
+    padding-left: $container-gutter * 2;
   }
 
   &--dark {
@@ -31,20 +31,22 @@
 
   @media #{$screen-sm} {
     &--pushed {
-      padding-bottom: 1em;
+      position: absolute;
+      top: -70px;
+      left: 60%;
+      padding-left: 0;
     }
   }
 
   @media #{$screen-md} {
     &--pushed {
-      margin-left: 37%;
-      padding-bottom: 0;
+      left: 40%;
     }
   }
 
   @media #{$screen-lg} {
     &--pushed {
-      margin-left: 20%;
+      left: 22%;
     }
   }
 }

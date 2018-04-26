@@ -3,7 +3,7 @@ import style from './style.scss';
 import Nav from './../nav';
 import Button from './../button';
 
-export default ({ text, title, action, className, ...otherProps }) => {
+export default ({ content, className, ...otherProps }) => {
   const heroClass = classNames(style.hero, className);
 
   return (
@@ -12,20 +12,18 @@ export default ({ text, title, action, className, ...otherProps }) => {
 
       <div class={style.hero__container}>
         <h1 class={style.hero__title}>
-          Program mentorski
+          {content.title}
           <br />
-          dla dziewczyn:
+          {content.title2}
           <br />
-          <span class={style['hero__title--color']}>Pierwsze kroki w IT</span>
+          <span class={style['hero__title--color']}>{content.title3}</span>
         </h1>
 
-        <p class={style.hero__text}>
-          Chciałabyś projektować, kodować, zarządzać projektami technologicznymi? Pomożemy Ci to osiągnąć korzystając z własnych doświadczeń.
-        </p>
+        <p class={style.hero__text}>{content.text}</p>
 
-        <p class={style.hero__hint}>Zgłoszenia do 23 maja!</p>
+        <p class={style.hero__hint}>{content.subtitle}</p>
 
-        <Button text="Aplikuj do programu" type="action" />
+        <Button text={content.cta.text} type="action" href={content.cta.link} target="blank" />
       </div>
 
       <img src="../../assets/hero-image.png" alt="" class={style['hero__image-md']} />

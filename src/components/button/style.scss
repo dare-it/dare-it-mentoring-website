@@ -18,6 +18,7 @@
     @include flex-font(17, 20);
 
     letter-spacing: 1px;
+    text-decoration: none;
     background-color: $action;
     border-radius: $button-radius;
     box-shadow: 0 10px 23px 0 rgba($text, .4);
@@ -25,42 +26,12 @@
 
     &:hover,
     &:active {
-      background-color: lighten($action, 5%);
+      background-color: $razzmatazz;
     }
 
     &:active {
       transform: translateY(1px);
       box-shadow: 0 0 10px 0 rgba(0, 0, 0, .4);
-    }
-  }
-
-  &--underline {
-    position: relative;
-    z-index: 1;
-    padding: 0;
-    font-size: 14px;
-    line-height: 1;
-    letter-spacing: 8px;
-    text-transform: uppercase;
-
-    &:after {
-      position: absolute;
-      bottom: -4px;
-      left: 0;
-      z-index: -1;
-      width: 100%;
-      height: 2px;
-      background-color: $white;
-      content: '';
-      transition: background-color .3s ease-in-out, height .3s ease-in-out;
-    }
-
-    &:hover,
-    &:active {
-      &:after {
-        height: 150%;
-        background-color: $action;
-      }
     }
   }
 }

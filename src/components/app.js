@@ -1,12 +1,8 @@
-import { Component } from 'preact';
 import Home from '../routes/home';
 
-export default class App extends Component {
-  render() {
-    return (
-      <div id="app">
-        <Home path="/" />
-      </div>
-    );
-  }
-}
+export default () => (
+  <div id="app">
+    <Home path="/" />
+  </div>
+);
+

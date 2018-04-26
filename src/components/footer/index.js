@@ -2,9 +2,7 @@ import { Component } from 'preact';
 import style from './style.scss';
 import classNames from 'classnames';
 import Button from './../button';
-import transitionEvent from '../../helpers/transitionEventHelper';
-import requestAnimationFrame from 'raf';
-import root from 'window-or-global'
+import root from 'window-or-global';
 
 export default class Footer extends Component {
   state = {
@@ -15,16 +13,12 @@ export default class Footer extends Component {
   getInnerContentRef = ref => this.innerContent = ref;
 
   handleScroll = () => {
-    if (root.scrollY > 700 && (root.innerHeight + root.scrollY) !== document.body.offsetHeight) {
+    if (root.scrollY > 700) {
       this.setState({ isFixed: true });
     }
     else {
       this.setState({ isFixed: false });
     }
-
-    requestAnimationFrame(() => {
-      this.content.style.height = this.state.isFixed ? 0 : `${this.innerContent.offsetHeight}px`;
-    });
   }
 
   componentDidMount() {
@@ -36,29 +30,29 @@ export default class Footer extends Component {
   }
 
   render() {
-    const { className } = this.props;
+    const { className, content } = this.props;
     const footerClass = classNames([style.footer, className], this.state.isFixed ? style['footer--fixed']: null );
 
     return (
       <footer class={footerClass}>
         <div class={style.footer__content}>
           <h2 class={classNames(style.footer__text, style['footer__text--lg'])}>
-            Czekamy na aplikacje <span class={style['footer__text--color']}>do 23 maja</span>
+            {content.title} <span class={style['footer__text--color']}>{content.title2}</span>
           </h2>
 
           <h2 class={classNames(style.footer__text, style['footer__text--sm'])}>
-            Aplikacje <span class={style['footer__text--color']}>do 23 maja</span>
+            {content['title-sm']} <span class={style['footer__text--color']}>{content.title2}</span>
           </h2>
 
-          <h3 class={style.footer__subtitle}>Zrób pierwszy krok!</h3>
+          <h3 class={style.footer__subtitle}>{content.subtitle}</h3>
 
-          <Button text="Aplikuj do programu" type="action" className={style['footer__action--lg']} />
+          <Button text={content.cta.text} type="action" href={content.cta.link} className={style['footer__action--lg']} target="blank" />
 
-          <Button text="Aplikuj" type="action" className={style['footer__action--sm']} />
+          <Button text={content.cta['text-sm']} href={content.cta.link} type="action" className={style['footer__action--sm']} target="blank" />
 
           <div class={style.footer__copyright} ref={this.getContentRef}>
             <small ref={this.getInnerContentRef}>
-             go for IT <span class={style['footer__text--color']}>·</span> Wszelkie prawa zastrzeżone.
+              {content.copyright} <span class={style['footer__text--color']}>·</span> {content.copyright2}
             </small>
           </div>
         </div>

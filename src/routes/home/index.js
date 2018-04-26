@@ -19,7 +19,9 @@ import Timeline from '../../components/timeline';
 export default () => (
   <div>
     <Grid />
-    <Hero />
+
+    <Hero content={text.home.hero} />
+
     <main class={style.home}>
       <section class={style.home__section}>
         <div class={style.home__container}>
@@ -41,7 +43,11 @@ export default () => (
             </div>
 
             <div class={style['col-6']}>
-              <p class={style.home__text}>{text.home.about.listTitle}</p>
+              <p class={style.home__text}>
+                {text.home.about.listTitle1}
+                <strong>{text.home.about.listTitle2}</strong>
+                {text.home.about.listTitle3}
+              </p>
 
               <List className={style.home__column} items={text.home.about.list} />
             </div>
@@ -171,6 +177,6 @@ export default () => (
         </div>
       </section>
     </main>
-    <Footer />
+    <Footer content={text.home.footer} />
   </div>
 );
