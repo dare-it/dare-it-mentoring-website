@@ -1,6 +1,8 @@
 .home {
   $spacing: $container-gutter;
 
+  padding-bottom: 80px;
+
   &__section {
     position: relative;
 
@@ -13,8 +15,8 @@
     }
 
     &--with-waves {
-      margin-bottom: -90px;
-      padding-bottom: $spacing * 6;
+      margin-bottom: -105px;
+      padding-bottom: 130px;
       overflow: hidden;
       background-color: $background;
 
@@ -120,6 +122,10 @@
         padding-bottom: 0;
       }
     }
+  }
+
+  @media #{$screen-lg} {
+    padding-bottom: 150px;
   }
 }
 

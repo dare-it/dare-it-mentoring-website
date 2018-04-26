@@ -16,7 +16,7 @@ import AccordionList from '../../components/accordionList';
 
 export default () => {
   return (
-    <main>
+    <main class={style.home}>
       <section class={style.home__section}>
         <div class={style.home__container}>
           <div class={style['home__row--flex']}>

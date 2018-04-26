@@ -31,11 +31,18 @@
 
   @media #{$screen-sm} {
     &--pushed {
-      margin-left: 33%;
+      padding-bottom: 1em;
     }
   }
 
   @media #{$screen-md} {
+    &--pushed {
+      margin-left: 37%;
+      padding-bottom: 0;
+    }
+  }
+
+  @media #{$screen-lg} {
     &--pushed {
       margin-left: 20%;
     }
