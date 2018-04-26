@@ -2,9 +2,9 @@
   $margin: 90px;
 
   position: relative;
+  z-index: 2;
   display: flex;
   flex-wrap: wrap;
-  z-index: 2;
   width: 100%;
   max-width: 1440px;
   margin: 0 auto;

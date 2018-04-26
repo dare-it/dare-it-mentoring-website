@@ -1,7 +1,7 @@
 import style from './style.scss';
 import classNames from 'classnames';
 
-export default ({ text, className, type }) => {
+export default ({ text, className, type}) => {
   const subtitleClass = classNames(style.subtitle, className, style[`subtitle--${type}`]);
 
   return (

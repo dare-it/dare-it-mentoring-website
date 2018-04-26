@@ -6,24 +6,18 @@ export default ({ data, className, type, content }) => {
   const partClassnamesTop = classNames(style.timeline__part, style['timeline__part--top']);
   const partClassnamesBottom = classNames(style.timeline__part, style['timeline__part--bottom']);
 
-  const generateSteps = (steps) => {
-    return (
-      steps.map(step => {
-        return (
-          <div class={style.timeline__step}>
-            <h4 class={style.timeline__title}>{step.title}</h4>
-            <p class={style.timeline__time}>{step.date}</p>
-          </div>
-        )
-      })
-    );
-  }
+  const generateSteps = (steps) => (
+    steps.map(step => (
+      <div class={style.timeline__step}>
+        <h4 class={style.timeline__title}>{step.title}</h4>
+        <p class={style.timeline__time}>{step.date}</p>
+      </div>
+    ))
+  );
 
-  const generateDetails = (details) => {
-    return (
-      details.map(detail => <li class={style.timeline__detail}>{detail.items.map(item => <p class={style.timeline__text}>{item}</p>)}</li>)
-    )
-  }
+  const generateDetails = (details) => (
+    details.map(detail => <li class={style.timeline__detail}>{detail.items.map(item => <p class={style.timeline__text}>{item}</p>)}</li>)
+  );
 
   return (
     <article class={timelineClass}>

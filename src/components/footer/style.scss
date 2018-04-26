@@ -2,8 +2,8 @@
   $spacing: $container-gutter;
 
   position: absolute;
-  left: 0;
   bottom: 0;
+  left: 0;
   z-index: 10;
   width: 100%;
   color: $white;
@@ -20,7 +20,7 @@
   }
 
   &__text {
-    font-size: map-get($font-sizes, "large");
+    font-size: map-get($font-sizes, 'large');
   }
 
   &__text--lg,
@@ -34,23 +34,23 @@
   }
 
   &__text--sm {
-    font-size: map-get($font-sizes, "default");
+    font-size: map-get($font-sizes, 'default');
   }
 
   &__copyright {
     display: block;
     flex: 0 0 100%;
     height: 0;
-    text-align: center;
     overflow: hidden;
+    text-align: center;
     transition: height .3s ease;
   }
 
   &--fixed {
     position: fixed;
-    left: 0;
     bottom: 0;
-    box-shadow: 2px 0 40px 0 rgba(0, 0, 0, 0.3);
+    left: 0;
+    box-shadow: 2px 0 40px 0 rgba(0, 0, 0, .3);
   }
 
   @media #{$screen-lg} {

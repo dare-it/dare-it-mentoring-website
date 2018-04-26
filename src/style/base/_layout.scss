@@ -37,8 +37,8 @@ $container-gutter: 15px;
   padding-left: $container-gutter * 2;
 
   @media #{$screen-md} {
-  padding-right: $container-gutter;
-  padding-left: $container-gutter;
+    padding-right: $container-gutter;
+    padding-left: $container-gutter;
   }
 }
 

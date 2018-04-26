@@ -101,13 +101,13 @@
 
   &__images {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
+    flex-wrap: wrap;
   }
 
   &__image {
-    max-width: 40%;
     height: auto;
+    max-width: 40%;
     margin-left: 1.5em;
     padding: 1.5em 0;
   }

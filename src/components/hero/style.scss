@@ -80,8 +80,8 @@
 
   @media #{$screen-md} {
     &__container {
-      padding-left: $spacing;
       padding-right: $spacing;
+      padding-left: $spacing;
     }
   }
 

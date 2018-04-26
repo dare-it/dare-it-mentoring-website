@@ -145,21 +145,21 @@
         {
           "name": "Dorota Badzian",
           "job": "Project Manager",
-          "info": "Ogarniam projekty",
+          "info": "Ogarniam projekty.",
           "image": "../../assets/dorota-badzian.jpg",
           "alt": "Dorota Badzian photo"
         },
         {
           "name": "Kasia Łaszczewska",
           "job": "Backend Developer",
-          "info": "Pisze backend aplikacji internetowych",
+          "info": "Pisze backend aplikacji internetowych.",
           "image": "../../assets/kasia-laszczewska.jpg",
           "alt": "Kasia Łaszczewska photo"
         },
         {
           "name": "Ulyana Yasinovska",
           "job": "Customer Success Specialist",
-          "info": "Po latach w marketingu wylądowałam w biznes developmencie. Teraz płacą mi za to, że gadam z ludźmi i pomagam realizować ich projekty. Na własnym przykładzie wiem czym jest kariera marzenia.",
+          "info": "Po latach w marketingu wylądowałam w biznes developmencie. Teraz płacą mi za to, że gadam z ludźmi i pomagam realizować ich projekty.",
           "image": "../../assets/ulyana-yasinovska.png",
           "alt": "Ulyana Yasinovska photo"
         },
@@ -180,28 +180,28 @@
         {
           "name": "Kinga Sieminiak",
           "job": "Frontend Developer",
-          "info": "Zamieniam pomysły w użyteczne produkty. Lubię pracować ze startupami.",
+          "info": "Piszę kolorowe internety.",
           "image": "../../assets/kinga-sieminiak.jpg",
           "alt": "Kinga Sieminiak"
         },
         {
           "name": "Agnieszka Dunin",
           "job": "Digital Marketing Manager",
-          "info": "Ściemniam w internecie",
+          "info": "Ściemniam w internecie.",
           "image": "../../assets/agnieszka-dunin.jpg",
           "alt": "Agnieszka Dunin photo"
         },
         {
           "name": "Agnieszka Sobańska",
           "job": "Pomysłodawczyni, UX Designer",
-          "info": "Zamieniam pomysły w użyteczne produkty. Lubię pracować ze startupami.",
+          "info": "Poluję na ludzi, a potem dbam o to, żeby dobrze się im było w jednym w warszwskich software housów.",
           "image": "../../assets/agnieszka-sobanska.png",
           "alt": "Agnieszka Sobańska photo"
         },
         {
           "name": "Ela Kumela",
           "job": "Pomysłodawczyni, UX Designer",
-          "info": "Zamieniam pomysły w użyteczne produkty. Lubię pracować ze startupami.",
+          "info": "Projektuję.",
           "image": "../../assets/ela-kumela.jpg",
           "alt": "Ela Kumela photo"
         }
@@ -211,8 +211,7 @@
     "cta": {
       "title": "Nie tylko dla programistek i projektantek",
       "subtitle": "Możesz pracować w IT niezależnie od Twoich zainteresowań, umiejętnościczy mocnych stron.",
-      "text": "Zastanawiasz się, czy to branża dla Ciebie? Czekamy na Twoje pytania:",
-      "email": "girls@gmail.com"
+      "text": "Zastanawiasz się, czy to branża dla Ciebie? Czekamy na Twoje pytania: girls@gofor-it.org"
     },
 
     "partners": {
