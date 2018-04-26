@@ -4,6 +4,7 @@ import classNames from 'classnames';
 import Button from './../button';
 import transitionEvent from '../../helpers/transitionEventHelper';
 import requestAnimationFrame from 'raf';
+import root from 'window-or-global'
 
 export default class Footer extends Component {
   state = {
@@ -14,7 +15,7 @@ export default class Footer extends Component {
   getInnerContentRef = ref => this.innerContent = ref;
 
   handleScroll = () => {
-    if (window.scrollY > 700 && (window.innerHeight + window.scrollY) !== document.body.offsetHeight) {
+    if (root.scrollY > 700 && (root.innerHeight + root.scrollY) !== document.body.offsetHeight) {
       this.setState({ isFixed: true });
     }
     else {
@@ -27,11 +28,11 @@ export default class Footer extends Component {
   }
 
   componentDidMount() {
-    window.addEventListener('scroll', this.handleScroll);
+    root.addEventListener('scroll', this.handleScroll);
   }
 
   componentWillUnmount() {
-    window.removeEventListener('scroll', this.handleScroll);
+    root.removeEventListener('scroll', this.handleScroll);
   }
 
   render() {

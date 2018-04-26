@@ -5,8 +5,8 @@
   "license": "MIT",
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run -s serve || npm run -s dev",
-    "build": "preact build",
-    "serve": "preact build && preact serve",
+    "build": "preact build --template src/template.html",
+    "serve": "preact build --template src/template.html && preact serve",
     "dev": "preact watch",
     "lint": "eslint ./src --ext .jsx --ext .js",
     "lint:css": "stylelint ./src/**/*.scss ./src/**/**/*.scss",
@@ -52,7 +52,8 @@
     "preact": "^8.2.6",
     "preact-compat": "^3.17.0",
     "preact-router": "^2.5.7",
-    "raf": "^3.4.0"
+    "raf": "^3.4.0",
+    "window-or-global": "^1.0.1"
   },
   "jest": {
     "verbose": true,
