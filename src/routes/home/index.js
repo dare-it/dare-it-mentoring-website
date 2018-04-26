@@ -129,17 +129,17 @@ export default () => (
       <section class={style.home__section}>
         <div class={style.home__container}>
           <div class={style['home__row--flex']}>
-            <div class={style['col-5']}>
+            <div class={style['col-4']}>
               <Heading text={text.home.partners.main.title} type="small" />
 
-              {text.home.partners.main.partners.map(partner => <img src={`../../assets/${partner.src}.png`} alt={partner.alt} class={style.home__image} />)}
+              {text.home.partners.main.partners.map(partner => <img src={`../../assets/logos/${partner.src}.png`} alt={partner.alt} />)}
             </div>
 
-            <div class={style['col-7']}>
+            <div class={style['col-8']}>
               <Heading text={text.home.partners.support.title} type="small" />
               <figure class={style.home__images}>
                 {text.home.partners.support.partners.map(partner => (
-                  <img src={`../../assets/${partner.src}.png`} alt={partner.alt} class={style.home__image} />
+                  <img src={`../../assets/logos/${partner.src}.png`} alt={partner.alt} class={style.home__image} />
                 ))}
               </figure>
             </div>

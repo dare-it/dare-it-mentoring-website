@@ -1,7 +1,7 @@
 .home {
   $spacing: $container-gutter;
 
-  padding-bottom: 80px;
+  padding-bottom: $footer-size-sm;
 
   &__section {
     position: relative;
@@ -106,15 +106,19 @@
   }
 
   &__image {
+    width: 100%;
     height: auto;
-    max-width: 40%;
-    margin-left: 1.5em;
-    padding: 1.5em 0;
+    max-width: calc(100% / 2);
+    padding: 1.5em ($spacing / 2);
   }
 
   @media #{$screen-sm} {
     &__section--with-waves {
       padding-bottom: 200px;
+    }
+
+    &__image {
+      max-width: calc(100% / 3);
     }
   }
 
@@ -141,7 +145,11 @@
   }
 
   @media #{$screen-lg} {
-    padding-bottom: 100px;
+    padding-bottom: $footer-size-lg;
+
+    &__image {
+      max-width: calc(100% / 4);
+    }
   }
 
   @media #{$screen-xl} {

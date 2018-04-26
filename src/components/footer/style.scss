@@ -6,6 +6,7 @@
   left: 0;
   z-index: 10;
   width: 100%;
+  height: $footer-size-sm;
   color: $white;
   background-color: $accent;
   transform: translateY(100%);
@@ -54,6 +55,8 @@
   }
 
   @media #{$screen-lg} {
+    height: $footer-size-lg;
+
     &__text--lg,
     &__action--lg,
     &__subtitle {

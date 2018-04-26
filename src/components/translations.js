@@ -133,77 +133,77 @@ const translations = {
           name: 'Joanna Erd',
           job: 'Frontend Developer',
           info: 'Pixel-perfekcyjna pani domu. Puka w klawiaturę, aż stanie się coś dobrego.',
-          image: '../../assets/joanna-erd.jpg',
+          image: '../../assets/mentors/joanna-erd.jpg',
           alt: 'Joanna Erd photo'
         },
         {
           name: 'Aleksandra Bis',
           job: 'Pomysłodawczyni, UX Designer',
           info: 'Zamieniam pomysły w użyteczne produkty. Jak nie w pracy, to na koncercie.',
-          image: '../../assets/ola-bis.jpg',
+          image: '../../assets/mentors/ola-bis.jpg',
           alt: 'Aleksandra Bis photo'
         },
         {
           name: 'Dorota Badzian',
           job: 'Project Manager',
           info: 'Ogarniam projekty.',
-          image: '../../assets/dorota-badzian.jpg',
+          image: '../../assets/mentors/dorota-badzian.jpg',
           alt: 'Dorota Badzian photo'
         },
         {
           name: 'Kasia Łaszczewska',
           job: 'Backend Developer',
           info: 'Piszę backend aplikacji internetowych.',
-          image: '../../assets/kasia-laszczewska.jpg',
+          image: '../../assets/mentors/kasia-laszczewska.jpg',
           alt: 'Kasia Łaszczewska photo'
         },
         {
           name: 'Ulyana Yasinovska',
           job: 'Customer Success Specialist',
           info: 'Po latach w marketingu wylądowałam w biznes developmencie. Teraz płacą mi za to, że gadam z ludźmi i pomagam realizować ich projekty.',
-          image: '../../assets/ulyana-yasinovska.jpg',
+          image: '../../assets/mentors/ulyana-yasinovska.jpg',
           alt: 'Ulyana Yasinovska photo'
         },
         {
           name: 'Ula Kowalska',
           job: 'Backend Developer',
           info: 'Fanka kotów, pand i durnych żartów. Możesz ze mną pogadać nie tylko o web devie, ale też o dobrej muzyce i wszelkiej maści serialach.',
-          image: '../../assets/ula-kowalska.jpg',
+          image: '../../assets/mentors/ula-kowalska.jpg',
           alt: 'Ula Kowalska photo'
         },
         {
           name: 'Natalie Pilling',
           job: 'CEO',
           info: 'I believe in leading by example. I would like to see more women in leadership roles.',
-          image: '../../assets/natalie-pilling.jpg',
+          image: '../../assets/mentors/natalie-pilling.jpg',
           alt: 'Natalie Pilling photo'
         },
         {
           name: 'Kinga Sieminiak',
           job: 'Frontend Developer',
           info: 'Piszę kolorowe internety.',
-          image: '../../assets/kinga-sieminiak.jpg',
+          image: '../../assets/mentors/kinga-sieminiak.jpg',
           alt: 'Kinga Sieminiak'
         },
         {
           name: 'Agnieszka Dunin',
           job: 'Digital Marketing Manager',
           info: 'Ściemniam w internecie.',
-          image: '../../assets/agnieszka-dunin.jpg',
+          image: '../../assets/mentors/agnieszka-dunin.jpg',
           alt: 'Agnieszka Dunin photo'
         },
         {
           name: 'Agnieszka Sobańska',
           job: 'People Operations Manager',
           info: 'Poluję na ludzi, a potem dbam o to, żeby dobrze się im było w jednym w warszawskich software housów.',
-          image: '../../assets/agnieszka-sobanska.jpg',
+          image: '../../assets/mentors/agnieszka-sobanska.jpg',
           alt: 'Agnieszka Sobańska photo'
         },
         {
           name: 'Ela Kumela',
           job: 'UI Designer',
           info: 'Projektuję.',
-          image: '../../assets/ela-kumela.jpg',
+          image: '../../assets/mentors/ela-kumela.jpg',
           alt: 'Ela Kumela photo'
         }
       ]
@@ -229,20 +229,32 @@ const translations = {
         title: 'Wspierają nas',
         partners: [
           {
-            src: 'coderslab-logo',
-            alt: 'Coders Lab logo'
+            src: 'inkubator-logo',
+            alt: 'Inkubator uw logo'
           },
           {
             src: 'girlscodefun-logo',
             alt: 'Girls Code Fun logo'
           },
           {
-            src: 'futuredesign-logo',
-            alt: 'Future Design logo'
-          },
-          {
             src: 'ladiesthatux-logo',
             alt: 'Ladies that Ux logo'
+          },
+          {
+            src: 'railsgirls-logo',
+            alt: 'Rails Girls logo'
+          },
+          {
+            src: 'geekgirlscarrots-logo',
+            alt: 'Geek Girls Carrots logo'
+          },
+          {
+            src: 'mobilewarsaw-logo',
+            alt: 'Mobile Warsaw logo'
+          },
+          {
+            src: 'coderslab-logo',
+            alt: 'Coders Lab logo'
           },
           {
             src: 'theawwwesomes-logo',
