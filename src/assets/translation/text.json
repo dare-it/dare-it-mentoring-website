@@ -185,18 +185,25 @@
           "alt": "Kinga Sieminiak"
         },
         {
-          "name": "Aleksandra Bis",
-          "job": "Pomysłodawczyni, UX Designer",
-          "info": "Zamieniam pomysły w użyteczne produkty. Lubię pracować ze startupami.",
-          "image": "../../assets/image-placeholder-2.jpg",
-          "alt": "Aleksandra Bis photo"
+          "name": "Agnieszka Dunin",
+          "job": "Digital Marketing Manager",
+          "info": "Ściemniam w internecie",
+          "image": "../../assets/agnieszka-dunin.jpg",
+          "alt": "Agnieszka Dunin photo"
         },
         {
-          "name": "Aleksandra Bis",
+          "name": "Agnieszka Sobańska",
           "job": "Pomysłodawczyni, UX Designer",
           "info": "Zamieniam pomysły w użyteczne produkty. Lubię pracować ze startupami.",
-          "image": "../../assets/image-placeholder-2.jpg",
-          "alt": "Aleksandra Bis photo"
+          "image": "../../assets/agnieszka-sobanska.png",
+          "alt": "Agnieszka Sobańska photo"
+        },
+        {
+          "name": "Ela Kumela",
+          "job": "Pomysłodawczyni, UX Designer",
+          "info": "Zamieniam pomysły w użyteczne produkty. Lubię pracować ze startupami.",
+          "image": "../../assets/ela-kumela.jpg",
+          "alt": "Ela Kumela photo"
         }
       ]
     },
@@ -260,27 +267,39 @@
       "questions": [
         {
           "title": "Koszt uczestnictwa",
-          "text": "No wszędzie. Technologia zmienia i będzie zmieniać to, w jaki sposób funkcjonuje świat. Chcemy, by kobiety były częścią tych zmian i miały na nie realny wpływ. Wierzymy, że poprzez dawanie przykładu, wsparcia oraz dzielenie się wiedzą możemy zachęcić więcej dziewczyn do kształtowania naszej codzienności.”"
+          "text": "Udział w programie jest całkowicie bezpłatny. Wszystkim uczestniczkom zapewniamy wspólny obiad inauguracyjny, minimum sześć indywidualnych sesji mentorskich, konsultacje z rekruterką HR oraz imprezę na zakończenie programu."
         },
         {
-          "title": "Koszt uczestnictwa",
-          "text": "No wszędzie. Technologia zmienia i będzie zmieniać to, w jaki sposób funkcjonuje świat. Chcemy, by kobiety były częścią tych zmian i miały na nie realny wpływ. Wierzymy, że poprzez dawanie przykładu, wsparcia oraz dzielenie się wiedzą możemy zachęcić więcej dziewczyn do kształtowania naszej codzienności.”"
+          "title": "Ograniczenia wiekowe",
+          "text": "Do aplikowania zapraszamy pełnoletnie dziewczyny zainteresowane postawieniem pierwszych kroków w IT lub rozwinięciem posiadanych już umiejętności."
         },
         {
-          "title": "Koszt uczestnictwa",
-          "text": "No wszędzie. Technologia zmienia i będzie zmieniać to, w jaki sposób funkcjonuje świat. Chcemy, by kobiety były częścią tych zmian i miały na nie realny wpływ. Wierzymy, że poprzez dawanie przykładu, wsparcia oraz dzielenie się wiedzą możemy zachęcić więcej dziewczyn do kształtowania naszej codzienności.”"
+          "title": "Wymagane umiejętności",
+          "text": "Program jest zaprojektowany tak, by umożliwić uczestnictwo również dziewczynom bez umiejętności projektowania, programowania czy doświadczenia w branży IT. Mogą zaaplikować do go for IT w ramach ścieżki 'Początkująca'."
         },
         {
-          "title": "Koszt uczestnictwa",
-          "text": "No wszędzie. Technologia zmienia i będzie zmieniać to, w jaki sposób funkcjonuje świat. Chcemy, by kobiety były częścią tych zmian i miały na nie realny wpływ. Wierzymy, że poprzez dawanie przykładu, wsparcia oraz dzielenie się wiedzą możemy zachęcić więcej dziewczyn do kształtowania naszej codzienności.”"
+          "title": "Kryteria wyboru",
+          "text": "Podstawą wyboru uczestniczek będzie formularz aplikacyjny oraz nasze możliwość zaspokojenia ich oczekiwań względem programu. Będziemy pracować nad tym, by zwiększać liczbę mentorek oraz zakres ich kompetencji tak, by pomóc jak największej liczbie dziewczyn :)"
         },
         {
-          "title": "Koszt uczestnictwa",
-          "text": "No wszędzie. Technologia zmienia i będzie zmieniać to, w jaki sposób funkcjonuje świat. Chcemy, by kobiety były częścią tych zmian i miały na nie realny wpływ. Wierzymy, że poprzez dawanie przykładu, wsparcia oraz dzielenie się wiedzą możemy zachęcić więcej dziewczyn do kształtowania naszej codzienności.”"
+          "title": "Aplikantki spoza Warszawy",
+          "text": "Bardzo zależy nam na obecności wszystkich uczestniczek w spotkaniu inauguracyjnym i pożegnalnym. Jeśli jest to dla Ciebie problem, napisz o tym w formularzu zgłoszeniowym. Sesje z mentorką mogę odbywać się online."
         },
         {
-          "title": "Koszt uczestnictwa",
-          "text": "No wszędzie. Technologia zmienia i będzie zmieniać to, w jaki sposób funkcjonuje świat. Chcemy, by kobiety były częścią tych zmian i miały na nie realny wpływ. Wierzymy, że poprzez dawanie przykładu, wsparcia oraz dzielenie się wiedzą możemy zachęcić więcej dziewczyn do kształtowania naszej codzienności.”"
+          "title": "Spotkania z mentorką",
+          "text": "Miejsca spotkań z mentorką nie są z góry narzucone i zależą od Was. Może to być kawiarnia albo przestrzeń coworkingowa - ważne żebyś czuła się w niej swobodnie. Spotkania mogę odbyć się również online."
+        },
+        {
+          "title": "Rezygnacja z programu",
+          "text": "Zaaplikuj do programu jeśli jesteś gotowa brać w nim aktywny udział przez cały czas jego trwania. Oczywiście w wyjątkowych okolicznościach postaramy się wspólnie znaleźć jakieś rozwiązanie ;)"
+        },
+        {
+          "title": "Zakończenie programu",
+          "text": "W ramach zakończenia programu odbędzie się spotkanie wszystkich uczestniczek wraz z mentorkami i podsumowanie tej edycji. Koniec programu nie oznacza jednak końca naszej znajomości :)"
+        },
+        {
+          "title": "Udział mężczyzn",
+          "text": "go for IT jest programem mentoringowym prowadzonym przez kobiety dla kobiet. Jeśli jednak chcesz zgłębiać wiedzę w wymienionych dziedzinach i szukasz mentora, możemy spróbować pomóc i skontaktować Cię z odpowiednią osobą."
         }
       ]
     },
