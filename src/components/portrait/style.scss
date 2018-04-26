@@ -38,7 +38,7 @@
   &__image {
     @extend %fullsize-centered;
 
-    transition: transform .6s ease-in-out;
+    transition: transform .5s ease-in-out;
   }
 
   &__description {
@@ -63,18 +63,22 @@
     margin: 0;
     margin-bottom: 10px;
     padding: 0;
-    transition: opacity .5s ease-in-out, transform .4s ease;
+    transition: opacity .5s ease-in-out, transform .4s ease-in-out;
   }
 
   &__text {
     font-size: map-get($font-sizes, 'small');
     font-weight: 500;
-    transition: opacity .2s ease, transform .4s ease .2s;
+    transition: opacity .4s ease-in-out .2s, transform .4s ease-in-out;
+
+    &--bold {
+      font-weight: 600;
+    }
   }
 
   &__text + &__text {
     margin-top: 10px;
-    transition: opacity .1s ease, transform .4s ease .2s;
+    transition: opacity .4s ease-in-out .3s, transform .3s ease-in-out .1s;
   }
 
   @media #{$screen-md} {
@@ -91,7 +95,7 @@
 
     &__title,
     &__text {
-      transform: translateY(100px);
+      transform: translateY(200px);
     }
 
     &__imageWrapper {
@@ -110,13 +114,12 @@
       }
 
       .portrait__image {
-        transform: scale(1.05) translate(-50%, -50%);
+        transform: scale(1.1) translate(-50%, -50%);
         transform-origin: (50% 50%);
       }
 
       &:before {
         background: transparent;
-        box-shadow: 8px 8px 0 0 $yellow;
       }
 
       &:after {

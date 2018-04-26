@@ -35,10 +35,8 @@ const translations = {
     work: {
       title: 'Jak będziemy pracować',
       subtitle: 'My też byłyśmy kiedyś na Twoim miejscu, dlatego wiemy, jak trudne może być zrobienie pierwszego kroku. Chcemy Ci w tym pomóc.',
-      text: [
-        'Jak wybrać lub zmienić zawód?',
-        'Jak zacząć, jeśli nie wiesz od czego?'
-      ],
+      text1: 'Jak wybrać lub zmienić zawód?',
+      text2:'Jak zacząć, jeśli nie wiesz od czego?',
       list: [
         'Jedna z nas będzie Twoją mentorką przez 3 miesiące',
         'Skonsultujesz się z rekruterką IT na temat ścieżki kariery',
@@ -132,18 +130,18 @@ const translations = {
       title: 'Mentorki',
       people: [
         {
-          name: 'Aleksandra Bis',
-          job: 'Pomysłodawczyni, UX Designer',
-          info: 'Zamieniam pomysły w użyteczne produkty. Jak nie w pracy, to na koncercie.',
-          image: '../../assets/ola-bis.jpg',
-          alt: 'Aleksandra Bis photo'
-        },
-        {
           name: 'Joanna Erd',
           job: 'Frontend Developer',
           info: 'Pixel-perfekcyjna pani domu. Puka w klawiaturę, aż stanie się coś dobrego.',
           image: '../../assets/joanna-erd.jpg',
           alt: 'Joanna Erd photo'
+        },
+        {
+          name: 'Aleksandra Bis',
+          job: 'Pomysłodawczyni, UX Designer',
+          info: 'Zamieniam pomysły w użyteczne produkty. Jak nie w pracy, to na koncercie.',
+          image: '../../assets/ola-bis.jpg',
+          alt: 'Aleksandra Bis photo'
         },
         {
           name: 'Dorota Badzian',
@@ -285,11 +283,11 @@ const translations = {
         },
         {
           title: 'Aplikantki spoza Warszawy',
-          text: 'Bardzo zależy nam na obecności wszystkich uczestniczek w spotkaniu inauguracyjnym i pożegnalnym. Jeśli jest to dla Ciebie problem, napisz o tym w formularzu zgłoszeniowym. Sesje z mentorką mogę odbywać się online.'
+          text: 'Bardzo zależy nam na obecności wszystkich uczestniczek w spotkaniu inauguracyjnym i pożegnalnym. Jeśli jest to dla Ciebie problem, napisz o tym w formularzu zgłoszeniowym. Sesje z mentorką mogą odbywać się online.'
         },
         {
           title: 'Spotkania z mentorką',
-          text: 'Miejsca spotkań z mentorką nie są z góry narzucone i zależą od Was. Może to być kawiarnia albo przestrzeń coworkingowa - ważne żebyś czuła się w niej swobodnie. Spotkania mogę odbyć się również online.'
+          text: 'Miejsca spotkań z mentorką nie są z góry narzucone i zależą od Was. Może to być kawiarnia albo przestrzeń coworkingowa - ważne żebyś czuła się w niej swobodnie. Spotkania mogą odbyć się również online.'
         },
         {
           title: 'Rezygnacja z programu',

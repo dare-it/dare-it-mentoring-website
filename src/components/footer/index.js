@@ -13,7 +13,6 @@ export default class Footer extends Component {
   getInnerContentRef = ref => this.innerContent = ref;
 
   handleScroll = () => {
-    console.log(root.innerHeight);
     if (root.scrollY > root.innerHeight) {
       this.setState({ isFixed: true });
     }

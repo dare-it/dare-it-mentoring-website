@@ -43,7 +43,7 @@ export default () => (
             </div>
 
             <div class={style['col-6']}>
-              <p class={style.home__text}>
+              <p class={classNames(style.home__text, style['home__text--spaced'])}>
                 {text.home.about.listTitle1}
                 <strong>{text.home.about.listTitle2}</strong>
                 {text.home.about.listTitle3}
@@ -61,7 +61,9 @@ export default () => (
 
           <div class={style['home__row--flex']}>
             <div class={classNames(style['col-6'], style['col-narrow'])}>
-              {text.home.work.text.map(text => <p class={style.home__text}>{text}</p>)}
+              <p class={style.home__text}>{text.home.work.text1}</p>
+
+              <p class={classNames(style.home__text, style['home__text--spaced'])}>{text.home.work.text2}</p>
 
               <Subtitle text={text.home.work.subtitle} />
             </div>

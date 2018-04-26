@@ -13,7 +13,7 @@ export default ({ text, className, person }) => {
       <figcaption class={style.portrait__description}>
         <h4 class={style.portrait__title}>{person.name}</h4>
 
-        <p class={style.portrait__text}>{person.job}</p>
+        <p class={classNames(style.portrait__text, style['portrait__text--bold'])}>{person.job}</p>
 
         <p class={style.portrait__text}>{person.info}</p>
       </figcaption>
