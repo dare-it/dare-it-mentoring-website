@@ -38,7 +38,6 @@ export default (props) => {
         <link rel="manifest" href="/site.webmanifest" />
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
         <meta name="msapplication-TileColor" content="#ff227a" />
-        <meta name="theme-color" content="#ffffff" />
 
         <link rel="manifest" href="/manifest.json" />
         { options.manifest.theme_color && <meta name="theme-color" content={options.manifest.theme_color} /> }
@@ -50,7 +49,6 @@ export default (props) => {
         {/* eslint-disable react/no-danger */}
         <script dangerouslySetInnerHTML={{ __html: polyfillsScript }} />
         {/* eslint-enable react/no-danger */}
-        <script> window.prerenderReady = false; </script>
       </body>
     </html>
 );
