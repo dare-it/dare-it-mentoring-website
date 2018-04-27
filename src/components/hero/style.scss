@@ -40,8 +40,8 @@
     line-height: 1.5;
   }
 
-  &__image-xs,
-  &__image-md {
+  &__image--small-screen,
+  &__image--large-screen {
     position: absolute;
     top: 0;
     right: 0;
@@ -50,11 +50,11 @@
     height: 100%;
   }
 
-  &__image-md {
+  &__image--large-screen {
     display: none;
   }
 
-  &__image-xs {
+  &__image--small-screen {
     transform: translateX(40%);
   }
 
@@ -68,11 +68,11 @@
       max-width: 55%;
     }
 
-    &__image-xs {
+    &__image--small-screen {
       display: none;
     }
 
-    &__image-md {
+    &__image--large-screen {
       display: block;
       transform: translateX(30%);
     }
@@ -91,7 +91,7 @@
       padding-bottom: ($inner-spacing * 4);
     }
 
-    &__image-md {
+    &__image--large-screen {
       transform: translateX(10%);
     }
   }

@@ -6,7 +6,6 @@
   left: 0;
   z-index: 10;
   width: 100%;
-  height: $footer-size-sm;
   color: $white;
   background-color: $accent;
   transform: translateY(100%);
@@ -41,12 +40,16 @@
   }
 
   &__copyright {
-    display: block;
     flex: 0 0 100%;
     height: 0;
     overflow: hidden;
     text-align: center;
     transition: height .3s ease;
+
+    &-content {
+      display: block;
+      padding-top: 1em;
+    }
   }
 
   &--fixed {
@@ -55,8 +58,6 @@
   }
 
   @media #{$screen-lg} {
-    height: $footer-size-lg;
-
     &__text--lg,
     &__action--lg,
     &__subtitle {

@@ -1,8 +1,8 @@
 import style from './style.scss';
 import classNames from 'classnames';
 
-export default ({ text, className, type }) => {
-  const subtitleClass = classNames(style.subtitle, className, style[`subtitle--${type}`]);
+export default ({ text, className, variant }) => {
+  const subtitleClass = classNames(style.subtitle, className, style[`subtitle--${variant}`]);
 
   return (
     <h3 class={subtitleClass}>

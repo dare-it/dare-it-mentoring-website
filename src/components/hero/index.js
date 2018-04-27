@@ -26,8 +26,8 @@ export default ({ content, className, ...otherProps }) => {
         <Button text={content.cta.text} type="action" href={content.cta.link} target="blank" />
       </div>
 
-      <img src="../../assets/hero-image.png" alt="" class={style['hero__image-md']} />
-      <img src="../../assets/hero-image-xs.svg" alt="" class={style['hero__image-xs']} />
+      <img src="../../assets/hero-image.png" alt="" class={style['hero__image--large-screen']} />
+      <img src="../../assets/hero-image-xs.svg" alt="" class={style['hero__image--small-screen']} />
     </header>
   );
 };

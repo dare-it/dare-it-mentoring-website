@@ -36,7 +36,7 @@ const translations = {
       title: 'Jak będziemy pracować',
       subtitle: 'My też byłyśmy kiedyś na Twoim miejscu, dlatego wiemy, jak trudne może być zrobienie pierwszego kroku. Chcemy Ci w tym pomóc.',
       text1: 'Jak wybrać lub zmienić zawód?',
-      text2:'Jak zacząć, jeśli nie wiesz od czego?',
+      text2: 'Jak zacząć, jeśli nie wiesz od czego?',
       list: [
         'Jedna z nas będzie Twoją mentorką przez 3 miesiące',
         'Skonsultujesz się z rekruterką IT na temat ścieżki kariery',

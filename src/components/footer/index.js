@@ -6,27 +6,41 @@ import root from 'window-or-global';
 
 export default class Footer extends Component {
   state = {
-    isFixed: false
+    isFixed: false,
+    isBottom: false
   }
-
+  
   getContentRef = ref => this.content = ref;
   getInnerContentRef = ref => this.innerContent = ref;
 
   handleScroll = () => {
+    this.checkIfScrollToBottom();
+
     if (root.scrollY > root.innerHeight) {
       this.setState({ isFixed: true });
     }
     else {
       this.setState({ isFixed: false });
     }
+
+    this.content.style.height = this.state.isBottom ? `${this.innerContent.offsetHeight}px` : 0;
+  }
+
+  checkIfScrollToBottom() {
+    if (typeof window === 'undefined') {
+      return {};
+    }
+
+    if ((root.innerHeight + root.scrollY) === document.body.offsetHeight) {
+      this.setState({ isBottom: true });
+    }
+    else {
+      this.setState({ isBottom: false });
+    }
   }
 
   componentDidMount() {
     root.addEventListener('scroll', this.handleScroll);
-  }
-
-  componentWillUnmount() {
-    root.removeEventListener('scroll', this.handleScroll);
   }
 
   render() {
@@ -51,7 +65,7 @@ export default class Footer extends Component {
           <Button text={content.cta['text-sm']} href={content.cta.link} type="action" className={style['footer__action--sm']} target="blank" />
 
           <div class={style.footer__copyright} ref={this.getContentRef}>
-            <small ref={this.getInnerContentRef}>
+            <small class={style['footer__copyright-content']} ref={this.getInnerContentRef}>
               {content.copyright} <span class={style['footer__text--color']}>·</span> {content.copyright2}
             </small>
           </div>

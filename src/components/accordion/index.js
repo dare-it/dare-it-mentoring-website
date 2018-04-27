@@ -1,7 +1,6 @@
 import { Component } from 'preact';
 import style from './style.scss';
 import classNames from 'classnames';
-import requestAnimationFrame from 'raf';
 import transitionEvent from '../../helpers/transitionEventHelper';
 
 export default class Accordion extends Component {
@@ -29,15 +28,10 @@ export default class Accordion extends Component {
     });
   }
 
-  componentWillUnmount() {
-    this.content.style.height = 0;
-    this.setState({ isOpened: false });
-  }
-
   render() {
-    const { state } = this;
+    const { isOpened } = this.state.isOpened;
     const { question, answer } = this.props;
-    const accordionClass = classNames(style.accordion__item, state.isOpened ? style['accordion__item--active'] : null);
+    const accordionClass = classNames(style.accordion__item, isOpened ? style['accordion__item--active'] : null);
 
     return (
       <li class={accordionClass}>

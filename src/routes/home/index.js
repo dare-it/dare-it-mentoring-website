@@ -96,7 +96,7 @@ export default () => (
           <div class={style['home__row--flex']}>
             {text.home.program.cards.map(card => (
               <div class={classNames(style['col-6'], style.home__column)}>
-                <Card card={card} type={card.type} double={false} />
+                <Card data={card} type={card.type} double={false} />
               </div>
             ))}
           </div>
@@ -119,8 +119,8 @@ export default () => (
             </div>
 
             <div class={style['col-6']}>
-              <Subtitle text={text.home.cta.subtitle} type="secondary" />
-              <Subtitle text={text.home.cta.text} type="white" />
+              <Subtitle text={text.home.cta.subtitle} variant="secondary" />
+              <Subtitle text={text.home.cta.text} variant="white" />
             </div>
           </div>
         </div>
