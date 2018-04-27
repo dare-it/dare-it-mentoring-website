@@ -1,9 +1,8 @@
-import { Component } from 'preact';
 import style from './style.scss';
 import classNames from 'classnames';
 
-export default ({ text, className }) => {
-  const subtitleClass = classNames(style.subtitle, className);
+export default ({ text, className, variant }) => {
+  const subtitleClass = classNames(style.subtitle, className, style[`subtitle--${variant}`]);
 
   return (
     <h3 class={subtitleClass}>

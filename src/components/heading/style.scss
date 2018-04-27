@@ -1,7 +1,7 @@
 .heading {
-  margin-top: 0;
-  margin-bottom: .7em;
-  font-size: calc(40px + (57 - 40) * ((100vw - 320px) / (1440 - 320)));
+  @include flex-font(40, 55);
+
+  margin: 0;
   line-height: 1.2;
   color: $action;
 
@@ -11,22 +11,42 @@
   }
 
   &--pushed {
-    @extend %container;
+    @include flex-font(40, 50);
 
-    position: relative;
     z-index: 2;
-    margin-bottom: 0;
+    padding-left: $container-gutter * 2;
+  }
+
+  &--dark {
+    color: $text;
+  }
+
+  &--small {
+    font-size: 40px;
+  }
+
+  &:not(:last-child) {
+    margin-bottom: .8em;
   }
 
   @media #{$screen-sm} {
     &--pushed {
-      margin-left: 33%;
+      position: absolute;
+      top: -70px;
+      left: 60%;
+      padding-left: 0;
     }
   }
 
   @media #{$screen-md} {
     &--pushed {
-      margin-left: 20%;
+      left: 40%;
+    }
+  }
+
+  @media #{$screen-lg} {
+    &--pushed {
+      left: 22%;
     }
   }
 }

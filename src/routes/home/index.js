@@ -1,137 +1,184 @@
-
-import { h, Component } from 'preact';
-import text from '../../assets/translation/text.json';
+import text from '../../components/translations';
 import style from './style.scss';
+import classNames from 'classnames';
 
-import Hero from '../../components/hero';
-import Button from '../../components/button';
-import Heading from '../../components/heading';
-import PeopleGrid from '../../components/peopleGrid';
-import List from '../../components/list';
-import Subtitle from '../../components/subtitle';
-import Pattern from '../../components/pattern';
-import Timeline from '../../components/timeline';
-import Quotation from '../../components/quotation';
-import Card from '../../components/card';
 import AccordionList from '../../components/accordionList';
+import Button from '../../components/button';
+import Card from '../../components/card';
+import Footer from '../../components/footer';
+import Grid from '../../components/grid';
+import Heading from '../../components/heading';
+import Hero from '../../components/hero';
+import List from '../../components/list';
+import Pattern from '../../components/pattern';
+import PeopleGrid from '../../components/peopleGrid';
+import Quotation from '../../components/quotation';
+import Subtitle from '../../components/subtitle';
+import Timeline from '../../components/timeline';
 
-export default class Home extends Component {
-  render() {
-    return (
-      <div>
-        <Hero />
-        <section class={style.home__section}>
-          <div class={style.home__container}>
-            <Heading text={text.home.about.title} />
+export default () => (
+  <div>
+    <Grid />
 
-            <div class={style['home__row--flex']}>
-              <div class={style.home__column}>
-                <Subtitle text={text.home.about.subtitle1} />
+    <Hero content={text.home.hero} />
 
-                <Subtitle text={text.home.about.subtitle2} />
-              </div>
+    <main class={style.home}>
+      <section class={style.home__section}>
+        <div class={style.home__container}>
+          <div class={style['home__row--flex']}>
+            <div class={classNames(style['col-6'], style['col-narrow'])}>
+              <Heading text={text.home.about.title} />
 
-              <div class={style.home__column}>
-                <div class={style.home__row}>
-                  <Quotation text={text.home.about.quotation.text} cite={text.home.about.quotation.cite} />
-                </div>
+              <Subtitle text={text.home.about.subtitle1} />
+            </div>
 
-                <List className={style.home__column} items={text.home.about.list} />
-              </div>
+            <div class={style['col-6']}>
+              <Quotation text={text.home.about.quotation.text} cite={text.home.about.quotation.cite} />
             </div>
           </div>
-        </section>
 
-        <section class={style['home__section--with-waves']}>
-          <div class={style.home__container}>
-            <Heading text={text.home.work.title} />
+          <div class={style['home__row--flex']}>
+            <div class={classNames(style['col-6'], style['col-narrow'])}>
+              <Subtitle text={text.home.about.subtitle2} />
+            </div>
 
-            <div class={style['home__row--flex']}>
-              <div class={style.home__column}>
-                <p class={style.home__text}>{text.home.work.text}</p>
-
-                <Subtitle text={text.home.work.subtitle} />
-              </div>
+            <div class={style['col-6']}>
+              <p class={classNames(style.home__text, style['home__text--spaced'])}>
+                {text.home.about.listTitle1}
+                <strong>{text.home.about.listTitle2}</strong>
+                {text.home.about.listTitle3}
+              </p>
 
               <List className={style.home__column} items={text.home.about.list} />
             </div>
           </div>
-        </section>
+        </div>
+      </section>
 
-        <section class={style['home__section--gradient']}>
-          <Heading text={text.home.mentors.title} type="pushed" />
+      <section class={classNames(style['home__section--with-waves'], style.home__section)}>
+        <div class={style.home__container}>
+          <Heading text={text.home.work.title} />
 
-          <PeopleGrid people={text.home.mentors.people} />
-        </section>
+          <div class={style['home__row--flex']}>
+            <div class={classNames(style['col-6'], style['col-narrow'])}>
+              <p class={style.home__text}>{text.home.work.text1}</p>
 
-        <section class={style.home__section}>
-          <div class={style.home__container}>
-            <Heading text="Program" />
-            
-            <div class={style['home__row--flex']}>
-              {text.home.program.cards.map(card => (
-                <div class={style.home__column}>
-                  <Card card={card} type={card.type} double={false} />
-                </div>
-              ))}
+              <p class={classNames(style.home__text, style['home__text--spaced'])}>{text.home.work.text2}</p>
+
+              <Subtitle text={text.home.work.subtitle} />
+            </div>
+
+            <List className={style['col-6']} items={text.home.work.list} />
+          </div>
+        </div>
+      </section>
+
+      <section class={style['home__section--gradient']}>
+        <Heading text={text.home.mentors.title} type="pushed" />
+
+        <PeopleGrid people={text.home.mentors.people} />
+      </section>
+
+      <section class={style.home__section}>
+        <div class={style.home__container}>
+          <div class={style['home__row--flex']}>
+            <div class={style['col-5']}>
+              <Heading text={text.home.program.title} />
+            </div>
+
+            <div class={style['col-7']}>
+              <Subtitle text={text.home.program.subtitle} />
+
+              <p class={style.home__text}>{text.home.program.text}</p>
             </div>
           </div>
-        </section>
 
-        <section class={style['home__section--dark']}>
-          <div class={style.home__container}>
-            <Timeline />
-          </div>
-        </section>
-
-        <section class={style['home__section--dark']}>
-          <div class={style.home__container}>
-            <Card double className="card-double" type="bottom-right">
-              <div class={style['home__row--flex']}>
-                <div class={style.home__column}>
-                  <Heading text="Pomagaj z nami" />
-
-                  <p class={style.home__text}>Jest wiele sposobów w jakie możesz się zaangażować. Zostań mentorką, partnerem lub po prostu powiedz innym o programie!</p>
-                </div>
-
-                <div class={style.home__column}>
-                  <div class={style.home__row}>
-                    <Subtitle text={text.home.about.subtitle1} />
-                  </div>
-
-                  <div class={style.home__row}>
-                    <Button text="Napisz do nas" type="action" />
-                  </div>
-                </div>
+          <div class={style['home__row--flex']}>
+            {text.home.program.cards.map(card => (
+              <div class={classNames(style['col-6'], style.home__column)}>
+                <Card data={card} type={card.type} double={false} />
               </div>
-            </Card>
+            ))}
           </div>
-        </section>
+        </div>
+      </section>
 
-        <section class={style['home__section--dark']}>
-          <div class={style.home__container}>
-            <Heading text="Faq" />
+      <section class={style['home__section--dark']}>
+        <div class={style.home__container}>
+          <Timeline content={text.home.timeline} />
+        </div>
+      </section>
 
-            <AccordionList />
-          </div>
-        </section>
+      <section class={style.home__section}>
+        <Pattern items={text.home.about.list} />
 
-        <section class={style.home__section}>
-          <Pattern items={text.home.about.list} />
+        <div class={style.home__container}>
+          <div class={style['home__row--flex']}>
+            <div class={style['col-6']}>
+              <Heading text={text.home.cta.title} type="white" />
+            </div>
 
-          <div class={style.home__container}>
-            <div class={style['home__row--flex']}>
-              <div class={style.home__column}>
-                <Heading text="Nie tylko dla programistek i projektantek" type="white" />
-              </div>
-
-              <div class={style.home__column}>
-                <p>Niezależnie od Twoich zainteresowań, umiejętności czy mocnych stron, możesz rozwijać się w branży tech w wielu kierunkach</p>
-              </div>
+            <div class={style['col-6']}>
+              <Subtitle text={text.home.cta.subtitle} variant="secondary" />
+              <Subtitle text={text.home.cta.text} variant="white" />
             </div>
           </div>
-        </section>
-      </div>
-    );
-  }
-}
+        </div>
+      </section>
+
+      <section class={style.home__section}>
+        <div class={style.home__container}>
+          <div class={style['home__row--flex']}>
+            <div class={style['col-4']}>
+              <Heading text={text.home.partners.main.title} type="small" />
+
+              {text.home.partners.main.partners.map(partner => <img src={`../../assets/logos/${partner.src}.png`} alt={partner.alt} />)}
+            </div>
+
+            <div class={style['col-8']}>
+              <Heading text={text.home.partners.support.title} type="small" />
+              <figure class={style.home__images}>
+                {text.home.partners.support.partners.map(partner => (
+                  <img src={`../../assets/logos/${partner.src}.png`} alt={partner.alt} class={style.home__image} />
+                ))}
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class={style.home__section}>
+        <div class={classNames(style.home__container, style['home__container--no-spacing'])}>
+          <Card double size="big" type="bottom-left">
+            <div class={style['home__row--flex']}>
+              <div class={classNames(style['col-6'], style['col-narrow'])}>
+                <Heading text={text.home.getInvolved.title} />
+
+                <p class={style.home__text}>{text.home.getInvolved.text}</p>
+              </div>
+
+              <div class={style['col-6']}>
+                <div class={style.home__row}>
+                  <Subtitle text={text.home.getInvolved.subtitle} />
+                </div>
+
+                <div class={style.home__row}>
+                  <Button text={text.home.getInvolved.cta.text} href={text.home.getInvolved.cta.link} type="action" />
+                </div>
+              </div>
+            </div>
+          </Card>
+        </div>
+      </section>
+
+      <section class={style.home__section}>
+        <div class={style.home__container}>
+          <Heading text="Częste pytania" type="dark" />
+
+          <AccordionList items={text.home.faq.questions} />
+        </div>
+      </section>
+    </main>
+    <Footer content={text.home.footer} />
+  </div>
+);

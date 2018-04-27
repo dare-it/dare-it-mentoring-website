@@ -1,10 +1,9 @@
-import { Component } from 'preact';
 import classNames from 'classnames';
 import style from './style.scss';
 import Nav from './../nav';
 import Button from './../button';
 
-export default ({ text, title, action, className, ...otherProps }) => {
+export default ({ content, className, ...otherProps }) => {
   const heroClass = classNames(style.hero, className);
 
   return (
@@ -13,19 +12,22 @@ export default ({ text, title, action, className, ...otherProps }) => {
 
       <div class={style.hero__container}>
         <h1 class={style.hero__title}>
-          <span class={style['hero__title--color']}>Program mentorski</span> dla dziewczyn: Start w branży tech
+          {content.title}
+          <br />
+          {content.title2}
+          <br />
+          <span class={style['hero__title--color']}>{content.title3}</span>
         </h1>
 
-        <p class={style.hero__text}>
-          Chciałabyś projektować, kodować, prowadzić projekty digitalowe? Na własnych przykładach pokażemy Ci, że ta branża jest dla każdej. Pomożemy Ci postawić pierwsze kroki lub rozwijać umiejętności poprzez dzielenie się naszą wiedzą i doświadczeniem #grupawsparcia
-        </p>
+        <p class={style.hero__text}>{content.text}</p>
 
-        <p class={style.hero__hint}>Pomożemy jak mozemy!</p>
+        <p class={style.hero__hint}>{content.subtitle}</p>
 
-        <Button text="Aplikuj do programu" type="action" />
+        <Button text={content.cta.text} type="action" href={content.cta.link} target="blank" />
       </div>
 
-      <img src="../../assets/hero-image.png" alt="" class={style.hero__image} />
+      <img src="../../assets/hero-image.png" alt="" class={style['hero__image--large-screen']} />
+      <img src="../../assets/hero-image-xs.svg" alt="" class={style['hero__image--small-screen']} />
     </header>
   );
 };

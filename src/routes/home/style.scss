@@ -1,6 +1,8 @@
 .home {
   $spacing: $container-gutter;
 
+  padding-bottom: $footer-size-sm;
+
   &__section {
     position: relative;
 
@@ -9,13 +11,15 @@
     }
 
     &--gradient {
+      position: relative;
+      max-width: map-get($screen-sizes, 'xl');
+      margin: 0 auto;
       background-image: linear-gradient(to bottom, $background 0, transparent 40%);
     }
 
     &--with-waves {
-      margin-bottom: -90px;
-      padding-bottom: $spacing * 6;
-      padding-bottom: 200px;
+      margin-bottom: -105px;
+      padding-bottom: 130px;
       overflow: hidden;
       background-color: $background;
 
@@ -25,8 +29,8 @@
         &:before,
         &:after {
           position: absolute;
-          width: 600px;
-          height: 500px;
+          width: 800px;
+          height: 650px;
           background-image: url('../../assets/waves-pattern.png');
           background-repeat: no-repeat;
           background-size: contain;
@@ -36,13 +40,14 @@
         &:before {
           top: 0;
           right: 0;
-          transform: rotate(180deg) translate(-370px, 190px);
+          transform: rotate(180deg) translate(-470px, 340px);
         }
 
         &:after {
-          bottom: -90px;
+          bottom: 0;
           left: 0;
-          transform: translate(-300px, 260px);
+          display: none;
+          transform: translate(-320px, 380px);
         }
       }
     }
@@ -53,7 +58,13 @@
 
     position: relative;
     z-index: 1;
-    padding: ($spacing * 6) $spacing;
+    padding-top: ($spacing * 3);
+    padding-bottom: ($spacing * 3);
+
+    &--no-spacing {
+      padding-top: 0;
+      padding-bottom: 0;
+    }
   }
 
   &__row {
@@ -68,26 +79,115 @@
     padding-top: 3em;
   }
 
-  &__column {
-    flex: 0 0 100%;
+  &__row--flex + &__row--flex {
+    padding-top: 3em;
   }
 
   &__column + &__column {
-    margin-top: $spacing;
+    margin-top: 2 * $spacing;
   }
 
   &__text {
-    margin-bottom: 2em;
+    @extend %text;
+
+    &--spaced {
+      margin-bottom: 2em;
+    }
+
+    & + & {
+      margin-top: .5em;
+    }
+  }
+
+  &__images {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  &__image {
+    width: 100%;
+    height: auto;
+    max-width: calc(100% / 2);
+    padding: 1.5em ($spacing / 2);
+  }
+
+  @media #{$screen-sm} {
+    &__section--with-waves {
+      padding-bottom: 200px;
+    }
+
+    &__image {
+      max-width: calc(100% / 3);
+    }
   }
 
   @media #{$screen-md} {
-    &__column {
-      flex: 0 0 calc(50% - #{$spacing});
+    &__section--with-waves {
+      .home__container:after {
+        display: block;
+      }
+
+      .home__container:before {
+        transform: rotate(180deg) translate(-390px, 260px);
+      }
     }
 
-    &__column + &__column {
-      margin-top: 0;
-      margin-left: $spacing;
+    &__container {
+      padding-top: ($spacing * 6);
+      padding-bottom: ($spacing * 6);
+
+      &--no-spacing {
+        padding-top: 0;
+        padding-bottom: 0;
+      }
     }
+  }
+
+  @media #{$screen-lg} {
+    padding-bottom: $footer-size-lg;
+
+    &__image {
+      max-width: calc(100% / 4);
+    }
+  }
+
+  @media #{$screen-xl} {
+    &__section--with-waves {
+      .home__container:before,
+      .home__container:after {
+        display: none;
+      }
+    }
+  }
+}
+
+$colsNumber: 12;
+$spacing: $container-gutter;
+
+@for $i from 1 through $colsNumber {
+  .col-#{$i} {
+    flex: 0 0 100%;
+    padding: 10px 0;
+
+    @media #{$screen-md} {
+      flex: calc((100% / #{$colsNumber} * #{$i}) - (#{$spacing} * #{$i}));
+
+      & + & {
+        margin-left: $spacing;
+      }
+    }
+  }
+}
+
+@media #{$screen-md} {
+  .col-narrow {
+    padding-right: 4em;
+  }
+}
+
+@media #{$screen-lg} {
+  .col-narrow {
+    padding-right: 7em;
   }
 }

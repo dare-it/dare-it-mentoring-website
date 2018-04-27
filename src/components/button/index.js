@@ -1,13 +1,12 @@
-import { Component } from 'preact';
 import style from './style.scss';
 import classNames from 'classnames';
 
-export default ({ text, className, type, ...otherProps }) => {
+export default ({ text, className, type, href, target }) => {
   const buttonClass = classNames(style.button, className, style[`button--${type}`]);
 
   return (
-    <button class={buttonClass} {...otherProps} type="button">
+    <a class={buttonClass} href={href} target={target}>
       {text}
-    </button>
+    </a>
   );
 };

@@ -1,45 +1,48 @@
 import { Component } from 'preact';
 import style from './style.scss';
 import classNames from 'classnames';
-import debounce from './../../helpers/debounde';
+import transitionEvent from '../../helpers/transitionEventHelper';
 
 export default class Accordion extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      isOpen: false,
-      contentHeight: ''
-    };
+  state = {
+    isOpened: false
+  }
+
+  getContentRef = ref => this.content = ref;
+  getInnerContentRef = ref => this.innerContent = ref;
+
+  handleCollapsibleClick = () => {
+    this.content.style.height = `${this.content.offsetHeight}px`;
+
+    requestAnimationFrame(() => {
+      this.setState({ isOpened: !this.state.isOpened });
+      this.content.style.height = this.state.isOpened ? `${this.innerContent.offsetHeight}px` : 0;
+    });
   }
 
   componentDidMount() {
-    this.setState({ contentHeight: this.content.clientHeight });
-    window.addEventListener('resize', this.handleResize);
+    this.content.addEventListener(transitionEvent, () => {
+      if (this.state.isOpened) {
+        this.content.style.height = 'auto';
+      }
+    });
   }
-
-  togglecollapsible = () => {
-    this.setState({ isOpen: !this.state.isOpen });
-  }
-  
-  handleResize = debounce(() => {
-    this.setState({ contentHeight: this.content.clientHeight });
-  }, 400);
 
   render() {
-    const { state } = this;
+    const { isOpened } = this.state.isOpened;
     const { question, answer } = this.props;
-    const accordionClass = classNames(style.accordion__item, state.isOpen ? style['accordion__item--active'] : null);
+    const accordionClass = classNames(style.accordion__item, isOpened ? style['accordion__item--active'] : null);
 
     return (
       <li class={accordionClass}>
-        <div class={style.accordion__header} onClick={this.togglecollapsible}>
+        <div class={style.accordion__header} onClick={this.handleCollapsibleClick}>
           <button type="button" class={style.accordion__button} />
 
           <p>{question}</p>
         </div>
 
-        <div class={style.accordion__body} style={{ height: `${state.isOpen && state.contentHeight ? state.contentHeight : 0}px` }}>
-          <div class={style['accordion__body-content']} ref={content => this.content = content}>
+        <div class={style.accordion__body} ref={this.getContentRef} >
+          <div class={style['accordion__body-content']} ref={this.getInnerContentRef} >
             {answer}
           </div>
         </div>

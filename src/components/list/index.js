@@ -1,4 +1,3 @@
-import { Component } from 'preact';
 import style from './style.scss';
 import classNames from 'classnames';
 

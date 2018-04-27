@@ -2,6 +2,7 @@
   $margin: 90px;
 
   position: relative;
+  z-index: 2;
   display: flex;
   flex-wrap: wrap;
   width: 100%;
@@ -9,10 +10,14 @@
   margin: 0 auto;
 
   &__column {
-    min-width: calc(100% / 2);
+    min-width: 100%;
     margin-top: -1px;
 
-    @media #{$screen-only-xs} {
+    @media #{$screen-sm} {
+      min-width: calc(100% / 2);
+    }
+
+    @media #{$screen-only-sm} {
       &:nth-child(odd) {
         margin-top: $margin/2;
       }
@@ -22,18 +27,18 @@
       }
     }
 
-    @media #{$screen-sm} {
+    @media #{$screen-md} {
       min-width: calc(100% / 3);
     }
 
-    @media #{$screen-only-sm} {
+    @media #{$screen-only-md} {
       &:nth-child(3n + 1),
       &:nth-child(3n + 3) {
         margin-top: -$margin;
       }
     }
 
-    @media #{$screen-md} {
+    @media #{$screen-lg} {
       min-width: calc(100% / 5);
 
       &:nth-child(5n + 1),

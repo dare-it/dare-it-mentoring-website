@@ -2,10 +2,21 @@ $font-sizes: (
   pico: .75rem,
   tiny: .8125rem,
   small: .95rem,
-  default: 1rem,
+  default: 1.06rem,
   plus: 1.125rem,
   medium: 1.25rem,
   large: 1.5rem,
   super: 1.87rem,
   grand: 3.5rem,
 );
+
+@mixin flex-font($minFont, $maxFont) {
+  font-size: calc(#{$minFont}px + (#{$maxFont} - #{$minFont}) * ((100vw - 600px) / (1440 - 600)));
+}
+
+%text {
+  @include flex-font(16, 17);
+
+  font-weight: 500;
+  line-height: 1.5;
+}

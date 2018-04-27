@@ -5,8 +5,8 @@
   "license": "MIT",
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run -s serve || npm run -s dev",
-    "build": "preact build",
-    "serve": "preact build && preact serve",
+    "build": "preact build --template src/template.html --no-prerender",
+    "serve": "preact build --template src/template.html --no-prerender && preact serve",
     "dev": "preact watch",
     "lint": "eslint ./src --ext .jsx --ext .js",
     "lint:css": "stylelint ./src/**/*.scss ./src/**/**/*.scss",
@@ -23,7 +23,8 @@
       "indent": [
         "error",
         2
-      ]
+      ],
+      "react/display-name": 0
     }
   },
   "eslintIgnore": [
@@ -50,7 +51,9 @@
     "classnames": "^2.2.5",
     "preact": "^8.2.6",
     "preact-compat": "^3.17.0",
-    "preact-router": "^2.5.7"
+    "preact-router": "^2.5.7",
+    "raf": "^3.4.0",
+    "window-or-global": "^1.0.1"
   },
   "jest": {
     "verbose": true,
