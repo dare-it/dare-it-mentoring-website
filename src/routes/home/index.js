@@ -15,6 +15,7 @@ import PeopleGrid from '../../components/peopleGrid';
 import Quotation from '../../components/quotation';
 import Subtitle from '../../components/subtitle';
 import Timeline from '../../components/timeline';
+import Slider from '../../components/slider';
 
 export default () => (
   <div>
@@ -76,7 +77,9 @@ export default () => (
       <section class={style['home__section--gradient']}>
         <Heading text={text.home.mentors.title} type="pushed" />
 
-        <PeopleGrid people={text.home.mentors.people} />
+        <PeopleGrid people={text.home.mentors.people} id={style['home-screen-sm']} />
+
+        <Slider people={text.home.mentors.people} id={style['home-screen-xs']} />
       </section>
 
       <section class={style.home__section}>
@@ -179,6 +182,8 @@ export default () => (
         </div>
       </section>
     </main>
+
     <Footer content={text.home.footer} />
   </div>
 );
+

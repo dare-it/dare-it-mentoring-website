@@ -81,6 +81,53 @@
     transition: opacity .4s ease-in-out .3s, transform .3s ease-in-out .1s;
   }
 
+  &--double {
+    &:after {
+      height: 0;
+      padding-top: 130%;
+      box-shadow: 6px 6px 0 0 $yellow;
+    }
+
+    &:before {
+      display: none;
+    }
+
+    .portrait__imageWrapper {
+      padding-top: 130%;
+
+      &:before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+        background: $accent;
+        content: '';
+        transition: background .3s ease-in-out, box-shadow .3s ease-in-out;
+        mix-blend-mode: lighten;
+      }
+    }
+
+    .portrait__description {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      padding: 1em .2em;
+      background-image: none;
+      color: $text;
+    }
+
+    .portrait__title {
+      font-size: 16px;
+      color: $accent;
+    }
+
+    .portrait__text {
+      font-size: 13px;
+    }
+  }
+
   @media #{$screen-md} {
     &:after {
       box-shadow: 8px 8px 0 0 $yellow;

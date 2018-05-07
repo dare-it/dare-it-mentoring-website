@@ -180,6 +180,20 @@ $spacing: $container-gutter;
   }
 }
 
+#home-screen-sm {
+  display: none;
+}
+
+@media #{$screen-sm} {
+  #home-screen-sm {
+    display: flex;
+  }
+
+  #home-screen-xs {
+    display: none;
+  }
+}
+
 @media #{$screen-md} {
   .col-narrow {
     padding-right: 4em;
