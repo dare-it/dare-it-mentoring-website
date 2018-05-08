@@ -172,7 +172,7 @@ const translations = {
         },
         {
           name: 'Natalie Pilling',
-          job: 'CEO',
+          job: 'Co-Founder and CEO',
           info: 'I believe in leading by example. I would like to see more women in leadership roles.',
           image: '../../assets/mentors/natalie-pilling.jpg',
           alt: 'Natalie Pilling photo'
@@ -210,7 +210,7 @@ const translations = {
 
     cta: {
       title: 'Nie tylko dla programistek i projektantek',
-      subtitle: 'Możesz pracować w IT niezależnie od Twoich zainteresowań, umiejętnościczy mocnych stron.',
+      subtitle: 'Możesz pracować w IT niezależnie od Twoich zainteresowań, umiejętności czy mocnych stron.',
       text: 'Zastanawiasz się, czy to branża dla Ciebie? Czekamy na Twoje pytania: girls@dareit.org'
     },
 
