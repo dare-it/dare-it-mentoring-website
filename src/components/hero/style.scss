@@ -87,8 +87,8 @@
 
   @media #{$screen-lg} {
     &__container {
-      padding-top: ($inner-spacing * 4);
-      padding-bottom: ($inner-spacing * 4);
+      padding-top: ($inner-spacing * 5);
+      padding-bottom: ($inner-spacing * 7);
     }
 
     &__image--large-screen {

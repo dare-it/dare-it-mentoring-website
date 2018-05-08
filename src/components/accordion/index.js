@@ -30,7 +30,10 @@ export default class Accordion extends Component {
 
   render() {
     const { question, answer } = this.props;
-    const accordionClass = classNames(style.accordion__item, this.state.isOpened ? style['accordion__item--active'] : null);
+
+    const accordionClass = classNames(style['accordion__item'], {
+     [style['accordion__item--active']]: this.state.isOpened
+    });
 
     return (
       <li class={accordionClass}>
