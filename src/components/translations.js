@@ -228,12 +228,12 @@ const translations = {
         title: 'Wspierają nas',
         partners: [
           {
-            src: 'inkubator-logo',
-            alt: 'Inkubator uw logo'
-          },
-          {
             src: 'girlscodefun-logo',
             alt: 'Girls Code Fun logo'
+          },
+          {
+            src: 'inkubator-logo',
+            alt: 'Inkubator uw logo'
           },
           {
             src: 'ladiesthatux-logo',
