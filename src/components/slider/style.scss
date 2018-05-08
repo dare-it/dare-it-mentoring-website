@@ -1,11 +1,12 @@
 .slider {
   $margin: 90px;
+  $button-size: 35px;
 
   position: relative;
   z-index: 2;
-  overflow: hidden;
   width: 100%;
   margin: 0 auto;
+  overflow: hidden;
 
   &__content {
     display: flex;
@@ -30,26 +31,26 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    height: $button-size;
     padding: 0 1.2em;
-    height: 35px;
-    line-height: 35px;
-    background: $accent;
     font-size: map-get($font-sizes, 'tiny');
-    border-radius: 3px;
     font-weight: 700;
+    line-height: $button-size;
     color: $white;
+    background: $accent;
+    border-radius: 3px;
     transition: background .3s ease-in-out;
 
     & + & {
       margin-left: .5em;
     }
-    
+
     &:disabled {
-      background: #e5e5e5;
-      color: #949493;
+      color: $star-dust;
+      background: $mercury;
 
       .slider__arrow {
-        fill: #949493;
+        fill: $star-dust;
       }
     }
 
@@ -59,8 +60,8 @@
   }
 
   &__arrow {
-    fill: $white;
     transition: fill .3s ease-in-out;
+    fill: $white;
 
     &--left {
       transform: rotate(180deg);

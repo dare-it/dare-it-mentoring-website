@@ -8,7 +8,7 @@ function debounce(callback, wait = 300, context = this) {
     callbackArgs = arguments;
     clearTimeout(timeout);
     timeout = setTimeout(later, wait);
-  }
+  };
 }
 
 export default debounce;
