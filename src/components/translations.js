@@ -335,7 +335,7 @@ const translations = {
       copyright: 'dare IT ',
       copyright2: 'Wszelkie prawa zastrzeżone.',
       cta: {
-        text: 'Aplikuj s programu',
+        text: 'Aplikuj do programu',
         'text-sm': 'Aplikuj',
         link: 'https://docs.google.com/forms/d/e/1FAIpQLSdwDnTVgybaOs00vsItYtsxGdoeHb9SB3gPU_XfeLKwpZpc2Q/viewform?usp=sf_link'
       }
