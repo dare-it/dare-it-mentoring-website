@@ -22,7 +22,7 @@ export default (props) => {
   return (
     <html>
       <head>
-        <title>Go For IT</title>
+        <title>Dare IT</title>
 
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width,initial-scale=1" />
@@ -31,26 +31,26 @@ export default (props) => {
         <meta name="fragment" content="!" />
 
         <meta name="keywords" content="kobiety w it, dziewczyny w it, programistki, kobiety-programistki, jak zostać programistką, technologie dla dziewczyn" />
-        <meta name="description" content="Go For IT to program mentorski dla dziewcztn stworzony w celu ułatwienia im startu w IT. Uczestniczki będą mogły bezpłatnie zgłębiać wiedzę w wybranym przez siebie obszarze: UX, UI, Web Development, Product Management lub Digital Marketing." />
+        <meta name="description" content="Dare IT to program mentorski dla dziewcztn stworzony w celu ułatwienia im startu w IT. Uczestniczki będą mogły bezpłatnie zgłębiać wiedzę w wybranym przez siebie obszarze: UX, UI, Web Development, Product Management lub Digital Marketing." />
 
-        <meta itemprop="name" content="Go For IT" />
+        <meta itemprop="name" content="Dare IT" />
         <meta itemprop="description" content="" />
         <meta itemprop="image" content="" />
         <meta itemprop="url" content="gofor-it.org" />
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="" />
-        <meta name="twitter:title" content="Go For IT | Program mentorski dla dziewczyn stworzony w celu ułatwienia kobietom startu w IT." />
+        <meta name="twitter:title" content="Dare IT | Program mentorski dla dziewczyn stworzony w celu ułatwienia kobietom startu w IT." />
         <meta name="twitter:description" content="" />
         <meta name="twitter:image:src" content="fotka" />
-        <meta name="twitter:image:alt" content="Go For IT" />
+        <meta name="twitter:image:alt" content="Dare IT" />
 
-        <meta property="og:title" content="Go For IT | Program mentorski dla dziewczyn stworzony w celu ułatwienia kobietom startu w IT." />
+        <meta property="og:title" content="Dare IT | Program mentorski dla dziewczyn stworzony w celu ułatwienia kobietom startu w IT." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="gofor-it.org" />
         <meta property="og:image" content="" />
         <meta property="og:description" content="" />
-        <meta property="og:site_name" content="Go For IT | Home" />
+        <meta property="og:site_name" content="Dare IT | Home" />
 
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />

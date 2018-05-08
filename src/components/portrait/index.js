@@ -1,8 +1,8 @@
 import style from './style.scss';
 import classNames from 'classnames';
 
-export default ({ text, className, person }) => {
-  const portraitClass = classNames(style.portrait, className);
+export default ({ text, className, person, variant }) => {
+  const portraitClass = classNames(style.portrait, className, style[`portrait--${variant}`]);
 
   return (
     <figure class={portraitClass}>

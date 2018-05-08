@@ -1,0 +1,70 @@
+.slider {
+  $margin: 90px;
+  $button-size: 35px;
+
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+
+  &__content {
+    display: flex;
+  }
+
+  &__column {
+    width: 100%;
+    min-width: calc(100% / 2.2);
+    margin-top: -1px;
+    padding-left: 20px;
+  }
+
+  &__actions {
+    @extend %container;
+
+    display: flex;
+    justify-content: flex-start;
+    margin-block-end: 2em;
+  }
+
+  &__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: $button-size;
+    padding: 0 1.2em;
+    font-size: map-get($font-sizes, 'tiny');
+    font-weight: 700;
+    line-height: $button-size;
+    color: $white;
+    background: $accent;
+    border-radius: 3px;
+    transition: background .3s ease-in-out;
+
+    & + & {
+      margin-left: .5em;
+    }
+
+    &:disabled {
+      color: $star-dust;
+      background: $mercury;
+
+      .slider__arrow {
+        fill: $star-dust;
+      }
+    }
+
+    &:active {
+      transform: translateY(2px);
+    }
+  }
+
+  &__arrow {
+    transition: fill .3s ease-in-out;
+    fill: $white;
+
+    &--left {
+      transform: rotate(180deg);
+    }
+  }
+}

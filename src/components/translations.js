@@ -5,7 +5,7 @@ const translations = {
       title2: 'dla dziewczyn:',
       title3: 'pierwsze kroki w IT',
       text: 'Chciałabyś projektować, kodować, zarządzać projektami technologicznymi? Pomożemy Ci to osiągnąć korzystając z własnych doświadczeń.',
-      subtitle: 'Zgłoszenia do 23 maja!',
+      subtitle: 'Zgłoszenia do 4 czerwca!',
       cta: {
         text: 'Aplikuj do programu',
         link: 'https://docs.google.com/forms/d/e/1FAIpQLSdwDnTVgybaOs00vsItYtsxGdoeHb9SB3gPU_XfeLKwpZpc2Q/viewform?usp=sf_link'
@@ -14,7 +14,7 @@ const translations = {
 
     about: {
       title: 'O co chodzi?',
-      subtitle1: 'go for IT to inicjatywa stworzona przez Aleksandrę Bis i Natalie Pilling w celu ułatwienia kobietom startu w branży IT.',
+      subtitle1: 'dare IT to inicjatywa stworzona przez Aleksandrę Bis i Natalie Pilling w celu ułatwienia kobietom startu w branży IT.',
       subtitle2: 'Wspólnie z grupą mentorek pomożemy Ci postawić pierwsze kroki w IT lub rozwinąć posiadane już umiejętności.',
       quotation: {
         text: 'Technologia zmienia i będzie zmieniać to, w jaki sposób funkcjonuje świat. Chcemy, by kobiety były częścią tych zmian i miały na nie realny wpływ. Wierzymy, że poprzez dawanie przykładu, wsparcia oraz dzielenie się wiedzą możemy zachęcić więcej dziewczyn do kształtowania naszej codzienności.',
@@ -39,13 +39,12 @@ const translations = {
       text2: 'Jak zacząć, jeśli nie wiesz od czego?',
       list: [
         'Jedna z nas będzie Twoją mentorką przez 3 miesiące',
-        'Skonsultujesz się z rekruterką IT na temat ścieżki kariery',
-        'Pokażemy Ci, jak wygląda branża IT od kuchni',
-        'Poznasz nasze codzienne narzędzia pracy',
         'Podzielimy się z Tobą teorią i praktyką',
+        'Skonsultujesz się z rekruterką IT na temat ścieżki kariery',
         'Pomożemy z CV, portfolio i rozmową rekrutacyjną',
+        'Pokażemy Ci, jak wygląda branża IT od kuchni',
         'Podpowiemy, co czytać i gdzie szukać',
-        'Spotkania z mentorką 1:1',
+        'Poznasz nasze codzienne narzędzia pracy',
         'Poznasz grupę fajnych, ogarniętych dziewczyn z IT!'
       ]
     },
@@ -85,11 +84,11 @@ const translations = {
         steps: [
           {
             title: 'Aplikacja',
-            date: 'do 23.05'
+            date: 'do 04.06'
           },
           {
             title: 'Ogłoszenie uczestniczek',
-            date: '01.06'
+            date: '11.06'
           }
         ]
       },
@@ -97,11 +96,11 @@ const translations = {
         steps: [
           {
             title: 'Start programu',
-            date: '14.06'
+            date: '26.06'
           },
           {
             title: 'Zakończenie programu',
-            date: '06.09'
+            date: '18.09'
           }
         ],
         details: [
@@ -146,7 +145,7 @@ const translations = {
         {
           name: 'Dorota Badzian',
           job: 'Project Manager',
-          info: 'Ogarniam projekty.',
+          info: 'Etnolożka, miłośniczka lasu i staroci. Na co dzień ogarniam projekty.',
           image: '../../assets/mentors/dorota-badzian.jpg',
           alt: 'Dorota Badzian photo'
         },
@@ -188,7 +187,7 @@ const translations = {
         {
           name: 'Agnieszka Dunin',
           job: 'Digital Marketing Manager',
-          info: 'Ściemniam w internecie.',
+          info: 'Tłumaczę programistyczne rozkminy na słowa i teksty. Zwiedzam świat z plecakiem.',
           image: '../../assets/mentors/agnieszka-dunin.jpg',
           alt: 'Agnieszka Dunin photo'
         },
@@ -212,7 +211,7 @@ const translations = {
     cta: {
       title: 'Nie tylko dla programistek i projektantek',
       subtitle: 'Możesz pracować w IT niezależnie od Twoich zainteresowań, umiejętnościczy mocnych stron.',
-      text: 'Zastanawiasz się, czy to branża dla Ciebie? Czekamy na Twoje pytania: girls@gofor-it.org'
+      text: 'Zastanawiasz się, czy to branża dla Ciebie? Czekamy na Twoje pytania: girls@dareit.org'
     },
 
     partners: {
@@ -229,12 +228,12 @@ const translations = {
         title: 'Wspierają nas',
         partners: [
           {
-            src: 'inkubator-logo',
-            alt: 'Inkubator uw logo'
-          },
-          {
             src: 'girlscodefun-logo',
             alt: 'Girls Code Fun logo'
+          },
+          {
+            src: 'inkubator-logo',
+            alt: 'Inkubator uw logo'
           },
           {
             src: 'ladiesthatux-logo',
@@ -243,10 +242,6 @@ const translations = {
           {
             src: 'railsgirls-logo',
             alt: 'Rails Girls logo'
-          },
-          {
-            src: 'geekgirlscarrots-logo',
-            alt: 'Geek Girls Carrots logo'
           },
           {
             src: 'mobilewarsaw-logo',
@@ -259,6 +254,26 @@ const translations = {
           {
             src: 'theawwwesomes-logo',
             alt: 'The Awwwesomes logo'
+          },
+          {
+            src: 'futuredesign-logo',
+            alt: 'Future Design logo'
+          },
+          {
+            src: 'mindspace-logo',
+            alt: 'Mindspace logo'
+          },
+          {
+            src: 'diangogirls-logo',
+            alt: 'Diango Girls logo'
+          },
+          {
+            src: 'warsawjs-logo',
+            alt: 'Warsaw JS logo'
+          },
+          {
+            src: 'elementtalks-logo',
+            alt: 'Element Talks logo'
           }
         ]
       }
@@ -270,7 +285,7 @@ const translations = {
       text: 'Jest wiele sposobów w jakie możesz się zaangażować. Zostań mentorką, partnerem lub po prostu powiedz innym o programie!',
       cta: {
         text: 'Napisz do nas',
-        link: `mailto:girls@gofor-it.org?subject=go for IT`
+        link: `mailto:girls@dareit.org?subject=dare IT`
       }
     },
 
@@ -287,7 +302,7 @@ const translations = {
         },
         {
           title: 'Wymagane umiejętności',
-          text: "Program jest zaprojektowany tak, by umożliwić uczestnictwo również dziewczynom bez umiejętności projektowania, programowania czy doświadczenia w branży IT. Mogą zaaplikować do go for IT w ramach ścieżki 'Początkująca'."
+          text: "Program jest zaprojektowany tak, by umożliwić uczestnictwo również dziewczynom bez umiejętności projektowania, programowania czy doświadczenia w branży IT. Mogą zaaplikować do dare IT w ramach ścieżki 'Początkująca'."
         },
         {
           title: 'Kryteria wyboru',
@@ -315,9 +330,9 @@ const translations = {
     footer: {
       title: 'Czekamy na aplikacje ',
       'title-sm': 'Aplikacje ',
-      title2: 'do 23 maja',
+      title2: 'do 4 czerwca',
       subtitle: 'Zrób pierwszy krok!',
-      copyright: 'go for It ',
+      copyright: 'dare IT ',
       copyright2: 'Wszelkie prawa zastrzeżone.',
       cta: {
         text: 'Aplikuj do programu',
