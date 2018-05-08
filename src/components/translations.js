@@ -187,7 +187,7 @@ const translations = {
         {
           name: 'Agnieszka Dunin',
           job: 'Digital Marketing Manager',
-          info: 'Ściemniam w internecie.',
+          info: 'Tłumaczę programistyczne rozkminy na słowa i teksty. Zwiedzam świat z plecakiem.',
           image: '../../assets/mentors/agnieszka-dunin.jpg',
           alt: 'Agnieszka Dunin photo'
         },
