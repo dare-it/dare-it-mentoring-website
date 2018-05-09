@@ -36,7 +36,7 @@ export default (props) => {
         <meta itemprop="name" content="Dare IT" />
         <meta itemprop="description" content="" />
         <meta itemprop="image" content="" />
-        <meta itemprop="url" content="gofor-it.org" />
+        <meta itemprop="url" content="dareit.org" />
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="" />
@@ -47,7 +47,7 @@ export default (props) => {
 
         <meta property="og:title" content="Dare IT | Program mentorski dla dziewczyn stworzony w celu ułatwienia kobietom startu w IT." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="gofor-it.org" />
+        <meta property="og:url" content="dareit.org" />
         <meta property="og:image" content="" />
         <meta property="og:description" content="" />
         <meta property="og:site_name" content="Dare IT | Home" />

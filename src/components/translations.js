@@ -131,7 +131,7 @@ const translations = {
         {
           name: 'Joanna Erd',
           job: 'Frontend Developer',
-          info: 'Pixel-perfekcyjna pani domu. Puka w klawiaturę, aż stanie się coś dobrego.',
+          info: 'Pixel-perfekcyjna pani domu. Pukam w klawiaturę, aż stanie się coś dobrego.',
           image: '../../assets/mentors/joanna-erd.jpg',
           alt: 'Joanna Erd photo'
         },
