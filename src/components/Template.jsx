@@ -31,7 +31,7 @@ export default (props) => {
         <meta name="fragment" content="!" />
 
         <meta name="keywords" content="kobiety w it, dziewczyny w it, programistki, kobiety-programistki, jak zostać programistką, technologie dla dziewczyn" />
-        <meta name="description" content="Dare IT to program mentorski dla dziewczyn stworzony w celu ułatwienia im startu w IT. Uczestniczki będą mogły bezpłatnie zgłębiać wiedzę w wybranym przez siebie obszarze: UX, UI, Web Development, Product Management lub Digital Marketing." />
+        <meta name="description" content="Dare IT to bezpłatny program mentorski dla dziewczyn stworzony w celu ułatwienia im startu w IT. Uczestniczki będą mogły bezpłatnie zgłębiać wiedzę w wybranym przez siebie obszarze: UX, UI, Web Development, Product Management lub Digital Marketing." />
 
         <meta itemprop="name" content="Dare IT" />
         <meta itemprop="description" content="" />
@@ -40,12 +40,12 @@ export default (props) => {
 
         <meta name="twitter:card" content="https://dareit.org/assets/hero-image.png" />
         <meta name="twitter:site" content="" />
-        <meta name="twitter:title" content="Dare IT | Program mentorski dla dziewczyn stworzony w celu ułatwienia kobietom startu w IT." />
+        <meta name="twitter:title" content="Dare IT | Bezpłatny program mentorski dla dziewczyn stworzony w celu ułatwienia im startu w IT." />
         <meta name="twitter:description" content="" />
         <meta name="twitter:image:src" content="https://dareit.org/assets/hero-image.png" />
         <meta name="twitter:image:alt" content="Dare IT" />
 
-        <meta property="og:title" content="Dare IT | Program mentorski dla dziewczyn stworzony w celu ułatwienia kobietom startu w IT." />
+        <meta property="og:title" content="Dare IT | Bezpłatny program mentorski dla dziewczyn stworzony w celu ułatwienia im startu w IT." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="dareit.org" />
         <meta property="og:image" content="https://dareit.org/assets/hero-image.png" />
