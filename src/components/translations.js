@@ -272,6 +272,10 @@ const translations = {
             alt: 'Warsaw JS logo'
           },
           {
+            src: 'tipiux-logo',
+            alt: 'Tipi UX logo'
+          },
+          {
             src: 'elementtalks-logo',
             alt: 'Element Talks logo'
           }
