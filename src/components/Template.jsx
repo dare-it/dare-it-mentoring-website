@@ -40,12 +40,12 @@ export default (props) => {
 
         <meta name="twitter:card" content="https://dareit.org/assets/hero-image.png" />
         <meta name="twitter:site" content="" />
-        <meta name="twitter:title" content="Dare IT | Bezpłatny program mentorski dla dziewczyn stworzony w celu ułatwienia im startu w IT." />
+        <meta name="twitter:title" content="Dare IT | Program mentorski dla dziewczyn" />
         <meta name="twitter:description" content="" />
         <meta name="twitter:image:src" content="https://dareit.org/assets/hero-image.png" />
         <meta name="twitter:image:alt" content="Dare IT" />
 
-        <meta property="og:title" content="Dare IT | Bezpłatny program mentorski dla dziewczyn stworzony w celu ułatwienia im startu w IT." />
+        <meta property="og:title" content="Dare IT | Program mentorski dla dziewczyn" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="dareit.org" />
         <meta property="og:image" content="https://dareit.org/assets/hero-image.png" />
