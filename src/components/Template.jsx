@@ -35,20 +35,20 @@ export default (props) => {
 
         <meta itemprop="name" content="Dare IT" />
         <meta itemprop="description" content="" />
-        <meta itemprop="image" content="../assets/hero-image.png" />
+        <meta itemprop="image" content="https://dareit.org/assets/hero-image.png" />
         <meta itemprop="url" content="dareit.org" />
 
-        <meta name="twitter:card" content="../assets/hero-image.png" />
+        <meta name="twitter:card" content="https://dareit.org/assets/hero-image.png" />
         <meta name="twitter:site" content="" />
         <meta name="twitter:title" content="Dare IT | Program mentorski dla dziewczyn stworzony w celu ułatwienia kobietom startu w IT." />
         <meta name="twitter:description" content="" />
-        <meta name="twitter:image:src" content="../assets/hero-image.png" />
+        <meta name="twitter:image:src" content="https://dareit.org/assets/hero-image.png" />
         <meta name="twitter:image:alt" content="Dare IT" />
 
         <meta property="og:title" content="Dare IT | Program mentorski dla dziewczyn stworzony w celu ułatwienia kobietom startu w IT." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="dareit.org" />
-        <meta property="og:image" content="../assets/hero-image.png" />
+        <meta property="og:image" content="https://dareit.org/assets/hero-image.png" />
         <meta property="og:description" content="" />
         <meta property="og:site_name" content="Dare IT | Home" />
 
