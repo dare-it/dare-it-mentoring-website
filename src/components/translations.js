@@ -278,6 +278,14 @@ const translations = {
           {
             src: 'elementtalks-logo',
             alt: 'Element Talks logo'
+          },
+          {
+            src: 'pokapoka-logo',
+            alt: 'Poka Poka logo'
+          },
+          {
+            src: 'dribbble-logo',
+            alt: 'Dribbble Warsaw Meetup logo'
           }
         ]
       }
@@ -310,7 +318,7 @@ const translations = {
         },
         {
           title: 'Kryteria wyboru',
-          text: 'Podstawą wyboru uczestniczek będzie formularz aplikacyjny oraz nasze możliwość zaspokojenia ich oczekiwań względem programu. Będziemy pracować nad tym, by zwiększać liczbę mentorek oraz zakres ich kompetencji tak, by pomóc jak największej liczbie dziewczyn :)'
+          text: 'Podstawą wyboru uczestniczek będzie formularz aplikacyjny oraz nasza możliwość zaspokojenia ich oczekiwań względem programu. Będziemy pracować nad tym, by zwiększać liczbę mentorek oraz zakres ich kompetencji tak, by pomóc jak największej liczbie dziewczyn :)'
         },
         {
           title: 'Aplikantki spoza Warszawy',
