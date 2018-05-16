@@ -286,6 +286,10 @@ const translations = {
           {
             src: 'dribbble-logo',
             alt: 'Dribbble Warsaw Meetup logo'
+          },
+          {
+            src: 'womenintech-logo',
+            alt: 'Womem in Technology logo'
           }
         ]
       }
