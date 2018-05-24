@@ -280,16 +280,16 @@ const translations = {
             alt: 'Element Talks logo'
           },
           {
-            src: 'pokapoka-logo',
-            alt: 'Poka Poka logo'
-          },
-          {
             src: 'dribbble-logo',
             alt: 'Dribbble Warsaw Meetup logo'
           },
           {
             src: 'womenintech-logo',
             alt: 'Womem in Technology logo'
+          },
+          {
+            src: 'bulldogjob-logo',
+            alt: 'Bulldog Job logo'
           }
         ]
       }
