@@ -14,7 +14,7 @@ const translations = {
 
     about: {
       title: 'O co chodzi?',
-      subtitle1: 'dare IT to inicjatywa stworzona przez Aleksandrę Bis i Natalie Pilling w celu ułatwienia kobietom startu w branży IT.',
+      subtitle1: 'dareIT to inicjatywa stworzona przez Aleksandrę Bis i Natalie Pilling w celu ułatwienia kobietom startu w branży IT.',
       subtitle2: 'Wspólnie z grupą mentorek pomożemy Ci postawić pierwsze kroki w IT lub rozwinąć posiadane już umiejętności.',
       quotation: {
         text: 'Technologia zmienia i będzie zmieniać to, w jaki sposób funkcjonuje świat. Chcemy, by kobiety były częścią tych zmian i miały na nie realny wpływ. Wierzymy, że poprzez dawanie przykładu, wsparcia oraz dzielenie się wiedzą możemy zachęcić więcej dziewczyn do kształtowania naszej codzienności.',
@@ -301,7 +301,7 @@ const translations = {
       text: 'Jest wiele sposobów w jakie możesz się zaangażować. Zostań mentorką, partnerem lub po prostu powiedz innym o programie!',
       cta: {
         text: 'Napisz do nas',
-        link: `mailto:girls@dareit.org?subject=dare IT`
+        link: `mailto:girls@dareit.org?subject=dareIT`
       }
     },
 
@@ -318,7 +318,7 @@ const translations = {
         },
         {
           title: 'Wymagane umiejętności',
-          text: "Program jest zaprojektowany tak, by umożliwić uczestnictwo również dziewczynom bez umiejętności projektowania, programowania czy doświadczenia w branży IT. Mogą zaaplikować do dare IT w ramach ścieżki 'Początkująca'."
+          text: "Program jest zaprojektowany tak, by umożliwić uczestnictwo również dziewczynom bez umiejętności projektowania, programowania czy doświadczenia w branży IT. Mogą zaaplikować do dareIT w ramach ścieżki 'Początkująca'."
         },
         {
           title: 'Kryteria wyboru',
@@ -349,7 +349,7 @@ const translations = {
       title2: 'IT',
       title3: '?',
       subtitle: '',
-      copyright: 'dare IT ',
+      copyright: 'dareIT ',
       copyright2: 'Wszelkie prawa zastrzeżone.',
       cta: {
         text: 'Zapisz się do newslettera',
