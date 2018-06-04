@@ -1,6 +1,8 @@
 .hero {
   $spacing: $container-gutter;
   $inner-spacing: 1.5em;
+  $text-limit: 440px;
+  $title-limit: 55%;
 
   position: relative;
   z-index: 1;
@@ -29,7 +31,7 @@
   &__text {
     @extend %text;
 
-    max-width: 440px;
+    max-width: $text-limit;
   }
 
   &__hint {
@@ -64,8 +66,9 @@
       visibility: hidden;
     }
 
-    &__title {
-      max-width: 55%;
+    &__title,
+    &__hint {
+      max-width: $title-limit;
     }
 
     &__image--small-screen {

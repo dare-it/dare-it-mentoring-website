@@ -51,11 +51,11 @@ export default class Footer extends Component {
       <footer class={footerClass}>
         <div class={style.footer__content}>
           <h2 class={classNames(style.footer__text, style['footer__text--lg'])}>
-            {content.title} <span class={style['footer__text--color']}>{content.title2}</span>
+            {content.title}<span class={style['footer__text--color']}>{content.title2}</span>{content.title3}
           </h2>
 
           <h2 class={classNames(style.footer__text, style['footer__text--sm'])}>
-            {content['title-sm']} <span class={style['footer__text--color']}>{content.title2}</span>
+            {content['title-sm']}<span class={style['footer__text--color']}>{content.title2}</span>{content.title3}
           </h2>
 
           <h3 class={style.footer__subtitle}>{content.subtitle}</h3>
