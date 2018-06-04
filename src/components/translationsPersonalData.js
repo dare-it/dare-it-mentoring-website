@@ -9,13 +9,13 @@ const translationsPersonalData = {
     [
       {
         type: 'paragraph',
-        content: 'Administratorem Twoich danych osobowych jest Aleksandra Bis reprezentująca program mentoringu dareIT. Twoje dane będziemy przechowywać i przetwarzać na podstawie Twojej zgody w celu:'
+        content: 'Administratorem Twoich danych osobowych jest Aleksandra Bis, reprezentująca program mentoringowy dareIT. Twoje dane będziemy przechowywać i przetwarzać na podstawie Twojej zgody w celu:'
       },
       {
         type: 'ordered-list',
         content: [
-          'naboru uczestników programu mentoringowego dareIT;',
-          'przeprowadzenia w bieżącej edycji programu;',
+          'naboru uczestników do programu mentoringowego dareIT;',
+          'przeprowadzenia bieżącej edycji programu;',
           'przeprowadzenia przyszłych edycji programu;',
           'informowania Cię o bieżących inicjatywach dareIT.'
         ]
