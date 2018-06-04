@@ -5,10 +5,10 @@ const translations = {
       title2: 'dla dziewczyn:',
       title3: 'pierwsze kroki w IT',
       text: 'Chciałabyś projektować, kodować, zarządzać projektami technologicznymi? Pomożemy Ci to osiągnąć korzystając z własnych doświadczeń.',
-      subtitle: 'Zgłoszenia do 4 czerwca!',
+      subtitle: 'Upłynął termin nadsyłania zgłoszeń do pierwszej edycji dareIT. Jesteś zainteresowana kolejną?',
       cta: {
-        text: 'Aplikuj do programu',
-        link: 'https://docs.google.com/forms/d/e/1FAIpQLSdwDnTVgybaOs00vsItYtsxGdoeHb9SB3gPU_XfeLKwpZpc2Q/viewform?usp=sf_link'
+        text: 'Zapisz się do newslettera',
+        link: 'https://goo.gl/forms/B3yaGhCMc2BF1u7r1'
       }
     },
 
@@ -344,16 +344,17 @@ const translations = {
     },
 
     footer: {
-      title: 'Czekamy na aplikacje ',
-      'title-sm': 'Aplikacje ',
-      title2: 'do 4 czerwca',
-      subtitle: 'Zrób pierwszy krok!',
+      title: 'Jesteś zainteresowana kolejną edycją dare',
+      'title-sm': 'Zainteresowana dare',
+      title2: 'IT',
+      title3: '?',
+      subtitle: '',
       copyright: 'dare IT ',
       copyright2: 'Wszelkie prawa zastrzeżone.',
       cta: {
-        text: 'Aplikuj do programu',
-        'text-sm': 'Aplikuj',
-        link: 'https://docs.google.com/forms/d/e/1FAIpQLSdwDnTVgybaOs00vsItYtsxGdoeHb9SB3gPU_XfeLKwpZpc2Q/viewform?usp=sf_link'
+        text: 'Zapisz się do newslettera',
+        'text-sm': 'Newsletter',
+        link: 'https://goo.gl/forms/B3yaGhCMc2BF1u7r1'
       }
     }
   }
