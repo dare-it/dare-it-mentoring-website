@@ -204,6 +204,13 @@ const translations = {
           info: 'Projektuję.',
           image: '../../assets/mentors/ela-kumela.jpg',
           alt: 'Ela Kumela photo'
+        },
+        {
+          name: 'Julia Mączka',
+          job: 'UX Designer',
+          info: 'Wierzę, że dobrym projektowaniem możemy zbawić świat. Dla zachowania balansu zakładam wrotki, albo czytam książki w parku.',
+          image: '../../assets/mentors/julia-maczka.jpg',
+          alt: 'Julia Maczka'
         }
       ]
     },
