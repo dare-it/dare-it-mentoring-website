@@ -74,34 +74,27 @@ export default () => (
         </div>
       </section>
 
-      <section class={style['home__section--gradient']}>
-        <Heading text={text.home.mentors.title} type="pushed" />
+      <section class={classNames(style['home__section--dark'], style.home__section)}>
+        <div class={classNames(style.home__container, style['home__container--no-spacing'])}>
+          <Heading text={text.home.mentors.title} />
+        </div>
 
         <PeopleGrid people={text.home.mentors.people} id={style['home-screen-sm']} />
-
-        <Slider people={text.home.mentors.people} id={style['home-screen-xs']} />
       </section>
 
       <section class={style.home__section}>
         <div class={style.home__container}>
-          <div class={style['home__row--flex']}>
-            <div class={style['col-5']}>
-              <Heading text={text.home.program.title} />
-            </div>
-
-            <div class={style['col-7']}>
-              <Subtitle text={text.home.program.subtitle} />
-
-              <p class={style.home__text}>{text.home.program.text}</p>
-            </div>
-          </div>
+          <Heading text={text.home.info.title} />
 
           <div class={style['home__row--flex']}>
-            {text.home.program.cards.map(card => (
-              <div class={classNames(style['col-6'], style.home__column)}>
-                <Card data={card} type={card.type} double={false} />
-              </div>
-            ))}
+            <div class={style['col-3']}>
+              <Subtitle text={text.home.info.subtitle} variant="primary" />
+            </div>
+
+            <div class={style['col-9']}>
+              <List triple items={text.home.info.list} />
+            </div>
+
           </div>
         </div>
       </section>
@@ -125,6 +118,25 @@ export default () => (
               <Subtitle text={text.home.cta.subtitle} variant="secondary" />
               <Subtitle text={text.home.cta.text} variant="white" />
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section class={style.home__section}>
+        <div class={style.home__container}>
+          <div class={style['home__row--flex']}>
+            <Heading text={text.home.testimonials.title} />
+          </div>
+
+          <div class={style['home__row--flex']}>
+            {text.home.testimonials.items.map((item, i) => (
+                <div class={style['col-4']} key={i}>
+                  <Card type={item.type} double>
+                    <p class={style.home__text}>{item.text}</p>
+                    <p class={classNames(style.home__text, style['home__text--bold'])}>{item.author}</p>
+                  </Card>
+                </div>
+            ))}
           </div>
         </div>
       </section>

@@ -1,65 +1,31 @@
 .peopleGrid {
-  $_margin: 90px;
-  $_column-width-sm: 100% / 2;
-  $_column-width-md: 100% / 3;
-  $_column-width-lg: 100% / 5;
-
-  position: relative;
-  z-index: 2;
-  display: flex;
-  flex-wrap: wrap;
   width: 100%;
-  max-width: 1440px;
-  margin: 0 auto;
+  overflow-x: scroll;
+
+  &__container {
+    display: block;
+    max-width: 73rem;
+    margin: 0 auto;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding: 1rem 0;
+  }
 
   &__column {
-    min-width: 100%;
-    margin-top: -1px;
+    width: 100%;
+    flex: 0 0 calc(1400px / 5);
+  }
 
-    @media #{$screen-sm} {
-      min-width: $_column-width-sm;
-    }
-
-    @media #{$screen-only-sm} {
-      &:nth-child(odd) {
-        margin-top: $_margin/2;
-      }
-
-      &:nth-child(2n + 1) {
-        margin-top: -$_margin/2;
-      }
-    }
-
-    @media #{$screen-md} {
-      min-width: $_column-width-md;
-    }
-
-    @media #{$screen-only-md} {
-      &:nth-child(3n + 1),
-      &:nth-child(3n + 3) {
-        margin-top: -$_margin;
-      }
-    }
-
-    @media #{$screen-lg} {
-      min-width: $_column-width-lg;
-
-      &:nth-child(5n + 1),
-      &:nth-child(5n + 3),
-      &:nth-child(5n + 5) {
-        margin-top: -$_margin;
-      }
-
-      &:nth-child(5n + 2):last-child,
-      &:nth-child(5n + 2):nth-last-child(2),
-      &:nth-child(5n + 4):last-child {
-        margin-top: -$_margin;
-        margin-left: $_column-width-lg;
-      }
-
-      &:nth-child(5n + 2):last-child {
-        margin-left: 3 * $_column-width-lg;
-      }
+  @media #{$screen-max-md} {
+    &__column {
+      flex: 0 0 200px;
+      padding-right: 1rem;
     }
   }
 }

@@ -43,6 +43,10 @@ export default class Footer extends Component {
     root.addEventListener('scroll', this.handleScroll);
   }
 
+  componentWillUnmount() {
+    root.removeEventListener('scroll', this.handleScroll);
+  }
+
   render() {
     const { className, content } = this.props;
     const footerClass = classNames([style.footer, className], this.state.isFixed ? style['footer--fixed']: null );

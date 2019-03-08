@@ -18,8 +18,8 @@
     }
 
     &--with-waves {
-      margin-bottom: -105px;
-      padding-bottom: 130px;
+      margin-bottom: -6rem;
+      padding-bottom: 6rem;
       overflow: hidden;
       background-color: $background;
 
@@ -94,6 +94,11 @@
       margin-bottom: 2em;
     }
 
+    &--bold {
+      font-weight: 600;
+      letter-spacing: 1px;
+    }
+
     & + & {
       margin-top: .5em;
     }
@@ -113,9 +118,6 @@
   }
 
   @media #{$screen-sm} {
-    &__section--with-waves {
-      padding-bottom: 200px;
-    }
 
     &__image {
       max-width: calc(100% / 3);
@@ -153,13 +155,15 @@
   }
 
   @media #{$screen-xl} {
+
     &__section--with-waves {
-      .home__container:before,
-      .home__container:after {
-        display: none;
+      .home__container::before,
+      .home__container::after {
+        content: none;
       }
     }
   }
+
 }
 
 $colsNumber: 12;
@@ -168,29 +172,11 @@ $spacing: $container-gutter;
 @for $i from 1 through $colsNumber {
   .col-#{$i} {
     flex: 0 0 100%;
-    padding: 10px 0;
+    padding: 10px;
 
     @media #{$screen-md} {
       flex: calc((100% / #{$colsNumber} * #{$i}) - (#{$spacing} * #{$i}));
-
-      & + & {
-        margin-left: $spacing;
-      }
     }
-  }
-}
-
-#home-screen-sm {
-  display: none;
-}
-
-@media #{$screen-sm} {
-  #home-screen-sm {
-    display: flex;
-  }
-
-  #home-screen-xs {
-    display: none;
   }
 }
 
