@@ -4,10 +4,10 @@ const translations = {
       title: 'Program mentorski',
       title2: 'dla dziewczyn:',
       title3: 'pierwsze kroki w IT',
-      text: 'Chciałabyś projektować, kodować, zarządzać projektami technologicznymi? Pomożemy Ci to osiągnąć korzystając z własnych doświadczeń.',
-      subtitle: 'Upłynął termin nadsyłania zgłoszeń do pierwszej edycji dareIT. Jesteś zainteresowana kolejną?',
+      text: 'Chciałabyś projektować, kodować, zarządzać projektami technologicznymi? Pomożemy Ci to osiągnąć korzystając z własnych doświadczeń. Aplikuj do drugiej edycji programu mentorskiego dateIT!',
+      subtitle: 'Zgłoszenia do 14 marca',
       cta: {
-        text: 'Zapisz się do newslettera',
+        text: 'Aplikuj do programu',
         link: 'https://goo.gl/forms/B3yaGhCMc2BF1u7r1'
       }
     },
@@ -212,6 +212,40 @@ const translations = {
           image: '../../assets/mentors/julia-maczka.jpg',
           alt: 'Julia Maczka'
         }
+      ]
+    },
+
+    testimonials: {
+      title: 'Uczestniczki o dareIT',
+      items: [
+        {
+          text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type",
+          author: 'Kinga, Designer',
+          type: 'top-left'
+        },
+        {
+          text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type",
+          author: 'Kinga, Designer',
+          type: 'bottom-left-action'
+        },
+        {
+          text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type",
+          author: 'Kinga, Designer',
+          type: 'top-left'
+        }
+      ]
+    },
+
+    info: {
+      title: 'Ten program jest dla Ciebie',
+      subtitle: 'Twoje wykształcenie, zawód i wiek nie mają znaczenia',
+      list: [
+        'Jedna z nas będzie Twoją mentorką przez 3 miesiące',
+        'Pomożemy z CV, portfolio i rozmową rekrutacyjną',
+        'Poznasz nasze codzienne narzędzia pracy',
+        'Jedna z nas będzie Twoją mentorką przez 3 miesiące',
+        'Pomożemy z CV, portfolio i rozmową rekrutacyjną',
+        'Poznasz nasze codzienne narzędzia pracy',
       ]
     },
 
