@@ -1,0 +1,85 @@
+.testimonials {
+  $spacing: 20px;
+
+  position: relative;
+  z-index: 9;
+
+  &__container {
+    @extend %container;
+
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  &__heading {
+    margin-bottom: 2rem;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    margin: 0 -$spacing;
+  }
+
+  &__item {
+    flex: 0 0 100%;
+    padding: $spacing;
+
+    &:nth-child(2) {
+      order: 3;
+    }
+  }
+
+  &__text {
+    @extend %text;
+  }
+
+  &__subtitle {
+    @extend %text;
+
+    margin-top: 1rem;
+    font-weight: 600;
+  }
+
+  &__label {
+    @include flex-font(17, 20);
+
+    display: inline-block;
+    padding: 0 1.5em;
+    margin-left: auto;
+    font-weight: 700;
+    line-height: 2.5em;
+    color: $white;
+    letter-spacing: 1px;
+    text-decoration: none;
+    background-color: $action;
+    border-radius: 4px;
+    text-align: center;
+    white-space: nowrap;
+  }
+
+  @media #{$screen-md} {
+    &__container {
+      padding-top: 6rem;
+    }
+
+    &__heading {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 0;
+    }
+
+    &__list {
+      flex-direction: row;
+    }
+
+    &__item {
+      flex: 0 0 calc(100% / 3);
+
+      &:nth-child(2) {
+        order: unset;
+      }
+    }
+  }
+}

@@ -5,7 +5,7 @@
   $title-limit: 55%;
 
   position: relative;
-  z-index: 1;
+  z-index: 9;
   overflow: hidden;
   color: $white;
   background-color: $accent;
@@ -90,8 +90,8 @@
 
   @media #{$screen-lg} {
     &__container {
-      padding-top: ($inner-spacing * 5);
-      padding-bottom: ($inner-spacing * 7);
+      padding-top: ($inner-spacing * 3);
+      padding-bottom: ($inner-spacing * 5);
     }
 
     &__image--large-screen {

@@ -5,6 +5,10 @@
   $circle-border: 5px;
   $line-size: 5px;
 
+  position: relative;
+  z-index: 9;
+  background-color: $background;
+
   &__container {
     @extend %container;
   }

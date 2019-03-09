@@ -1,5 +1,6 @@
 .home {
   $spacing: $container-gutter;
+  $column-margin: 10px;
 
   padding-bottom: $footer-size-sm;
 
@@ -11,10 +12,7 @@
     }
 
     &--gradient {
-      position: relative;
-      max-width: map-get($screen-sizes, 'xl');
-      margin: 0 auto;
-      background-image: linear-gradient(to bottom, $background 0, transparent 40%);
+      background-image: linear-gradient(to bottom, $background 0, transparent 100%);
     }
 
     &--with-waves {
@@ -51,6 +49,11 @@
         }
       }
     }
+
+    &--pushed {
+      z-index: 9;
+      background-color: $white;
+    }
   }
 
   &__container {
@@ -68,6 +71,8 @@
   }
 
   &__row {
+    margin: 0 -$column-margin;
+
     &--flex {
       display: flex;
       flex-wrap: wrap;
@@ -118,7 +123,6 @@
   }
 
   @media #{$screen-sm} {
-
     &__image {
       max-width: calc(100% / 3);
     }
@@ -149,13 +153,16 @@
   @media #{$screen-lg} {
     padding-bottom: $footer-size-lg;
 
+    &__section--with-waves {
+      padding-bottom: 10rem;
+    }
+
     &__image {
       max-width: calc(100% / 4);
     }
   }
 
   @media #{$screen-xl} {
-
     &__section--with-waves {
       .home__container::before,
       .home__container::after {
@@ -163,7 +170,6 @@
       }
     }
   }
-
 }
 
 $colsNumber: 12;

@@ -16,7 +16,7 @@ export default ({ data, className, type, content }) => {
   );
 
   return (
-    <div class={style.timeline}>
+    <section class={style.timeline}>
       <article class={style.timeline__container}>
         <div class={style.timeline__content}>
           <section class={partClassnamesTop}>
@@ -38,6 +38,6 @@ export default ({ data, className, type, content }) => {
           </section>
         </div>
       </article>
-    </div>
+    </section>
   );
 };

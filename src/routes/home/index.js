@@ -16,6 +16,7 @@ import Quotation from '../../components/quotation';
 import Subtitle from '../../components/subtitle';
 import Timeline from '../../components/timeline';
 import Slider from '../../components/slider';
+import Testimonials from '../../components/testimonials';
 
 export default () => (
   <div>
@@ -74,7 +75,7 @@ export default () => (
         </div>
       </section>
 
-      <section class={classNames(style['home__section--dark'], style.home__section)}>
+      <section class={classNames(style['home__section--gradient'], style.home__section)}>
         <div class={classNames(style.home__container, style['home__container--no-spacing'])}>
           <Heading text={text.home.mentors.title} />
         </div>
@@ -94,20 +95,15 @@ export default () => (
             <div class={style['col-9']}>
               <List triple items={text.home.info.list} />
             </div>
-
           </div>
         </div>
       </section>
 
-      <section class={style['home__section--dark']}>
-         <Timeline content={text.home.timeline} />
-      </section>
+      <Timeline content={text.home.timeline} />
 
-      <section class={style.home__section}>
-        <Pattern items={text.home.about.list} />
-
+      <Pattern background={text.home.about.background}>
         <div class={style.home__container}>
-          <div class={style['home__row--flex']}>
+          <div class={classNames(style.home__row, style['home__row--flex'])}>
             <div class={style['col-6']}>
               <Heading text={text.home.cta.title} type="white" />
             </div>
@@ -118,26 +114,9 @@ export default () => (
             </div>
           </div>
         </div>
-      </section>
+      </Pattern>
 
-      <section class={style.home__section}>
-        <div class={style.home__container}>
-          <div class={style['home__row--flex']}>
-            <Heading text={text.home.testimonials.title} />
-          </div>
-
-          <div class={style['home__row--flex']}>
-            {text.home.testimonials.items.map((item, i) => (
-                <div class={style['col-4']} key={i}>
-                  <Card type={item.type} double>
-                    <p class={style.home__text}>{item.text}</p>
-                    <p class={classNames(style.home__text, style['home__text--bold'])}>{item.author}</p>
-                  </Card>
-                </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      <Testimonials content={text.home.testimonials} />
 
       <section class={style.home__section}>
         <div class={style.home__container}>
@@ -145,7 +124,9 @@ export default () => (
             <div class={style['col-4']}>
               <Heading text={text.home.partners.main.title} type="small" />
 
-              {text.home.partners.main.partners.map(partner => <img src={`../../assets/logos/${partner.src}.png`} alt={partner.alt} />)}
+              {text.home.partners.main.partners.map(partner => (
+                <img src={`../../assets/logos/${partner.src}.png`} alt={partner.alt} />
+              ))}
             </div>
 
             <div class={style['col-8']}>
@@ -160,7 +141,7 @@ export default () => (
         </div>
       </section>
 
-      <section class={style.home__section}>
+      <section class={classNames(style.home__section, style['home__section--pushed'])}>
         <div class={classNames(style.home__container, style['home__container--no-spacing'])}>
           <Card double size="big" type="bottom-left">
             <div class={style['home__row--flex']}>
@@ -176,7 +157,11 @@ export default () => (
                 </div>
 
                 <div class={style.home__row}>
-                  <Button text={text.home.getInvolved.cta.text} href={text.home.getInvolved.cta.link} type="action" />
+                  <Button
+                    text={text.home.getInvolved.cta.text}
+                    href={text.home.getInvolved.cta.link}
+                    type="action"
+                  />
                 </div>
               </div>
             </div>
@@ -196,4 +181,3 @@ export default () => (
     <Footer content={text.home.footer} />
   </div>
 );
-

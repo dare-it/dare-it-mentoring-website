@@ -2,9 +2,11 @@
   $icon-size: 50px;
 
   position: relative;
+  z-index: 9;
   padding: 1.85em;
   font-size: .9rem;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, .05);
+  background-color: $white;
 
   &:before {
     position: absolute;

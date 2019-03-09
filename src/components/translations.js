@@ -5,7 +5,7 @@ const translations = {
       title2: 'dla dziewczyn:',
       title3: 'pierwsze kroki w IT',
       text: 'Chciałabyś projektować, kodować, zarządzać projektami technologicznymi? Pomożemy Ci to osiągnąć korzystając z własnych doświadczeń. Aplikuj do drugiej edycji programu mentorskiego dateIT!',
-      subtitle: 'Zgłoszenia do 14 marca',
+      subtitle: 'Zgłoszenia do 14 marca!',
       cta: {
         text: 'Aplikuj do programu',
         link: 'https://goo.gl/forms/B3yaGhCMc2BF1u7r1'
@@ -29,7 +29,8 @@ const translations = {
         'Web Development',
         'Project Management',
         'Digital Marketing'
-      ]
+      ],
+      background: 'User Experience Design UI & Visual Design Web Development Project Management Digital Marketing User Experience Design UI & Visual Design Web Development Project Management Digital Marketing'
     },
 
     work: {
@@ -211,20 +212,21 @@ const translations = {
 
     testimonials: {
       title: 'Uczestniczki o dareIT',
+      label: 'Edycja 2018',
       items: [
         {
-          text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type",
-          author: 'Kinga, Designer',
+          text: "Kontakt z mentorem face to face – to jest bezcenne. Spotkania były wspaniałe i bardzo inspirujące.",
+          author: 'Jowita, Web Development',
           type: 'top-left'
         },
         {
-          text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type",
-          author: 'Kinga, Designer',
+          text: 'DareIT to duża dawka wiedzy i dobrej energii, najlepszy program mentorski w jakim brałam udział',
+          author: 'Kasia, Visual Design',
           type: 'bottom-left-action'
         },
         {
-          text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type",
-          author: 'Kinga, Designer',
+          text: "Ogromne wsparcie mentorki dało mi motywację i pozwoliło uwierzyć, że się uda.",
+          author: 'Ania, UX Design',
           type: 'top-left'
         }
       ]
@@ -263,32 +265,20 @@ const translations = {
         title: 'Wspierają nas',
         partners: [
           {
-            src: 'girlscodefun-logo',
-            alt: 'Girls Code Fun logo'
-          },
-          {
             src: 'inkubator-logo',
             alt: 'Inkubator uw logo'
+          },
+          {
+            src: 'girlscodefun-logo',
+            alt: 'Girls Code Fun logo'
           },
           {
             src: 'ladiesthatux-logo',
             alt: 'Ladies that Ux logo'
           },
           {
-            src: 'railsgirls-logo',
-            alt: 'Rails Girls logo'
-          },
-          {
-            src: 'mobilewarsaw-logo',
-            alt: 'Mobile Warsaw logo'
-          },
-          {
             src: 'coderslab-logo',
             alt: 'Coders Lab logo'
-          },
-          {
-            src: 'theawwwesomes-logo',
-            alt: 'The Awwwesomes logo'
           },
           {
             src: 'futuredesign-logo',
@@ -297,34 +287,6 @@ const translations = {
           {
             src: 'mindspace-logo',
             alt: 'Mindspace logo'
-          },
-          {
-            src: 'diangogirls-logo',
-            alt: 'Diango Girls logo'
-          },
-          {
-            src: 'warsawjs-logo',
-            alt: 'Warsaw JS logo'
-          },
-          {
-            src: 'tipiux-logo',
-            alt: 'Tipi UX logo'
-          },
-          {
-            src: 'elementtalks-logo',
-            alt: 'Element Talks logo'
-          },
-          {
-            src: 'dribbble-logo',
-            alt: 'Dribbble Warsaw Meetup logo'
-          },
-          {
-            src: 'womenintech-logo',
-            alt: 'Womem in Technology logo'
-          },
-          {
-            src: 'bulldogjob-logo',
-            alt: 'Bulldog Job logo'
           }
         ]
       }

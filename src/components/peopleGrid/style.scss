@@ -1,6 +1,21 @@
 .peopleGrid {
+  position: relative;
   width: 100%;
   overflow-x: scroll;
+  z-index: 9;
+
+  &::-webkit-scrollbar {
+    background: transparent;
+    height: 5px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: transparent;
+  }
 
   &__container {
     display: block;

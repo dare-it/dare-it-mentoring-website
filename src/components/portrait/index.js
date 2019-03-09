@@ -11,11 +11,11 @@ export default ({ text, className, person, variant }) => {
       </div>
 
       <figcaption class={style.portrait__description}>
-        <h4 class={style.portrait__title}>{person.name}</h4>
-
-        <p class={classNames(style.portrait__text, style['portrait__text--bold'])}>{person.job}</p>
-
-        <p class={style.portrait__text}>{person.info}</p>
+        <div class={style.portrait__heading}>
+          <h4 class={style.portrait__title}>{person.name}</h4>
+          <h5 class={style.portrait__subtitle}>{person.job}</h5>
+          <p class={style.portrait__text}>{person.info}</p>
+        </div>
       </figcaption>
     </figure>
   );
