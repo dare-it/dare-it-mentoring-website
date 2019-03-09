@@ -379,16 +379,17 @@ const translations = {
     },
 
     footer: {
-      title: 'Jesteś zainteresowana kolejną edycją dare',
-      'title-sm': 'Zainteresowana dare',
-      title2: 'IT',
-      title3: '?',
-      subtitle: '',
-      copyright: 'dareIT ',
+      title: 'Czekamy na aplikacje ',
+      'title-sm': 'Aplikacje ',
+      title2: 'do 4 kwietnia',
+      'title2-sm': 'do 4.04',
+      title3: '',
+      subtitle: 'Zrób pierwszy krok!',
+      copyright: 'dareit.org ',
       copyright2: 'Wszelkie prawa zastrzeżone.',
       cta: {
-        text: 'Zapisz się do newslettera',
-        'text-sm': 'Newsletter',
+        text: 'Aplikuj do programu',
+        'text-sm': 'Aplikuj',
         link: 'https://goo.gl/forms/B3yaGhCMc2BF1u7r1'
       }
     }
