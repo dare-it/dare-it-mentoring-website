@@ -100,9 +100,7 @@ export default () => (
       </section>
 
       <section class={style['home__section--dark']}>
-        <div class={style.home__container}>
-          <Timeline content={text.home.timeline} />
-        </div>
+         <Timeline content={text.home.timeline} />
       </section>
 
       <section class={style.home__section}>

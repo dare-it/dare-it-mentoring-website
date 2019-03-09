@@ -2,11 +2,15 @@
   $spacing: 3 * $container-gutter;
   $inner-spacing: 30px;
   $circle-size: 6px;
-  $circle-border: 3px;
-  $line-size: 3px;
+  $circle-border: 5px;
+  $line-size: 5px;
+
+  &__container {
+    @extend %container;
+  }
 
   &__content {
-    @extend %container;
+    display: flex;
   }
 
   &__step:after {
@@ -17,6 +21,10 @@
     background-color: $white;
     border-radius: 100%;
     content: '';
+  }
+
+  &__step--bottom:after {
+    border: $circle-border solid $text;
   }
 
   &__part {
@@ -93,9 +101,9 @@
 
   @media #{$screen-max-md} {
     &__content {
-      display: flex;
       flex-direction: column;
       width: 100%;
+      padding: 3rem 0;
     }
 
     &__step {
@@ -103,6 +111,15 @@
       display: flex;
       flex-direction: column;
       font-size: 18px;
+
+      &--bottom {
+        align-items: flex-end;
+
+        &:after {
+          right: calc(-#{$circle-size} - #{$circle-border /2 });
+          top: calc((100% - #{$circle-size}) / 2 );
+        }
+      }
     }
 
     &__part {
@@ -111,18 +128,6 @@
         left: calc((100% - #{$line-size}) / 2);
         width: $line-size;
         height: 100%;
-      }
-
-      &:after {
-        position: absolute;
-        right: calc(50% - 2px);
-        bottom: - $spacing;
-        width: 1px;
-        height: $spacing;
-        border: 0;
-        border-left: 3px solid rgba($text, .1);
-        border-style: dashed;
-        content: '';
       }
 
       > :last-child {
@@ -144,18 +149,16 @@
         .timeline__step {
           width: 50%;
 
-          &:nth-child(2) {
-            margin-top: $spacing;
-          }
+          &:nth-child(2) { margin-top: $spacing; }
 
           &:nth-child(1):after {
             top: 0;
-            right: -$circle-size;
+            right: calc(-#{$circle-border} - #{$circle-size / 2});
           }
 
           &:nth-child(2):after {
             bottom: 0;
-            left: -$circle-size;
+            left: calc(-#{$circle-border} - #{$circle-size / 2});
           }
         }
       }
@@ -163,43 +166,52 @@
       &--bottom {
         .timeline__step {
           &:after {
-            right: calc(-#{$inner-spacing} - #{$circle-size});
+            right: calc(-#{$inner-spacing} - (#{$circle-size} + #{$circle-border / 2}));
           }
 
-          &:nth-child(1):after {
-            top: 0;
-          }
+          &:nth-child(1):after { top: 0; }
 
-          &:nth-child(2):after {
-            bottom: 0;
-          }
+          &:nth-child(2):after { bottom: 0; }
+        }
+
+        &:after {
+          position: absolute;
+          left: calc(50% - #{$line-size / 2});
+          bottom: -3rem;
+          border-width: 0;
+          border-left: $line-size dashed rgba($star-dust, .3);
+          width: 0;
+          height: 3rem;
+          content: '';
         }
       }
-    }
 
-    &__part + &__part {
-      margin-top: $spacing;
+      &--middle {
+        padding: $inner-spacing 0;
+
+        &:before {
+          border-width: 0;
+          border-left: $line-size dashed rgba($star-dust, .3);
+          height: 100%;
+          width: 0;
+        }
+
+        .timeline__step { width: 50%; }
+      }
     }
 
     &__details {
       width: 50%;
-    }
-
-    &__detail {
-      font-size: map-get($font-sizes, 'small');
-    }
-
-    &__detail + &__detail {
-      margin-top: $spacing;
+      padding: $inner-spacing 0;
     }
   }
 
   @media #{$screen-md} {
     &__content {
-      display: flex;
       align-items: start;
-      flex-direction: column;
+      flex-direction: row;
       justify-content: space-between;
+      padding: 12rem 0;
     }
 
     &__part {
@@ -207,7 +219,6 @@
       display: flex;
       justify-content: space-between;
       width: 100%;
-      padding-bottom: $inner-spacing;
 
       &:before {
         bottom: 0;
@@ -216,23 +227,38 @@
         height: $line-size;
       }
 
+      &--top {
+        flex: 0 1 auto;
+
+        &:before {
+          width: 100vw;
+          right: 0;
+          left: auto;
+        }
+      }
+
+      &--middle {
+        flex: 1 0 calc(1440px / 5);
+        max-width: 25%;
+
+        &:before {
+          height: 0;
+          border-width: 0;
+          border-bottom: $line-size dashed rgba($star-dust, .3);
+        }
+      }
+
       &--bottom {
-        margin-bottom: 100px;
+        flex: 0 1 auto;
 
         &:after {
           position: absolute;
-          bottom: 0;
-          left: -$inner-spacing;
-          width: $inner-spacing;
-          height: 1px;
-          border: 0;
-          border-bottom: 3px solid rgba($text, .1);
-          border-style: dashed;
+          left: 100%;
+          top: -$line-size;
+          border-width: 0;
+          border-bottom: $line-size dashed rgba($star-dust, .3);
+          width: 100vw;
           content: '';
-        }
-
-        &:before {
-          background-color: $accent;
         }
       }
     }
@@ -242,20 +268,17 @@
       width: 100%;
     }
 
-    &__part + &__part {
-      margin-top: $inner-spacing * 2;
-    }
-
     &__step {
-      position: relative;
-      width: auto;
+      position: absolute;
+      bottom: $inner-spacing;
+      width: 100%;
 
       &:after {
         bottom: calc(-#{$inner-spacing} - #{$circle-size} + 1px);
         left: 0;
       }
 
-      &:last-of-type {
+      &:nth-of-type(2) {
         text-align: right;
 
         &:after {
@@ -263,44 +286,32 @@
           left: unset;
         }
       }
+
+      &--bottom {
+        top: calc(#{$inner-spacing} - #{$circle-size});
+        bottom: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 0 $inner-spacing;
+        text-align: center;
+
+        &:after {
+          top: calc(-#{$inner-spacing} - #{$circle-border});
+          left: calc((100% - #{$circle-size}) / 2 );
+          border: $circle-border solid $text;
+        }
+      }
     }
 
     &__details {
       position: absolute;
-      bottom: calc(-100% - #{$inner-spacing});
+      top: #{$inner-spacing};
       left: 0;
       display: flex;
-      justify-content: space-between;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
       width: 100%;
-    }
-
-    &__detail {
-      flex: 0 0 33%;
-
-      &:last-child {
-        text-align: right;
-      }
-    }
-
-    &__detail + &__detail {
-      padding-left: $inner-spacing / 3;
-    }
-
-    &__content {
-      flex-direction: row;
-    }
-
-    &__part--top {
-      flex: 0 0 calc(40% - (#{$inner-spacing} / 2));
-    }
-
-    &__part--bottom {
-      flex: 0 0 calc(60% - (#{$inner-spacing} / 2));
-    }
-
-    &__part + &__part {
-      margin-top: 0;
-      margin-left: $inner-spacing;
     }
   }
 }

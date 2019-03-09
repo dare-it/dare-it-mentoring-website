@@ -83,12 +83,20 @@ const translations = {
       top: {
         steps: [
           {
-            title: 'Aplikacja',
-            date: 'do 04.06'
+            title: 'Aplikacje',
+            date: 'do 04.04'
           },
           {
             title: 'Ogłoszenie uczestniczek',
-            date: '11.06'
+            date: '18.04'
+          }
+        ]
+      },
+      middle: {
+        steps: [
+          {
+            title: 'Potwierdzenie udziału od uczestniczek',
+            date: '22.04'
           }
         ]
       },
@@ -96,31 +104,17 @@ const translations = {
         steps: [
           {
             title: 'Start programu',
-            date: '26.06'
+            date: '26.04'
           },
           {
             title: 'Zakończenie programu',
-            date: '18.09'
+            date: '05.07'
           }
         ],
         details: [
-          {
-            items: [
-              'Obiad inauguracyjny'
-            ]
-          },
-          {
-            items: [
-              'Min. 6 indywidualnych sesji mentorskich',
-              'Konsultacje HR'
-            ]
-          },
-          {
-            items: [
-              'Podsumowanie programu',
-              'Afterparty'
-            ]
-          }
+          'Min. 6 indywidualnych sesji mentorskich',
+          'Konsultacje HR',
+          "Otwarte meetup'y raz w miesiący"
         ]
       }
     },
