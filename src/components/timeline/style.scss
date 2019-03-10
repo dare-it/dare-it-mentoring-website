@@ -4,6 +4,7 @@
   $circle-size: 6px;
   $circle-border: 5px;
   $line-size: 5px;
+  $line-dashed: $line-size dashed rgba($star-dust, .3);
 
   position: relative;
   z-index: 9;
@@ -184,7 +185,7 @@
           left: calc(50% - #{$line-size / 2});
           width: 0;
           height: 3rem;
-          border-left: $line-size dashed rgba($star-dust, .3);
+          border-left: $line-dashed;
           border-width: 0;
           content: '';
         }
@@ -196,7 +197,7 @@
         &:before {
           width: 0;
           height: 100%;
-          border-left: $line-size dashed rgba($star-dust, .3);
+          border-left: $line-dashed;
           border-width: 0;
         }
 
@@ -247,8 +248,8 @@
 
         &:before {
           height: 0;
-          border-bottom: $line-size dashed rgba($star-dust, .3);
-          border-width: 0;
+          border: 0;
+          border-bottom: $line-dashed;
         }
       }
 
@@ -260,8 +261,8 @@
           top: -$line-size;
           left: 100%;
           width: 100vw;
-          border-bottom: $line-size dashed rgba($star-dust, .3);
-          border-width: 0;
+          border: 0;
+          border-bottom: $line-dashed;
           content: '';
         }
       }

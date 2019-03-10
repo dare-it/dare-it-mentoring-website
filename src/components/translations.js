@@ -248,7 +248,15 @@ const translations = {
     cta: {
       title: 'Nie tylko dla programistek i projektantek',
       subtitle: 'Możesz pracować w IT niezależnie od Twoich zainteresowań, umiejętności czy mocnych stron.',
-      text: 'Zastanawiasz się, czy to branża dla Ciebie? Czekamy na Twoje pytania: girls@dareit.org'
+      text: [
+        'Zastanawiasz się, czy to branża dla Ciebie?',
+        'Masz pytania dotyczące pracy w IT?',
+        'Dołącz do naszej grupy na'
+      ],
+      link: {
+        text: "facebook'u",
+        href: 'https://www.facebook.com/groups/2029087700497738/'
+      }
     },
 
     partners: {

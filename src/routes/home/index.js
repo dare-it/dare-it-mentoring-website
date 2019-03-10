@@ -109,7 +109,13 @@ export default () => (
 
             <div class={style['col-6']}>
               <Subtitle text={text.home.cta.subtitle} variant="secondary" />
-              <Subtitle text={text.home.cta.text} variant="white" />
+              <Subtitle text={text.home.cta.text[0]} variant="no-spacing" />
+              <Subtitle text={text.home.cta.text[1]} variant="no-spacing" />
+              <Subtitle
+                text={text.home.cta.text[2]}
+                variant="no-spacing"
+                link={<a href={text.home.cta.link.href} target="_blank" rel="noopener">{text.home.cta.link.text}</a>}
+              />
             </div>
           </div>
         </div>

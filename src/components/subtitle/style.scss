@@ -15,4 +15,31 @@
   &--white {
     color: $white;
   }
+
+  &--no-spacing {
+    color: $white;
+
+    & + & {
+      margin-top: 0;
+    }
+  }
+
+  a {
+    $line-size: 5px;
+
+    position: relative;
+    display: inline-block;
+    color: inherit;
+    text-decoration: none;
+
+    &:before {
+      position: absolute;
+      bottom: -$line-size;
+      left: 0;
+      width: 100%;
+      height: $line-size;
+      background: $white;
+      content: '';
+    }
+  }
 }
