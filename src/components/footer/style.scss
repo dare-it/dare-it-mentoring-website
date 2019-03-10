@@ -1,10 +1,12 @@
 .footer {
   $spacing: $container-gutter;
+  $icon-size: 90px;
 
   position: fixed;
   bottom: 0;
   left: 0;
   z-index: 10;
+  overflow: hidden;
   width: 100%;
   color: $white;
   background-color: $accent;
@@ -14,11 +16,34 @@
   &__content {
     @extend %container;
 
+    position: relative;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-between;
     padding: $spacing;
+
+    &:before,
+    &:after {
+      position: absolute;
+      top: 1rem;
+      width: $icon-size;
+      height: $icon-size;
+      content: '';
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    &:before {
+      right: calc(-#{$icon-size} - 2rem);
+      background-image: url('../../assets/icon-x-yellow.png');
+    }
+
+    &:after {
+      left: calc(-#{$icon-size} - 2rem);
+      background-image: url('../../assets/inco-quotation-yellow.png');
+    }
   }
 
   &__text {

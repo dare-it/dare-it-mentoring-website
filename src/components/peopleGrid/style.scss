@@ -1,22 +1,7 @@
 .peopleGrid {
   position: relative;
-  z-index: 9;
+  z-index: 8;
   width: 100%;
-  overflow-x: scroll;
-  scrollbar-color: light;
-
-  &::-webkit-scrollbar {
-    height: 5px;
-    background: transparent;
-  }
-
-  &::-webkit-scrollbar-track {
-    background: transparent;
-  }
-
-  &::-webkit-scrollbar-thumb {
-    background: transparent;
-  }
 
   &__list {
     display: flex;
@@ -31,6 +16,22 @@
   }
 
   @media #{$screen-max-md} {
+    overflow-x: scroll;
+    scrollbar-color: light;
+
+    &::-webkit-scrollbar {
+      height: 5px;
+      background: transparent;
+    }
+
+    &::-webkit-scrollbar-track {
+      background: transparent;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background: transparent;
+    }
+
     &__container {
       display: block;
       max-width: 73rem;
@@ -42,6 +43,54 @@
     &__column {
       flex: 0 0 200px;
       padding-right: 1rem;
+    }
+  }
+
+  @media #{$screen-md} {
+    padding: 1rem 0;
+
+    &__container {
+      &:before,
+      &:after {
+        position: absolute;
+        z-index: 9;
+        width: 60px;
+        height: 60px;
+        content: '';
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+
+      &:before {
+        top: 0;
+        right: 10%;
+        background-image: url('../../assets/icon-quotation-pink.png');
+      }
+  
+      &:after {
+        bottom: 0;
+        left: 10%;
+        background-image: url('../../assets/icon-x-yellow.png');
+      }
+    }
+
+    &__list {
+      overflow-x: scroll;
+      scrollbar-color: light;
+
+      &::-webkit-scrollbar {
+        height: 5px;
+        background: transparent;
+      }
+
+      &::-webkit-scrollbar-track {
+        background: transparent;
+      }
+
+      &::-webkit-scrollbar-thumb {
+        background: transparent;
+      }
     }
   }
 }
