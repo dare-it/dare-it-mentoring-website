@@ -1,13 +1,13 @@
 .footer {
   $spacing: $container-gutter;
-  $icon-size: 90px;
+  $icon-size: 100px;
 
   position: fixed;
   bottom: 0;
   left: 0;
   z-index: 10;
-  overflow: hidden;
   width: 100%;
+  overflow: hidden;
   color: $white;
   background-color: $accent;
   transform: translateY(100%);
@@ -29,20 +29,22 @@
       top: 1rem;
       width: $icon-size;
       height: $icon-size;
-      content: '';
-      background-size: contain;
       background-position: center;
       background-repeat: no-repeat;
+      background-size: contain;
+      content: '';
     }
 
     &:before {
       right: calc(-#{$icon-size} - 2rem);
       background-image: url('../../assets/icon-x-yellow.png');
+      transform: rotate(40deg);
     }
 
     &:after {
       left: calc(-#{$icon-size} - 2rem);
       background-image: url('../../assets/inco-quotation-yellow.png');
+      transform: rotate(15deg);
     }
   }
 

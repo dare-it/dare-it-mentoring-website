@@ -12,7 +12,7 @@
     }
 
     &--gradient {
-      background-image: linear-gradient(to bottom, $background, rgba(255,255,255,0.001));
+      background-image: linear-gradient(to bottom, $background, rgba(255, 255, 255, .001));
     }
 
     &--with-waves {

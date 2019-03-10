@@ -3,12 +3,27 @@
 
   position: relative;
   z-index: 9;
+  overflow: hidden;
 
   &__container {
     @extend %container;
 
     padding-top: 3rem;
     padding-bottom: 3rem;
+
+    &:before {
+      position: absolute;
+      top: 0;
+      right: 0;
+      z-index: -1;
+      width: 700px;
+      height: 550px;
+      background-image: url('../../assets/waves-pattern.png');
+      background-repeat: no-repeat;
+      background-size: contain;
+      content: '';
+      transform: rotate(180deg) translate(-200px, 300px);
+    }
   }
 
   &__heading {
@@ -80,6 +95,12 @@
       &:nth-child(2) {
         order: unset;
       }
+    }
+  }
+
+  @media only screen and (min-width: 100rem) {
+    &__container:before {
+      content: none;
     }
   }
 }

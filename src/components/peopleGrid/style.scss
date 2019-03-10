@@ -17,7 +17,6 @@
 
   @media #{$screen-max-md} {
     overflow-x: scroll;
-    scrollbar-color: light;
 
     &::-webkit-scrollbar {
       height: 5px;
@@ -56,10 +55,10 @@
         z-index: 9;
         width: 60px;
         height: 60px;
-        content: '';
-        background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
+        background-size: contain;
+        content: '';
       }
 
       &:before {
@@ -67,7 +66,7 @@
         right: 10%;
         background-image: url('../../assets/icon-quotation-pink.png');
       }
-  
+
       &:after {
         bottom: 0;
         left: 10%;
@@ -77,7 +76,6 @@
 
     &__list {
       overflow-x: scroll;
-      scrollbar-color: light;
 
       &::-webkit-scrollbar {
         height: 5px;
