@@ -164,8 +164,8 @@
 
   @media #{$screen-xl} {
     &__section--with-waves {
-      .home__container::before,
-      .home__container::after {
+      .home__container:before,
+      .home__container:after {
         content: none;
       }
     }

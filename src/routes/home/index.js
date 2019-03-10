@@ -15,7 +15,6 @@ import PeopleGrid from '../../components/peopleGrid';
 import Quotation from '../../components/quotation';
 import Subtitle from '../../components/subtitle';
 import Timeline from '../../components/timeline';
-import Slider from '../../components/slider';
 import Testimonials from '../../components/testimonials';
 
 export default () => (

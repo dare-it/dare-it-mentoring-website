@@ -1,12 +1,12 @@
 .peopleGrid {
   position: relative;
+  z-index: 9;
   width: 100%;
   overflow-x: scroll;
-  z-index: 9;
 
   &::-webkit-scrollbar {
-    background: transparent;
     height: 5px;
+    background: transparent;
   }
 
   &::-webkit-scrollbar-track {
@@ -33,8 +33,8 @@
   }
 
   &__column {
-    width: 100%;
     flex: 0 0 calc(1400px / 5);
+    width: 100%;
   }
 
   @media #{$screen-max-md} {

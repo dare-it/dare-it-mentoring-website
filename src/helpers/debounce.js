@@ -5,7 +5,7 @@ function debounce(callback, wait = 300, context = this) {
   const later = () => callback.apply(context, callbackArgs);
 
   return function() {
-    callbackArgs = arguments;
+    callbackArgs = arguments; // eslint-disable-line
     clearTimeout(timeout);
     timeout = setTimeout(later, wait);
   };

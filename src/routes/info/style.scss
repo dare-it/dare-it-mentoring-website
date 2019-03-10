@@ -51,26 +51,26 @@ h1 {
   }
 
   &__list {
-    counter-reset: item;
     padding: 0;
     list-style: none;
+    counter-reset: item;
 
     .info__list-item {
       position: relative;
-      counter-increment: item;
       padding-left: 30px;
+      counter-increment: item;
 
       &:before {
         position: absolute;
         top: .6 * $_line-height;
         left: .5em;
-        line-height: 1em;
         display: inline-block;
         width: 1em;
         height: 1em;
         font-weight: 900;
-        text-align: center;
+        line-height: 1em;
         color: $blue;
+        text-align: center;
         transform: translate(-50%, -50%);
       }
     }

@@ -120,8 +120,8 @@
         align-items: flex-end;
 
         &:after {
-          right: calc(-#{$circle-size} - #{$circle-border /2 });
-          top: calc((100% - #{$circle-size}) / 2 );
+          top: calc((100% - #{$circle-size}) / 2);
+          right: calc(-#{$circle-size} - #{$circle-border / 2});
         }
       }
     }
@@ -180,12 +180,12 @@
 
         &:after {
           position: absolute;
-          left: calc(50% - #{$line-size / 2});
           bottom: -3rem;
-          border-width: 0;
-          border-left: $line-size dashed rgba($star-dust, .3);
+          left: calc(50% - #{$line-size / 2});
           width: 0;
           height: 3rem;
+          border-left: $line-size dashed rgba($star-dust, .3);
+          border-width: 0;
           content: '';
         }
       }
@@ -194,10 +194,10 @@
         padding: $inner-spacing 0;
 
         &:before {
-          border-width: 0;
-          border-left: $line-size dashed rgba($star-dust, .3);
-          height: 100%;
           width: 0;
+          height: 100%;
+          border-left: $line-size dashed rgba($star-dust, .3);
+          border-width: 0;
         }
 
         .timeline__step { width: 50%; }
@@ -235,9 +235,9 @@
         flex: 0 1 auto;
 
         &:before {
-          width: 100vw;
           right: 0;
           left: auto;
+          width: 100vw;
         }
       }
 
@@ -247,8 +247,8 @@
 
         &:before {
           height: 0;
-          border-width: 0;
           border-bottom: $line-size dashed rgba($star-dust, .3);
+          border-width: 0;
         }
       }
 
@@ -257,11 +257,11 @@
 
         &:after {
           position: absolute;
-          left: 100%;
           top: -$line-size;
-          border-width: 0;
-          border-bottom: $line-size dashed rgba($star-dust, .3);
+          left: 100%;
           width: 100vw;
+          border-bottom: $line-size dashed rgba($star-dust, .3);
+          border-width: 0;
           content: '';
         }
       }
@@ -301,7 +301,7 @@
 
         &:after {
           top: calc(-#{$inner-spacing} - #{$circle-border});
-          left: calc((100% - #{$circle-size}) / 2 );
+          left: calc((100% - #{$circle-size}) / 2);
           border: $circle-border solid $text;
         }
       }
@@ -312,9 +312,9 @@
       top: #{$inner-spacing};
       left: 0;
       display: flex;
+      align-items: center;
       flex-direction: column;
       justify-content: center;
-      align-items: center;
       width: 100%;
     }
   }

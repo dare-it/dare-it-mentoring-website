@@ -215,7 +215,7 @@ const translations = {
       label: 'Edycja 2018',
       items: [
         {
-          text: "Kontakt z mentorem face to face – to jest bezcenne. Spotkania były wspaniałe i bardzo inspirujące.",
+          text: 'Kontakt z mentorem face to face – to jest bezcenne. Spotkania były wspaniałe i bardzo inspirujące.',
           author: 'Jowita, Web Development',
           type: 'top-left'
         },
@@ -225,7 +225,7 @@ const translations = {
           type: 'bottom-left-action'
         },
         {
-          text: "Ogromne wsparcie mentorki dało mi motywację i pozwoliło uwierzyć, że się uda.",
+          text: 'Ogromne wsparcie mentorki dało mi motywację i pozwoliło uwierzyć, że się uda.',
           author: 'Ania, UX Design',
           type: 'top-left'
         }
@@ -241,7 +241,7 @@ const translations = {
         'Poznasz nasze codzienne narzędzia pracy',
         'Jedna z nas będzie Twoją mentorką przez 3 miesiące',
         'Pomożemy z CV, portfolio i rozmową rekrutacyjną',
-        'Poznasz nasze codzienne narzędzia pracy',
+        'Poznasz nasze codzienne narzędzia pracy'
       ]
     },
 
