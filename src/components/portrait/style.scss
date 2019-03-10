@@ -58,11 +58,10 @@
   }
 
   &__title {
-    @include flex-font(18, 24);
-
     margin: 0;
     margin-bottom: .3rem;
     padding: 0;
+    font-size: 1.12rem;
     transition: opacity .5s ease-in-out, transform .4s ease-in-out;
   }
 
@@ -146,6 +145,10 @@
     &__heading {
       transform: translateY(calc(100% - 50px));
       transition: all .4s ease;
+    }
+
+    &__title {
+      font-size: 1.35rem;
     }
 
     &__subtitle {

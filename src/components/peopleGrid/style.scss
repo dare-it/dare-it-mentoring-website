@@ -3,6 +3,7 @@
   z-index: 9;
   width: 100%;
   overflow-x: scroll;
+  scrollbar-color: light;
 
   &::-webkit-scrollbar {
     height: 5px;
@@ -15,14 +16,6 @@
 
   &::-webkit-scrollbar-thumb {
     background: transparent;
-  }
-
-  &__container {
-    display: block;
-    max-width: 73rem;
-    margin: 0 auto;
-    padding-right: 1.5rem;
-    padding-left: 1.5rem;
   }
 
   &__list {
@@ -38,6 +31,14 @@
   }
 
   @media #{$screen-max-md} {
+    &__container {
+      display: block;
+      max-width: 73rem;
+      margin: 0 auto;
+      padding-right: 1.5rem;
+      padding-left: 1.5rem;
+    }
+
     &__column {
       flex: 0 0 200px;
       padding-right: 1rem;

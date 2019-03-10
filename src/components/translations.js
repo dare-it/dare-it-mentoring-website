@@ -134,7 +134,7 @@ const translations = {
           name: 'Aleksandra Bis',
           job: 'Pomysłodawczyni, UX Designer',
           info: 'Zamieniam pomysły w użyteczne produkty. Jak nie w pracy, to na koncercie.',
-          image: '../../assets/mentors/ola-bis.jpg',
+          image: '../../assets/mentors/aleksandra-bis.jpg',
           alt: 'Aleksandra Bis photo'
         },
         {
@@ -206,6 +206,181 @@ const translations = {
           info: 'Wierzę, że dobrym projektowaniem możemy zbawić świat. Dla zachowania balansu zakładam wrotki, albo czytam książki w parku.',
           image: '../../assets/mentors/julia-maczka.jpg',
           alt: 'Julia Maczka'
+        },
+        {
+          name: 'Aga Naplocha',
+          job: 'UX Designer',
+          info: 'Wierzę, że dobrym projektowaniem możemy zbawić świat. Dla zachowania balansu zakładam wrotki, albo czytam książki w parku.',
+          image: '../../assets/mentors/aga-naplocha.jpg',
+          alt: 'Aga Naplocha'
+        },
+        {
+          name: 'Agata Kumela',
+          job: 'UX Designer',
+          info: 'Wierzę, że dobrym projektowaniem możemy zbawić świat. Dla zachowania balansu zakładam wrotki, albo czytam książki w parku.',
+          image: '../../assets/mentors/agata-kumela.jpg',
+          alt: 'Agata Kumela'
+        },
+        {
+          name: 'Agnieszka Zwolińska',
+          job: 'UX Designer',
+          info: 'Wierzę, że dobrym projektowaniem możemy zbawić świat. Dla zachowania balansu zakładam wrotki, albo czytam książki w parku.',
+          image: '../../assets/mentors/agnieszka-zwolinska.jpg',
+          alt: 'Agnieszka Zwolińska'
+        },
+        {
+          name: 'Angelika Losko',
+          job: 'UX Designer',
+          info: 'Wierzę, że dobrym projektowaniem możemy zbawić świat. Dla zachowania balansu zakładam wrotki, albo czytam książki w parku.',
+          image: '../../assets/mentors/angelika-losko.jpg',
+          alt: 'Angelika Losko'
+        },
+        {
+          name: 'Estera Kot',
+          job: 'UX Designer',
+          info: 'Wierzę, że dobrym projektowaniem możemy zbawić świat. Dla zachowania balansu zakładam wrotki, albo czytam książki w parku.',
+          image: '../../assets/mentors/estera-kot.jpg',
+          alt: 'Estera Kot'
+        },
+        {
+          name: 'Gosia Heba',
+          job: 'UX Designer',
+          info: 'Wierzę, że dobrym projektowaniem możemy zbawić świat. Dla zachowania balansu zakładam wrotki, albo czytam książki w parku.',
+          image: '../../assets/mentors/gosia-heba.jpg',
+          alt: 'Gosia Heba'
+        },
+        {
+          name: 'Joanna Cymkiewicz',
+          job: 'UX Designer',
+          info: 'Wierzę, że dobrym projektowaniem możemy zbawić świat. Dla zachowania balansu zakładam wrotki, albo czytam książki w parku.',
+          image: '../../assets/mentors/joanna-cymkiewicz.jpg',
+          alt: 'Joanna Cymkiewicz'
+        },
+        {
+          name: 'Joanna Żaboklicka',
+          job: 'UX Designer',
+          info: 'Wierzę, że dobrym projektowaniem możemy zbawić świat. Dla zachowania balansu zakładam wrotki, albo czytam książki w parku.',
+          image: '../../assets/mentors/joanna-zaboklicka.jpg',
+          alt: 'Joanna Żaboklicka'
+        },
+        {
+          name: 'Kaja Toczyńska',
+          job: 'UX Designer',
+          info: 'Wierzę, że dobrym projektowaniem możemy zbawić świat. Dla zachowania balansu zakładam wrotki, albo czytam książki w parku.',
+          image: '../../assets/mentors/kaja-toczyska.jpg',
+          alt: 'Kaja Toczyńska'
+        },
+        {
+          name: 'Karina Ślężak',
+          job: 'UX Designer',
+          info: 'Wierzę, że dobrym projektowaniem możemy zbawić świat. Dla zachowania balansu zakładam wrotki, albo czytam książki w parku.',
+          image: '../../assets/mentors/karina-slezak.jpg',
+          alt: 'Karina Ślężak'
+        },
+        {
+          name: 'Karolina Rosół',
+          job: 'UX Designer',
+          info: 'Wierzę, że dobrym projektowaniem możemy zbawić świat. Dla zachowania balansu zakładam wrotki, albo czytam książki w parku.',
+          image: '../../assets/mentors/karolina-rosol.jpg',
+          alt: 'Karolina Rosół'
+        },
+        {
+          name: 'Katarzyna Zerka',
+          job: 'UX Designer',
+          info: 'Wierzę, że dobrym projektowaniem możemy zbawić świat. Dla zachowania balansu zakładam wrotki, albo czytam książki w parku.',
+          image: '../../assets/mentors/katarzyna-zerka.jpg',
+          alt: 'Katarzyna Zerka'
+        },
+        {
+          name: 'Katarzyna Janota',
+          job: 'UX Designer',
+          info: 'Wierzę, że dobrym projektowaniem możemy zbawić świat. Dla zachowania balansu zakładam wrotki, albo czytam książki w parku.',
+          image: '../../assets/mentors/katarzyna-janota.jpg',
+          alt: 'Katarzyna Janota'
+        },
+        {
+          name: 'Katarzyna Koczylańska',
+          job: 'UX Designer',
+          info: 'Wierzę, że dobrym projektowaniem możemy zbawić świat. Dla zachowania balansu zakładam wrotki, albo czytam książki w parku.',
+          image: '../../assets/mentors/katarzyna-konczalska.jpg',
+          alt: 'Katarzyna Koczylańska'
+        },
+        {
+          name: 'Katarzyna Kubalska',
+          job: 'UX Designer',
+          info: 'Wierzę, że dobrym projektowaniem możemy zbawić świat. Dla zachowania balansu zakładam wrotki, albo czytam książki w parku.',
+          image: '../../assets/mentors/katarzyna-kubalska.jpg',
+          alt: 'Katarzyna Kubalska'
+        },
+        {
+          name: 'Katarzyna Siedlarek',
+          job: 'UX Designer',
+          info: 'Wierzę, że dobrym projektowaniem możemy zbawić świat. Dla zachowania balansu zakładam wrotki, albo czytam książki w parku.',
+          image: '../../assets/mentors/katarzyna-siedlarek.jpg',
+          alt: 'Katarzyna Siedlarek'
+        },
+        {
+          name: 'Klaudia Beczkowska',
+          job: 'UX Designer',
+          info: 'Wierzę, że dobrym projektowaniem możemy zbawić świat. Dla zachowania balansu zakładam wrotki, albo czytam książki w parku.',
+          image: '../../assets/mentors/klaudia-beczkowska.jpg',
+          alt: 'Klaudia Beczkowska'
+        },
+        {
+          name: 'Klaudyna Banczerowska',
+          job: 'UX Designer',
+          info: 'Wierzę, że dobrym projektowaniem możemy zbawić świat. Dla zachowania balansu zakładam wrotki, albo czytam książki w parku.',
+          image: '../../assets/mentors/klaudyna-banczerowska.jpg',
+          alt: 'Klaudyna Banczerowska'
+        },
+        {
+          name: 'Magda Sroka',
+          job: 'UX Designer',
+          info: 'Wierzę, że dobrym projektowaniem możemy zbawić świat. Dla zachowania balansu zakładam wrotki, albo czytam książki w parku.',
+          image: '../../assets/mentors/magda-sroka.jpg',
+          alt: 'Magda Sroka'
+        },
+        {
+          name: 'Małgorzata Ksionek',
+          job: 'UX Designer',
+          info: 'Wierzę, że dobrym projektowaniem możemy zbawić świat. Dla zachowania balansu zakładam wrotki, albo czytam książki w parku.',
+          image: '../../assets/mentors/malgorzata-ksionek.jpg',
+          alt: 'Małgorzata Ksionek'
+        },
+        {
+          name: 'Marta Klimowicz',
+          job: 'UX Designer',
+          info: 'Wierzę, że dobrym projektowaniem możemy zbawić świat. Dla zachowania balansu zakładam wrotki, albo czytam książki w parku.',
+          image: '../../assets/mentors/marta-klimowicz.jpg',
+          alt: ' Marta Klimowicz'
+        },
+        {
+          name: 'Marzena Wojtkowiak',
+          job: 'UX Designer',
+          info: 'Wierzę, że dobrym projektowaniem możemy zbawić świat. Dla zachowania balansu zakładam wrotki, albo czytam książki w parku.',
+          image: '../../assets/mentors/marzena-wojtkowiak.jpg',
+          alt: 'Marzena Wojtkowiak'
+        },
+        {
+          name: 'Monika Jagodynska',
+          job: 'UX Designer',
+          info: 'Wierzę, że dobrym projektowaniem możemy zbawić świat. Dla zachowania balansu zakładam wrotki, albo czytam książki w parku.',
+          image: '../../assets/mentors/monika-jagodynska.jpg',
+          alt: 'Monika Jagodynska'
+        },
+        {
+          name: 'Natalia Pelcer',
+          job: 'UX Designer',
+          info: 'Wierzę, że dobrym projektowaniem możemy zbawić świat. Dla zachowania balansu zakładam wrotki, albo czytam książki w parku.',
+          image: '../../assets/mentors/natalia-pelcer.jpg',
+          alt: 'Natalia Pelcer'
+        },
+        {
+          name: 'Ola Fiszbak',
+          job: 'UX Designer',
+          info: 'Wierzę, że dobrym projektowaniem możemy zbawić świat. Dla zachowania balansu zakładam wrotki, albo czytam książki w parku.',
+          image: '../../assets/mentors/ola-fiszbak.jpg',
+          alt: 'Ola Fiszbak'
         }
       ]
     },
