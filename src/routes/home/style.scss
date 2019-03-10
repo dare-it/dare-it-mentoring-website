@@ -12,7 +12,7 @@
     }
 
     &--gradient {
-      background-image: linear-gradient(to bottom, $background 0, transparent 100%);
+      background-image: linear-gradient(to bottom, $background, rgba(255,255,255,0.001));
     }
 
     &--with-waves {
@@ -45,7 +45,7 @@
           bottom: 0;
           left: 0;
           display: none;
-          transform: translate(-320px, 380px);
+          transform: translate(-360px, 400px);
         }
       }
     }
@@ -162,7 +162,7 @@
     }
   }
 
-  @media #{$screen-xl} {
+  @media only screen and (min-width: 100rem) {
     &__section--with-waves {
       .home__container:before,
       .home__container:after {

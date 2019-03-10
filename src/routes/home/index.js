@@ -26,7 +26,7 @@ export default () => (
     <main class={style.home}>
       <section class={style.home__section}>
         <div class={style.home__container}>
-          <div class={style['home__row--flex']}>
+          <div class={classNames(style.home__row, style['home__row--flex'])}>
             <div class={classNames(style['col-6'], style['col-narrow'])}>
               <Heading text={text.home.about.title} />
 
@@ -38,7 +38,7 @@ export default () => (
             </div>
           </div>
 
-          <div class={style['home__row--flex']}>
+          <div class={classNames(style.home__row, style['home__row--flex'])}>
             <div class={classNames(style['col-6'], style['col-narrow'])}>
               <Subtitle text={text.home.about.subtitle2} />
             </div>
@@ -60,7 +60,7 @@ export default () => (
         <div class={style.home__container}>
           <Heading text={text.home.work.title} />
 
-          <div class={style['home__row--flex']}>
+          <div class={classNames(style.home__row, classNames(style.home__row, style['home__row--flex']))}>
             <div class={classNames(style['col-6'], style['col-narrow'])}>
               <p class={style.home__text}>{text.home.work.text1}</p>
 
@@ -86,7 +86,7 @@ export default () => (
         <div class={style.home__container}>
           <Heading text={text.home.info.title} />
 
-          <div class={style['home__row--flex']}>
+          <div class={classNames(style.home__row, style['home__row--flex'])}>
             <div class={style['col-3']}>
               <Subtitle text={text.home.info.subtitle} variant="primary" />
             </div>
@@ -102,7 +102,7 @@ export default () => (
 
       <Pattern background={text.home.about.background}>
         <div class={style.home__container}>
-          <div class={classNames(style.home__row, style['home__row--flex'])}>
+          <div class={classNames(style.home__row, classNames(style.home__row, style['home__row--flex']))}>
             <div class={style['col-6']}>
               <Heading text={text.home.cta.title} type="white" />
             </div>
@@ -125,7 +125,7 @@ export default () => (
 
       <section class={style.home__section}>
         <div class={style.home__container}>
-          <div class={style['home__row--flex']}>
+          <div class={classNames(style.home__row, style['home__row--flex'])}>
             <div class={style['col-4']}>
               <Heading text={text.home.partners.main.title} type="small" />
 
@@ -149,7 +149,7 @@ export default () => (
       <section class={classNames(style.home__section, style['home__section--pushed'])}>
         <div class={classNames(style.home__container, style['home__container--no-spacing'])}>
           <Card double size="big" type="bottom-left">
-            <div class={style['home__row--flex']}>
+            <div class={classNames(style.home__row, style['home__row--flex'])}>
               <div class={classNames(style['col-6'], style['col-narrow'])}>
                 <Heading text={text.home.getInvolved.title} />
 
