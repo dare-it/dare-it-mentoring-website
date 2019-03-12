@@ -11,7 +11,7 @@ import Heading from '../../components/heading';
 import Hero from '../../components/hero';
 import List from '../../components/list';
 import Pattern from '../../components/pattern';
-import PeopleGrid from '../../components/peopleGrid';
+import Slider from '../../components/Slider';
 import Quotation from '../../components/quotation';
 import Subtitle from '../../components/subtitle';
 import Timeline from '../../components/timeline';
@@ -75,11 +75,7 @@ export default () => (
       </section>
 
       <section class={classNames(style['home__section--gradient'], style.home__section)}>
-        <div class={classNames(style.home__container, style['home__container--no-spacing'])}>
-          <Heading text={text.home.mentors.title} />
-        </div>
-
-        <PeopleGrid people={text.home.mentors.people} id={style['home-screen-sm']} />
+        <Slider people={text.home.mentors.people} />
       </section>
 
       <section class={style.home__section}>
