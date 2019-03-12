@@ -3,12 +3,12 @@ const translations = {
     hero: {
       title: 'Program mentorski',
       title2: 'dla dziewczyn:',
-      title3: 'pierwsze kroki w IT',
+      title3: 'zmień branżę na IT',
       text: 'Chciałabyś projektować, kodować, zarządzać projektami technologicznymi? Pomożemy Ci to osiągnąć korzystając z własnych doświadczeń. Aplikuj do drugiej edycji programu mentorskiego dateIT!',
-      subtitle: 'Zgłoszenia do 14 marca!',
+      subtitle: 'Zgłoszenie do 4 kwietnia!',
       cta: {
         text: 'Aplikuj do programu',
-        link: 'https://goo.gl/forms/B3yaGhCMc2BF1u7r1'
+        link: 'https://goo.gl/forms/u2Ue515AhDqEmGKM2'
       }
     },
 
@@ -36,8 +36,6 @@ const translations = {
     work: {
       title: 'Jak będziemy pracować',
       subtitle: 'My też byłyśmy kiedyś na Twoim miejscu, dlatego wiemy, jak trudne może być zrobienie pierwszego kroku. Chcemy Ci w tym pomóc.',
-      text1: 'Jak wybrać lub zmienić zawód?',
-      text2: 'Jak zacząć, jeśli nie wiesz od czego?',
       list: [
         'Jedna z nas będzie Twoją mentorką przez 3 miesiące',
         'Podzielimy się z Tobą teorią i praktyką',
@@ -125,259 +123,252 @@ const translations = {
       people: [
         {
           name: 'Joanna Erd',
-          job: 'Frontend Developer',
+          job: 'El Passion | Warszawa',
           info: 'Pixel-perfekcyjna pani domu. Pukam w klawiaturę, aż stanie się coś dobrego.',
           image: '../../assets/mentors/joanna-erd.jpg',
           alt: 'Joanna Erd photo'
         },
         {
           name: 'Aleksandra Bis',
-          job: 'Pomysłodawczyni, UX Designer',
+          job: 'El Passion | Warszawa',
           info: 'Zamieniam pomysły w użyteczne produkty. Aktywistka i projektantka. Wiecznie w biegu, ale w słusznej sprawie!',
           image: '../../assets/mentors/aleksandra-bis.jpg',
           alt: 'Aleksandra Bis photo'
         },
         {
-          name: 'Dorota Badzian',
-          job: 'Project Manager',
-          info: 'Etnolożka, miłośniczka lasu i staroci. Na co dzień ogarniam projekty.',
-          image: '../../assets/mentors/dorota-badzian.jpg',
-          alt: 'Dorota Badzian photo'
-        },
-        {
           name: 'Kasia Łaszczewska',
-          job: 'Backend Developer',
+          job: 'El Passion | Warszawa',
           info: 'Piszę backend aplikacji internetowych.',
           image: '../../assets/mentors/kasia-laszczewska.jpg',
           alt: 'Kasia Łaszczewska photo'
         },
         {
-          name: 'Ulyana Yasinovska',
-          job: 'Customer Success Specialist',
-          info: 'Po latach w marketingu wylądowałam w biznes developmencie. Teraz płacą mi za to, że gadam z ludźmi i pomagam realizować ich projekty.',
-          image: '../../assets/mentors/ulyana-yasinovska.jpg',
-          alt: 'Ulyana Yasinovska photo'
-        },
-        {
           name: 'Ula Kowalska',
-          job: 'Backend Developer',
+          job: 'El Passion | Warszawa',
           info: 'Fanka kotów, pand i durnych żartów. Możesz ze mną pogadać nie tylko o web devie, ale też o dobrej muzyce i wszelkiej maści serialach.',
           image: '../../assets/mentors/ula-kowalska.jpg',
           alt: 'Ula Kowalska photo'
         },
         {
           name: 'Natalie Pilling',
-          job: 'Co-Founder and CEO',
+          job: 'El Passion | Warszawa',
           info: 'I believe in leading by example. I would like to see more women in leadership roles.',
           image: '../../assets/mentors/natalie-pilling.jpg',
           alt: 'Natalie Pilling photo'
         },
         {
           name: 'Kinga Sieminiak',
-          job: 'Frontend Developer',
+          job: 'Intive | Szczecin',
           info: 'Piszę kolorowe internety.',
           image: '../../assets/mentors/kinga-sieminiak.jpg',
           alt: 'Kinga Sieminiak'
         },
         {
-          name: 'Agnieszka Dunin',
-          job: 'Digital Marketing Manager',
-          info: 'Tłumaczę programistyczne rozkminy na słowa i teksty. Zwiedzam świat z plecakiem.',
-          image: '../../assets/mentors/agnieszka-dunin.jpg',
-          alt: 'Agnieszka Dunin photo'
-        },
-        {
           name: 'Agnieszka Sobańska',
-          job: 'People Operations Manager',
-          info: 'Poluję na ludzi, a potem dbam o to, żeby dobrze się im było w jednym w warszawskich software housów.',
+          job: 'El Passion | Warszawa',
+          info: 'Spinam projekty digitalowe (performance marketing/analityka), a po 17:00 myślę nad blogiem kulinarnym i nowym serialem kryminalnym!',
           image: '../../assets/mentors/agnieszka-sobanska.jpg',
           alt: 'Agnieszka Sobańska photo'
         },
         {
+          name: 'Weronika Sczepanik',
+          job: 'iProspect | Warszawa',
+          info: 'Poluję na ludzi, a potem dbam o to, żeby dobrze się im było w jednym w warszawskich software housów.',
+          image: '../../assets/mentors/weronika-sczepanik.jpg',
+          alt: 'Weronika Sczepanik'
+        },
+        {
           name: 'Ela Kumela',
-          job: 'UI Designer',
+          job: 'El Passion | Warszawa',
           info: 'Projektuję.',
           image: '../../assets/mentors/ela-kumela.jpg',
           alt: 'Ela Kumela photo'
         },
         {
           name: 'Julia Mączka',
-          job: 'UX Designer',
+          job: 'El Passion | Warszawa',
           info: 'Wierzę, że dobrym projektowaniem możemy zbawić świat. Dla zachowania balansu zakładam wrotki, albo czytam książki w parku.',
           image: '../../assets/mentors/julia-maczka.jpg',
           alt: 'Julia Maczka'
         },
         {
           name: 'Aga Naplocha',
-          job: 'UX Designer',
+          job: 'Adobe | Warszawa',
           info: 'Najwięcej frajdy sprawia mi praca na styku dwóch obszarów – designu i frontend developmentu. Po godzinach rozwijam The Awwwesomes – organizuje wydarzenia, konferencje (m.im Element UX Talks), prowadzę warszty i wykłady.',
           image: '../../assets/mentors/aga-naplocha.jpg',
           alt: 'Aga Naplocha'
         },
         {
           name: 'Agata Kumela',
-          job: 'UX Designer',
+          job: 'infinIT Codelab | Wrocław',
           info: 'Koduję',
           image: '../../assets/mentors/agata-kumela.jpg',
           alt: 'Agata Kumela'
         },
         {
           name: 'Agnieszka Zwolińska',
-          job: 'UX Designer',
+          job: 'Demant | Warszawa',
           info: 'Antropolożka, fanka badań etnograficznych w UXie. Całe życie coś studiuje, od niedawna uczy innych.',
           image: '../../assets/mentors/agnieszka-zwolinska.jpg',
           alt: 'Agnieszka Zwolińska'
         },
         {
           name: 'Angelika Losko',
-          job: 'UX Designer',
+          job: ' Laboratorium EE | Warszawa',
           info: 'Absolwentka Interaction Design w Malmö i kognitywistka. Po godzinach badam mózgi.',
           image: '../../assets/mentors/angelika-losko.jpg',
           alt: 'Angelika Losko'
         },
         {
           name: 'Estera Kot',
-          job: 'UX Designer',
+          job: 'Procter & Gamble | Warszawa',
           info: 'Piszę kod. Lubię też pobiegać i pójść na cross-fit.',
           image: '../../assets/mentors/estera-kot.jpg',
           alt: 'Estera Kot'
         },
         {
           name: 'Gosia Heba',
-          job: 'UX Designer',
+          job: 'El Passion | Warszawa',
           info: 'Uwielbiam układać kolorowe puzzelki kodu na froncie, uczyć się i zachłannie eksplorować. Wierzę w ciekawość i w uśmiech.',
           image: '../../assets/mentors/gosia-heba.jpg',
           alt: 'Gosia Heba'
         },
         {
           name: 'Joanna Cymkiewicz',
-          job: 'UX Designer',
-          info: 'Wierzę, że dobrym projektowaniem możemy zbawić świat. Dla zachowania balansu zakładam wrotki, albo czytam książki w parku.',
+          job: 'Demant | Warszawa',
+          info: 'Na dizajn patrzę szeroko, tak jak szeroko patrzę na świat. Projektuję rozwiązania dostępne starając się nikogo nie wykluczać.',
           image: '../../assets/mentors/joanna-cymkiewicz.jpg',
           alt: 'Joanna Cymkiewicz'
         },
         {
-          name: 'Joanna Żaboklicka',
-          job: 'UX Designer',
+          name: 'Joanna Żabolicka',
+          job: 'Demant | Warszawa',
           info: 'Lubię kompleksowe i złożone projekty, głównie w zakresie produktów medycznych i usług publicznych.',
           image: '../../assets/mentors/joanna-zaboklicka.jpg',
-          alt: 'Joanna Żaboklicka'
+          alt: 'Joanna Żabolicka'
         },
         {
-          name: 'Kaja Toczyńska',
-          job: 'UX Designer',
+          name: 'Kaja Toczyska',
+          job: 'InFullMobile | Warszawa',
           info: 'Projektantka UX z pasją i wykształceniem neuropsychologicznym. Sportowy freak',
           image: '../../assets/mentors/kaja-toczyska.jpg',
-          alt: 'Kaja Toczyńska'
+          alt: 'Kaja Toczyska'
         },
         {
           name: 'Karina Ślęzak',
-          job: 'UX Designer',
+          job: 'Google | Warszawa',
           info: 'Pasjonatka prostej komunikacji budująca świat wolny od skomplikowanego języka',
           image: '../../assets/mentors/karina-slezak.jpg',
           alt: 'Karina Ślęzak'
         },
         {
           name: 'Karolina Rosół',
-          job: 'UX Designer',
+          job: 'Polidea | Warszawa',
           info: 'Sprawiam, że dzieją się rzeczy. Optymalizacja, kotyfikacja, książka, moda, siłka.',
           image: '../../assets/mentors/karolina-rosol.jpg',
           alt: 'Karolina Rosół'
         },
         {
           name: 'Katarzyna Zerka',
-          job: 'UX Designer',
+          job: 'Google | Warszawa',
           info: 'Po pierwsze ludzie :)',
           image: '../../assets/mentors/katarzyna-zerka.jpg',
           alt: 'Katarzyna Zerka'
         },
         {
           name: 'Katarzyna Janota',
-          job: 'UX Designer',
+          job: 'Edisonda | Kraków',
           info: 'Projektuję interakcje, eksperymentuję z platformami i przyglądam się światu. Po godzinach dużo czytam i współtworzę grupa.robocza.org.',
           image: '../../assets/mentors/katarzyna-janota.jpg',
           alt: 'Katarzyna Janota'
         },
         {
           name: 'Katarzyna Kończalska',
-          job: 'UX Designer',
+          job: 'Norian | Toruń',
           info: 'Piszę softwarowe roboty, które robią nudną pracę za ludzi.',
           image: '../../assets/mentors/katarzyna-konczalska.jpg',
           alt: 'Katarzyna Kończalska'
         },
         {
           name: 'Katarzyna Kubalska',
-          job: 'UX Designer',
+          job: 'Growbots | Warszawa',
           info: 'Pasjonatka dobrego designu, roślin i muzyki. W wolnych chwilach haftuje i gra na basie.',
           image: '../../assets/mentors/katarzyna-kubalska.jpg',
           alt: 'Katarzyna Kubalska'
         },
         {
+          name: 'Sona Kerim',
+          job: 'El Passion | Warszawa',
+          info: 'I was a history teacher for 6 years and needed a change. I now work as a Digital Marketing Specialist at EL Passion, run educational workshops in other IT companies, and write freelance.',
+          image: '../../assets/mentors/sona-kerim.jpg',
+          alt: 'Sona Kerim'
+        },
+        {
           name: 'Katarzyna Siedlarek',
-          job: 'UX Designer',
+          job: 'Accenture Technologu | Warszawa',
           info: 'Cloud devops, współorganizatorka Django Girls i PyLigh',
           image: '../../assets/mentors/katarzyna-siedlarek.jpg',
           alt: 'Katarzyna Siedlarek'
         },
         {
           name: 'Klaudia Bęczkowska',
-          job: 'UX Designer',
+          job: 'El Passion | Warszawa',
           info: 'Z wykształcenia medyk, z wyboru Front-end Developer :) Lubię podróże małe i duże, a mój ulubiony serial to Przyjaciele.',
           image: '../../assets/mentors/klaudia-beczkowska.jpg',
           alt: 'Klaudia Bęczkowska'
         },
         {
           name: 'Klaudyna Bańczerowska',
-          job: 'UX Designer',
+          job: 'Bank BGŻ BNP Paribas | Warszawa',
           info: 'Fanka nowych technologii, dobrego kina i podróży, przy okazji projektuję ładne i funkcjonalne rzeczy ;)',
           image: '../../assets/mentors/klaudyna-banczerowska.jpg',
           alt: 'Klaudyna Bańczerowska'
         },
         {
           name: 'Magda Sroka',
-          job: 'UX Designer',
+          job: 'eRecruiter.pl | Warszawa',
           info: 'Poruszam się na styku projektowania i biznesu,  a baterie ładuję na CrossFit MGW <3',
           image: '../../assets/mentors/magda-sroka.jpg',
           alt: 'Magda Sroka'
         },
         {
           name: 'Małgorzata Ksionek',
-          job: 'UX Designer',
+          job: 'GitLab | Warszawa',
           info: 'Z wyboru i pasji web-developer, z wykształcenia psycholog. W programowaniu najbardziej lubi ciągłe wyzwania.W wolnym czasie czyta lub bezskutecznie walczy z uzależnieniem od Netflixa. Fanka kolorowych skarpetek.',
           image: '../../assets/mentors/malgorzata-ksionek.jpg',
           alt: 'Małgorzata Ksionek'
         },
         {
           name: 'Marta Klimowicz',
-          job: 'UX Designer',
+          job: 'Monterail | Warszawa',
           info: 'Doktorka socjologii od ponad 10 lat zajmująca się marketingiem internetowym.',
           image: '../../assets/mentors/marta-klimowicz.jpg',
           alt: ' Marta Klimowicz'
         },
         {
           name: 'Marzena Wojtkowiak',
-          job: 'UX Designer',
+          job: 'Nethone | Warszawa',
           info: 'Miłośniczka biegów ulicznych, skandynawskich kryminałów i dalekich podróży. Na co dzień analizuje dane jako data scientistka.',
           image: '../../assets/mentors/marzena-wojtkowiak.jpg',
           alt: 'Marzena Wojtkowiak'
         },
         {
-          name: 'Monika Jagodynska',
-          job: 'UX Designer',
+          name: 'Monika Jagodyńska',
+          job: 'eRecruiter.pl | Warszawa',
           info: 'Spełniałam się w roli Testera, później Projektanta UX, a aktualnie jestem Product Ownerem. Początek dnia tylko z dobrą kawą :)',
           image: '../../assets/mentors/monika-jagodynska.jpg',
-          alt: 'Monika Jagodynska'
+          alt: 'Monika Jagodyńska'
         },
         {
           name: 'Natalia Pelcer',
-          job: 'UX Designer',
+          job: 'Daftcode | Warszawa',
           info: "Wspieram zespół Venture Building, między innymi przy nawiązywaniu współpracy z inwestorami i pozyskiwaniu finansowania dla venture'ów.",
           image: '../../assets/mentors/natalia-pelcer.jpg',
           alt: 'Natalia Pelcer'
         },
         {
           name: 'Olka Fiszbak-Biernat',
-          job: 'UX Designer',
+          job: 'HTDevelopers | Łódź',
           info: 'Na co dzień rozwijam produkty związane z branżą healthcare dla klientów z USA."Po godzinach miłośniczka roślin, mopsów i mocnej kawy :) ',
           image: '../../assets/mentors/ola-fiszbak.jpg',
           alt: 'Ola Fiszbak'
@@ -502,11 +493,11 @@ const translations = {
         },
         {
           title: 'Ograniczenia wiekowe',
-          text: 'Do aplikowania zapraszamy pełnoletnie dziewczyny zainteresowane postawieniem pierwszych kroków w IT lub rozwinięciem posiadanych już umiejętności.'
+          text: 'Do aplikowania zapraszamy pełnoletnie kobiety zainteresowane zmianą kariery i podjęciem pierwszej pracy w IT lub rozwinięciem posiadanych już umiejętności.'
         },
         {
           title: 'Wymagane umiejętności',
-          text: "Program jest zaprojektowany tak, by umożliwić uczestnictwo również dziewczynom bez umiejętności projektowania, programowania czy doświadczenia w branży IT. Mogą zaaplikować do dareIT w ramach ścieżki 'Początkująca'."
+          text: "Program jest zaprojektowany tak, by umożliwić uczestnictwo również dziewczynom bez umiejętności projektowania, programowania czy doświadczenia w branży IT"
         },
         {
           title: 'Kryteria wyboru',
@@ -543,7 +534,7 @@ const translations = {
       cta: {
         text: 'Aplikuj do programu',
         'text-sm': 'Aplikuj',
-        link: 'https://goo.gl/forms/B3yaGhCMc2BF1u7r1'
+        link: 'https://goo.gl/forms/u2Ue515AhDqEmGKM2'
       }
     }
   }

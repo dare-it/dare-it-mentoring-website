@@ -62,10 +62,6 @@ export default () => (
 
           <div class={classNames(style.home__row, classNames(style.home__row, style['home__row--flex']))}>
             <div class={classNames(style['col-6'], style['col-narrow'])}>
-              <p class={style.home__text}>{text.home.work.text1}</p>
-
-              <p class={classNames(style.home__text, style['home__text--spaced'])}>{text.home.work.text2}</p>
-
               <Subtitle text={text.home.work.subtitle} />
             </div>
 
