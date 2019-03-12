@@ -133,7 +133,7 @@ const translations = {
         {
           name: 'Aleksandra Bis',
           job: 'Pomysłodawczyni, UX Designer',
-          info: 'Zamieniam pomysły w użyteczne produkty. Jak nie w pracy, to na koncercie.',
+          info: 'Zamieniam pomysły w użyteczne produkty. Aktywistka i projektantka. Wiecznie w biegu, ale w słusznej sprawie!',
           image: '../../assets/mentors/aleksandra-bis.jpg',
           alt: 'Aleksandra Bis photo'
         },
@@ -210,42 +210,42 @@ const translations = {
         {
           name: 'Aga Naplocha',
           job: 'UX Designer',
-          info: 'Wierzę, że dobrym projektowaniem możemy zbawić świat. Dla zachowania balansu zakładam wrotki, albo czytam książki w parku.',
+          info: 'Najwięcej frajdy sprawia mi praca na styku dwóch obszarów – designu i frontend developmentu. Po godzinach rozwijam The Awwwesomes – organizuje wydarzenia, konferencje (m.im Element UX Talks), prowadzę warszty i wykłady.',
           image: '../../assets/mentors/aga-naplocha.jpg',
           alt: 'Aga Naplocha'
         },
         {
           name: 'Agata Kumela',
           job: 'UX Designer',
-          info: 'Wierzę, że dobrym projektowaniem możemy zbawić świat. Dla zachowania balansu zakładam wrotki, albo czytam książki w parku.',
+          info: 'Koduję',
           image: '../../assets/mentors/agata-kumela.jpg',
           alt: 'Agata Kumela'
         },
         {
           name: 'Agnieszka Zwolińska',
           job: 'UX Designer',
-          info: 'Wierzę, że dobrym projektowaniem możemy zbawić świat. Dla zachowania balansu zakładam wrotki, albo czytam książki w parku.',
+          info: 'Antropolożka, fanka badań etnograficznych w UXie. Całe życie coś studiuje, od niedawna uczy innych.',
           image: '../../assets/mentors/agnieszka-zwolinska.jpg',
           alt: 'Agnieszka Zwolińska'
         },
         {
           name: 'Angelika Losko',
           job: 'UX Designer',
-          info: 'Wierzę, że dobrym projektowaniem możemy zbawić świat. Dla zachowania balansu zakładam wrotki, albo czytam książki w parku.',
+          info: 'Absolwentka Interaction Design w Malmö i kognitywistka. Po godzinach badam mózgi.',
           image: '../../assets/mentors/angelika-losko.jpg',
           alt: 'Angelika Losko'
         },
         {
           name: 'Estera Kot',
           job: 'UX Designer',
-          info: 'Wierzę, że dobrym projektowaniem możemy zbawić świat. Dla zachowania balansu zakładam wrotki, albo czytam książki w parku.',
+          info: 'Piszę kod. Lubię też pobiegać i pójść na cross-fit.',
           image: '../../assets/mentors/estera-kot.jpg',
           alt: 'Estera Kot'
         },
         {
           name: 'Gosia Heba',
           job: 'UX Designer',
-          info: 'Wierzę, że dobrym projektowaniem możemy zbawić świat. Dla zachowania balansu zakładam wrotki, albo czytam książki w parku.',
+          info: 'Uwielbiam układać kolorowe puzzelki kodu na froncie, uczyć się i zachłannie eksplorować. Wierzę w ciekawość i w uśmiech.',
           image: '../../assets/mentors/gosia-heba.jpg',
           alt: 'Gosia Heba'
         },
@@ -259,126 +259,126 @@ const translations = {
         {
           name: 'Joanna Żaboklicka',
           job: 'UX Designer',
-          info: 'Wierzę, że dobrym projektowaniem możemy zbawić świat. Dla zachowania balansu zakładam wrotki, albo czytam książki w parku.',
+          info: 'Lubię kompleksowe i złożone projekty, głównie w zakresie produktów medycznych i usług publicznych.',
           image: '../../assets/mentors/joanna-zaboklicka.jpg',
           alt: 'Joanna Żaboklicka'
         },
         {
           name: 'Kaja Toczyńska',
           job: 'UX Designer',
-          info: 'Wierzę, że dobrym projektowaniem możemy zbawić świat. Dla zachowania balansu zakładam wrotki, albo czytam książki w parku.',
+          info: 'Projektantka UX z pasją i wykształceniem neuropsychologicznym. Sportowy freak',
           image: '../../assets/mentors/kaja-toczyska.jpg',
           alt: 'Kaja Toczyńska'
         },
         {
-          name: 'Karina Ślężak',
+          name: 'Karina Ślęzak',
           job: 'UX Designer',
-          info: 'Wierzę, że dobrym projektowaniem możemy zbawić świat. Dla zachowania balansu zakładam wrotki, albo czytam książki w parku.',
+          info: 'Pasjonatka prostej komunikacji budująca świat wolny od skomplikowanego języka',
           image: '../../assets/mentors/karina-slezak.jpg',
-          alt: 'Karina Ślężak'
+          alt: 'Karina Ślęzak'
         },
         {
           name: 'Karolina Rosół',
           job: 'UX Designer',
-          info: 'Wierzę, że dobrym projektowaniem możemy zbawić świat. Dla zachowania balansu zakładam wrotki, albo czytam książki w parku.',
+          info: 'Sprawiam, że dzieją się rzeczy. Optymalizacja, kotyfikacja, książka, moda, siłka.',
           image: '../../assets/mentors/karolina-rosol.jpg',
           alt: 'Karolina Rosół'
         },
         {
           name: 'Katarzyna Zerka',
           job: 'UX Designer',
-          info: 'Wierzę, że dobrym projektowaniem możemy zbawić świat. Dla zachowania balansu zakładam wrotki, albo czytam książki w parku.',
+          info: 'Po pierwsze ludzie :)',
           image: '../../assets/mentors/katarzyna-zerka.jpg',
           alt: 'Katarzyna Zerka'
         },
         {
           name: 'Katarzyna Janota',
           job: 'UX Designer',
-          info: 'Wierzę, że dobrym projektowaniem możemy zbawić świat. Dla zachowania balansu zakładam wrotki, albo czytam książki w parku.',
+          info: 'Projektuję interakcje, eksperymentuję z platformami i przyglądam się światu. Po godzinach dużo czytam i współtworzę grupa.robocza.org.',
           image: '../../assets/mentors/katarzyna-janota.jpg',
           alt: 'Katarzyna Janota'
         },
         {
-          name: 'Katarzyna Koczylańska',
+          name: 'Katarzyna Kończalska',
           job: 'UX Designer',
-          info: 'Wierzę, że dobrym projektowaniem możemy zbawić świat. Dla zachowania balansu zakładam wrotki, albo czytam książki w parku.',
+          info: 'Piszę softwarowe roboty, które robią nudną pracę za ludzi.',
           image: '../../assets/mentors/katarzyna-konczalska.jpg',
-          alt: 'Katarzyna Koczylańska'
+          alt: 'Katarzyna Kończalska'
         },
         {
           name: 'Katarzyna Kubalska',
           job: 'UX Designer',
-          info: 'Wierzę, że dobrym projektowaniem możemy zbawić świat. Dla zachowania balansu zakładam wrotki, albo czytam książki w parku.',
+          info: 'Pasjonatka dobrego designu, roślin i muzyki. W wolnych chwilach haftuje i gra na basie.',
           image: '../../assets/mentors/katarzyna-kubalska.jpg',
           alt: 'Katarzyna Kubalska'
         },
         {
           name: 'Katarzyna Siedlarek',
           job: 'UX Designer',
-          info: 'Wierzę, że dobrym projektowaniem możemy zbawić świat. Dla zachowania balansu zakładam wrotki, albo czytam książki w parku.',
+          info: 'Cloud devops, współorganizatorka Django Girls i PyLigh',
           image: '../../assets/mentors/katarzyna-siedlarek.jpg',
           alt: 'Katarzyna Siedlarek'
         },
         {
-          name: 'Klaudia Beczkowska',
+          name: 'Klaudia Bęczkowska',
           job: 'UX Designer',
-          info: 'Wierzę, że dobrym projektowaniem możemy zbawić świat. Dla zachowania balansu zakładam wrotki, albo czytam książki w parku.',
+          info: 'Z wykształcenia medyk, z wyboru Front-end Developer :) Lubię podróże małe i duże, a mój ulubiony serial to Przyjaciele.',
           image: '../../assets/mentors/klaudia-beczkowska.jpg',
-          alt: 'Klaudia Beczkowska'
+          alt: 'Klaudia Bęczkowska'
         },
         {
-          name: 'Klaudyna Banczerowska',
+          name: 'Klaudyna Bańczerowska',
           job: 'UX Designer',
-          info: 'Wierzę, że dobrym projektowaniem możemy zbawić świat. Dla zachowania balansu zakładam wrotki, albo czytam książki w parku.',
+          info: 'Fanka nowych technologii, dobrego kina i podróży, przy okazji projektuję ładne i funkcjonalne rzeczy ;)',
           image: '../../assets/mentors/klaudyna-banczerowska.jpg',
-          alt: 'Klaudyna Banczerowska'
+          alt: 'Klaudyna Bańczerowska'
         },
         {
           name: 'Magda Sroka',
           job: 'UX Designer',
-          info: 'Wierzę, że dobrym projektowaniem możemy zbawić świat. Dla zachowania balansu zakładam wrotki, albo czytam książki w parku.',
+          info: 'Poruszam się na styku projektowania i biznesu,  a baterie ładuję na CrossFit MGW <3',
           image: '../../assets/mentors/magda-sroka.jpg',
           alt: 'Magda Sroka'
         },
         {
           name: 'Małgorzata Ksionek',
           job: 'UX Designer',
-          info: 'Wierzę, że dobrym projektowaniem możemy zbawić świat. Dla zachowania balansu zakładam wrotki, albo czytam książki w parku.',
+          info: 'Z wyboru i pasji web-developer, z wykształcenia psycholog. W programowaniu najbardziej lubi ciągłe wyzwania.W wolnym czasie czyta lub bezskutecznie walczy z uzależnieniem od Netflixa. Fanka kolorowych skarpetek.',
           image: '../../assets/mentors/malgorzata-ksionek.jpg',
           alt: 'Małgorzata Ksionek'
         },
         {
           name: 'Marta Klimowicz',
           job: 'UX Designer',
-          info: 'Wierzę, że dobrym projektowaniem możemy zbawić świat. Dla zachowania balansu zakładam wrotki, albo czytam książki w parku.',
+          info: 'Doktorka socjologii od ponad 10 lat zajmująca się marketingiem internetowym.',
           image: '../../assets/mentors/marta-klimowicz.jpg',
           alt: ' Marta Klimowicz'
         },
         {
           name: 'Marzena Wojtkowiak',
           job: 'UX Designer',
-          info: 'Wierzę, że dobrym projektowaniem możemy zbawić świat. Dla zachowania balansu zakładam wrotki, albo czytam książki w parku.',
+          info: 'Miłośniczka biegów ulicznych, skandynawskich kryminałów i dalekich podróży. Na co dzień analizuje dane jako data scientistka.',
           image: '../../assets/mentors/marzena-wojtkowiak.jpg',
           alt: 'Marzena Wojtkowiak'
         },
         {
           name: 'Monika Jagodynska',
           job: 'UX Designer',
-          info: 'Wierzę, że dobrym projektowaniem możemy zbawić świat. Dla zachowania balansu zakładam wrotki, albo czytam książki w parku.',
+          info: 'Spełniałam się w roli Testera, później Projektanta UX, a aktualnie jestem Product Ownerem. Początek dnia tylko z dobrą kawą :)',
           image: '../../assets/mentors/monika-jagodynska.jpg',
           alt: 'Monika Jagodynska'
         },
         {
           name: 'Natalia Pelcer',
           job: 'UX Designer',
-          info: 'Wierzę, że dobrym projektowaniem możemy zbawić świat. Dla zachowania balansu zakładam wrotki, albo czytam książki w parku.',
+          info: "Wspieram zespół Venture Building, między innymi przy nawiązywaniu współpracy z inwestorami i pozyskiwaniu finansowania dla venture'ów.",
           image: '../../assets/mentors/natalia-pelcer.jpg',
           alt: 'Natalia Pelcer'
         },
         {
-          name: 'Ola Fiszbak',
+          name: 'Olka Fiszbak-Biernat',
           job: 'UX Designer',
-          info: 'Wierzę, że dobrym projektowaniem możemy zbawić świat. Dla zachowania balansu zakładam wrotki, albo czytam książki w parku.',
+          info: 'Na co dzień rozwijam produkty związane z branżą healthcare dla klientów z USA."Po godzinach miłośniczka roślin, mopsów i mocnej kawy :) ',
           image: '../../assets/mentors/ola-fiszbak.jpg',
           alt: 'Ola Fiszbak'
         }
