@@ -6,6 +6,8 @@ import debounce from '../../helpers/debounce';
 import Arrow from '../../assets/arrow.svg';
 import root from 'window-or-global';
 import Heading from '../heading';
+
+import { SLIDER_CONSTS } from './../../consts/index';
 export default class Slider extends Component {
   state = {
     activeIndex: 0,
@@ -19,7 +21,7 @@ export default class Slider extends Component {
   }
 
   handleResize = debounce(() => {
-    root.innerWidth < 768 ? this.setSliderMobile() : this.setSliderDesktop();
+    root.innerWidth < SLIDER_CONSTS.breakpointMD ? this.setSliderMobile() : this.setSliderDesktop();
   }, 300);
 
   slide(reverse = false) {
@@ -69,7 +71,7 @@ export default class Slider extends Component {
     const { people } = this.props;
 
     this.setState({
-      activeIndex: this.state.activeIndex,
+      activeIndex: index,
       childrenLength: people.length,
       slideWidth: `${parseInt(root.innerWidth, 10) / 2.2}`,
       translate: (-parseInt(root.innerWidth, 10) / 2.2) * index
@@ -81,15 +83,15 @@ export default class Slider extends Component {
     const { people } = this.props;
 
     this.setState({
-      activeIndex: this.state.activeIndex,
+      activeIndex: index,
       childrenLength: people.length,
-      slideWidth: 288,
-      translate: -288 * index
+      slideWidth: SLIDER_CONSTS.slider_size_lg,
+      translate: -SLIDER_CONSTS.slider_size_lg * index
     });
   }
 
   componentDidMount() {
-    root.innerWidth < 768 ? this.setSliderMobile() : this.setSliderDesktop();
+    root.innerWidth < SLIDER_CONSTS.breakpointMD ? this.setSliderMobile() : this.setSliderDesktop();
     root.addEventListener('resize', this.handleResize);
   }
 
@@ -97,7 +99,7 @@ export default class Slider extends Component {
     const sliderClass = classNames(style.slider, className);
     const { className, people, id } = this.props;
 
-    const isSliderEnd = Math.abs(this.state.translate) === ((this.state.childrenLength * this.state.slideWidth) - root.innerWidth);
+    const isSliderEnd = Math.abs(this.state.translate) >= ((this.state.childrenLength * this.state.slideWidth) - root.innerWidth);
 
     return (
       <div class={sliderClass} id={id}>

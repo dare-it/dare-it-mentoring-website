@@ -11,7 +11,7 @@ import Heading from '../../components/heading';
 import Hero from '../../components/hero';
 import List from '../../components/list';
 import Pattern from '../../components/pattern';
-import Slider from '../../components/Slider';
+import Slider from '../../components/slider';
 import Quotation from '../../components/quotation';
 import Subtitle from '../../components/subtitle';
 import Timeline from '../../components/timeline';

@@ -140,10 +140,10 @@
 
     &__description {
       padding: 1.5rem;
+      padding-bottom: 0;
     }
 
     &__heading {
-      transform: translateY(calc(100% - 50px));
       transition: all .4s ease;
     }
 
@@ -152,31 +152,12 @@
     }
 
     &__subtitle {
-      margin-bottom: 2rem;
+      margin-bottom: 1rem;
     }
 
     &__text {
-      opacity: 0;
-    }
-
-    &:hover {
-      .portrait__heading {
-        position: relative;
-        bottom: auto;
-        left: auto;
-      }
-
-      .portrait__heading {
-        transform: translateY(0);
-      }
-
-      .portrait__text {
-        opacity: 1;
-      }
-
-      &:after {
-        opacity: 1;
-      }
+      padding-top: 1rem;
+      padding-bottom: 1.5rem;
     }
   }
 }
