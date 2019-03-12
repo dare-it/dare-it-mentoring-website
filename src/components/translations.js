@@ -448,8 +448,8 @@ const translations = {
         title: 'Wspierają nas',
         partners: [
           {
-            src: 'inkubator-logo',
-            alt: 'Inkubator uw logo'
+            src: 'dribbble-logo',
+            alt: 'Dribbble Meetup Warsaw'
           },
           {
             src: 'girlscodefun-logo',
@@ -460,17 +460,25 @@ const translations = {
             alt: 'Ladies that Ux logo'
           },
           {
-            src: 'coderslab-logo',
-            alt: 'Coders Lab logo'
+            src: 'theawwwesomes-logo',
+            alt: 'The Awwwesomes'
           },
           {
             src: 'futuredesign-logo',
             alt: 'Future Design logo'
           },
           {
-            src: 'mindspace-logo',
-            alt: 'Mindspace logo'
-          }
+            src: 'tipiux-logo',
+            alt: 'Tipi UX'
+          },
+          {
+            src: 'inkubator-logo',
+            alt: 'Inkubator uw logo'
+          },
+          {
+            src: 'elementtalks-logo',
+            alt: 'Element Talks'
+          },
         ]
       }
     },
