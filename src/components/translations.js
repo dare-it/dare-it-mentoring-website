@@ -33,7 +33,7 @@ const translations = {
         'Tech/IT Law',
         'Business Strategy',
         'Frontend & Backend Development',
-        'DevOps',
+        'DevOps'
       ],
       background: 'User Experience Design UI & Visual Design Web Development Project Management Digital Marketing User Experience Design UI & Visual Design Web Development Project Management Digital Marketing'
     },
@@ -178,22 +178,22 @@ const translations = {
           name: 'Agnieszka Sobańska',
           job: 'EL Passion | Warszawa',
           path: 'HR',
-          info: 'Spinam projekty digitalowe (performance marketing/analityka), a po 17:00 myślę nad blogiem kulinarnym i nowym serialem kryminalnym!',
+          info: 'Poluję na ludzi, a potem dbam o to, żeby dobrze się im było w jednym w warszawskich software housów.',
           image: '../../assets/mentors/agnieszka-sobanska.jpg',
           alt: 'Agnieszka Sobańska photo'
         },
         {
-          name: 'Weronika Sczepanik',
+          name: 'Weronika Szczepanik',
           job: 'iProspect | Warszawa',
-          path: 'Digital Marketing',
-          info: 'Poluję na ludzi, a potem dbam o to, żeby dobrze się im było w jednym w warszawskich software housów.',
-          image: '../../assets/mentors/weronika-sczepanik.jpg',
-          alt: 'Weronika Sczepanik'
+          path: 'Project Management',
+          info: 'Spinam projekty digitalowe (performance marketing/ analityka), a po 17:00 myślę nad blogiem kulinarnym i nowym serialem kryminalnym!',
+          image: '../../assets/mentors/weronika-szczepanik.jpg',
+          alt: 'Weronika Szczepanik'
         },
         {
           name: 'Ela Kumela',
           job: 'EL Passion | Warszawa',
-          path: 'UI & Visual Design', 
+          path: 'UI & Visual Design',
           info: 'Projektuję.',
           image: '../../assets/mentors/ela-kumela.jpg',
           alt: 'Ela Kumela photo'
@@ -201,7 +201,7 @@ const translations = {
         {
           name: 'Julia Szewczyk',
           job: 'EL Passion | Warszawa',
-          path: 'UX Design', 
+          path: 'UX Design',
           info: 'Wierzę, że dobrym projektowaniem możemy zbawić świat. Dla zachowania balansu zakładam wrotki, albo czytam książki w parku.',
           image: '../../assets/mentors/julia-maczka.jpg',
           alt: 'Julia Szewczyk'
@@ -311,6 +311,14 @@ const translations = {
           alt: 'Katarzyna Janota'
         },
         {
+          name: 'Joanna Rodo',
+          job: '',
+          path: 'UX Design',
+          info: '',
+          image: '../../assets/mentors/placeholder.png',
+          alt: 'Joanna Rodo'
+        },
+        {
           name: 'Katarzyna Kończalska',
           job: 'Norian | Toruń',
           path: 'Backend Development',
@@ -343,6 +351,14 @@ const translations = {
           alt: 'Katarzyna Siedlarek'
         },
         {
+          name: 'Kasia Jarmołkowicz',
+          job: 'Rebased | Kraków',
+          path: 'Backend Development',
+          info: 'Ruby on Rails, Javascript, Elm. Rails Girls. Kawa, koty i spanko.',
+          image: '../../assets/mentors/placeholder.png',
+          alt: 'Kasia Jarmołkowicz'
+        },
+        {
           name: 'Klaudia Bęczkowska',
           job: 'EL Passion | Warszawa',
           path: 'Frontend Development',
@@ -365,6 +381,14 @@ const translations = {
           info: 'Poruszam się na styku projektowania i biznesu,  a baterie ładuję na CrossFit MGW <3',
           image: '../../assets/mentors/magda-sroka.jpg',
           alt: 'Magda Sroka'
+        },
+        {
+          name: 'Paulina Wardęga',
+          job: '',
+          path: 'Digital Marketing',
+          info: '',
+          image: '../../assets/mentors/placeholder.png',
+          alt: 'Paulina Wardęga'
         },
         {
           name: 'Małgorzata Ksionek',
@@ -399,6 +423,14 @@ const translations = {
           alt: 'Monika Jagodyńska'
         },
         {
+          name: 'Maria Guzewska',
+          job: '',
+          path: ' Tech/IT',
+          info: '',
+          image: '../../assets/mentors/placeholder.png',
+          alt: 'Maria Guzewska'
+        },
+        {
           name: 'Natalia Pelcer',
           job: 'Daftcode | Warszawa',
           path: 'Business Strategy',
@@ -423,19 +455,11 @@ const translations = {
           alt: 'Ola Pazio'
         },
         {
-          name: 'Weronika Szczepanik',
-          job: 'iProspect | Warszawa',
-          path: 'Project Management',
-          info: '',
-          image: '../../assets/mentors/weronika-szczepaniak.jpg',
-          alt: 'Weronika Szczepanik'
-        },
-        {
           name: 'Joanna Sitkowska',
           job: '',
           path: 'Project Management',
           info: '',
-          image: '../../assets/mentors/joanna-sitkowska.jpg',
+          image: '../../assets/mentors/placeholder.png',
           alt: 'Joanna Sitkowska'
         },
         {
@@ -443,7 +467,7 @@ const translations = {
           job: '',
           path: 'Backend Development',
           info: '',
-          image: '../../assets/mentors/anna-wszebrowska.jpg',
+          image: '../../assets/mentors/placeholder.png',
           alt: 'Anna Wszebrowska'
         },
         {
@@ -455,53 +479,21 @@ const translations = {
           alt: 'Michalina Dąbek'
         },
         {
+          name: 'Paulina Wardęga',
+          job: '',
+          path: 'Digital Marketing',
+          info: '',
+          image: '../../assets/mentors/placeholder.png',
+          alt: 'Paulina Wardęga'
+        },
+        {
           name: 'Kamila Harasik',
           job: 'Fundacja TechSoup | Warszawa',
           path: ' HR',
           info: 'Fanka nowych technologii i kotów. Od poniedziałku do piątku HRówa od zadań międzyludzkich.',
-          image: '../../assets/mentors/kamila-harasikjpg',
+          image: '../../assets/mentors/kamila-harasik-smolinska.jpg',
           alt: 'Kamila Harasik'
-        },
-        {
-          name: 'Maria Guzewska',
-          job: '',
-          path: ' Tech/IT',
-          info: '',
-          image: '../../assets/mentors/placeholder.jpg',
-          alt: 'Maria Guzewska'
-        },
-        {
-          name: 'Paulina Wardęga',
-          job: '',
-          path: 'Digital Marketing',
-          info: '',
-          image: '../../assets/mentors/placeholder.jpg',
-          alt: 'Paulina Wardęga'
-        },
-        {
-          name: 'Paulina Wardęga',
-          job: '',
-          path: 'Digital Marketing',
-          info: '',
-          image: '../../assets/mentors/placeholder.jpg',
-          alt: 'Paulina Wardęga'
-        },
-        {
-          name: 'Kasia Jarmołkowicz',
-          job: 'Rebased | Kraków',
-          path: 'Backend Development',
-          info: 'Ruby on Rails, Javascript, Elm. Rails Girls. Kawa, koty i spanko.',
-          image: '../../assets/mentors/placeholder.jpg',
-          alt: 'Kasia Jarmołkowicz'
-        },
-        {
-          name: 'Joanna Rodo',
-          job: '',
-          path: 'UX Design',
-          info: '',
-          image: '../../assets/mentors/placeholder.jpg',
-          alt: 'Joanna Rodo'
-        },
+        }
       ]
     },
 
@@ -598,7 +590,7 @@ const translations = {
           {
             src: 'elementtalks-logo',
             alt: 'Element Talks'
-          },
+          }
         ]
       }
     },
@@ -626,7 +618,7 @@ const translations = {
         },
         {
           title: 'Wymagane umiejętności',
-          text: "Program jest zaprojektowany tak, by umożliwić uczestnictwo również dziewczynom bez umiejętności projektowania, programowania czy doświadczenia w branży IT"
+          text: 'Program jest zaprojektowany tak, by umożliwić uczestnictwo również dziewczynom bez umiejętności projektowania, programowania czy doświadczenia w branży IT'
         },
         {
           title: 'Kryteria wyboru',

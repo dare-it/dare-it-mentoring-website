@@ -44,8 +44,10 @@ class Portrait extends Component {
 
   componentDidMount() {
     if (root.innerWidth > SLIDER_CONSTS.breakpointMD) {
-      this.hideInfo();
-      this.attachEventListeners();
+      setTimeout(() => {
+        this.hideInfo();
+        this.attachEventListeners();
+      }, 1000);
     }
 
     window.addEventListener('resize', this.handleResize);

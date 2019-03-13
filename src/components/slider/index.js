@@ -5,7 +5,6 @@ import classNames from 'classnames';
 import debounce from '../../helpers/debounce';
 import Arrow from '../../assets/arrow.svg';
 import root from 'window-or-global';
-import Heading from '../heading';
 
 import { SLIDER_CONSTS } from './../../consts/index';
 export default class Slider extends Component {
@@ -103,20 +102,6 @@ export default class Slider extends Component {
 
     return (
       <div class={sliderClass} id={id}>
-        <div class={style.slider__heading}>
-          <Heading text='Mentorki' />
-
-          <div class={style.slider__actions}>
-            <button class={style.slider__button} onClick={() => this.slide(false)} disabled={this.state.activeIndex === 0}>
-              <Arrow class={classNames(style.slider__arrow, style['slider__arrow--left'])} />
-            </button>
-
-            <button class={style.slider__button} onClick={() => this.slide(true)} disabled={isSliderEnd}>
-              <Arrow class={style.slider__arrow} />
-            </button>
-          </div>
-        </div>
-
         <div class={style.slider__content}>
           <ul
             class={style.slider__grid}
@@ -127,6 +112,16 @@ export default class Slider extends Component {
           >
             {people.map(person => <li class={style.slider__column}><Portrait person={person} /></li>)}
           </ul>
+        </div>
+
+        <div class={style.slider__actions}>
+          <button class={style.slider__button} onClick={() => this.slide(false)} disabled={this.state.activeIndex === 0}>
+            <Arrow class={classNames(style.slider__arrow, style['slider__arrow--left'])} />
+          </button>
+
+          <button class={style.slider__button} onClick={() => this.slide(true)} disabled={isSliderEnd}>
+            <Arrow class={style.slider__arrow} />
+          </button>
         </div>
       </div>
     );

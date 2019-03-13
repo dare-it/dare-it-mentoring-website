@@ -16,6 +16,7 @@ import Quotation from '../../components/quotation';
 import Subtitle from '../../components/subtitle';
 import Timeline from '../../components/timeline';
 import Testimonials from '../../components/testimonials';
+import Scripts from '../../components/scripts';
 
 export default () => (
   <div>
@@ -71,6 +72,10 @@ export default () => (
       </section>
 
       <section class={classNames(style['home__section--gradient'], style.home__section)}>
+        <div class={classNames(style.home__container, style['home__container--no-spacing'])}>
+          <Heading text={text.home.mentors.title} />
+        </div>
+
         <Slider people={text.home.mentors.people} />
       </section>
 
@@ -176,5 +181,7 @@ export default () => (
     </main>
 
     <Footer content={text.home.footer} />
+
+    <Scripts />
   </div>
 );

@@ -127,11 +127,13 @@
 
   @media #{$screen-md} {
     &:after {
+      opacity: 0;
       box-shadow: 8px 8px 0 0 $yellow;
+      transition: opacity .3s ease-in-out;
     }
 
-    &:after {
-      opacity: 0;
+    &:hover:after {
+      opacity: 1;
     }
 
     &__imageWrapper {
