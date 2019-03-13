@@ -72,7 +72,7 @@ class Portrait extends Component {
         <figcaption class={style.portrait__description}>
           <div class={style.portrait__heading} ref={this.getHeadingRef}>
             <h4 class={style.portrait__title}>{person.name}</h4>
-            <h5 class={style.portrait__subtitle}>{person.job}</h5>
+            <h5 class={style.portrait__subtitle}>{person.path}</h5>
             <p class={style.portrait__text} ref={this.getInfoRef}>{person.info}</p>
           </div>
         </figcaption>

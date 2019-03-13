@@ -4,8 +4,8 @@ const translations = {
       title: 'Program mentorski',
       title2: 'dla dziewczyn:',
       title3: 'zmień branżę na IT',
-      text: 'Chciałabyś projektować, kodować, zarządzać projektami technologicznymi? Pomożemy Ci to osiągnąć korzystając z własnych doświadczeń. Aplikuj do drugiej edycji programu mentorskiego dateIT!',
-      subtitle: 'Zgłoszenie do 4 kwietnia!',
+      text: 'Chciałabyś projektować, kodować, zarządzać projektami technologicznymi? Pomożemy Ci to osiągnąć korzystając z własnych doświadczeń. Aplikuj do drugiej edycji programu mentorskiego dareIT!',
+      subtitle: 'Zgłoszenia do 4 kwietnia!',
       cta: {
         text: 'Aplikuj do programu',
         link: 'https://goo.gl/forms/u2Ue515AhDqEmGKM2'
@@ -24,11 +24,16 @@ const translations = {
       listTitle2: ' bezpłatnie ',
       listTitle3: 'zgłębiać wiedzę w wybranym obszarze:',
       list: [
-        'User Experience Design',
+        'Data Science',
+        'UX Research & UX Design',
+        'UX Writing',
         'UI & Visual Design',
-        'Web Development',
         'Project Management',
-        'Digital Marketing'
+        'Digital Marketing',
+        'Tech/IT Law',
+        'Business Strategy',
+        'Frontend & Backend Development',
+        'DevOps',
       ],
       background: 'User Experience Design UI & Visual Design Web Development Project Management Digital Marketing User Experience Design UI & Visual Design Web Development Project Management Digital Marketing'
     },
@@ -123,35 +128,40 @@ const translations = {
       people: [
         {
           name: 'Joanna Erd',
-          job: 'El Passion | Warszawa',
+          job: 'EL Passion | Warszawa',
+          path: 'Frontend Development',
           info: 'Pixel-perfekcyjna pani domu. Pukam w klawiaturę, aż stanie się coś dobrego.',
           image: '../../assets/mentors/joanna-erd.jpg',
           alt: 'Joanna Erd photo'
         },
         {
           name: 'Aleksandra Bis',
-          job: 'El Passion | Warszawa',
+          job: 'EL Passion | Warszawa',
+          path: 'UX Design',
           info: 'Zamieniam pomysły w użyteczne produkty. Aktywistka i projektantka. Wiecznie w biegu, ale w słusznej sprawie!',
           image: '../../assets/mentors/aleksandra-bis.jpg',
           alt: 'Aleksandra Bis photo'
         },
         {
           name: 'Kasia Łaszczewska',
-          job: 'El Passion | Warszawa',
+          job: 'EL Passion | Warszawa',
+          path: 'Backend Development',
           info: 'Piszę backend aplikacji internetowych.',
           image: '../../assets/mentors/kasia-laszczewska.jpg',
           alt: 'Kasia Łaszczewska photo'
         },
         {
           name: 'Ula Kowalska',
-          job: 'El Passion | Warszawa',
+          job: 'EL Passion | Warszawa',
+          path: 'Backend Development',
           info: 'Fanka kotów, pand i durnych żartów. Możesz ze mną pogadać nie tylko o web devie, ale też o dobrej muzyce i wszelkiej maści serialach.',
           image: '../../assets/mentors/ula-kowalska.jpg',
           alt: 'Ula Kowalska photo'
         },
         {
           name: 'Natalie Pilling',
-          job: 'El Passion | Warszawa',
+          job: 'EL Passion | Warszawa',
+          path: 'Business Strategy',
           info: 'I believe in leading by example. I would like to see more women in leadership roles.',
           image: '../../assets/mentors/natalie-pilling.jpg',
           alt: 'Natalie Pilling photo'
@@ -159,13 +169,15 @@ const translations = {
         {
           name: 'Kinga Sieminiak',
           job: 'Intive | Szczecin',
+          path: 'Frontend Development',
           info: 'Piszę kolorowe internety.',
           image: '../../assets/mentors/kinga-sieminiak.jpg',
           alt: 'Kinga Sieminiak'
         },
         {
           name: 'Agnieszka Sobańska',
-          job: 'El Passion | Warszawa',
+          job: 'EL Passion | Warszawa',
+          path: 'HR',
           info: 'Spinam projekty digitalowe (performance marketing/analityka), a po 17:00 myślę nad blogiem kulinarnym i nowym serialem kryminalnym!',
           image: '../../assets/mentors/agnieszka-sobanska.jpg',
           alt: 'Agnieszka Sobańska photo'
@@ -173,27 +185,31 @@ const translations = {
         {
           name: 'Weronika Sczepanik',
           job: 'iProspect | Warszawa',
+          path: 'Digital Marketing',
           info: 'Poluję na ludzi, a potem dbam o to, żeby dobrze się im było w jednym w warszawskich software housów.',
           image: '../../assets/mentors/weronika-sczepanik.jpg',
           alt: 'Weronika Sczepanik'
         },
         {
           name: 'Ela Kumela',
-          job: 'El Passion | Warszawa',
+          job: 'EL Passion | Warszawa',
+          path: 'UI & Visual Design', 
           info: 'Projektuję.',
           image: '../../assets/mentors/ela-kumela.jpg',
           alt: 'Ela Kumela photo'
         },
         {
-          name: 'Julia Mączka',
-          job: 'El Passion | Warszawa',
+          name: 'Julia Szewczyk',
+          job: 'EL Passion | Warszawa',
+          path: 'UX Design', 
           info: 'Wierzę, że dobrym projektowaniem możemy zbawić świat. Dla zachowania balansu zakładam wrotki, albo czytam książki w parku.',
           image: '../../assets/mentors/julia-maczka.jpg',
-          alt: 'Julia Maczka'
+          alt: 'Julia Szewczyk'
         },
         {
           name: 'Aga Naplocha',
           job: 'Adobe | Warszawa',
+          path: 'Frontend Development',
           info: 'Najwięcej frajdy sprawia mi praca na styku dwóch obszarów – designu i frontend developmentu. Po godzinach rozwijam The Awwwesomes – organizuje wydarzenia, konferencje (m.im Element UX Talks), prowadzę warszty i wykłady.',
           image: '../../assets/mentors/aga-naplocha.jpg',
           alt: 'Aga Naplocha'
@@ -201,6 +217,7 @@ const translations = {
         {
           name: 'Agata Kumela',
           job: 'infinIT Codelab | Wrocław',
+          path: 'Backend Development',
           info: 'Koduję',
           image: '../../assets/mentors/agata-kumela.jpg',
           alt: 'Agata Kumela'
@@ -208,6 +225,7 @@ const translations = {
         {
           name: 'Agnieszka Zwolińska',
           job: 'Demant | Warszawa',
+          path: 'UX Research',
           info: 'Antropolożka, fanka badań etnograficznych w UXie. Całe życie coś studiuje, od niedawna uczy innych.',
           image: '../../assets/mentors/agnieszka-zwolinska.jpg',
           alt: 'Agnieszka Zwolińska'
@@ -215,6 +233,7 @@ const translations = {
         {
           name: 'Angelika Losko',
           job: ' Laboratorium EE | Warszawa',
+          path: 'UX Design',
           info: 'Absolwentka Interaction Design w Malmö i kognitywistka. Po godzinach badam mózgi.',
           image: '../../assets/mentors/angelika-losko.jpg',
           alt: 'Angelika Losko'
@@ -222,13 +241,15 @@ const translations = {
         {
           name: 'Estera Kot',
           job: 'Procter & Gamble | Warszawa',
+          path: 'Backend Development',
           info: 'Piszę kod. Lubię też pobiegać i pójść na cross-fit.',
           image: '../../assets/mentors/estera-kot.jpg',
           alt: 'Estera Kot'
         },
         {
           name: 'Gosia Heba',
-          job: 'El Passion | Warszawa',
+          job: 'EL Passion | Warszawa',
+          path: 'Frontend Development',
           info: 'Uwielbiam układać kolorowe puzzelki kodu na froncie, uczyć się i zachłannie eksplorować. Wierzę w ciekawość i w uśmiech.',
           image: '../../assets/mentors/gosia-heba.jpg',
           alt: 'Gosia Heba'
@@ -236,6 +257,7 @@ const translations = {
         {
           name: 'Joanna Cymkiewicz',
           job: 'Demant | Warszawa',
+          path: 'UI & Visual Design',
           info: 'Na dizajn patrzę szeroko, tak jak szeroko patrzę na świat. Projektuję rozwiązania dostępne starając się nikogo nie wykluczać.',
           image: '../../assets/mentors/joanna-cymkiewicz.jpg',
           alt: 'Joanna Cymkiewicz'
@@ -243,6 +265,7 @@ const translations = {
         {
           name: 'Joanna Żabolicka',
           job: 'Demant | Warszawa',
+          path: 'UX Research',
           info: 'Lubię kompleksowe i złożone projekty, głównie w zakresie produktów medycznych i usług publicznych.',
           image: '../../assets/mentors/joanna-zaboklicka.jpg',
           alt: 'Joanna Żabolicka'
@@ -250,6 +273,7 @@ const translations = {
         {
           name: 'Kaja Toczyska',
           job: 'InFullMobile | Warszawa',
+          path: 'UX Design',
           info: 'Projektantka UX z pasją i wykształceniem neuropsychologicznym. Sportowy freak',
           image: '../../assets/mentors/kaja-toczyska.jpg',
           alt: 'Kaja Toczyska'
@@ -257,6 +281,7 @@ const translations = {
         {
           name: 'Karina Ślęzak',
           job: 'Google | Warszawa',
+          path: 'UX Writing',
           info: 'Pasjonatka prostej komunikacji budująca świat wolny od skomplikowanego języka',
           image: '../../assets/mentors/karina-slezak.jpg',
           alt: 'Karina Ślęzak'
@@ -264,6 +289,7 @@ const translations = {
         {
           name: 'Karolina Rosół',
           job: 'Polidea | Warszawa',
+          path: 'Project Management',
           info: 'Sprawiam, że dzieją się rzeczy. Optymalizacja, kotyfikacja, książka, moda, siłka.',
           image: '../../assets/mentors/karolina-rosol.jpg',
           alt: 'Karolina Rosół'
@@ -271,6 +297,7 @@ const translations = {
         {
           name: 'Katarzyna Zerka',
           job: 'Google | Warszawa',
+          path: 'UX Research',
           info: 'Po pierwsze ludzie :)',
           image: '../../assets/mentors/katarzyna-zerka.jpg',
           alt: 'Katarzyna Zerka'
@@ -278,6 +305,7 @@ const translations = {
         {
           name: 'Katarzyna Janota',
           job: 'Edisonda | Kraków',
+          path: 'UX Design',
           info: 'Projektuję interakcje, eksperymentuję z platformami i przyglądam się światu. Po godzinach dużo czytam i współtworzę grupa.robocza.org.',
           image: '../../assets/mentors/katarzyna-janota.jpg',
           alt: 'Katarzyna Janota'
@@ -285,6 +313,7 @@ const translations = {
         {
           name: 'Katarzyna Kończalska',
           job: 'Norian | Toruń',
+          path: 'Backend Development',
           info: 'Piszę softwarowe roboty, które robią nudną pracę za ludzi.',
           image: '../../assets/mentors/katarzyna-konczalska.jpg',
           alt: 'Katarzyna Kończalska'
@@ -292,13 +321,15 @@ const translations = {
         {
           name: 'Katarzyna Kubalska',
           job: 'Growbots | Warszawa',
+          path: 'UX Design',
           info: 'Pasjonatka dobrego designu, roślin i muzyki. W wolnych chwilach haftuje i gra na basie.',
           image: '../../assets/mentors/katarzyna-kubalska.jpg',
           alt: 'Katarzyna Kubalska'
         },
         {
           name: 'Sona Kerim',
-          job: 'El Passion | Warszawa',
+          job: 'EL Passion | Warszawa',
+          path: 'Digital Marketing',
           info: 'I was a history teacher for 6 years and needed a change. I now work as a Digital Marketing Specialist at EL Passion, run educational workshops in other IT companies, and write freelance.',
           image: '../../assets/mentors/sona-kerim.jpg',
           alt: 'Sona Kerim'
@@ -306,13 +337,15 @@ const translations = {
         {
           name: 'Katarzyna Siedlarek',
           job: 'Accenture Technologu | Warszawa',
+          path: 'DevOps',
           info: 'Cloud devops, współorganizatorka Django Girls i PyLigh',
           image: '../../assets/mentors/katarzyna-siedlarek.jpg',
           alt: 'Katarzyna Siedlarek'
         },
         {
           name: 'Klaudia Bęczkowska',
-          job: 'El Passion | Warszawa',
+          job: 'EL Passion | Warszawa',
+          path: 'Frontend Development',
           info: 'Z wykształcenia medyk, z wyboru Front-end Developer :) Lubię podróże małe i duże, a mój ulubiony serial to Przyjaciele.',
           image: '../../assets/mentors/klaudia-beczkowska.jpg',
           alt: 'Klaudia Bęczkowska'
@@ -320,6 +353,7 @@ const translations = {
         {
           name: 'Klaudyna Bańczerowska',
           job: 'Bank BGŻ BNP Paribas | Warszawa',
+          path: 'UI & Visual Design',
           info: 'Fanka nowych technologii, dobrego kina i podróży, przy okazji projektuję ładne i funkcjonalne rzeczy ;)',
           image: '../../assets/mentors/klaudyna-banczerowska.jpg',
           alt: 'Klaudyna Bańczerowska'
@@ -327,6 +361,7 @@ const translations = {
         {
           name: 'Magda Sroka',
           job: 'eRecruiter.pl | Warszawa',
+          path: 'UX Design',
           info: 'Poruszam się na styku projektowania i biznesu,  a baterie ładuję na CrossFit MGW <3',
           image: '../../assets/mentors/magda-sroka.jpg',
           alt: 'Magda Sroka'
@@ -334,6 +369,7 @@ const translations = {
         {
           name: 'Małgorzata Ksionek',
           job: 'GitLab | Warszawa',
+          path: 'Backend Development',
           info: 'Z wyboru i pasji web-developer, z wykształcenia psycholog. W programowaniu najbardziej lubi ciągłe wyzwania.W wolnym czasie czyta lub bezskutecznie walczy z uzależnieniem od Netflixa. Fanka kolorowych skarpetek.',
           image: '../../assets/mentors/malgorzata-ksionek.jpg',
           alt: 'Małgorzata Ksionek'
@@ -341,6 +377,7 @@ const translations = {
         {
           name: 'Marta Klimowicz',
           job: 'Monterail | Warszawa',
+          path: 'Digital Marketing',
           info: 'Doktorka socjologii od ponad 10 lat zajmująca się marketingiem internetowym.',
           image: '../../assets/mentors/marta-klimowicz.jpg',
           alt: ' Marta Klimowicz'
@@ -348,6 +385,7 @@ const translations = {
         {
           name: 'Marzena Wojtkowiak',
           job: 'Nethone | Warszawa',
+          path: 'Data Science',
           info: 'Miłośniczka biegów ulicznych, skandynawskich kryminałów i dalekich podróży. Na co dzień analizuje dane jako data scientistka.',
           image: '../../assets/mentors/marzena-wojtkowiak.jpg',
           alt: 'Marzena Wojtkowiak'
@@ -355,6 +393,7 @@ const translations = {
         {
           name: 'Monika Jagodyńska',
           job: 'eRecruiter.pl | Warszawa',
+          path: 'Project Management',
           info: 'Spełniałam się w roli Testera, później Projektanta UX, a aktualnie jestem Product Ownerem. Początek dnia tylko z dobrą kawą :)',
           image: '../../assets/mentors/monika-jagodynska.jpg',
           alt: 'Monika Jagodyńska'
@@ -362,6 +401,7 @@ const translations = {
         {
           name: 'Natalia Pelcer',
           job: 'Daftcode | Warszawa',
+          path: 'Business Strategy',
           info: "Wspieram zespół Venture Building, między innymi przy nawiązywaniu współpracy z inwestorami i pozyskiwaniu finansowania dla venture'ów.",
           image: '../../assets/mentors/natalia-pelcer.jpg',
           alt: 'Natalia Pelcer'
@@ -369,10 +409,99 @@ const translations = {
         {
           name: 'Olka Fiszbak-Biernat',
           job: 'HTDevelopers | Łódź',
+          path: 'UI & Visual Design',
           info: 'Na co dzień rozwijam produkty związane z branżą healthcare dla klientów z USA."Po godzinach miłośniczka roślin, mopsów i mocnej kawy :) ',
           image: '../../assets/mentors/ola-fiszbak.jpg',
           alt: 'Ola Fiszbak'
-        }
+        },
+        {
+          name: 'Ola Pazio',
+          job: 'Packhelp | Warszawa',
+          path: 'Backend Development',
+          info: '',
+          image: '../../assets/mentors/ola-pazio.jpg',
+          alt: 'Ola Pazio'
+        },
+        {
+          name: 'Weronika Szczepanik',
+          job: 'iProspect | Warszawa',
+          path: 'Project Management',
+          info: '',
+          image: '../../assets/mentors/weronika-szczepaniak.jpg',
+          alt: 'Weronika Szczepanik'
+        },
+        {
+          name: 'Joanna Sitkowska',
+          job: '',
+          path: 'Project Management',
+          info: '',
+          image: '../../assets/mentors/joanna-sitkowska.jpg',
+          alt: 'Joanna Sitkowska'
+        },
+        {
+          name: 'Anna Wszebrowska',
+          job: '',
+          path: 'Backend Development',
+          info: '',
+          image: '../../assets/mentors/anna-wszebrowska.jpg',
+          alt: 'Anna Wszebrowska'
+        },
+        {
+          name: 'Michalina Dąbek',
+          job: 'Performante | Warszawa',
+          path: ' HR',
+          info: 'Cześć, jestem Michalina i od 6 lat zajmuję się rekrutacją i rozwojem pracowników w branży Digital Marketingu i IT. Prywatnie jestem podróżnikiem amatorem i nieprawną psiarą żyjącą ze świnką morską Walterem White.',
+          image: '../../assets/mentors/michalina-dabek.jpg',
+          alt: 'Michalina Dąbek'
+        },
+        {
+          name: 'Kamila Harasik',
+          job: 'Fundacja TechSoup | Warszawa',
+          path: ' HR',
+          info: 'Fanka nowych technologii i kotów. Od poniedziałku do piątku HRówa od zadań międzyludzkich.',
+          image: '../../assets/mentors/kamila-harasikjpg',
+          alt: 'Kamila Harasik'
+        },
+        {
+          name: 'Maria Guzewska',
+          job: '',
+          path: ' Tech/IT',
+          info: '',
+          image: '../../assets/mentors/placeholder.jpg',
+          alt: 'Maria Guzewska'
+        },
+        {
+          name: 'Paulina Wardęga',
+          job: '',
+          path: 'Digital Marketing',
+          info: '',
+          image: '../../assets/mentors/placeholder.jpg',
+          alt: 'Paulina Wardęga'
+        },
+        {
+          name: 'Paulina Wardęga',
+          job: '',
+          path: 'Digital Marketing',
+          info: '',
+          image: '../../assets/mentors/placeholder.jpg',
+          alt: 'Paulina Wardęga'
+        },
+        {
+          name: 'Kasia Jarmołkowicz',
+          job: 'Rebased | Kraków',
+          path: 'Backend Development',
+          info: 'Ruby on Rails, Javascript, Elm. Rails Girls. Kawa, koty i spanko.',
+          image: '../../assets/mentors/placeholder.jpg',
+          alt: 'Kasia Jarmołkowicz'
+        },
+        {
+          name: 'Joanna Rodo',
+          job: '',
+          path: 'UX Design',
+          info: '',
+          image: '../../assets/mentors/placeholder.jpg',
+          alt: 'Joanna Rodo'
+        },
       ]
     },
 
@@ -431,7 +560,7 @@ const translations = {
         partners: [
           {
             src: 'elpassion-logo',
-            alt: 'El Passion logo'
+            alt: 'EL Passion logo'
           }
         ]
       },

@@ -66,10 +66,12 @@
   }
 
   &__arrow {
+    margin-top: .2rem;
     transition: fill .3s ease-in-out;
     fill: $white;
 
     &--left {
+      margin-top: 0;
       transform: rotate(180deg);
     }
   }
