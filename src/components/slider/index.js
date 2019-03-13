@@ -25,11 +25,18 @@ export default class Slider extends Component {
 
   slide(reverse = false) {
     let index = this.state.activeIndex;
+    const { childrenLength, slideWidth } = this.state;
 
     index += reverse ? 1 : -1;
     if (index < 0) { index = 0; }
 
-    this.setState({ activeIndex: index, translate: `${-this.state.slideWidth * index}` });
+    let offset = offset = -slideWidth * index;
+
+    if (index == childrenLength - Math.floor(root.innerWidth / slideWidth)) {
+      offset += (root.innerWidth % slideWidth);
+    }
+
+    this.setState({ activeIndex: index, translate: `${offset}` });
   }
 
   onTouchStart(e) {
@@ -98,7 +105,7 @@ export default class Slider extends Component {
     const sliderClass = classNames(style.slider, className);
     const { className, people, id } = this.props;
 
-    const isSliderEnd = Math.abs(this.state.translate) >= ((this.state.childrenLength * this.state.slideWidth) - root.innerWidth);
+    const isSliderEnd = Math.abs(this.state.translate) >= ((this.state.childrenLength* this.state.slideWidth) - root.innerWidth);
 
     return (
       <div class={sliderClass} id={id}>
