@@ -118,7 +118,7 @@ const translations = {
         details: [
           'Min. 6 indywidualnych sesji mentorskich',
           'Konsultacje HR',
-          "Otwarte meetup'y raz w miesiący"
+          "Otwarte meetup'y raz w miesiącu"
         ]
       }
     },
@@ -263,12 +263,12 @@ const translations = {
           alt: 'Joanna Cymkiewicz'
         },
         {
-          name: 'Joanna Żabolicka',
+          name: 'Joanna Żaboklicka',
           job: 'Demant | Warszawa',
           path: 'UX Research',
           info: 'Lubię kompleksowe i złożone projekty, głównie w zakresie produktów medycznych i usług publicznych.',
           image: '../../assets/mentors/joanna-zaboklicka.jpg',
-          alt: 'Joanna Żabolicka'
+          alt: 'Joanna Żaboklicka'
         },
         {
           name: 'Kaja Toczyska',
@@ -518,7 +518,7 @@ const translations = {
         'Szukasz kogoś, od kogo mogłabyś się uczyć',
         'Myślisz o podjęciu pierwszej pracy w branży IT',
         'Wiesz, w jakim kierunku chcesz się rozwijać',
-        'Szukasz kogoś kto pomoże Ci znaleźć pierwszą pracę',
+        'Szukasz kogoś, kto pomoże Ci znaleźć pierwszą pracę',
         'Szukasz społeczności wspierających się kobiet, mających podobne doświadczenia',
       ]
     },
