@@ -7,6 +7,7 @@ import Arrow from '../../assets/arrow.svg';
 import root from 'window-or-global';
 
 import { SLIDER_CONSTS } from './../../consts/index';
+import Heading from '../heading';
 export default class Slider extends Component {
   state = {
     activeIndex: 0,
@@ -74,7 +75,7 @@ export default class Slider extends Component {
 
   setSliderMobile() {
     let index = this.state.activeIndex;
-    const { people } = this.props;
+    const { people } = this.props.content;
 
     this.setState({
       activeIndex: index,
@@ -86,7 +87,7 @@ export default class Slider extends Component {
 
   setSliderDesktop() {
     let index = this.state.activeIndex;
-    const { people } = this.props;
+    const { people } = this.props.content;
 
     this.setState({
       activeIndex: index,
@@ -103,12 +104,26 @@ export default class Slider extends Component {
 
   render() {
     const sliderClass = classNames(style.slider, className);
-    const { className, people, id } = this.props;
+    const { className, content, id } = this.props;
 
     const isSliderEnd = Math.abs(this.state.translate) >= ((this.state.childrenLength* this.state.slideWidth) - root.innerWidth);
 
     return (
       <div class={sliderClass} id={id}>
+        <div class={style.slider__header}>
+          <Heading text={content.title} />
+
+          <div class={style.slider__actions}>
+            <button class={style.slider__button} onClick={() => this.slide(false)} disabled={this.state.activeIndex === 0}>
+              <Arrow class={classNames(style.slider__arrow, style['slider__arrow--left'])} />
+            </button>
+
+            <button class={style.slider__button} onClick={() => this.slide(true)} disabled={isSliderEnd}>
+              <Arrow class={style.slider__arrow} />
+            </button>
+          </div>
+        </div>
+
         <div class={style.slider__content}>
           <ul
             class={style.slider__grid}
@@ -117,18 +132,8 @@ export default class Slider extends Component {
             onTouchMove={(event) => this.onTouchMove(event)}
             onTouchEnd={(event) => this.onTouchEnd(event)}
           >
-            {people.map(person => <li class={style.slider__column}><Portrait person={person} /></li>)}
+            {content.people.map(person => <li class={style.slider__column}><Portrait person={person} /></li>)}
           </ul>
-        </div>
-
-        <div class={style.slider__actions}>
-          <button class={style.slider__button} onClick={() => this.slide(false)} disabled={this.state.activeIndex === 0}>
-            <Arrow class={classNames(style.slider__arrow, style['slider__arrow--left'])} />
-          </button>
-
-          <button class={style.slider__button} onClick={() => this.slide(true)} disabled={isSliderEnd}>
-            <Arrow class={style.slider__arrow} />
-          </button>
         </div>
       </div>
     );

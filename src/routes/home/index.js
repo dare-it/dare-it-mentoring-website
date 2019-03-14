@@ -72,11 +72,7 @@ export default () => (
       </section>
 
       <section class={classNames(style['home__section--gradient'], style.home__section)}>
-        <div class={classNames(style.home__container, style['home__container--no-spacing'])}>
-          <Heading text={text.home.mentors.title} />
-        </div>
-
-        <Slider people={text.home.mentors.people} />
+        <Slider content={text.home.mentors} />
       </section>
 
       <section class={style.home__section}>

@@ -13,6 +13,13 @@
     padding: 2rem 0;
   }
 
+  &__header {
+    @extend %container;
+
+    display: flex;
+    flex-direction: column;
+  }
+
   &__column {
     width: 100%;
     min-width: calc(100% / 2.2);
@@ -20,11 +27,9 @@
   }
 
   &__actions {
-    @extend %container;
-
     display: flex;
     justify-content: flex-start;
-    margin-top: 1rem;
+    margin-top: -1rem;
   }
 
   &__button {
@@ -71,6 +76,12 @@
   }
 
   @media #{$screen-md} {
+    &__header {
+      flex-direction: row;
+      justify-content: space-between;
+      margin-bottom: -2rem;
+    }
+
     &__column {
       min-width: calc(1440px / 5);
       padding-left: 0;
@@ -104,6 +115,10 @@
         left: 10%;
         background-image: url('../../assets/icon-x-yellow.png');
       }
+    }
+
+    &__actions {
+      margin-top: .5rem
     }
 
     &__action {

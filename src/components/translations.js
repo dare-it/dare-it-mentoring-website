@@ -425,7 +425,7 @@ const translations = {
         {
           name: 'Maria Guzewska',
           job: '',
-          path: ' Tech/IT',
+          path: 'Prawo Tech/IT',
           info: '',
           image: '../../assets/mentors/placeholder.png',
           alt: 'Maria Guzewska'
@@ -477,14 +477,6 @@ const translations = {
           info: 'Cześć, jestem Michalina i od 6 lat zajmuję się rekrutacją i rozwojem pracowników w branży Digital Marketingu i IT. Prywatnie jestem podróżnikiem amatorem i nieprawną psiarą żyjącą ze świnką morską Walterem White.',
           image: '../../assets/mentors/michalina-dabek.jpg',
           alt: 'Michalina Dąbek'
-        },
-        {
-          name: 'Paulina Wardęga',
-          job: '',
-          path: 'Digital Marketing',
-          info: '',
-          image: '../../assets/mentors/placeholder.png',
-          alt: 'Paulina Wardęga'
         },
         {
           name: 'Kamila Harasik',
@@ -547,7 +539,7 @@ const translations = {
 
     partners: {
       main: {
-        title: 'Główny partner',
+        title: 'Partner',
         partners: [
           {
             src: 'elpassion-logo',
