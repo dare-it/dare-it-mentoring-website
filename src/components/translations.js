@@ -108,7 +108,7 @@ const translations = {
         steps: [
           {
             title: 'Start programu',
-            date: '26.04'
+            date: '24.04'
           },
           {
             title: 'Zakończenie programu',
@@ -507,7 +507,7 @@ const translations = {
           type: 'top-left'
         },
         {
-          text: 'DareIT to duża dawka wiedzy i dobrej energii, najlepszy program mentorski w jakim brałam udział',
+          text: 'DareIT to duża dawka wiedzy i dobrej energii, najlepszy program mentorski w jakim brałam udział.',
           author: 'Kasia, Visual Design',
           type: 'bottom-left-action'
         },
@@ -523,12 +523,11 @@ const translations = {
       title: 'Ten program jest dla Ciebie',
       subtitle: 'Twoje wykształcenie, zawód i wiek nie mają znaczenia',
       list: [
-        'Jedna z nas będzie Twoją mentorką przez 3 miesiące',
-        'Pomożemy z CV, portfolio i rozmową rekrutacyjną',
-        'Poznasz nasze codzienne narzędzia pracy',
-        'Jedna z nas będzie Twoją mentorką przez 3 miesiące',
-        'Pomożemy z CV, portfolio i rozmową rekrutacyjną',
-        'Poznasz nasze codzienne narzędzia pracy'
+        'Szukasz kogoś, od kogo mogłabyś się uczyć',
+        'Myślisz o podjęciu pierwszej pracy w branży IT',
+        'Wiesz, w jakim kierunku chcesz się rozwijać',
+        'Szukasz kogoś kto pomoże Ci znaleźć pierwszą pracę',
+        'Szukam społeczności wspierających się kobiet, mających podobne doświadczenia',
       ]
     },
 
@@ -590,6 +589,10 @@ const translations = {
           {
             src: 'elementtalks-logo',
             alt: 'Element Talks'
+          },
+          {
+            src: 'coderslab-logo',
+            alt: 'Coders Lab'
           }
         ]
       }
