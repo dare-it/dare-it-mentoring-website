@@ -1,64 +1,93 @@
 .peopleGrid {
-  $_margin: 90px;
-  $_column-width-sm: 100% / 2;
-  $_column-width-md: 100% / 3;
-  $_column-width-lg: 100% / 5;
-
   position: relative;
-  z-index: 2;
-  display: flex;
-  flex-wrap: wrap;
+  z-index: 8;
   width: 100%;
-  max-width: 1440px;
-  margin: 0 auto;
+
+  &__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding: 1rem 0;
+  }
 
   &__column {
-    min-width: 100%;
-    margin-top: -1px;
+    flex: 0 0 calc(1400px / 5);
+    width: 100%;
+  }
 
-    @media #{$screen-sm} {
-      min-width: $_column-width-sm;
+  @media #{$screen-max-md} {
+    overflow-x: scroll;
+
+    &::-webkit-scrollbar {
+      height: 5px;
+      background: transparent;
     }
 
-    @media #{$screen-only-sm} {
-      &:nth-child(odd) {
-        margin-top: $_margin/2;
+    &::-webkit-scrollbar-track {
+      background: transparent;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background: transparent;
+    }
+
+    &__container {
+      display: block;
+      max-width: 73rem;
+      margin: 0 auto;
+      padding-right: 1.5rem;
+      padding-left: 1.5rem;
+    }
+
+    &__column {
+      flex: 0 0 200px;
+      padding-right: 1rem;
+    }
+  }
+
+  @media #{$screen-md} {
+    padding: 1rem 0;
+
+    &__container {
+      &:before,
+      &:after {
+        position: absolute;
+        z-index: 9;
+        width: 60px;
+        height: 60px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        content: '';
       }
 
-      &:nth-child(2n + 1) {
-        margin-top: -$_margin/2;
+      &:before {
+        top: 0;
+        right: 10%;
+        background-image: url('../../assets/icon-quotation-pink.png');
+      }
+
+      &:after {
+        bottom: 0;
+        left: 10%;
+        background-image: url('../../assets/icon-x-yellow.png');
       }
     }
 
-    @media #{$screen-md} {
-      min-width: $_column-width-md;
-    }
+    &__list {
+      overflow-x: scroll;
 
-    @media #{$screen-only-md} {
-      &:nth-child(3n + 1),
-      &:nth-child(3n + 3) {
-        margin-top: -$_margin;
-      }
-    }
-
-    @media #{$screen-lg} {
-      min-width: $_column-width-lg;
-
-      &:nth-child(5n + 1),
-      &:nth-child(5n + 3),
-      &:nth-child(5n + 5) {
-        margin-top: -$_margin;
+      &::-webkit-scrollbar {
+        height: 5px;
+        background: transparent;
       }
 
-      &:nth-child(5n + 2):last-child,
-      &:nth-child(5n + 2):nth-last-child(2),
-      &:nth-child(5n + 4):last-child {
-        margin-top: -$_margin;
-        margin-left: $_column-width-lg;
+      &::-webkit-scrollbar-track {
+        background: transparent;
       }
 
-      &:nth-child(5n + 2):last-child {
-        margin-left: 3 * $_column-width-lg;
+      &::-webkit-scrollbar-thumb {
+        background: transparent;
       }
     }
   }

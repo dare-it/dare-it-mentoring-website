@@ -8,23 +8,28 @@
   margin: 0 auto;
   overflow: hidden;
 
-  &__content {
+  &__grid {
     display: flex;
+    padding: 2rem 0;
+  }
+
+  &__header {
+    @extend %container;
+
+    display: flex;
+    flex-direction: column;
   }
 
   &__column {
     width: 100%;
     min-width: calc(100% / 2.2);
-    margin-top: -1px;
     padding-left: 20px;
   }
 
   &__actions {
-    @extend %container;
-
     display: flex;
     justify-content: flex-start;
-    margin-block-end: 2em;
+    margin-top: -1rem;
   }
 
   &__button {
@@ -60,11 +65,64 @@
   }
 
   &__arrow {
+    margin-top: .2rem;
     transition: fill .3s ease-in-out;
     fill: $white;
 
     &--left {
+      margin-top: 0;
       transform: rotate(180deg);
+    }
+  }
+
+  @media #{$screen-md} {
+    &__header {
+      flex-direction: row;
+      justify-content: space-between;
+      margin-bottom: -2rem;
+    }
+
+    &__column {
+      min-width: calc(1440px / 5);
+      padding-left: 0;
+    }
+
+    &__content {
+      $icon-size: 60px;
+
+      position: relative;
+
+      &:before,
+      &:after {
+        position: absolute;
+        z-index: 9;
+        width: $icon-size;
+        height: $icon-size;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        content: '';
+      }
+
+      &:before {
+        top: 0;
+        right: 10%;
+        background-image: url('../../assets/icon-quotation-pink.png');
+      }
+
+      &:after {
+        bottom: .5rem;
+        left: 10%;
+        background-image: url('../../assets/icon-x-yellow.png');
+      }
+    }
+
+    &__actions {
+      margin-top: .5rem
+    }
+
+    &__action {
+      margin: 0;
     }
   }
 }

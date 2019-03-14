@@ -43,6 +43,10 @@ export default class Footer extends Component {
     root.addEventListener('scroll', this.handleScroll);
   }
 
+  componentWillUnmount() {
+    root.removeEventListener('scroll', this.handleScroll);
+  }
+
   render() {
     const { className, content } = this.props;
     const footerClass = classNames([style.footer, className], this.state.isFixed ? style['footer--fixed']: null );
@@ -55,7 +59,7 @@ export default class Footer extends Component {
           </h2>
 
           <h2 class={classNames(style.footer__text, style['footer__text--sm'])}>
-            {content['title-sm']}<span class={style['footer__text--color']}>{content.title2}</span>{content.title3}
+            {content['title-sm']}<span class={style['footer__text--color']}>{content['title2-sm']}</span>{content.title3}
           </h2>
 
           <h3 class={style.footer__subtitle}>{content.subtitle}</h3>

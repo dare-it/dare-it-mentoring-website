@@ -2,8 +2,11 @@
   $icon-size: 50px;
 
   position: relative;
+  z-index: 9;
+  height: 100%;
   padding: 1.85em;
   font-size: .9rem;
+  background-color: $white;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, .05);
 
   &:before {
@@ -27,6 +30,10 @@
 
   &--bottom-left:before {
     box-shadow: -8px 8px 0 0 $accent;
+  }
+
+  &--bottom-left-action:before {
+    box-shadow: -8px 8px 0 0 $action;
   }
 
   &--big {

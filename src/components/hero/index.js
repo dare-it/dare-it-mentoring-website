@@ -8,9 +8,9 @@ export default ({ content, className, ...otherProps }) => {
 
   return (
     <header class={heroClass}>
-      <Nav />
-
       <div class={style.hero__container}>
+        <Nav />
+
         <h1 class={style.hero__title}>
           {content.title}
           <br />

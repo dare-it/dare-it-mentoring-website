@@ -11,11 +11,12 @@ import Heading from '../../components/heading';
 import Hero from '../../components/hero';
 import List from '../../components/list';
 import Pattern from '../../components/pattern';
-import PeopleGrid from '../../components/peopleGrid';
+import Slider from '../../components/slider';
 import Quotation from '../../components/quotation';
 import Subtitle from '../../components/subtitle';
 import Timeline from '../../components/timeline';
-import Slider from '../../components/slider';
+import Testimonials from '../../components/testimonials';
+import Scripts from '../../components/scripts';
 
 export default () => (
   <div>
@@ -26,7 +27,7 @@ export default () => (
     <main class={style.home}>
       <section class={style.home__section}>
         <div class={style.home__container}>
-          <div class={style['home__row--flex']}>
+          <div class={classNames(style.home__row, style['home__row--flex'])}>
             <div class={classNames(style['col-6'], style['col-narrow'])}>
               <Heading text={text.home.about.title} />
 
@@ -38,7 +39,7 @@ export default () => (
             </div>
           </div>
 
-          <div class={style['home__row--flex']}>
+          <div class={classNames(style.home__row, style['home__row--flex'])}>
             <div class={classNames(style['col-6'], style['col-narrow'])}>
               <Subtitle text={text.home.about.subtitle2} />
             </div>
@@ -60,12 +61,8 @@ export default () => (
         <div class={style.home__container}>
           <Heading text={text.home.work.title} />
 
-          <div class={style['home__row--flex']}>
+          <div class={classNames(style.home__row, classNames(style.home__row, style['home__row--flex']))}>
             <div class={classNames(style['col-6'], style['col-narrow'])}>
-              <p class={style.home__text}>{text.home.work.text1}</p>
-
-              <p class={classNames(style.home__text, style['home__text--spaced'])}>{text.home.work.text2}</p>
-
               <Subtitle text={text.home.work.subtitle} />
             </div>
 
@@ -74,68 +71,60 @@ export default () => (
         </div>
       </section>
 
-      <section class={style['home__section--gradient']}>
-        <Heading text={text.home.mentors.title} type="pushed" />
-
-        <PeopleGrid people={text.home.mentors.people} id={style['home-screen-sm']} />
-
-        <Slider people={text.home.mentors.people} id={style['home-screen-xs']} />
+      <section class={classNames(style['home__section--gradient'], style.home__section)}>
+        <Slider content={text.home.mentors} />
       </section>
 
       <section class={style.home__section}>
         <div class={style.home__container}>
-          <div class={style['home__row--flex']}>
-            <div class={style['col-5']}>
-              <Heading text={text.home.program.title} />
+          <Heading text={text.home.info.title} />
+
+          <div class={classNames(style.home__row, style['home__row--flex'])}>
+            <div class={style['col-3']}>
+              <Subtitle text={text.home.info.subtitle} variant="primary" />
             </div>
 
-            <div class={style['col-7']}>
-              <Subtitle text={text.home.program.subtitle} />
-
-              <p class={style.home__text}>{text.home.program.text}</p>
+            <div class={style['col-9']}>
+              <List triple items={text.home.info.list} />
             </div>
-          </div>
-
-          <div class={style['home__row--flex']}>
-            {text.home.program.cards.map(card => (
-              <div class={classNames(style['col-6'], style.home__column)}>
-                <Card data={card} type={card.type} double={false} />
-              </div>
-            ))}
           </div>
         </div>
       </section>
 
-      <section class={style['home__section--dark']}>
-        <div class={style.home__container}>
-          <Timeline content={text.home.timeline} />
-        </div>
-      </section>
+      <Timeline content={text.home.timeline} />
 
-      <section class={style.home__section}>
-        <Pattern items={text.home.about.list} />
-
+      <Pattern background={text.home.about.background}>
         <div class={style.home__container}>
-          <div class={style['home__row--flex']}>
+          <div class={classNames(style.home__row, classNames(style.home__row, style['home__row--flex']))}>
             <div class={style['col-6']}>
               <Heading text={text.home.cta.title} type="white" />
             </div>
 
             <div class={style['col-6']}>
               <Subtitle text={text.home.cta.subtitle} variant="secondary" />
-              <Subtitle text={text.home.cta.text} variant="white" />
+              <Subtitle text={text.home.cta.text[0]} variant="no-spacing" />
+              <Subtitle text={text.home.cta.text[1]} variant="no-spacing" />
+              <Subtitle
+                text={text.home.cta.text[2]}
+                variant="no-spacing"
+                link={<a href={text.home.cta.link.href} target="_blank" rel="noopener">{text.home.cta.link.text}</a>}
+              />
             </div>
           </div>
         </div>
-      </section>
+      </Pattern>
+
+      <Testimonials content={text.home.testimonials} />
 
       <section class={style.home__section}>
         <div class={style.home__container}>
-          <div class={style['home__row--flex']}>
+          <div class={classNames(style.home__row, style['home__row--flex'])}>
             <div class={style['col-4']}>
               <Heading text={text.home.partners.main.title} type="small" />
 
-              {text.home.partners.main.partners.map(partner => <img src={`../../assets/logos/${partner.src}.png`} alt={partner.alt} />)}
+              {text.home.partners.main.partners.map(partner => (
+                <img src={`../../assets/logos/${partner.src}.png`} alt={partner.alt} />
+              ))}
             </div>
 
             <div class={style['col-8']}>
@@ -150,10 +139,10 @@ export default () => (
         </div>
       </section>
 
-      <section class={style.home__section}>
+      <section class={classNames(style.home__section, style['home__section--pushed'])}>
         <div class={classNames(style.home__container, style['home__container--no-spacing'])}>
           <Card double size="big" type="bottom-left">
-            <div class={style['home__row--flex']}>
+            <div class={classNames(style.home__row, style['home__row--flex'])}>
               <div class={classNames(style['col-6'], style['col-narrow'])}>
                 <Heading text={text.home.getInvolved.title} />
 
@@ -166,7 +155,11 @@ export default () => (
                 </div>
 
                 <div class={style.home__row}>
-                  <Button text={text.home.getInvolved.cta.text} href={text.home.getInvolved.cta.link} type="action" />
+                  <Button
+                    text={text.home.getInvolved.cta.text}
+                    href={text.home.getInvolved.cta.link}
+                    type="action"
+                  />
                 </div>
               </div>
             </div>
@@ -184,6 +177,7 @@ export default () => (
     </main>
 
     <Footer content={text.home.footer} />
+
+    <Scripts />
   </div>
 );
-

@@ -1,11 +1,13 @@
 .footer {
   $spacing: $container-gutter;
+  $icon-size: 100px;
 
   position: fixed;
   bottom: 0;
   left: 0;
   z-index: 10;
   width: 100%;
+  overflow: hidden;
   color: $white;
   background-color: $accent;
   transform: translateY(100%);
@@ -14,11 +16,36 @@
   &__content {
     @extend %container;
 
+    position: relative;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-between;
     padding: $spacing;
+
+    &:before,
+    &:after {
+      position: absolute;
+      top: 1rem;
+      width: $icon-size;
+      height: $icon-size;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      content: '';
+    }
+
+    &:before {
+      right: calc(-#{$icon-size} - 2rem);
+      background-image: url('../../assets/icon-x-yellow.png');
+      transform: rotate(40deg);
+    }
+
+    &:after {
+      left: calc(-#{$icon-size} - 2rem);
+      background-image: url('../../assets/inco-quotation-yellow.png');
+      transform: rotate(15deg);
+    }
   }
 
   &__text {
@@ -48,7 +75,9 @@
 
     &-content {
       display: block;
-      padding-top: 1em;
+      padding: 1em 0;
+      font-size: 1rem;
+      opacity: .7;
     }
   }
 
@@ -70,4 +99,3 @@
     }
   }
 }
-
