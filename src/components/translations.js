@@ -519,7 +519,7 @@ const translations = {
         'Myślisz o podjęciu pierwszej pracy w branży IT',
         'Wiesz, w jakim kierunku chcesz się rozwijać',
         'Szukasz kogoś kto pomoże Ci znaleźć pierwszą pracę',
-        'Szukam społeczności wspierających się kobiet, mających podobne doświadczenia',
+        'Szukasz społeczności wspierających się kobiet, mających podobne doświadczenia',
       ]
     },
 
