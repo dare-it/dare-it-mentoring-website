@@ -356,7 +356,7 @@ const translations = {
           job: 'Rebased | Kraków',
           path: 'Backend Development',
           info: 'Ruby on Rails, Javascript, Elm. Rails Girls. Kawa, koty i spanko.',
-          image: '../../assets/mentors/placeholder.png',
+          image: '../../assets/mentors/kasia-jarmolkowicz.jpg',
           alt: 'Kasia Jarmołkowicz'
         },
         {
