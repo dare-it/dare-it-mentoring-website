@@ -2,13 +2,13 @@ const translations = {
   home: {
     hero: {
       title: 'Program mentorski',
-      title2: 'dla dziewczyn:',
+      title2: 'dla kobiet:',
       title3: 'zmień branżę na IT',
       text: 'Chciałabyś projektować, kodować, zarządzać projektami technologicznymi? Pomożemy Ci to osiągnąć korzystając z własnych doświadczeń. Aplikuj do drugiej edycji programu mentorskiego dareIT!',
       subtitle: 'Zgłoszenia do 4 kwietnia!',
       cta: {
         text: 'Aplikuj do programu',
-        link: 'https://goo.gl/forms/u2Ue515AhDqEmGKM2'
+        link: 'https://docs.google.com/forms/d/e/1FAIpQLSfZU3yBcq2ISzUDTBuXMbbGzIOfDbysceuFliLVM9ovfMMPMQ/viewform?usp=sf_link'
       }
     },
 
@@ -33,7 +33,8 @@ const translations = {
         'Tech/IT Law',
         'Business Strategy',
         'Frontend & Backend Development',
-        'DevOps'
+        'DevOps',
+        'iOS Development',
       ],
       background: 'User Experience Design UI & Visual Design Web Development Project Management Digital Marketing User Experience Design UI & Visual Design Web Development Project Management Digital Marketing'
     },
@@ -116,7 +117,7 @@ const translations = {
           }
         ],
         details: [
-          'Min. 6 indywidualnych sesji mentorskich',
+          'Min. 5 indywidualnych sesji mentorskich',
           'Konsultacje HR',
           "Otwarte meetup'y raz w miesiącu"
         ]
@@ -200,7 +201,7 @@ const translations = {
         },
         {
           name: 'Julia Szewczyk',
-          job: 'EL Passion | Warszawa',
+          job: 'Deloitte | Warszawa',
           path: 'UX Design',
           info: 'Wierzę, że dobrym projektowaniem możemy zbawić świat. Dla zachowania balansu zakładam wrotki, albo czytam książki w parku.',
           image: '../../assets/mentors/julia-maczka.jpg',
@@ -463,12 +464,12 @@ const translations = {
           alt: 'Joanna Sitkowska'
         },
         {
-          name: 'Anna Wszebrowska',
+          name: 'Anna Wszeborowska',
           job: '',
           path: 'Backend Development',
           info: '',
           image: '../../assets/mentors/placeholder.png',
-          alt: 'Anna Wszebrowska'
+          alt: 'Anna Wszeborowska'
         },
         {
           name: 'Michalina Dąbek',
@@ -585,6 +586,18 @@ const translations = {
           {
             src: 'coderslab-logo',
             alt: 'Coders Lab'
+          },
+          {
+            src: 'warsawjs-logo',
+            alt: 'WarsawJS'
+          },
+          {
+            src: 'girlsgonetech-logo',
+            alt: 'Girsl Gone Tech'
+          },
+          {
+            src: 'techleaders-logo',
+            alt: 'Tech Leaders'
           }
         ]
       }
@@ -650,7 +663,7 @@ const translations = {
       cta: {
         text: 'Aplikuj do programu',
         'text-sm': 'Aplikuj',
-        link: 'https://goo.gl/forms/u2Ue515AhDqEmGKM2'
+        link: 'https://docs.google.com/forms/d/e/1FAIpQLSfZU3yBcq2ISzUDTBuXMbbGzIOfDbysceuFliLVM9ovfMMPMQ/viewform?usp=sf_link'
       }
     }
   }
