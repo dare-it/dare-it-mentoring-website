@@ -4,11 +4,11 @@ const translations = {
       title: 'Program mentorski',
       title2: 'dla kobiet:',
       title3: 'zmień branżę na IT',
-      text: 'Chciałabyś projektować, kodować, zarządzać projektami technologicznymi? Pomożemy Ci to osiągnąć korzystając z własnych doświadczeń. Aplikuj do drugiej edycji programu mentorskiego dareIT!',
-      subtitle: 'Zgłoszenia do 4 kwietnia!',
+      text: 'Chciałabyś projektować, kodować, zarządzać projektami technologicznymi? Pomożemy Ci to osiągnąć korzystając z własnych doświadczeń.',
+      subtitle: 'Zapisy do kolejnej edycji programu są już zamknięte.',
       cta: {
-        text: 'Aplikuj do programu',
-        link: 'https://docs.google.com/forms/d/e/1FAIpQLSfZU3yBcq2ISzUDTBuXMbbGzIOfDbysceuFliLVM9ovfMMPMQ/viewform?usp=sf_link'
+        text: 'Zapisz się do newslettera',
+        link: 'https://mailchi.mp/f6cabc174f15/dareitnewsletter'
       }
     },
 
@@ -89,11 +89,11 @@ const translations = {
         steps: [
           {
             title: 'Aplikacje',
-            date: 'do 04.04'
+            date: ''
           },
           {
             title: 'Ogłoszenie uczestniczek',
-            date: '18.04'
+            date: ''
           }
         ]
       },
@@ -101,7 +101,7 @@ const translations = {
         steps: [
           {
             title: 'Potwierdzenie udziału od uczestniczek',
-            date: '22.04'
+            date: ''
           }
         ]
       },
@@ -109,11 +109,11 @@ const translations = {
         steps: [
           {
             title: 'Start programu',
-            date: '24.04'
+            date: ''
           },
           {
             title: 'Zakończenie programu',
-            date: '05.07'
+            date: ''
           }
         ],
         details: [
@@ -125,7 +125,7 @@ const translations = {
     },
 
     mentors: {
-      title: 'Mentorki',
+      title: 'Mentorki dareIT 2019',
       people: [
         {
           name: 'Joanna Erd',
@@ -652,18 +652,18 @@ const translations = {
     },
 
     footer: {
-      title: 'Czekamy na aplikacje ',
-      'title-sm': 'Aplikacje ',
-      title2: 'do 4 kwietnia',
-      'title2-sm': 'do 4.04',
+      title: 'Dołącz do newslettera dareIT',
+      'title-sm': 'Newsletter dareIT',
+      title2: '',
+      'title2-sm': '',
       title3: '',
       subtitle: 'Zrób pierwszy krok!',
       copyright: 'dareit.org ',
       copyright2: 'Wszelkie prawa zastrzeżone.',
       cta: {
-        text: 'Aplikuj do programu',
-        'text-sm': 'Aplikuj',
-        link: 'https://docs.google.com/forms/d/e/1FAIpQLSfZU3yBcq2ISzUDTBuXMbbGzIOfDbysceuFliLVM9ovfMMPMQ/viewform?usp=sf_link'
+        text: 'Zapisz się',
+        'text-sm': 'Zapisz się',
+        link: 'https://mailchi.mp/f6cabc174f15/dareitnewsletter'
       }
     }
   }
