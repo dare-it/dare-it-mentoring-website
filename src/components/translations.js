@@ -125,7 +125,7 @@ const translations = {
     },
 
     mentors: {
-      title: 'Mentorki dareIT 2019',
+      title: 'Mentorki Dare IT 2019',
       people: [
         {
           name: 'Joanna Erd',
@@ -491,7 +491,7 @@ const translations = {
     },
 
     testimonials: {
-      title: 'Uczestniczki o dareIT',
+      title: 'Uczestniczki o Dare IT',
       label: 'Edycja 2018',
       items: [
         {
@@ -500,7 +500,7 @@ const translations = {
           type: 'top-left'
         },
         {
-          text: 'DareIT to duża dawka wiedzy i dobrej energii, najlepszy program mentorski w jakim brałam udział.',
+          text: 'Dare IT to duża dawka wiedzy i dobrej energii, najlepszy program mentorski w jakim brałam udział.',
           author: 'Kasia, Visual Design',
           type: 'bottom-left-action'
         },
@@ -609,7 +609,7 @@ const translations = {
       text: 'Jest wiele sposobów w jakie możesz się zaangażować. Zostań mentorką, partnerem lub po prostu powiedz innym o programie!',
       cta: {
         text: 'Napisz do nas',
-        link: `mailto:girls@dareit.org?subject=dareIT`
+        link: `mailto:girls@dareit.org?subject=DareIT`
       }
     },
 
@@ -652,8 +652,8 @@ const translations = {
     },
 
     footer: {
-      title: 'Dołącz do newslettera dareIT',
-      'title-sm': 'Newsletter dareIT',
+      title: 'Dołącz do newslettera Dare IT',
+      'title-sm': 'Newsletter Dare IT',
       title2: '',
       'title2-sm': '',
       title3: '',
