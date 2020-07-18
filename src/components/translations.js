@@ -474,7 +474,7 @@ const translations = {
         {
           name: 'Michalina Dąbek',
           job: 'Performante | Warszawa',
-          path: ' HR',
+          path: 'HR',
           info: 'Cześć, jestem Michalina i od 6 lat zajmuję się rekrutacją i rozwojem pracowników w branży Digital Marketingu i IT. Prywatnie jestem podróżnikiem amatorem i nieprawną psiarą żyjącą ze świnką morską Walterem White.',
           image: '../../assets/mentors/michalina-dabek.jpg',
           alt: 'Michalina Dąbek'
@@ -482,7 +482,7 @@ const translations = {
         {
           name: 'Kamila Harasik',
           job: 'Fundacja TechSoup | Warszawa',
-          path: ' HR',
+          path: 'HR',
           info: 'Fanka nowych technologii i kotów. Od poniedziałku do piątku HRówa od zadań międzyludzkich.',
           image: '../../assets/mentors/kamila-harasik-smolinska.jpg',
           alt: 'Kamila Harasik'
@@ -508,6 +508,11 @@ const translations = {
           text: 'Ogromne wsparcie mentorki dało mi motywację i pozwoliło uwierzyć, że się uda.',
           author: 'Ania, UX Design',
           type: 'top-left'
+        },
+        {
+          text: 'Ogromne wsparcie mentorki dało mi motywację i pozwoliło uwierzyć, że się uda.',
+          author: 'Ania, UX Design',
+          type: 'bottom-left-action'
         }
       ]
     },
