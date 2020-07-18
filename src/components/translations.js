@@ -24,16 +24,20 @@ const translations = {
       listTitle2: ' bezpłatnie ',
       listTitle3: 'zgłębiać wiedzę w wybranym obszarze:',
       list: [
-        'Data Science',
-        'UX Research & UX Design',
+        'UX Design',
+        'UX Research',
         'UX Writing',
         'UI & Visual Design',
+        'Frontend Development',
+        'Backend Development', 
+        'iOS Development',
+        'Android Development',
+        'DevOps',
+        'Data Science',
         'Project Management',
+        'Product Management',
         'Digital Marketing',
         'Prawo Tech/IT',
-        'Frontend & Backend Development',
-        'DevOps',
-        'iOS & Android Development',
       ],
       background: 'User Experience Design UI & Visual Design Web Development Project Management Digital Marketing User Experience Design UI & Visual Design Web Development Project Management Digital Marketing'
     },
@@ -507,10 +511,17 @@ const translations = {
           text: 'Ogromne wsparcie mentorki dało mi motywację i pozwoliło uwierzyć, że się uda.',
           author: 'Ania, UX Design',
           type: 'top-left'
-        },
+        }
+      ]
+    },
+
+    testimonials: {
+      title: 
+      label: 
+      items: [
         {
-          text: 'Ogromne wsparcie mentorki dało mi motywację i pozwoliło uwierzyć, że się uda.',
-          author: 'Ania, UX Design',
+          text: 'Kontakt z mentorem face to face – to jest bezcenne. Spotkania były wspaniałe i bardzo inspirujące.',
+          author: 'Jowita, Web Development',
           type: 'bottom-left-action'
         }
       ]
