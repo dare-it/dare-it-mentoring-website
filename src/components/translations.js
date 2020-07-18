@@ -5,7 +5,7 @@ const translations = {
       title2: 'dla kobiet:',
       title3: 'zmień branżę na IT',
       text: 'Chciałabyś projektować, kodować, zarządzać projektami technologicznymi? Pomożemy Ci to osiągnąć korzystając z własnych doświadczeń.',
-      subtitle: 'Zapisy do kolejnej edycji programu są już zamknięte.',
+      subtitle: 'Jesteś zainteresowana jesienną edycją 2020?',
       cta: {
         text: 'Zapisz się na listę oczekujących',
         link: 'https://docs.google.com/forms/d/e/1FAIpQLSeFRGBwcCVjWxEOQ34L4F3m5meYBOsik6qMK5qU0VEZypXqXA/viewform?usp=sf_link'
