@@ -515,18 +515,6 @@ const translations = {
       ]
     },
 
-    testimonials: {
-      title: '',
-      label: 'Edycja 2019',
-      items: [
-        {
-          text: 'Kontakt z mentorem face to face – to jest bezcenne. Spotkania były wspaniałe i bardzo inspirujące.',
-          author: 'Jowita, Web Development',
-          type: 'bottom-left-action'
-        }
-      ]
-    },
-
     info: {
       title: 'Ten program jest dla Ciebie',
       subtitle: 'Twoje wykształcenie, zawód i wiek nie mają znaczenia',
