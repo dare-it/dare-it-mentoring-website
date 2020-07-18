@@ -14,10 +14,10 @@ const translationsPersonalData = {
       {
         type: 'ordered-list',
         content: [
-          'naboru uczestników do programu mentoringowego dareIT;',
+          'naboru uczestników do programu mentoringowego Dare IT;',
           'przeprowadzenia bieżącej edycji programu;',
           'przeprowadzenia przyszłych edycji programu;',
-          'informowania Cię o bieżących inicjatywach dareIT.'
+          'informowania Cię o bieżących inicjatywach Dare IT.'
         ]
       }
     ],
@@ -44,7 +44,7 @@ const translationsPersonalData = {
     [
       {
         type: 'paragraph',
-        content: 'dareIT nie udostępnia Twoich danych innym podmiotom, choć w pewnych okolicznościach możemy być zobowiązani do przekazania Twoich danych właściwym organom (w szczególności policji lub prokuraturze), jeżeli zostanie do nas skierowane takie żądanie, o ile istnieje podstawa prawna udostępnienia takich danych (np.: nakaz sądowy).'
+        content: 'Dare IT nie udostępnia Twoich danych innym podmiotom, choć w pewnych okolicznościach możemy być zobowiązani do przekazania Twoich danych właściwym organom (w szczególności policji lub prokuraturze), jeżeli zostanie do nas skierowane takie żądanie, o ile istnieje podstawa prawna udostępnienia takich danych (np.: nakaz sądowy).'
       }
     ],
     [
