@@ -30,11 +30,10 @@ const translations = {
         'UI & Visual Design',
         'Project Management',
         'Digital Marketing',
-        'Tech/IT Law',
-        'Business Strategy',
+        'Prawo Tech/IT',
         'Frontend & Backend Development',
         'DevOps',
-        'iOS Development',
+        'iOS & Android Development',
       ],
       background: 'User Experience Design UI & Visual Design Web Development Project Management Digital Marketing User Experience Design UI & Visual Design Web Development Project Management Digital Marketing'
     },
