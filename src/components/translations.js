@@ -8,7 +8,7 @@ const translations = {
       subtitle: 'Zapisy do kolejnej edycji programu są już zamknięte.',
       cta: {
         text: 'Zapisz się na listę oczekujących',
-        link: 'https://mailchi.mp/f6cabc174f15/dareitnewsletter'
+        link: 'https://docs.google.com/forms/d/e/1FAIpQLSc4Huc6YsGLCBE7DX9-4EQYcZO7a0qR7V8XPtWH1OvDnwMsIw/viewform?usp=sf_link'
       }
     },
 
