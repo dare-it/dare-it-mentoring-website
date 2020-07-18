@@ -8,7 +8,7 @@ const translations = {
       subtitle: 'Zapisy do kolejnej edycji programu są już zamknięte.',
       cta: {
         text: 'Zapisz się na listę oczekujących',
-        link: 'https://docs.google.com/forms/d/e/1FAIpQLSc4Huc6YsGLCBE7DX9-4EQYcZO7a0qR7V8XPtWH1OvDnwMsIw/viewform?usp=sf_link'
+        link: 'https://docs.google.com/forms/d/e/1FAIpQLSeFRGBwcCVjWxEOQ34L4F3m5meYBOsik6qMK5qU0VEZypXqXA/viewform?usp=sf_link'
       }
     },
 
