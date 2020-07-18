@@ -7,7 +7,7 @@ const translations = {
       text: 'Chciałabyś projektować, kodować, zarządzać projektami technologicznymi? Pomożemy Ci to osiągnąć korzystając z własnych doświadczeń.',
       subtitle: 'Zapisy do kolejnej edycji programu są już zamknięte.',
       cta: {
-        text: 'Zapisz się do newslettera',
+        text: 'Zapisz się na listę oczekujących',
         link: 'https://mailchi.mp/f6cabc174f15/dareitnewsletter'
       }
     },
