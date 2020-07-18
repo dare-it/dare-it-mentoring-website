@@ -516,8 +516,8 @@ const translations = {
     },
 
     testimonials: {
-      title: 
-      label: 
+      title: '',
+      label: 'Edycja 2019',
       items: [
         {
           text: 'Kontakt z mentorem face to face – to jest bezcenne. Spotkania były wspaniałe i bardzo inspirujące.',
