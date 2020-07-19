@@ -131,20 +131,28 @@ const translations = {
       title: 'Mentorki Dare IT 2019',
       people: [
         {
-          name: 'Joanna Erd',
-          job: 'EL Passion | Warszawa',
-          path: 'Frontend Development',
-          info: 'Pixel-perfekcyjna pani domu. Pukam w klawiaturę, aż stanie się coś dobrego.',
-          image: '../../assets/mentors/joanna-erd.jpg',
-          alt: 'Joanna Erd photo'
-        },
-        {
           name: 'Aleksandra Bis',
           job: 'EL Passion | Warszawa',
           path: 'UX Design',
           info: 'Zamieniam pomysły w użyteczne produkty. Aktywistka i projektantka. Wiecznie w biegu, ale w słusznej sprawie!',
           image: '../../assets/mentors/aleksandra-bis.jpg',
           alt: 'Aleksandra Bis photo'
+        },
+        {
+          name: 'Natalie Pilling',
+          job: 'EL Passion | Warszawa',
+          path: 'Business Strategy',
+          info: 'I believe in leading by example. I would like to see more women in leadership roles.',
+          image: '../../assets/mentors/natalie-pilling.jpg',
+          alt: 'Natalie Pilling photo'
+        },
+        {
+          name: 'Joanna Erd',
+          job: 'EL Passion | Warszawa',
+          path: 'Frontend Development',
+          info: 'Pixel-perfekcyjna pani domu. Pukam w klawiaturę, aż stanie się coś dobrego.',
+          image: '../../assets/mentors/joanna-erd.jpg',
+          alt: 'Joanna Erd photo'
         },
         {
           name: 'Kasia Łaszczewska',
@@ -163,20 +171,12 @@ const translations = {
           alt: 'Ula Kowalska photo'
         },
         {
-          name: 'Natalie Pilling',
-          job: 'EL Passion | Warszawa',
-          path: 'Business Strategy',
-          info: 'I believe in leading by example. I would like to see more women in leadership roles.',
-          image: '../../assets/mentors/natalie-pilling.jpg',
-          alt: 'Natalie Pilling photo'
-        },
-        {
           name: 'Kinga Sieminiak',
           job: 'Intive | Szczecin',
           path: 'Frontend Development',
           info: 'Piszę kolorowe internety.',
           image: '../../assets/mentors/kinga-sieminiak.jpg',
-          alt: 'Kinga Sieminiak'
+          alt: 'Kinga Sieminiak photo'
         },
         {
           name: 'Agnieszka Sobańska',
@@ -192,7 +192,7 @@ const translations = {
           path: 'Project Management',
           info: 'Spinam projekty digitalowe (performance marketing/ analityka), a po 17:00 myślę nad blogiem kulinarnym i nowym serialem kryminalnym!',
           image: '../../assets/mentors/weronika-szczepanik.jpg',
-          alt: 'Weronika Szczepanik'
+          alt: 'Weronika Szczepanik photo'
         },
         {
           name: 'Ela Kumela',
@@ -208,7 +208,7 @@ const translations = {
           path: 'UX Design',
           info: 'Wierzę, że dobrym projektowaniem możemy zbawić świat. Dla zachowania balansu zakładam wrotki, albo czytam książki w parku.',
           image: '../../assets/mentors/julia-maczka.jpg',
-          alt: 'Julia Szewczyk'
+          alt: 'Julia Szewczyk photo'
         },
         {
           name: 'Aga Naplocha',
@@ -216,7 +216,7 @@ const translations = {
           path: 'Frontend Development',
           info: 'Najwięcej frajdy sprawia mi praca na styku dwóch obszarów – designu i frontend developmentu. Po godzinach rozwijam The Awwwesomes – organizuje wydarzenia, konferencje (m.im Element UX Talks), prowadzę warszty i wykłady.',
           image: '../../assets/mentors/aga-naplocha.jpg',
-          alt: 'Aga Naplocha'
+          alt: 'Aga Naplocha photo'
         },
         {
           name: 'Agata Kumela',
@@ -224,7 +224,7 @@ const translations = {
           path: 'Backend Development',
           info: 'Koduję',
           image: '../../assets/mentors/agata-kumela.jpg',
-          alt: 'Agata Kumela'
+          alt: 'Agata Kumela photo'
         },
         {
           name: 'Agnieszka Zwolińska',
@@ -232,7 +232,7 @@ const translations = {
           path: 'UX Research',
           info: 'Antropolożka, fanka badań etnograficznych w UXie. Całe życie coś studiuje, od niedawna uczy innych.',
           image: '../../assets/mentors/agnieszka-zwolinska.jpg',
-          alt: 'Agnieszka Zwolińska'
+          alt: 'Agnieszka Zwolińska photo'
         },
         {
           name: 'Angelika Losko',
@@ -240,7 +240,7 @@ const translations = {
           path: 'UX Design',
           info: 'Absolwentka Interaction Design w Malmö i kognitywistka. Po godzinach badam mózgi.',
           image: '../../assets/mentors/angelika-losko.jpg',
-          alt: 'Angelika Losko'
+          alt: 'Angelika Losko photo'
         },
         {
           name: 'Estera Kot',
@@ -248,7 +248,7 @@ const translations = {
           path: 'Backend Development',
           info: 'Piszę kod. Lubię też pobiegać i pójść na cross-fit.',
           image: '../../assets/mentors/estera-kot.jpg',
-          alt: 'Estera Kot'
+          alt: 'Estera Kot photo'
         },
         {
           name: 'Gosia Heba',
@@ -256,7 +256,7 @@ const translations = {
           path: 'Frontend Development',
           info: 'Uwielbiam układać kolorowe puzzelki kodu na froncie, uczyć się i zachłannie eksplorować. Wierzę w ciekawość i w uśmiech.',
           image: '../../assets/mentors/gosia-heba.jpg',
-          alt: 'Gosia Heba'
+          alt: 'Gosia Heba photo'
         },
         {
           name: 'Joanna Cymkiewicz',
@@ -264,7 +264,7 @@ const translations = {
           path: 'UI & Visual Design',
           info: 'Na dizajn patrzę szeroko, tak jak szeroko patrzę na świat. Projektuję rozwiązania dostępne starając się nikogo nie wykluczać.',
           image: '../../assets/mentors/joanna-cymkiewicz.jpg',
-          alt: 'Joanna Cymkiewicz'
+          alt: 'Joanna Cymkiewicz photo'
         },
         {
           name: 'Joanna Żaboklicka',
@@ -272,7 +272,7 @@ const translations = {
           path: 'UX Research',
           info: 'Lubię kompleksowe i złożone projekty, głównie w zakresie produktów medycznych i usług publicznych.',
           image: '../../assets/mentors/joanna-zaboklicka.jpg',
-          alt: 'Joanna Żaboklicka'
+          alt: 'Joanna Żaboklicka photo'
         },
         {
           name: 'Kaja Toczyska',
@@ -280,7 +280,7 @@ const translations = {
           path: 'UX Design',
           info: 'Projektantka UX z pasją i wykształceniem neuropsychologicznym. Sportowy freak',
           image: '../../assets/mentors/kaja-toczyska.jpg',
-          alt: 'Kaja Toczyska'
+          alt: 'Kaja Toczyska photo'
         },
         {
           name: 'Karina Ślęzak',
@@ -288,7 +288,7 @@ const translations = {
           path: 'UX Writing',
           info: 'Pasjonatka prostej komunikacji budująca świat wolny od skomplikowanego języka',
           image: '../../assets/mentors/karina-slezak.jpg',
-          alt: 'Karina Ślęzak'
+          alt: 'Karina Ślęzak photo'
         },
         {
           name: 'Karolina Rosół',
@@ -296,7 +296,7 @@ const translations = {
           path: 'Project Management',
           info: 'Sprawiam, że dzieją się rzeczy. Optymalizacja, kotyfikacja, książka, moda, siłka.',
           image: '../../assets/mentors/karolina-rosol.jpg',
-          alt: 'Karolina Rosół'
+          alt: 'Karolina Rosół photo'
         },
         {
           name: 'Katarzyna Zerka',
@@ -304,7 +304,7 @@ const translations = {
           path: 'UX Research',
           info: 'Po pierwsze ludzie :)',
           image: '../../assets/mentors/katarzyna-zerka.jpg',
-          alt: 'Katarzyna Zerka'
+          alt: 'Katarzyna Zerka photo'
         },
         {
           name: 'Katarzyna Janota',
@@ -312,7 +312,7 @@ const translations = {
           path: 'UX Design',
           info: 'Projektuję interakcje, eksperymentuję z platformami i przyglądam się światu. Po godzinach dużo czytam i współtworzę grupa.robocza.org.',
           image: '../../assets/mentors/katarzyna-janota.jpg',
-          alt: 'Katarzyna Janota'
+          alt: 'Katarzyna Janota photo'
         },
         {
           name: 'Joanna Rodo',
@@ -320,7 +320,7 @@ const translations = {
           path: 'UX Design',
           info: '',
           image: '../../assets/mentors/placeholder.png',
-          alt: 'Joanna Rodo'
+          alt: 'Joanna Rodo photo'
         },
         {
           name: 'Katarzyna Kończalska',
@@ -328,7 +328,7 @@ const translations = {
           path: 'Backend Development',
           info: 'Piszę softwarowe roboty, które robią nudną pracę za ludzi.',
           image: '../../assets/mentors/katarzyna-konczalska.jpg',
-          alt: 'Katarzyna Kończalska'
+          alt: 'Katarzyna Kończalska photo'
         },
         {
           name: 'Katarzyna Kubalska',
@@ -336,7 +336,7 @@ const translations = {
           path: 'UX Design',
           info: 'Pasjonatka dobrego designu, roślin i muzyki. W wolnych chwilach haftuje i gra na basie.',
           image: '../../assets/mentors/katarzyna-kubalska.jpg',
-          alt: 'Katarzyna Kubalska'
+          alt: 'Katarzyna Kubalska photo'
         },
         {
           name: 'Sona Kerim',
@@ -344,7 +344,7 @@ const translations = {
           path: 'Digital Marketing',
           info: 'I was a history teacher for 6 years and needed a change. I now work as a Digital Marketing Specialist at EL Passion, run educational workshops in other IT companies, and write freelance.',
           image: '../../assets/mentors/sona-kerim.jpg',
-          alt: 'Sona Kerim'
+          alt: 'Sona Kerim photo'
         },
         {
           name: 'Katarzyna Siedlarek',
@@ -352,7 +352,7 @@ const translations = {
           path: 'DevOps',
           info: 'Cloud devops, współorganizatorka Django Girls i PyLigh',
           image: '../../assets/mentors/katarzyna-siedlarek.jpg',
-          alt: 'Katarzyna Siedlarek'
+          alt: 'Kasia Siedlarek photo'
         },
         {
           name: 'Kasia Jarmołkowicz',
@@ -360,7 +360,7 @@ const translations = {
           path: 'Backend Development',
           info: 'Ruby on Rails, Javascript, Elm. Rails Girls. Kawa, koty i spanko.',
           image: '../../assets/mentors/kasia-jarmolkowicz.jpg',
-          alt: 'Kasia Jarmołkowicz'
+          alt: 'Kasia Jarmołkowicz photo'
         },
         {
           name: 'Klaudia Bęczkowska',
@@ -368,7 +368,7 @@ const translations = {
           path: 'Frontend Development',
           info: 'Z wykształcenia medyk, z wyboru Front-end Developer :) Lubię podróże małe i duże, a mój ulubiony serial to Przyjaciele.',
           image: '../../assets/mentors/klaudia-beczkowska.jpg',
-          alt: 'Klaudia Bęczkowska'
+          alt: 'Klaudia Bęczkowska photo'
         },
         {
           name: 'Klaudyna Bańczerowska',
@@ -376,7 +376,7 @@ const translations = {
           path: 'UI & Visual Design',
           info: 'Fanka nowych technologii, dobrego kina i podróży, przy okazji projektuję ładne i funkcjonalne rzeczy ;)',
           image: '../../assets/mentors/klaudyna-banczerowska.jpg',
-          alt: 'Klaudyna Bańczerowska'
+          alt: 'Klaudyna Bańczerowska photo'
         },
         {
           name: 'Magda Sroka',
@@ -384,7 +384,7 @@ const translations = {
           path: 'UX Design',
           info: 'Poruszam się na styku projektowania i biznesu,  a baterie ładuję na CrossFit MGW <3',
           image: '../../assets/mentors/magda-sroka.jpg',
-          alt: 'Magda Sroka'
+          alt: 'Magda Sroka photo'
         },
         {
           name: 'Paulina Wardęga',
@@ -392,7 +392,7 @@ const translations = {
           path: 'Digital Marketing',
           info: '',
           image: '../../assets/mentors/placeholder.png',
-          alt: 'Paulina Wardęga'
+          alt: 'Paulina Wardęga photo'
         },
         {
           name: 'Małgorzata Ksionek',
@@ -400,7 +400,7 @@ const translations = {
           path: 'Backend Development',
           info: 'Z wyboru i pasji web-developer, z wykształcenia psycholog. W programowaniu najbardziej lubi ciągłe wyzwania.W wolnym czasie czyta lub bezskutecznie walczy z uzależnieniem od Netflixa. Fanka kolorowych skarpetek.',
           image: '../../assets/mentors/malgorzata-ksionek.jpg',
-          alt: 'Małgorzata Ksionek'
+          alt: 'Małgorzata Ksionek photo'
         },
         {
           name: 'Marta Klimowicz',
@@ -408,7 +408,7 @@ const translations = {
           path: 'Digital Marketing',
           info: 'Doktorka socjologii od ponad 10 lat zajmująca się marketingiem internetowym.',
           image: '../../assets/mentors/marta-klimowicz.jpg',
-          alt: ' Marta Klimowicz'
+          alt: ' Marta Klimowicz photo'
         },
         {
           name: 'Marzena Wojtkowiak',
@@ -416,7 +416,7 @@ const translations = {
           path: 'Data Science',
           info: 'Miłośniczka biegów ulicznych, skandynawskich kryminałów i dalekich podróży. Na co dzień analizuje dane jako data scientistka.',
           image: '../../assets/mentors/marzena-wojtkowiak.jpg',
-          alt: 'Marzena Wojtkowiak'
+          alt: 'Marzena Wojtkowiak photo'
         },
         {
           name: 'Monika Jagodyńska',
@@ -424,7 +424,7 @@ const translations = {
           path: 'Project Management',
           info: 'Spełniałam się w roli Testera, później Projektanta UX, a aktualnie jestem Product Ownerem. Początek dnia tylko z dobrą kawą :)',
           image: '../../assets/mentors/monika-jagodynska.jpg',
-          alt: 'Monika Jagodyńska'
+          alt: 'Monika Jagodyńska photo'
         },
         {
           name: 'Maria Guzewska',
@@ -432,7 +432,7 @@ const translations = {
           path: 'Prawo Tech/IT',
           info: '',
           image: '../../assets/mentors/placeholder.png',
-          alt: 'Maria Guzewska'
+          alt: 'Maria Guzewska photo'
         },
         {
           name: 'Natalia Pelcer',
@@ -440,7 +440,7 @@ const translations = {
           path: 'Business Strategy',
           info: "Wspieram zespół Venture Building, między innymi przy nawiązywaniu współpracy z inwestorami i pozyskiwaniu finansowania dla venture'ów.",
           image: '../../assets/mentors/natalia-pelcer.jpg',
-          alt: 'Natalia Pelcer'
+          alt: 'Natalia Pelcer photo'
         },
         {
           name: 'Olka Fiszbak-Biernat',
@@ -448,7 +448,7 @@ const translations = {
           path: 'UI & Visual Design',
           info: 'Na co dzień rozwijam produkty związane z branżą healthcare dla klientów z USA."Po godzinach miłośniczka roślin, mopsów i mocnej kawy :) ',
           image: '../../assets/mentors/ola-fiszbak.jpg',
-          alt: 'Ola Fiszbak'
+          alt: 'Ola Fiszbak photo'
         },
         {
           name: 'Ola Pazio',
@@ -456,7 +456,7 @@ const translations = {
           path: 'Backend Development',
           info: '',
           image: '../../assets/mentors/ola-pazio.jpg',
-          alt: 'Ola Pazio'
+          alt: 'Ola Pazio photo'
         },
         {
           name: 'Joanna Sitkowska',
@@ -464,7 +464,7 @@ const translations = {
           path: 'Project Management',
           info: '',
           image: '../../assets/mentors/placeholder.png',
-          alt: 'Joanna Sitkowska'
+          alt: 'Joanna Sitkowska photo'
         },
         {
           name: 'Anna Wszeborowska',
@@ -472,7 +472,7 @@ const translations = {
           path: 'Backend Development',
           info: '',
           image: '../../assets/mentors/placeholder.png',
-          alt: 'Anna Wszeborowska'
+          alt: 'Anna Wszeborowska photo'
         },
         {
           name: 'Michalina Dąbek',
@@ -480,7 +480,7 @@ const translations = {
           path: 'HR',
           info: 'Cześć, jestem Michalina i od 6 lat zajmuję się rekrutacją i rozwojem pracowników w branży Digital Marketingu i IT. Prywatnie jestem podróżnikiem amatorem i nieprawną psiarą żyjącą ze świnką morską Walterem White.',
           image: '../../assets/mentors/michalina-dabek.jpg',
-          alt: 'Michalina Dąbek'
+          alt: 'Michalina Dąbek photo'
         },
         {
           name: 'Kamila Harasik',
@@ -488,7 +488,7 @@ const translations = {
           path: 'HR',
           info: 'Fanka nowych technologii i kotów. Od poniedziałku do piątku HRówa od zadań międzyludzkich.',
           image: '../../assets/mentors/kamila-harasik-smolinska.jpg',
-          alt: 'Kamila Harasik'
+          alt: 'Kamila Harasik photo'
         }
       ]
     },
@@ -620,6 +620,10 @@ const translations = {
       title: 'Ograniczenia wiekowe',
       questions: [
         {
+          title: 'Kryteria wyboru',
+          text: 'Podstawą wyboru uczestniczek będzie formularz aplikacyjny oraz nasza możliwość zaspokojenia ich oczekiwań względem programu. Będziemy pracować nad tym, by zwiększać liczbę mentorek oraz zakres ich kompetencji tak, by pomóc jak największej liczbie dziewczyn :)'
+        },
+        {
           title: 'Koszt uczestnictwa',
           text: 'Udział w programie jest całkowicie bezpłatny. Wszystkim uczestniczkom zapewniamy wspólny obiad inauguracyjny, minimum sześć indywidualnych sesji mentorskich, konsultacje z rekruterką HR oraz imprezę na zakończenie programu.'
         },
@@ -630,10 +634,6 @@ const translations = {
         {
           title: 'Wymagane umiejętności',
           text: 'Program jest zaprojektowany tak, by umożliwić uczestnictwo również dziewczynom bez umiejętności projektowania, programowania czy doświadczenia w branży IT'
-        },
-        {
-          title: 'Kryteria wyboru',
-          text: 'Podstawą wyboru uczestniczek będzie formularz aplikacyjny oraz nasza możliwość zaspokojenia ich oczekiwań względem programu. Będziemy pracować nad tym, by zwiększać liczbę mentorek oraz zakres ich kompetencji tak, by pomóc jak największej liczbie dziewczyn :)'
         },
         {
           title: 'Aplikantki spoza Warszawy',
