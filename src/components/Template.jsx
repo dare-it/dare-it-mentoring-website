@@ -22,14 +22,6 @@ export default (props) => {
   return (
     <html>
       <head>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-168093382-3"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments)}
-          gtag('js', new Date());
-        gtag('config', 'UA-168093382-3');
-        </script>
-
         <title>Dare IT | Program mentorski dla dziewczyn</title>
 
         <meta charset="utf-8" />
