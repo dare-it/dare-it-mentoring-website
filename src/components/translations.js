@@ -666,7 +666,7 @@ const translations = {
       cta: {
         text: 'Zapisz się na listę oczekujących',
         'text-sm': 'Zapisz się na listę oczekujących',
-        link: 'https://forms.gle/u9pWRtqz7WqVo1xV9'
+        link: 'https://docs.google.com/forms/d/e/1FAIpQLScX7_MS3CiMXvp3hwd26e6VSEfQeWvTuzO81W63ES8Q6Z_5GQ/viewform?usp=sf_link'
       }
     }
   }
