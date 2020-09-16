@@ -655,8 +655,8 @@ const translations = {
     },
 
     footer: {
-      title: 'Jesteś zainteresowana jesienną edycją 2020?',
-      'title-sm': 'Mentoring Dare IT',
+      title: 'Dołącz do newslettera Dare IT',
+      'title-sm': 'Newsletter Dare IT',
       title2: '',
       'title2-sm': '',
       title3: '',
@@ -664,9 +664,9 @@ const translations = {
       copyright: 'dareit.org ',
       copyright2: 'Wszelkie prawa zastrzeżone.',
       cta: {
-        text: 'Zapisz się na listę oczekujących',
-        'text-sm': 'Zapisz się na listę oczekujących',
-        link: 'https://forms.gle/u9pWRtqz7WqVo1xV9'
+        text: 'Zapisz się',
+        'text-sm': 'Zapisz się',
+        link: 'https://mailchi.mp/f6cabc174f15/dareitnewsletter'
       }
     }
   }
