@@ -607,12 +607,12 @@ const translations = {
     },
 
     getInvolved: {
-      title: 'Zostań mentorką',
-      subtitle: 'Podoba Ci się nasza inicjatywa i chcesz pomagać z nami?',
-      text: '',
+      title: 'Pomagaj z nami',
+      subtitle: 'Podoba Ci się nasza inicjatywa i chcesz się przyłączyć?',
+      text: 'Jest wiele sposobów w jakie możesz się zaangażować. Zostań mentorką, partnerem lub po prostu powiedz innym o programie!',
       cta: {
-        text: 'Dołącz do listy mentorek',
-        link: `https://forms.gle/zgaCuyz2BwFqCuap6`
+        text: 'Napisz do nas',
+        link: `mailto:girls@dareit.org?subject=DareIT`
       }
     },
 
