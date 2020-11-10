@@ -498,79 +498,79 @@ const translations = {
       items: [
         {
           name: 'Allegro',
-          logo: '../../assets/logos/logo-allegro.svg',
+          logo: 'logo-allegro.svg',
         },
         {
           name: 'Google',
-          logo: '../../assets/logos/logo-google.svg',
+          logo: 'logo-google.svg',
         },
         {
           name: 'Polidea',
-          logo: '../../assets/logos/logo-polidea.svg',
+          logo: 'logo-polidea.svg',
         },
         {
           name: 'Monterail',
-          logo: '../../assets/logos/logo-monterail.svg',
+          logo: 'logo-monterail.svg',
         },
         {
           name: 'Microsoft',
-          logo: '../../assets/logos/logo-microsoft.svg',
+          logo: 'logo-microsoft.svg',
         },
         {
           name: 'EL Passion',
-          logo: '../../assets/logos/logo-el-passion.svg',
+          logo: 'logo-el-passion.svg',
         },
         {
           name: 'Adobe',
-          logo: '../../assets/logos/logo-adobe.svg',
+          logo: 'logo-adobe.svg',
         },
         {
           name: 'Accenture',
-          logo: '../../assets/logos/logo-accenture.svg',
+          logo: 'logo-accenture.svg',
         },
         {
           name: 'Goldman Sachs',
-          logo: '../../assets/logos/logo-goldman-sachs.svg',
+          logo: 'logo-goldman-sachs.svg',
         },
         {
           name: 'Booksy',
-          logo: '../../assets/logos/logo-booksy.svg',
+          logo: 'logo-booksy.svg',
         },
         {
           name: 'Demant',
-          logo: '../../assets/logos/logo-demant.svg',
+          logo: 'logo-demant.svg',
         },
         {
           name: 'Brainly',
-          logo: '../../assets/logos/logo-brainly.svg',
+          logo: 'logo-brainly.svg',
         },
         {
           name: 'Acoustic',
-          logo: '../../assets/logos/logo-acoustic.svg',
+          logo: 'logo-acoustic.svg',
         },
         {
           name: 'Olx',
-          logo: '../../assets/logos/logo-olx.svg',
+          logo: 'logo-olx.svg',
         },
         {
           name: 'iProspect',
-          logo: '../../assets/logos/logo-iprospect.svg',
+          logo: 'logo-iprospect.svg',
         },
         {
           name: 'Alior Bank',
-          logo: '../../assets/logos/logo-alior-bank.svg',
+          logo: 'logo-alior-bank.svg',
         },
         {
           name: 'Fresha',
-          logo: '../../assets/logos/logo-fresha.svg',
+          logo: 'logo-fresha.svg',
         },
         {
           name: 'Empik',
-          logo: '../../assets/logos/logo-empik.svg',
+          logo: 'logo-empik.svg',
         },
         {
           name: 'AirHelp',
-          logo: '../../assets/logos/logo-airhelp.svg',
+          logo: 'logo-airhelp.svg',
         },
       ],
       moreText: 'i więcej',
@@ -629,8 +629,8 @@ const translations = {
         title: 'Partner',
         partners: [
           {
-            src: 'elpassion-logo',
-            alt: 'EL Passion logo'
+            logo: 'elpassion-logo.png',
+            name: 'EL Passion logo'
           }
         ]
       },
@@ -638,52 +638,52 @@ const translations = {
         title: 'Wspierają nas',
         partners: [
           {
-            src: 'dribbble-logo',
-            alt: 'Dribbble Meetup Warsaw'
+            logo: 'dribbble-logo.png',
+            name: 'Dribbble Meetup Warsaw'
           },
           {
-            src: 'girlscodefun-logo',
-            alt: 'Girls Code Fun logo'
+            logo: 'girlscodefun-logo.png',
+            name: 'Girls Code Fun logo'
           },
           {
-            src: 'ladiesthatux-logo',
-            alt: 'Ladies that Ux logo'
+            logo: 'ladiesthatux-logo.png',
+            name: 'Ladies that Ux logo'
           },
           {
-            src: 'theawwwesomes-logo',
-            alt: 'The Awwwesomes'
+            logo: 'theawwwesomes-logo.png',
+            name: 'The Awwwesomes'
           },
           {
-            src: 'futuredesign-logo',
-            alt: 'Future Design logo'
+            logo: 'futuredesign-logo.png',
+            name: 'Future Design logo'
           },
           {
-            src: 'tipiux-logo',
-            alt: 'Tipi UX'
+            logo: 'tipiux-logo.png',
+            name: 'Tipi UX'
           },
           {
-            src: 'inkubator-logo',
-            alt: 'Inkubator uw logo'
+            logo: 'inkubator-logo.png',
+            name: 'Inkubator uw logo'
           },
           {
-            src: 'elementtalks-logo',
-            alt: 'Element Talks'
+            logo: 'elementtalks-logo.png',
+            name: 'Element Talks'
           },
           {
-            src: 'coderslab-logo',
-            alt: 'Coders Lab'
+            logo: 'coderslab-logo.png',
+            name: 'Coders Lab'
           },
           {
-            src: 'warsawjs-logo',
-            alt: 'WarsawJS'
+            logo: 'warsawjs-logo.png',
+            name: 'WarsawJS'
           },
           {
-            src: 'girlsgonetech-logo',
-            alt: 'Girsl Gone Tech'
+            logo: 'girlsgonetech-logo.png',
+            name: 'Girsl Gone Tech'
           },
           {
-            src: 'techleaders-logo',
-            alt: 'Tech Leaders'
+            logo: 'techleaders-logo.png',
+            name: 'Tech Leaders'
           }
         ]
       }

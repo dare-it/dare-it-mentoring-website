@@ -25,6 +25,10 @@
     font-size: 40px;
   }
 
+  &--centered {
+    text-align: center;
+  }
+
   &:not(:last-child) {
     margin-bottom: .8em;
   }

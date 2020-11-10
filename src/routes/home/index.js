@@ -5,12 +5,12 @@ import classNames from 'classnames';
 import AccordionList from '../../components/accordionList';
 import Button from '../../components/button';
 import Card from '../../components/card';
-import EmployersGrid from '../../components/employersGrid';
 import Footer from '../../components/footer';
 import Grid from '../../components/grid';
 import Heading from '../../components/heading';
 import Hero from '../../components/hero';
 import List from '../../components/list';
+import LogosGrid from '../../components/logosGrid';
 import Pattern from '../../components/pattern';
 import Slider from '../../components/slider';
 import Quotation from '../../components/quotation';
@@ -80,7 +80,11 @@ export default () => (
         <div class={style.home__container}>
           <Heading text={text.home.employers.title} />
 
-          <EmployersGrid employers={text.home.employers.items} moreText={text.home.employers.moreText} />
+          <div class={classNames(style.home__row, style['home__row--flex'])}>
+            <div class={classNames(style['col-6'], style['col-narrow-both'])}>
+              <LogosGrid items={text.home.employers.items.map(employer => ({ name: employer.name, src: `../../assets/logos/${employer.logo}` }))} moreText={text.home.employers.moreText} />
+            </div>
+          </div>
         </div>
       </section>
 
@@ -128,21 +132,18 @@ export default () => (
       <section class={style.home__section}>
         <div class={style.home__container}>
           <div class={classNames(style.home__row, style['home__row--flex'])}>
-            <div class={style['col-4']}>
-              <Heading text={text.home.partners.main.title} type="small" />
+            <div class={classNames(style['col-6'], style['col-narrow-both'])}>
+              <Heading text={text.home.partners.main.title} type="small" centered />
 
-              {text.home.partners.main.partners.map(partner => (
-                <img src={`../../assets/logos/${partner.src}.png`} alt={partner.alt} />
-              ))}
+              <LogosGrid items={text.home.partners.main.partners.map(partner => ({ ...partner, src: `../../assets/logos/${partner.logo}` }))} centered />
             </div>
+          </div>
 
-            <div class={style['col-8']}>
-              <Heading text={text.home.partners.support.title} type="small" />
-              <figure class={style.home__images}>
-                {text.home.partners.support.partners.map(partner => (
-                  <img src={`../../assets/logos/${partner.src}.png`} alt={partner.alt} class={style.home__image} />
-                ))}
-              </figure>
+          <div class={classNames(style.home__row, style['home__row--flex'])}>
+            <div class={classNames(style['col-6'], style['col-narrow-both'])}>
+              <Heading text={text.home.partners.support.title} type="small" centered />
+
+              <LogosGrid items={text.home.partners.support.partners.map(partner => ({ ...partner, src: `../../assets/logos/${partner.logo}` }))} centered />
             </div>
           </div>
         </div>
