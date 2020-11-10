@@ -3,7 +3,6 @@ import style from './style.scss';
 import Portrait from './../portrait';
 import classNames from 'classnames';
 import debounce from '../../helpers/debounce';
-import Arrow from '../../assets/arrow.svg';
 import root from 'window-or-global';
 
 import { SLIDER_CONSTS } from './../../consts/index';
@@ -31,7 +30,7 @@ export default class Slider extends Component {
     index += reverse ? 1 : -1;
     if (index < 0) { index = 0; }
 
-    let offset = offset = -slideWidth * index;
+    let offset = -slideWidth * index;
 
     if (index == childrenLength - Math.floor(root.innerWidth / slideWidth)) {
       offset += (root.innerWidth % slideWidth);
@@ -44,7 +43,7 @@ export default class Slider extends Component {
     this.setState({ touchstartx: e.touches[0].pageX });
   }
 
-  onTouchMove(e) {
+  onTouchMove() {
     let touchmovex = event.touches[0].pageX;
     let movex = this.state.touchstartx - touchmovex;
 
@@ -57,7 +56,7 @@ export default class Slider extends Component {
     }
   }
 
-  onTouchEnd(e) {
+  onTouchEnd() {
     const { slideWidth, activeIndex, translate, movex, childrenLength } = this.state;
     let index = activeIndex;
 
@@ -103,8 +102,8 @@ export default class Slider extends Component {
   }
 
   render() {
-    const sliderClass = classNames(style.slider, className);
     const { className, content, id } = this.props;
+    const sliderClass = classNames(style.slider, className);
 
     const isSliderEnd = Math.abs(this.state.translate) >= ((this.state.childrenLength* this.state.slideWidth) - root.innerWidth);
 
@@ -115,11 +114,11 @@ export default class Slider extends Component {
 
           <div class={style.slider__actions}>
             <button class={style.slider__button} onClick={() => this.slide(false)} disabled={this.state.activeIndex === 0}>
-              <Arrow class={classNames(style.slider__arrow, style['slider__arrow--left'])} />
+              <img src="../../assets/arrow.svg" class={classNames(style.slider__arrow, style['slider__arrow--left'])} />
             </button>
 
             <button class={style.slider__button} onClick={() => this.slide(true)} disabled={isSliderEnd}>
-              <Arrow class={style.slider__arrow} />
+              <img src="../../assets/arrow.svg" class={style.slider__arrow} />
             </button>
           </div>
         </div>

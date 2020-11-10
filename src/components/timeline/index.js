@@ -1,7 +1,7 @@
 import style from './style.scss';
 import classNames from 'classnames';
 
-export default ({ data, className, type, content }) => {
+export default ({ content }) => {
   const partClassnamesTop = classNames(style.timeline__part, style['timeline__part--top']);
   const partClassnamesBottom = classNames(style.timeline__part, style['timeline__part--bottom']);
   const partClassnamesMiddle = classNames(style.timeline__part, style['timeline__part--middle']);

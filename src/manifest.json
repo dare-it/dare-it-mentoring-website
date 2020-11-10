@@ -1,11 +1,11 @@
 {
-  "name": "w2w-program",
-  "short_name": "w2w-program",
+  "name": "DareIT",
+  "short_name": "dare it",
   "start_url": "/",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#fff",
-  "theme_color": "#673ab8",
+  "theme_color": "#ff227a",
   "icons": [
     {
       "src": "/assets/icons/android-chrome-192x192.png",
@@ -13,9 +13,9 @@
       "sizes": "192x192"
     },
     {
-      "src": "/assets/icons/android-chrome-512x512.png",
+      "src": "/assets/icons/android-chrome-256x256.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "256x256"
     }
   ]
 }
