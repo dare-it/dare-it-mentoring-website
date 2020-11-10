@@ -29,7 +29,7 @@ const translations = {
         'UX Writing',
         'UI & Visual Design',
         'Frontend Development',
-        'Backend Development', 
+        'Backend Development',
         'iOS Development',
         'Android Development',
         'DevOps',
@@ -491,6 +491,89 @@ const translations = {
           alt: 'Kamila Harasik photo'
         }
       ]
+    },
+
+    employers: {
+      title: 'Ucz się od kobiet pracujących w:',
+      items: [
+        {
+          name: 'Allegro',
+          logo: '../../assets/logos/logo-allegro.svg',
+        },
+        {
+          name: 'Google',
+          logo: '../../assets/logos/logo-google.svg',
+        },
+        {
+          name: 'Polidea',
+          logo: '../../assets/logos/logo-polidea.svg',
+        },
+        {
+          name: 'Monterail',
+          logo: '../../assets/logos/logo-monterail.svg',
+        },
+        {
+          name: 'Microsoft',
+          logo: '../../assets/logos/logo-microsoft.svg',
+        },
+        {
+          name: 'EL Passion',
+          logo: '../../assets/logos/logo-el-passion.svg',
+        },
+        {
+          name: 'Adobe',
+          logo: '../../assets/logos/logo-adobe.svg',
+        },
+        {
+          name: 'Accenture',
+          logo: '../../assets/logos/logo-accenture.svg',
+        },
+        {
+          name: 'Goldman Sachs',
+          logo: '../../assets/logos/logo-goldman-sachs.svg',
+        },
+        {
+          name: 'Booksy',
+          logo: '../../assets/logos/logo-booksy.svg',
+        },
+        {
+          name: 'Demant',
+          logo: '../../assets/logos/logo-demant.svg',
+        },
+        {
+          name: 'Brainly',
+          logo: '../../assets/logos/logo-brainly.svg',
+        },
+        {
+          name: 'Acoustic',
+          logo: '../../assets/logos/logo-acoustic.svg',
+        },
+        {
+          name: 'Olx',
+          logo: '../../assets/logos/logo-olx.svg',
+        },
+        {
+          name: 'iProspect',
+          logo: '../../assets/logos/logo-iprospect.svg',
+        },
+        {
+          name: 'Alior Bank',
+          logo: '../../assets/logos/logo-alior-bank.svg',
+        },
+        {
+          name: 'Fresha',
+          logo: '../../assets/logos/logo-fresha.svg',
+        },
+        {
+          name: 'Empik',
+          logo: '../../assets/logos/logo-empik.svg',
+        },
+        {
+          name: 'AirHelp',
+          logo: '../../assets/logos/logo-airhelp.svg',
+        },
+      ],
+      moreText: 'i więcej',
     },
 
     testimonials: {

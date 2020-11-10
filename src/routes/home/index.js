@@ -5,6 +5,7 @@ import classNames from 'classnames';
 import AccordionList from '../../components/accordionList';
 import Button from '../../components/button';
 import Card from '../../components/card';
+import EmployersGrid from '../../components/employersGrid';
 import Footer from '../../components/footer';
 import Grid from '../../components/grid';
 import Heading from '../../components/heading';
@@ -73,6 +74,14 @@ export default () => (
 
       <section class={classNames(style['home__section--gradient'], style.home__section)}>
         <Slider content={text.home.mentors} />
+      </section>
+
+      <section class={style.home__section}>
+        <div class={style.home__container}>
+          <Heading text={text.home.employers.title} />
+
+          <EmployersGrid employers={text.home.employers.items} moreText={text.home.employers.moreText} />
+        </div>
       </section>
 
       <section class={style.home__section}>
