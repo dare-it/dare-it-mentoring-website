@@ -191,10 +191,20 @@ $spacing: $container-gutter;
   .col-narrow {
     padding-right: 4em;
   }
+
+  .col-narrow-both {
+    padding-right: 4em;
+    padding-left: 4em;
+  }
 }
 
 @media #{$screen-lg} {
   .col-narrow {
     padding-right: 7em;
+  }
+
+  .col-narrow-both {
+    padding-right: 7em;
+    padding-left: 7em;
   }
 }

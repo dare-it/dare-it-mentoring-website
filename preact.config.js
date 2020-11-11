@@ -11,10 +11,11 @@ export default (config, env, helpers) => {
         resources: path.resolve(__dirname, './src/style/main.scss')
       }
     });
-
-    config.module.loaders[8].test = /\.(woff2?|ttf|eot|jpe?g|png|gif|mp4|mov|ogg|webm)(\?.*)?$/i,
-    config.module.loaders.unshift({
-      test: /\.svg$/,
-      use: ['preact-svg-loader']
-    });
+    
+  config.module.rules.unshift({
+    test: /\.svg$/,
+    use: ['preact-svg-loader']
+  });
+  
+  if (config.performance) config.performance.maxAssetSize = 500000;
 };

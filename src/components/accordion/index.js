@@ -13,10 +13,11 @@ export default class Accordion extends Component {
 
   handleCollapsibleClick = () => {
     this.content.style.height = `${this.content.offsetHeight}px`;
+    const shouldOpen = !this.state.isOpened
 
     requestAnimationFrame(() => {
-      this.setState({ isOpened: !this.state.isOpened });
-      this.content.style.height = this.state.isOpened ? `${this.innerContent.offsetHeight}px` : 0;
+      this.content.style.height = shouldOpen ? `${this.innerContent.offsetHeight}px` : 0;
+      this.setState({ isOpened: shouldOpen });
     });
   }
 

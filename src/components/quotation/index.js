@@ -1,7 +1,7 @@
 import style from './style.scss';
 import classNames from 'classnames';
 
-export default ({ text, cite, className, imageSrc }) => {
+export default ({ text, cite, className }) => {
   const quotationClass = classNames(style.quotation, className);
 
   return (

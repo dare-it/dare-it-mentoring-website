@@ -29,7 +29,7 @@ const translations = {
         'UX Writing',
         'UI & Visual Design',
         'Frontend Development',
-        'Backend Development', 
+        'Backend Development',
         'iOS Development',
         'Android Development',
         'DevOps',
@@ -493,6 +493,89 @@ const translations = {
       ]
     },
 
+    employers: {
+      title: 'Ucz się od kobiet pracujących w:',
+      items: [
+        {
+          name: 'Allegro',
+          logo: 'logo-allegro.svg',
+        },
+        {
+          name: 'Google',
+          logo: 'logo-google.svg',
+        },
+        {
+          name: 'Polidea',
+          logo: 'logo-polidea.svg',
+        },
+        {
+          name: 'Monterail',
+          logo: 'logo-monterail.svg',
+        },
+        {
+          name: 'Microsoft',
+          logo: 'logo-microsoft.svg',
+        },
+        {
+          name: 'EL Passion',
+          logo: 'logo-el-passion.svg',
+        },
+        {
+          name: 'Adobe',
+          logo: 'logo-adobe.svg',
+        },
+        {
+          name: 'Accenture',
+          logo: 'logo-accenture.svg',
+        },
+        {
+          name: 'Goldman Sachs',
+          logo: 'logo-goldman-sachs.svg',
+        },
+        {
+          name: 'Booksy',
+          logo: 'logo-booksy.svg',
+        },
+        {
+          name: 'Demant',
+          logo: 'logo-demant.svg',
+        },
+        {
+          name: 'Brainly',
+          logo: 'logo-brainly.svg',
+        },
+        {
+          name: 'Acoustic',
+          logo: 'logo-acoustic.svg',
+        },
+        {
+          name: 'Olx',
+          logo: 'logo-olx.svg',
+        },
+        {
+          name: 'iProspect',
+          logo: 'logo-iprospect.svg',
+        },
+        {
+          name: 'Alior Bank',
+          logo: 'logo-alior-bank.svg',
+        },
+        {
+          name: 'Fresha',
+          logo: 'logo-fresha.svg',
+        },
+        {
+          name: 'Empik',
+          logo: 'logo-empik.svg',
+        },
+        {
+          name: 'AirHelp',
+          logo: 'logo-airhelp.svg',
+        },
+      ],
+      moreText: 'i więcej',
+    },
+
     testimonials: {
       title: 'Uczestniczki o Dare IT',
       label: 'Edycja 2018',
@@ -546,8 +629,8 @@ const translations = {
         title: 'Partner',
         partners: [
           {
-            src: 'elpassion-logo',
-            alt: 'EL Passion logo'
+            logo: 'elpassion-logo.png',
+            name: 'EL Passion logo'
           }
         ]
       },
@@ -555,52 +638,52 @@ const translations = {
         title: 'Wspierają nas',
         partners: [
           {
-            src: 'dribbble-logo',
-            alt: 'Dribbble Meetup Warsaw'
+            logo: 'dribbble-logo.png',
+            name: 'Dribbble Meetup Warsaw'
           },
           {
-            src: 'girlscodefun-logo',
-            alt: 'Girls Code Fun logo'
+            logo: 'girlscodefun-logo.png',
+            name: 'Girls Code Fun logo'
           },
           {
-            src: 'ladiesthatux-logo',
-            alt: 'Ladies that Ux logo'
+            logo: 'ladiesthatux-logo.png',
+            name: 'Ladies that Ux logo'
           },
           {
-            src: 'theawwwesomes-logo',
-            alt: 'The Awwwesomes'
+            logo: 'theawwwesomes-logo.png',
+            name: 'The Awwwesomes'
           },
           {
-            src: 'futuredesign-logo',
-            alt: 'Future Design logo'
+            logo: 'futuredesign-logo.png',
+            name: 'Future Design logo'
           },
           {
-            src: 'tipiux-logo',
-            alt: 'Tipi UX'
+            logo: 'tipiux-logo.png',
+            name: 'Tipi UX'
           },
           {
-            src: 'inkubator-logo',
-            alt: 'Inkubator uw logo'
+            logo: 'inkubator-logo.png',
+            name: 'Inkubator uw logo'
           },
           {
-            src: 'elementtalks-logo',
-            alt: 'Element Talks'
+            logo: 'elementtalks-logo.png',
+            name: 'Element Talks'
           },
           {
-            src: 'coderslab-logo',
-            alt: 'Coders Lab'
+            logo: 'coderslab-logo.png',
+            name: 'Coders Lab'
           },
           {
-            src: 'warsawjs-logo',
-            alt: 'WarsawJS'
+            logo: 'warsawjs-logo.png',
+            name: 'WarsawJS'
           },
           {
-            src: 'girlsgonetech-logo',
-            alt: 'Girsl Gone Tech'
+            logo: 'girlsgonetech-logo.png',
+            name: 'Girsl Gone Tech'
           },
           {
-            src: 'techleaders-logo',
-            alt: 'Tech Leaders'
+            logo: 'techleaders-logo.png',
+            name: 'Tech Leaders'
           }
         ]
       }

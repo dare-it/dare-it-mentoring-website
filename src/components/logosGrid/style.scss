@@ -1,0 +1,30 @@
+.logosGrid {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  text-align: center;
+  grid-column-gap: 32px;
+  grid-row-gap: 20px;
+
+  &__item {
+    flex: 0 0 115px;
+  }
+
+  @media #{$screen-sm} {
+    &__item {
+      flex: 0 0 168px;
+    }
+  }
+
+  @media #{$screen-md} {
+    justify-content: space-between;
+    grid-column-gap: 64px;
+    grid-row-gap: 40px;
+  }
+}
+
+.logosGrid--centered {
+  justify-content: center;
+}

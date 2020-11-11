@@ -10,17 +10,21 @@
     "font-family-name-quotes": "always-where-recommended",
     "number-leading-zero": "never",
     "selector-pseudo-element-colon-notation": "single",
-    "at-rule-empty-line-before": ["always", {
-      "ignore": [
-        "after-comment",
-        "inside-block",
-        "blockless-after-same-name-blockless",
-        "blockless-after-blockless"
-      ]
-    }],
+    "at-rule-empty-line-before": [
+      "always",
+      {
+        "ignore": [
+          "after-comment",
+          "inside-block",
+          "blockless-after-same-name-blockless",
+          "blockless-after-blockless"
+        ]
+      }
+    ],
     "at-rule-no-unknown": null,
     "selector-pseudo-class-no-unknown": [
-      true, {
+      true,
+      {
         "ignorePseudoClasses": [
           "global"
         ]
@@ -205,7 +209,9 @@
         "unicode-bidi",
         "speak"
       ],
-      { "unspecified": "bottomAlphabetical" }
+      {
+        "unspecified": "bottomAlphabetical"
+      }
     ]
   }
 }

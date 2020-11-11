@@ -2,7 +2,7 @@ import style from './style.scss';
 import Portrait from './../portrait';
 import classNames from 'classnames';
 
-export default ({ text, className, type, people, id }) => {
+export default ({ className, people, id }) => {
   const peopleGridClass = classNames(style.peopleGrid, className);
 
   return (
