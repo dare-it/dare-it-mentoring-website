@@ -2,8 +2,8 @@ const translations = {
   home: {
     hero: {
       title: 'Program mentorski',
-      title2: 'dla kobiet:',
-      title3: 'zmień branżę na IT',
+      title2: 'dla 100 kobiet:',
+      title3: 'pierwsza praca w IT',
       text: 'Chciałabyś projektować, kodować, zarządzać projektami technologicznymi? Pomożemy Ci to osiągnąć korzystając z własnych doświadczeń.',
       subtitle: 'Jesteś zainteresowana jesienną edycją 2020?',
       cta: {
