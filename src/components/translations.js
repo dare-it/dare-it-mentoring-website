@@ -4,10 +4,10 @@ const translations = {
       title: 'Program mentorski',
       title2: 'dla 100 kobiet:',
       title3: 'pierwsza praca w IT',
-      text: 'Chciałabyś projektować, kodować, zarządzać projektami technologicznymi? Pomożemy Ci to osiągnąć korzystając z własnych doświadczeń.',
+      text: 'Jesteś gotowa projektować, kodować, zarządzać projektami technologicznymi? Wesprzemy Cię w wejściu do branży korzystając z własnych doświadczeń.',
       subtitle: 'Jesteś zainteresowana jesienną edycją 2020?',
       cta: {
-        text: 'Zapisz się na listę oczekujących',
+        text: 'Aplikuj do programu',
         link: 'https://docs.google.com/forms/d/e/1FAIpQLSeFRGBwcCVjWxEOQ34L4F3m5meYBOsik6qMK5qU0VEZypXqXA/viewform?usp=sf_link'
       }
     },
