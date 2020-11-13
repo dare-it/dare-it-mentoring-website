@@ -15,7 +15,7 @@ const translations = {
     about: {
       title: 'O co chodzi?',
       subtitle1: 'Dare IT to inicjatywa stworzona przez Aleksandrę Bis i Natalie Pilling w celu ułatwienia kobietom startu w branży IT.',
-      subtitle2: 'Wspólnie z grupą mentorek pomożemy Ci postawić pierwsze kroki w IT lub rozwinąć posiadane już umiejętności.',
+      subtitle2: 'Wspólnie z grupą mentorek pomożemy Ci rozwinąć posiadane już umiejętności, by zdobyć pierwszą pracę w IT.',
       quotation: {
         text: 'Technologia zmienia i będzie zmieniać to, w jaki sposób funkcjonuje świat. Chcemy, by kobiety były częścią tych zmian i miały na nie realny wpływ. Wierzymy, że poprzez dawanie przykładu, wsparcia oraz dzielenie się wiedzą możemy zachęcić więcej dziewczyn do kształtowania naszej codzienności.',
         cite: 'Aleksandra i Natalie'
@@ -42,15 +42,13 @@ const translations = {
 
     work: {
       title: 'Jak będziemy pracować',
-      subtitle: 'My też byłyśmy kiedyś na Twoim miejscu, dlatego wiemy, jak trudne może być zrobienie pierwszego kroku. Chcemy Ci w tym pomóc.',
+      subtitle: 'My też byłyśmy kiedyś na Twoim miejscu, dlatego wiemy, jak trudne może być zrobienie tego ostatniego kroku i dostanie pracy. Chcemy Ci w tym pomóc.',
       list: [
-        'Jedna z nas będzie Twoją mentorką przez 3 miesiące',
-        'Podzielimy się z Tobą teorią i praktyką',
-        'Skonsultujesz się z rekruterką IT na temat ścieżki kariery',
+        'Jedna z nas będzie Twoją mentorką przez 3 miesiące (online)',
         'Pomożemy z CV, portfolio i rozmową rekrutacyjną',
-        'Pokażemy Ci, jak wygląda branża IT od kuchni',
-        'Podpowiemy, co czytać i gdzie szukać',
-        'Poznasz nasze codzienne narzędzia pracy',
+        'Podpowiemy do których drzwi pukać, gdzie szukać, jak pytać',
+        'Będziesz mogła zadać swoje pytania rekruterkom IT na temat obranej ścieżki kariery',
+        'Podzielimy się z Tobą teorią, praktyką i kulisami naszego zawodu',
         'Poznasz grupę fajnych, ogarniętych dziewczyn z IT!'
       ]
     },
@@ -126,7 +124,7 @@ const translations = {
     },
 
     mentors: {
-      title: 'Mentorki Dare IT 2019',
+      title: 'Mentorki Dare IT',
       people: [
         {
           name: 'Aleksandra Bis',
@@ -576,7 +574,7 @@ const translations = {
 
     testimonials: {
       title: 'Uczestniczki o Dare IT',
-      label: 'Edycja 2018',
+      label: 'Poprzednie edycje',
       items: [
         {
           text: 'Kontakt z mentorem face to face – to jest bezcenne. Spotkania były wspaniałe i bardzo inspirujące.',
@@ -601,7 +599,7 @@ const translations = {
       subtitle: 'Twoje wykształcenie, zawód i wiek nie mają znaczenia',
       list: [
         'Szukasz kogoś, od kogo mogłabyś się uczyć',
-        'Myślisz o podjęciu pierwszej pracy w branży IT',
+        'Chcesz podjąć pierwszą pracę w branży IT',
         'Wiesz, w jakim kierunku chcesz się rozwijać',
         'Szukasz kogoś, kto pomoże Ci znaleźć pierwszą pracę',
         'Szukasz społeczności wspierających się kobiet, mających podobne doświadczenia',
@@ -609,7 +607,7 @@ const translations = {
     },
 
     cta: {
-      title: 'Nie tylko dla programistek i projektantek',
+      title: 'Dołącz do społeczności Dare IT',
       subtitle: 'Możesz pracować w IT niezależnie od Twoich zainteresowań, umiejętności czy mocnych stron.',
       text: [
         'Zastanawiasz się, czy to branża dla Ciebie?',
@@ -737,12 +735,12 @@ const translations = {
       title2: '',
       'title2-sm': '',
       title3: '',
-      subtitle: 'Zrób pierwszy krok!',
+      subtitle: 'Dołącz do IT!',
       copyright: 'dareit.org ',
       copyright2: 'Wszelkie prawa zastrzeżone.',
       cta: {
-        text: 'Zapisz się',
-        'text-sm': 'Zapisz się',
+        text: 'Aplikuj do programu',
+        'text-sm': 'Aplikuj do programu',
         link: 'https://mailchi.mp/f6cabc174f15/dareitnewsletter'
       }
     }
