@@ -5,7 +5,7 @@ const translations = {
       title2: 'dla 100 kobiet:',
       title3: 'pierwsza praca w IT',
       text: 'Jesteś gotowa projektować, kodować, zarządzać projektami technologicznymi? Wesprzemy Cię w wejściu do branży korzystając z własnych doświadczeń.',
-      subtitle: 'Jesteś zainteresowana jesienną edycją 2020?',
+      subtitle: 'Przyjmujemy zgłoszenia do 06.12.2020',
       cta: {
         text: 'Aplikuj do programu',
         link: 'https://docs.google.com/forms/d/e/1FAIpQLSeFRGBwcCVjWxEOQ34L4F3m5meYBOsik6qMK5qU0VEZypXqXA/viewform?usp=sf_link'
@@ -612,6 +612,7 @@ const translations = {
       text: [
         'Zastanawiasz się, czy to branża dla Ciebie?',
         'Masz pytania dotyczące pracy w IT?',
+        '',
         'Dołącz do naszej grupy na'
       ],
       link: {
@@ -730,8 +731,8 @@ const translations = {
     },
 
     footer: {
-      title: 'Dołącz do newslettera Dare IT',
-      'title-sm': 'Newsletter Dare IT',
+      title: 'Czekamy na aplikacje do 06.12.2020',
+      'title-sm': 'Mentoring Dare IT',
       title2: '',
       'title2-sm': '',
       title3: '',
