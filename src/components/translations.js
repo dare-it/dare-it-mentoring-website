@@ -88,11 +88,11 @@ const translations = {
         steps: [
           {
             title: 'Aplikacje',
-            date: ''
+            date: 'do 06.12.2020'
           },
           {
             title: 'Ogłoszenie uczestniczek',
-            date: ''
+            date: '16.12.2020'
           }
         ]
       },
@@ -100,7 +100,7 @@ const translations = {
         steps: [
           {
             title: 'Potwierdzenie udziału od uczestniczek',
-            date: ''
+            date: '20.12.2020'
           }
         ]
       },
@@ -108,17 +108,16 @@ const translations = {
         steps: [
           {
             title: 'Start programu',
-            date: ''
+            date: '12.01.2021'
           },
           {
             title: 'Zakończenie programu',
-            date: ''
+            date: '15.04.2021'
           }
         ],
         details: [
-          'Min. 5 indywidualnych sesji mentorskich',
-          'Konsultacje HR',
-          "Otwarte meetup'y raz w miesiącu"
+          'Min. 6 indywidualnych sesji mentorskich',
+          'Konsultacje HR'
         ]
       }
     },
