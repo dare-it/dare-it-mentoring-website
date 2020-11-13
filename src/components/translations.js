@@ -127,6 +127,7 @@ const translations = {
       people: [
         {
           name: 'Aleksandra Bis',
+          job: 'EL Passion | Warszawa',
           path: 'UX Design',
           info: 'Zamieniam pomysły w użyteczne produkty. Aktywistka i projektantka. Wiecznie w biegu, ale w słusznej sprawie!',
           image: '../../assets/mentors/aleksandra-bis.jpg',
@@ -610,8 +611,7 @@ const translations = {
       text: [
         'Zastanawiasz się, czy to branża dla Ciebie?',
         'Masz pytania dotyczące pracy w IT?',
-        '',
-        'Dołącz do naszej grupy na'
+        'Dołącz do naszej grupy na',
       ],
       link: {
         text: "facebook'u",
