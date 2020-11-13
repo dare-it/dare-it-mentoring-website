@@ -30,8 +30,6 @@ const translations = {
         'UI & Visual Design',
         'Frontend Development',
         'Backend Development',
-        'iOS Development',
-        'Android Development',
         'DevOps',
         'Data Science',
         'Project Management',
@@ -717,10 +715,6 @@ const translations = {
         {
           title: 'Wymagane umiejętności',
           text: 'Program jest zaprojektowany tak, by umożliwić uczestnictwo również dziewczynom bez umiejętności projektowania, programowania czy doświadczenia w branży IT'
-        },
-        {
-          title: 'Aplikantki spoza Warszawy',
-          text: 'Bardzo zależy nam na obecności wszystkich uczestniczek w spotkaniu inauguracyjnym i pożegnalnym. Jeśli jest to dla Ciebie problem, napisz o tym w formularzu zgłoszeniowym. Sesje z mentorką mogą odbywać się online.'
         },
         {
           title: 'Spotkania z mentorką',
