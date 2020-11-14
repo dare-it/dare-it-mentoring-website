@@ -8,7 +8,7 @@ const translations = {
       subtitle: 'Przyjmujemy zgłoszenia do 6 grudnia',
       cta: {
         text: 'Aplikuj do programu',
-        link: 'https://docs.google.com/forms/d/e/1FAIpQLSeFRGBwcCVjWxEOQ34L4F3m5meYBOsik6qMK5qU0VEZypXqXA/viewform?usp=sf_link'
+        link: 'https://forms.gle/raLWyTCHUjg92bZQ8'
       }
     },
 
@@ -668,7 +668,7 @@ const translations = {
       cta: {
         text: 'Aplikuj do programu',
         'text-sm': 'Aplikuj do programu',
-        link: 'https://mailchi.mp/f6cabc174f15/dareitnewsletter'
+        link: 'https://forms.gle/raLWyTCHUjg92bZQ8'
       }
     }
   }
