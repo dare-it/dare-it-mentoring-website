@@ -659,8 +659,8 @@ const translations = {
     footer: {
       title: 'Czekamy na aplikacje do 6 grudnia',
       'title-sm': 'Czekamy na aplikacje do 6 grudnia',
-      title2: 'Mentoring Dare IT',
-      'title2-sm': 'Mentoring Dare IT',
+      title2: '',
+      'title2-sm': '',
       title3: '',
       subtitle: 'Dołącz do IT!',
       copyright: 'dareit.org ',
