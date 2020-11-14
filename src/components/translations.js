@@ -548,7 +548,7 @@ const translations = {
     },
 
     partners: {
-      main: {
+      {/* main: {
         title: 'Partner',
         partners: [
           {
@@ -556,7 +556,7 @@ const translations = {
             name: 'EL Passion logo'
           }
         ]
-      },
+      */},
       support: {
         title: 'Wspierają nas',
         partners: [
