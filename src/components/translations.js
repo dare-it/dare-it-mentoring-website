@@ -548,6 +548,15 @@ const translations = {
     },
 
     partners: {
+      {main: {
+        title: '',
+        partners: [
+          {
+            logo: '',
+            name: ''
+          }
+        ]
+      },
       support: {
         title: 'Wspierają nas',
         partners: [
