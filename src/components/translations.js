@@ -32,10 +32,11 @@ const translations = {
         'Backend Development',
         'DevOps',
         'Data Science',
+        'Business Analysis & Strategy',
         'Project Management',
         'Product Management',
         'Digital Marketing',
-        'Prawo Tech/IT',
+        'Content Marketing',
       ],
       background: 'User Experience Design UI & Visual Design Web Development Project Management Digital Marketing User Experience Design UI & Visual Design Web Development Project Management Digital Marketing'
     },
