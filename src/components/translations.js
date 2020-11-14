@@ -548,7 +548,7 @@ const translations = {
     },
 
     partners: {
-      {main: {
+      main: {
         title: '',
         partners: [
           {
