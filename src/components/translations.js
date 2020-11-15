@@ -130,7 +130,10 @@ const translations = {
           name: 'Aleksandra Bis',
           job: 'AirHelp',
           path: 'UX Design',
-          info: 'Zamieniam pomysły w użyteczne produkty. Aktywistka i projektantka. Wiecznie w biegu, ale w słusznej sprawie!',
+          info: {
+            text: "facebook'u",
+            href: 'https://www.facebook.com/groups/2029087700497738/'
+          }
           image: '../../assets/mentors/aleksandra-bis.jpg',
           alt: 'Aleksandra Bis photo'
         },
