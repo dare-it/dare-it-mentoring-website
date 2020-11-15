@@ -133,7 +133,7 @@ const translations = {
           info: {
             text: "facebook'u",
             href: 'https://www.facebook.com/groups/2029087700497738/'
-          }
+          },
           image: '../../assets/mentors/aleksandra-bis.jpg',
           alt: 'Aleksandra Bis photo'
         },
