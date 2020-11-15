@@ -365,7 +365,7 @@ const translations = {
         },
         {
           name: 'Małgorzata Ksionek',
-          job: 'GitLab | Warszawa',
+          job: 'GitLab',
           path: 'Backend Development',
           info: 'Z wyboru i pasji web-developer, z wykształcenia psycholog. W programowaniu najbardziej lubi ciągłe wyzwania.W wolnym czasie czyta lub bezskutecznie walczy z uzależnieniem od Netflixa. Fanka kolorowych skarpetek.',
           image: '../../assets/mentors/malgorzata-ksionek.jpg',
@@ -567,28 +567,12 @@ const translations = {
         title: 'Wspierają nas',
         partners: [
           {
-            logo: 'dribbble-logo.png',
-            name: 'Dribbble Meetup Warsaw'
-          },
-          {
             logo: 'girlscodefun-logo.png',
             name: 'Girls Code Fun logo'
           },
           {
-            logo: 'ladiesthatux-logo.png',
-            name: 'Ladies that Ux logo'
-          },
-          {
             logo: 'theawwwesomes-logo.png',
             name: 'The Awwwesomes'
-          },
-          {
-            logo: 'futuredesign-logo.png',
-            name: 'Future Design logo'
-          },
-          {
-            logo: 'tipiux-logo.png',
-            name: 'Tipi UX'
           },
           {
             logo: 'inkubator-logo.png',
@@ -597,22 +581,6 @@ const translations = {
           {
             logo: 'elementtalks-logo.png',
             name: 'Element Talks'
-          },
-          {
-            logo: 'coderslab-logo.png',
-            name: 'Coders Lab'
-          },
-          {
-            logo: 'warsawjs-logo.png',
-            name: 'WarsawJS'
-          },
-          {
-            logo: 'girlsgonetech-logo.png',
-            name: 'Girsl Gone Tech'
-          },
-          {
-            logo: 'techleaders-logo.png',
-            name: 'Tech Leaders'
           }
         ]
       }
