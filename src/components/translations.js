@@ -8,7 +8,7 @@ const translations = {
       subtitle: 'Przyjmujemy zgłoszenia do 6 grudnia',
       cta: {
         text: 'Aplikuj do programu',
-        link: 'https://forms.gle/raLWyTCHUjg92bZQ8'
+        link: 'https://forms.gle/dSSuiwZ81SKY7izk6'
       }
     },
 
@@ -131,8 +131,10 @@ const translations = {
           job: 'AirHelp',
           path: 'UX Design',
           info: {
-            text: "facebook'u",
-            href: 'https://www.facebook.com/groups/2029087700497738/'
+            link: { 
+              text: "facebook'u",
+              href: 'https://www.facebook.com/groups/2029087700497738/'
+            },
           },
           image: '../../assets/mentors/aleksandra-bis.jpg',
           alt: 'Aleksandra Bis photo'
@@ -358,7 +360,7 @@ const translations = {
           job: 'Testiga',
           path: 'Digital Marketing',
           info: '',
-          image: '../../assets/mentors/placeholder.png',
+          image: '../../assets/mentors/paulina-wardega.jpg',
           alt: 'Paulina Wardęga photo'
         },
         {
@@ -414,7 +416,7 @@ const translations = {
           job: 'Ableton',
           path: 'Backend Development',
           info: '',
-          image: '../../assets/mentors/placeholder.png',
+          image: '../../assets/mentors/anna-wszeborowska.jpg',
           alt: 'Anna Wszeborowska photo'
         }
       ]
@@ -672,7 +674,7 @@ const translations = {
       cta: {
         text: 'Aplikuj do programu',
         'text-sm': 'Aplikuj do programu',
-        link: 'https://forms.gle/raLWyTCHUjg92bZQ8'
+        link: 'https://forms.gle/dSSuiwZ81SKY7izk6'
       }
     }
   }
