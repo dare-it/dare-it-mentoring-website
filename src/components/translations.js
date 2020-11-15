@@ -273,7 +273,7 @@ const translations = {
         {
           name: 'Sona Kerim',
           job: '',
-          path: 'Digital Marketing',
+          path: 'Content Marketing',
           info: 'I was a history teacher for 6 years and needed a change. I now work as a Digital Marketing Specialist at EL Passion, run educational workshops in other IT companies, and write freelance.',
           image: '../../assets/mentors/sona-kerim.jpg',
           alt: 'Sona Kerim photo'
@@ -472,8 +472,8 @@ const translations = {
         },
         {
           name: 'Aleksandra Kręcisz',
-          job: 'T-Mobile',
-          path: 'Digital Marketing',
+          job: 'Tylko',
+          path: 'Frontend Development',
           info: '',
           image: '../../assets/mentors/aleksandra-krecisz.jpg',
           alt: 'Aleksandra Kręcisz photo'
@@ -488,8 +488,8 @@ const translations = {
         },
         {
           name: 'Klaudyna Szpara',
-          job: 'Accenture',
-          path: 'Data Science',
+          job: 'Monterail',
+          path: 'Project Management',
           info: '',
           image: '../../assets/mentors/klaudyna-szpara.jpg',
           alt: 'Klaudyna Szpara photo'
