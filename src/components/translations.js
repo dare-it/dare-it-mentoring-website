@@ -137,7 +137,7 @@ const translations = {
         {
           name: 'Natalie Pilling',
           job: 'EL Passion',
-          path: 'Business Strategy',
+          path: 'Product Management',
           info: 'I believe in leading by example. I would like to see more women in leadership roles.',
           image: '../../assets/mentors/natalie-pilling.jpg',
           alt: 'Natalie Pilling photo'
@@ -207,22 +207,6 @@ const translations = {
           alt: 'Agnieszka Zwolińska photo'
         },
         {
-          name: 'Angelika Losko',
-          job: 'Laboratorium EE | Warszawa',
-          path: 'UX Design',
-          info: 'Absolwentka Interaction Design w Malmö i kognitywistka. Po godzinach badam mózgi.',
-          image: '../../assets/mentors/angelika-losko.jpg',
-          alt: 'Angelika Losko photo'
-        },
-        {
-          name: 'Estera Kot',
-          job: 'Procter & Gamble | Warszawa',
-          path: 'Backend Development',
-          info: 'Piszę kod. Lubię też pobiegać i pójść na cross-fit.',
-          image: '../../assets/mentors/estera-kot.jpg',
-          alt: 'Estera Kot photo'
-        },
-        {
           name: 'Gosia Heba',
           job: 'Citi',
           path: 'Frontend Development',
@@ -271,19 +255,11 @@ const translations = {
           alt: 'Katarzyna Zerka photo'
         },
         {
-          name: 'Katarzyna Janota',
-          job: 'Edisonda | Kraków',
-          path: 'UX Design',
-          info: 'Projektuję interakcje, eksperymentuję z platformami i przyglądam się światu. Po godzinach dużo czytam i współtworzę grupa.robocza.org.',
-          image: '../../assets/mentors/katarzyna-janota.jpg',
-          alt: 'Katarzyna Janota photo'
-        },
-        {
           name: 'Joanna Rodo',
           job: 'Devsdata',
           path: 'UX Design',
           info: '',
-          image: '../../assets/mentors/placeholder.png',
+          image: '../../assets/mentors/joanna-rodo.jpg',
           alt: 'Joanna Rodo photo'
         },
         {
@@ -295,16 +271,8 @@ const translations = {
           alt: 'Katarzyna Kończalska photo'
         },
         {
-          name: 'Katarzyna Kubalska',
-          job: 'Growbots | Warszawa',
-          path: 'UX Design',
-          info: 'Pasjonatka dobrego designu, roślin i muzyki. W wolnych chwilach haftuje i gra na basie.',
-          image: '../../assets/mentors/katarzyna-kubalska.jpg',
-          alt: 'Katarzyna Kubalska photo'
-        },
-        {
           name: 'Sona Kerim',
-          job: 'EL Passion | Warszawa',
+          job: '',
           path: 'Digital Marketing',
           info: 'I was a history teacher for 6 years and needed a change. I now work as a Digital Marketing Specialist at EL Passion, run educational workshops in other IT companies, and write freelance.',
           image: '../../assets/mentors/sona-kerim.jpg',
@@ -375,16 +343,8 @@ const translations = {
           alt: ' Marta Klimowicz photo'
         },
         {
-          name: 'Monika Jagodyńska',
-          job: 'eRecruiter.pl | Warszawa',
-          path: 'Project Management',
-          info: 'Spełniałam się w roli Testera, później Projektanta UX, a aktualnie jestem Product Ownerem. Początek dnia tylko z dobrą kawą :)',
-          image: '../../assets/mentors/monika-jagodynska.jpg',
-          alt: 'Monika Jagodyńska photo'
-        },
-        {
           name: 'Olka Fiszbak-Biernat',
-          job: 'HTDevelopers | Łódź',
+          job: 'HTDevelopers',
           path: 'UI & Visual Design',
           info: 'Na co dzień rozwijam produkty związane z branżą healthcare dla klientów z USA."Po godzinach miłośniczka roślin, mopsów i mocnej kawy :) ',
           image: '../../assets/mentors/ola-fiszbak.jpg',
@@ -463,12 +423,76 @@ const translations = {
           alt: 'Martyna Smolińska photo'
         },
         {
-          name: 'Joanna Sitkowska',
-          job: '',
-          path: 'Project Management | Warszawa',
+          name: 'Patrycja Kościołowska',
+          job: 'iProspect',
+          path: 'Digital Marketing',
           info: '',
-          image: '../../assets/mentors/placeholder.png',
-          alt: 'Joanna Sitkowska photo'
+          image: '../../assets/mentors/patrycja-kosciolowska.jpg',
+          alt: 'Patrycja Kościołowska photo'
+        },
+        {
+          name: 'Marta Starnawska',
+          job: 'Workate',
+          path: 'Frontend Development',
+          info: '',
+          image: '../../assets/mentors/marta-starnawska.jpg',
+          alt: 'Marta Starnawska photo'
+        },
+        {
+          name: 'Karolina Solis',
+          job: 'RB (Reckitt Benckiser)',
+          path: 'Project Management',
+          info: '',
+          image: '../../assets/mentors/karolina-solis.jpg',
+          alt: 'Karolina Solis photo'
+        },
+        {
+          name: 'Gosia Chomentowska',
+          job: 'Alior Bank',
+          path: 'UX Design & UX Research',
+          info: '',
+          image: '../../assets/mentors/gosia-chomentowska.jpg',
+          alt: 'Gosia Chomentowska photo'
+        },
+        {
+          name: 'Dorota Jaworska',
+          job: 'Polidea',
+          path: 'Project Management',
+          info: '',
+          image: '../../assets/mentors/dorota-jaworska.jpg',
+          alt: 'Dorota Jaworska photo'
+        },
+        {
+          name: 'Magda Królik',
+          job: 'T-Mobile',
+          path: 'Digital Marketing',
+          info: '',
+          image: '../../assets/mentors/magda-krolik.jpg',
+          alt: 'Magda Królik photo'
+        },
+        {
+          name: 'Aleksandra Kręcisz',
+          job: 'T-Mobile',
+          path: 'Digital Marketing',
+          info: '',
+          image: '../../assets/mentors/aleksandra-krecisz.jpg',
+          alt: 'Aleksandra Kręcisz photo'
+        },
+        {
+          name: 'Joanna Leńczuk',
+          job: 'Accenture',
+          path: 'Data Science',
+          info: '',
+          image: '../../assets/mentors/joanna-lenczuk.jpg',
+          alt: 'Joanna Leńczuk photo'
+        },
+        {
+          name: 'Klaudyna Szpara',
+          job: 'Accenture',
+          path: 'Data Science',
+          info: '',
+          image: '../../assets/mentors/klaudyna-szpara.jpg',
+          alt: 'Klaudyna Szpara photo'
         }
       ]
     },
