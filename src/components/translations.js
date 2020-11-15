@@ -413,7 +413,7 @@ const translations = {
           info: '',
           image: '../../assets/mentors/anna-wszeborowska.jpg',
           alt: 'Anna Wszeborowska photo'
-        }
+        },
         {
           name: 'Aleksandra Dziewulska',
           job: 'Divante',
