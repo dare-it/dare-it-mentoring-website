@@ -192,7 +192,7 @@ const translations = {
         },
         {
           name: 'Agata Kumela',
-          job: 'Roche',
+          job: '',
           path: 'Backend Development',
           info: 'Koduję',
           image: '../../assets/mentors/agata-kumela.jpg',
@@ -241,7 +241,7 @@ const translations = {
         {
           name: 'Joanna Żaboklicka',
           job: 'Demant',
-          path: 'UX Research',
+          path: 'UX Research & UX Design',
           info: 'Lubię kompleksowe i złożone projekty, głównie w zakresie produktów medycznych i usług publicznych.',
           image: '../../assets/mentors/joanna-zaboklicka.jpg',
           alt: 'Joanna Żaboklicka photo'
@@ -399,14 +399,6 @@ const translations = {
           alt: 'Ola Pazio photo'
         },
         {
-          name: 'Joanna Sitkowska',
-          job: '',
-          path: 'Project Management | Warszawa',
-          info: '',
-          image: '../../assets/mentors/placeholder.png',
-          alt: 'Joanna Sitkowska photo'
-        },
-        {
           name: 'Anna Wszeborowska',
           job: 'Ableton',
           path: 'Backend Development',
@@ -421,6 +413,62 @@ const translations = {
           info: '',
           image: '../../assets/mentors/aleksandra-dziewulska.jpg',
           alt: 'Aleksandra Dziewulska photo'
+        },
+        {
+          name: 'Natalia Walasik',
+          job: 'BillTech',
+          path: 'Web Development',
+          info: '',
+          image: '../../assets/mentors/natalia-walasik.png',
+          alt: 'Natalia Walasik photo'
+        },
+        {
+          name: 'Aneta Kmiecik',
+          job: 'EcoOnline Norge',
+          path: 'UX Design',
+          info: '',
+          image: '../../assets/mentors/aneta-kmiecik.jpg',
+          alt: 'Aneta Kmiecik photo'
+        },
+        {
+          name: 'Kasia Spytkowska',
+          job: 'Edisonda',
+          path: 'UX Research & UX Design',
+          info: '',
+          image: '../../assets/mentors/kasia-spytkowska.jpg',
+          alt: 'Kasia Spytkowska photo'
+        },
+        {
+          name: 'Agata Stawarz-Pastewska',
+          job: 'Polidea',
+          path: 'Frontend Development',
+          info: '',
+          image: '../../assets/mentors/agata-stawarz-pastewska.jpg',
+          alt: 'Agata Stawarz-Pastewska photo'
+        },
+        {
+          name: 'Klara Borowska',
+          job: 'Catalogic Software',
+          path: 'Frontend Development',
+          info: '',
+          image: '../../assets/mentors/klara-borowska.png',
+          alt: 'Klara Borowska photo'
+        },
+        {
+          name: 'Martyna Smolińska',
+          job: 'Klarna',
+          path: 'Data & Product Analysis',
+          info: '',
+          image: '../../assets/mentors/martyna-smolinska.jpg',
+          alt: 'Martyna Smolińska photo'
+        },
+        {
+          name: 'Joanna Sitkowska',
+          job: '',
+          path: 'Project Management | Warszawa',
+          info: '',
+          image: '../../assets/mentors/placeholder.png',
+          alt: 'Joanna Sitkowska photo'
         }
       ]
     },
