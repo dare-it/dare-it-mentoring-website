@@ -161,7 +161,7 @@ const translations = {
         {
           name: 'Ula Kowalska',
           job: 'EL Passion',
-          path: 'Backend Development',
+          path: 'Web Development',
           info: 'Fanka kotów, pand i durnych żartów. Możesz ze mną pogadać nie tylko o web devie, ale też o dobrej muzyce i wszelkiej maści serialach.',
           image: '../../assets/mentors/ula-kowalska.jpg',
           alt: 'Ula Kowalska photo'
@@ -392,7 +392,7 @@ const translations = {
         },
         {
           name: 'Ola Pazio',
-          job: 'Packhelp | Warszawa',
+          job: 'Svitla Systems',
           path: 'Backend Development',
           info: '',
           image: '../../assets/mentors/ola-pazio.jpg',
@@ -623,12 +623,12 @@ const translations = {
           text: 'Miejsca spotkań z mentorką nie są z góry narzucone i zależą od Was. Może to być kawiarnia albo przestrzeń coworkingowa - ważne żebyś czuła się w niej swobodnie. Spotkania mogą odbyć się również online.'
         },
         {
-          title: 'Rezygnacja z programu',
-          text: 'Zaaplikuj do programu jeśli jesteś gotowa brać w nim aktywny udział przez cały czas jego trwania. Oczywiście w wyjątkowych okolicznościach postaramy się wspólnie znaleźć jakieś rozwiązanie ;)'
+          title: 'Networking z uczestniczkami i mentorkami',
+          text: 'W ramach programu będziesz miała dostęp do dedykowanej grupy na Slacku, gdzie poznasz pozostałe uczestniczki i mentorki, a także społeczność Dare IT. Inauguracja oraz zakończenie programu będą miały formę spotkań on-line. Koniec programu nie oznacza jednak końca naszej znajomości :)'
         },
         {
-          title: 'Spotkania i networking',
-          text: 'W ramach programu będziesz miała dostęp do dedykowanej grupy na Slacku, gdzie poznasz pozostałe uczestniczki i mentorki, a także społeczność Dare IT. Inauguracja oraz zakończenie programu będą miały formę spotkań on-line. Koniec programu nie oznacza jednak końca naszej znajomości :)'
+          title: 'Rezygnacja z programu',
+          text: 'Zaaplikuj do programu jeśli jesteś gotowa brać w nim aktywny udział przez cały czas jego trwania. Oczywiście w wyjątkowych okolicznościach postaramy się wspólnie znaleźć jakieś rozwiązanie ;)'
         }
       ]
     },
