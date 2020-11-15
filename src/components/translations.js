@@ -304,7 +304,7 @@ const translations = {
         },
         {
           name: 'Klaudyna Bańczerowska',
-          job: 'Bank BGŻ BNP Paribas | Warszawa',
+          job: 'Discovery TVN',
           path: 'UI & Visual Design',
           info: 'Fanka nowych technologii, dobrego kina i podróży, przy okazji projektuję ładne i funkcjonalne rzeczy ;)',
           image: '../../assets/mentors/klaudyna-banczerowska.jpg',
