@@ -32,7 +32,7 @@ const translations = {
         'Backend Development',
         'DevOps',
         'Data Science',
-        'Business Analysis & Strategy',
+        'Data & Product Analysis',
         'Project Management',
         'Product Management',
         'Digital Marketing',
@@ -130,12 +130,7 @@ const translations = {
           name: 'Aleksandra Bis',
           job: 'AirHelp',
           path: 'UX Design',
-          info: {
-            link: { 
-              text: "facebook'u",
-              href: 'https://www.facebook.com/groups/2029087700497738/'
-            },
-          },
+          info: 'Zamieniam pomysły w użyteczne produkty. Aktywistka i projektantka. Wiecznie w biegu, ale w słusznej sprawie!',
           image: '../../assets/mentors/aleksandra-bis.jpg',
           alt: 'Aleksandra Bis photo'
         },
@@ -197,7 +192,7 @@ const translations = {
         },
         {
           name: 'Agata Kumela',
-          job: 'infinIT Codelab | Warszawa',
+          job: 'Roche',
           path: 'Backend Development',
           info: 'Koduję',
           image: '../../assets/mentors/agata-kumela.jpg',
@@ -229,7 +224,7 @@ const translations = {
         },
         {
           name: 'Gosia Heba',
-          job: 'Citi Bank',
+          job: 'Citi',
           path: 'Frontend Development',
           info: 'Uwielbiam układać kolorowe puzzelki kodu na froncie, uczyć się i zachłannie eksplorować. Wierzę w ciekawość i w uśmiech.',
           image: '../../assets/mentors/gosia-heba.jpg',
@@ -419,6 +414,14 @@ const translations = {
           image: '../../assets/mentors/anna-wszeborowska.jpg',
           alt: 'Anna Wszeborowska photo'
         }
+        {
+          name: 'Aleksandra Dziewulska',
+          job: 'Divante',
+          path: 'UX Design',
+          info: '',
+          image: '../../assets/mentors/aleksandra-dziewulska.jpg',
+          alt: 'Aleksandra Dziewulska photo'
+        }
       ]
     },
 
@@ -434,28 +437,28 @@ const translations = {
           logo: 'logo-google.svg',
         },
         {
-          name: 'Polidea',
-          logo: 'logo-polidea.svg',
-        },
-        {
-          name: 'Monterail',
-          logo: 'logo-monterail.svg',
-        },
-        {
           name: 'Microsoft',
           logo: 'logo-microsoft.svg',
+        },
+        {
+          name: 'Accenture',
+          logo: 'logo-accenture.svg',
         },
         {
           name: 'EL Passion',
           logo: 'logo-el-passion.svg',
         },
         {
-          name: 'Adobe',
-          logo: 'logo-adobe.svg',
+          name: 'Polidea',
+          logo: 'logo-polidea.svg',
         },
         {
-          name: 'Accenture',
-          logo: 'logo-accenture.svg',
+          name: 'Monterail',
+          logo: 'logo-monterail.svg',
+        }, 
+        {
+          name: 'Adobe',
+          logo: 'logo-adobe.svg',
         },
         {
           name: 'Goldman Sachs',
@@ -613,7 +616,7 @@ const translations = {
         },
         {
           title: 'Wymagane umiejętności',
-          text: 'Program jest zaprojektowany tak, by umożliwić uczestnictwo również dziewczynom bez umiejętności projektowania, programowania czy doświadczenia w branży IT'
+          text: 'Program zaprojektowany jest z myślą o dziewczynach, które posiadają już podstawowe umiejętności w wybranych dziedzinach i są gotowe podjąć pierwszą pracę w branży.'
         },
         {
           title: 'Spotkania z mentorką',
@@ -624,8 +627,8 @@ const translations = {
           text: 'Zaaplikuj do programu jeśli jesteś gotowa brać w nim aktywny udział przez cały czas jego trwania. Oczywiście w wyjątkowych okolicznościach postaramy się wspólnie znaleźć jakieś rozwiązanie ;)'
         },
         {
-          title: 'Zakończenie programu',
-          text: 'W ramach zakończenia programu odbędzie się spotkanie wszystkich uczestniczek wraz z mentorkami i podsumowanie tej edycji. Koniec programu nie oznacza jednak końca naszej znajomości :)'
+          title: 'Spotkania i networking',
+          text: 'W ramach programu będziesz miała dostęp do dedykowanej grupy na Slacku, gdzie poznasz pozostałe uczestniczki i mentorki, a także społeczność Dare IT. Inauguracja oraz zakończenie programu będą miały formę spotkań on-line. Koniec programu nie oznacza jednak końca naszej znajomości :)'
         }
       ]
     },
