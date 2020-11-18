@@ -33,8 +33,9 @@ const translations = {
         'DevOps',
         'Data Science',
         'Data & Product Analysis',
-        'Project Management',
         'Product Management',
+        'Project Management',
+        'Scrum Master',
         'Digital Marketing',
         'Content Marketing',
       ],
@@ -369,7 +370,7 @@ const translations = {
         {
           name: 'Aleksandra Dziewulska',
           job: 'Divante',
-          path: 'UX Design',
+          path: 'UX Design & UX Research',
           info: '',
           image: '../../assets/mentors/aleksandra-dziewulska.jpg',
           alt: 'Aleksandra Dziewulska photo'
@@ -441,7 +442,7 @@ const translations = {
         {
           name: 'Karolina Solis',
           job: 'RB (Reckitt Benckiser)',
-          path: 'Project Management',
+          path: 'Scrum Master',
           info: '',
           image: '../../assets/mentors/karolina-solis.jpg',
           alt: 'Karolina Solis photo'
