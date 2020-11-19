@@ -657,6 +657,10 @@ const translations = {
           {
             logo: 'elementtalks-logo.png',
             name: 'Element Talks'
+          },
+          {
+            logo: 'warsawjs-logo.png',
+            name: 'WarsawJS'
           }
         ]
       }
