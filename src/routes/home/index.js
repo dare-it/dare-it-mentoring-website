@@ -17,7 +17,6 @@ import Quotation from '../../components/quotation';
 import Subtitle from '../../components/subtitle';
 import Timeline from '../../components/timeline';
 import Testimonials from '../../components/testimonials';
-import Scripts from '../../components/scripts';
 
 export default () => (
   <div>
@@ -187,7 +186,5 @@ export default () => (
     </main>
 
     <Footer content={text.home.footer} />
-
-    <Scripts />
   </div>
 );
