@@ -346,8 +346,8 @@ const translations = {
         },
         {
           name: 'Olka Fiszbak-Biernat',
-          job: 'HTDevelopers',
-          path: 'UI & Visual Design',
+          job: 'HTD Health',
+          path: 'UI & Visual Design & UX Design',
           info: 'Na co dzień rozwijam produkty związane z branżą healthcare dla klientów z USA."Po godzinach miłośniczka roślin, mopsów i mocnej kawy :) ',
           image: '../../assets/mentors/ola-fiszbak.jpg',
           alt: 'Ola Fiszbak photo'
@@ -495,6 +495,14 @@ const translations = {
           info: '',
           image: '../../assets/mentors/klaudyna-szpara.jpg',
           alt: 'Klaudyna Szpara photo'
+        },
+        {
+          name: 'Mariola Gancarz',
+          job: 'AirHelp',
+          path: 'Product Management',
+          info: '',
+          image: '../../assets/mentors/mariola-gancarz.jpg',
+          alt: 'Mariola Gancarz photo'
         }
       ]
     },
