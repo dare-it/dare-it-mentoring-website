@@ -31,6 +31,7 @@ const translations = {
         'Frontend Development',
         'Backend Development',
         'DevOps',
+        'QA & Testing',
         'Data Science',
         'Data & Product Analysis',
         'Product Management',
