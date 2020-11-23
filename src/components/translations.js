@@ -8,7 +8,7 @@ const translations = {
       subtitle: 'Przyjmujemy zgłoszenia do 6 grudnia',
       cta: {
         text: 'Aplikuj do programu',
-        link: 'https://forms.gle/dSSuiwZ81SKY7izk6'
+        link: 'https://docs.google.com/forms/d/e/1FAIpQLSeyHBArhyVHLMYqsRU-xbse7MSOVhiyya4YYmQxl4qBeZJe0A/viewform?usp=sf_link'
       }
     },
 
@@ -731,7 +731,7 @@ const translations = {
       cta: {
         text: 'Aplikuj do programu',
         'text-sm': 'Aplikuj do programu',
-        link: 'https://forms.gle/dSSuiwZ81SKY7izk6'
+        link: 'https://docs.google.com/forms/d/e/1FAIpQLSeyHBArhyVHLMYqsRU-xbse7MSOVhiyya4YYmQxl4qBeZJe0A/viewform?usp=sf_link'
       }
     }
   }
