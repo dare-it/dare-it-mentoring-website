@@ -527,10 +527,6 @@ const translations = {
           logo: 'logo-google.svg',
         },
         {
-          name: 'Microsoft',
-          logo: 'logo-microsoft.svg',
-        },
-        {
           name: 'Accenture',
           logo: 'logo-accenture.svg',
         },
