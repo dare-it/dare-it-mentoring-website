@@ -503,6 +503,14 @@ const translations = {
           info: '',
           image: '../../assets/mentors/mariola-gancarz.jpg',
           alt: 'Mariola Gancarz photo'
+        },
+        {
+          name: 'Zofia Rusinowska',
+          job: 'ZEN.COM',
+          path: 'UX Design & UX Research',
+          info: '',
+          image: '../../assets/mentors/zofia-rusinowska.jpg',
+          alt: 'Zofia Rusinowska photo'
         }
       ]
     },
