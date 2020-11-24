@@ -543,10 +543,6 @@ const translations = {
           logo: 'logo-monterail.svg',
         }, 
         {
-          name: 'Adobe',
-          logo: 'logo-adobe.svg',
-        },
-        {
           name: 'Goldman Sachs',
           logo: 'logo-goldman-sachs.svg',
         },
@@ -561,10 +557,6 @@ const translations = {
         {
           name: 'Brainly',
           logo: 'logo-brainly.svg',
-        },
-        {
-          name: 'Acoustic',
-          logo: 'logo-acoustic.svg',
         },
         {
           name: 'Olx',
