@@ -579,10 +579,6 @@ const translations = {
           logo: 'logo-iprospect.svg',
         },
         {
-          name: 'Alior Bank',
-          logo: 'logo-alior-bank.svg',
-        },
-        {
           name: 'Fresha',
           logo: 'logo-fresha.svg',
         },
