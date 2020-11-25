@@ -511,6 +511,14 @@ const translations = {
           info: '',
           image: '../../assets/mentors/zofia-rusinowska.jpg',
           alt: 'Zofia Rusinowska photo'
+        },
+        {
+          name: 'Kasia Zalewska',
+          job: 'Allegro',
+          path: 'Product Management',
+          info: '',
+          image: '../../assets/mentors/kasia-zalewska.jpg',
+          alt: 'Kasia Zalewska photo'
         }
       ]
     },
