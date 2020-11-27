@@ -40,6 +40,7 @@ const translations = {
         'Scrum Master',
         'Digital Marketing',
         'Content Marketing',
+        'Sales & Business Development',
       ],
       background: 'User Experience Design UI & Visual Design Web Development Project Management Digital Marketing User Experience Design UI & Visual Design Web Development Project Management Digital Marketing'
     },
