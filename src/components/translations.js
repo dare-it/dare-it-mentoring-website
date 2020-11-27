@@ -672,6 +672,18 @@ const translations = {
           {
             logo: 'warsawjs-logo.png',
             name: 'WarsawJS'
+          },
+          {
+            logo: 'theawwwesomes-logo.png',
+            name: 'The Awwwesomes'
+          },
+          {
+            logo: 'railsgirls-logo.png',
+            name: 'Rails Girls'
+          },
+          {
+            logo: 'girlsgonetech-logo.png',
+            name: 'Girls Gone Tech'
           }
         ]
       }
