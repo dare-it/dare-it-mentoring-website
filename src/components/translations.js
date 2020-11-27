@@ -30,6 +30,7 @@ const translations = {
         'UI & Visual Design',
         'Frontend Development',
         'Backend Development',
+        'Game Development',
         'DevOps',
         'QA & Testing',
         'Data Science',
