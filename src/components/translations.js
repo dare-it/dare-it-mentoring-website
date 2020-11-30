@@ -659,31 +659,39 @@ const translations = {
           },
           {
             logo: 'theawwwesomes-logo.png',
-            name: 'The Awwwesomes'
+            name: 'The Awwwesomes logo'
           },
           {
             logo: 'inkubator-logo.png',
-            name: 'Inkubator uw logo'
+            name: 'Inkubator UW logo'
           },
           {
             logo: 'elementtalks-logo.png',
-            name: 'Element Talks'
+            name: 'Element Talks logo'
           },
           {
             logo: 'warsawjs-logo.png',
-            name: 'WarsawJS'
+            name: 'WarsawJS logo'
           },
           {
             logo: 'theawwwesomes-logo.png',
-            name: 'The Awwwesomes'
+            name: 'The Awwwesomes logo'
           },
           {
             logo: 'railsgirls-logo.png',
-            name: 'Rails Girls'
+            name: 'Rails Girls logo'
           },
           {
             logo: 'girlsgonetech-logo.png',
-            name: 'Girls Gone Tech'
+            name: 'Girls Gone Tech logo'
+          },
+          {
+            logo: 'womenintech-logo.png',
+            name: 'Women in Technology logo'
+          },
+          {
+            logo: 'techleaders-logo.png',
+            name: 'Tech Leaders logo'
           }
         ]
       }
