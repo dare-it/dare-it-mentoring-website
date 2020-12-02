@@ -642,16 +642,16 @@ const translations = {
 
     partners: {
       main: {
-        title: '',
+        title: 'Nasi Partnerzy',
         partners: [
           {
-            logo: '',
-            name: ''
+            logo: '247-logo-color.png',
+            name: '247 logo'
           }
         ]
       },
       support: {
-        title: 'Wspierają nas',
+        title: 'Wspierają Nas',
         partners: [
           {
             logo: 'girlscodefun-logo.png',
@@ -692,6 +692,18 @@ const translations = {
           {
             logo: 'techleaders-logo.png',
             name: 'Tech Leaders logo'
+          },
+          {
+            logo: 'sda-logo.png',
+            name: 'SDA logo'
+          },
+          {
+            logo: 'szajn-logo.png',
+            name: 'Szajn logo'
+          },
+          {
+            logo: 'django-girls-logo.png',
+            name: 'Django Girls logo'
           }
         ]
       }
