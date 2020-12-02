@@ -674,10 +674,6 @@ const translations = {
             name: 'WarsawJS logo'
           },
           {
-            logo: 'theawwwesomes-logo.png',
-            name: 'The Awwwesomes logo'
-          },
-          {
             logo: 'railsgirls-logo.png',
             name: 'Rails Girls logo'
           },
