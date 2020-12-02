@@ -44,7 +44,9 @@ const translationsPersonalData = {
       {
         type: 'paragraph',
         content: 'Dare IT nie udostępnia Twoich danych innym podmiotom, choć w pewnych okolicznościach możemy być zobowiązani do przekazania Twoich danych właściwym organom (w szczególności policji lub prokuraturze), jeżeli zostanie do nas skierowane takie żądanie, o ile istnieje podstawa prawna udostępnienia takich danych (np.: nakaz sądowy).'
-      },
+      }
+    ],
+    [
       {
         type: 'paragraph',
         content: 'Ponadto informujemy, że masz prawo do:'
@@ -61,7 +63,7 @@ const translationsPersonalData = {
       {
         type: 'paragraph',
         content: 'Aby zamówić którekolwiek z powyższych rozwiązań skontaktuj się z nami pod adresem privacy@dareit.org. Jesteśmy zobowiązani do wykonania Twoich praw.'
-      },
+      }
     ]
   ]
 };
