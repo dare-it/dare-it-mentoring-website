@@ -173,7 +173,7 @@ const translations = {
         {
           name: 'Weronika Szczepanik',
           job: 'dentsu Polska',
-          path: 'Project Management',
+          path: 'Digital Marketing',
           info: 'Spinam projekty digitalowe (performance marketing/ analityka), a po 17:00 myślę nad blogiem kulinarnym i nowym serialem kryminalnym!',
           image: '../../assets/mentors/weronika-szczepanik.jpg',
           alt: 'Weronika Szczepanik photo'
