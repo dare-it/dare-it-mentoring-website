@@ -5,10 +5,10 @@ const translations = {
       title2: 'dla 100 kobiet:',
       title3: 'pierwsza praca w IT',
       text: 'Jesteś gotowa projektować, kodować, zarządzać projektami technologicznymi? Wesprzemy Cię w wejściu do branży korzystając z własnych doświadczeń.',
-      subtitle: 'Przyjmujemy zgłoszenia do 6 grudnia',
+      subtitle: 'Zainteresowana? Wpisz się na listę oczekujących, a powiadomimy Cię o starcie kolejnej edycji w 2021',
       cta: {
-        text: 'Aplikuj do programu',
-        link: 'https://docs.google.com/forms/d/e/1FAIpQLSeyHBArhyVHLMYqsRU-xbse7MSOVhiyya4YYmQxl4qBeZJe0A/viewform?usp=sf_link'
+        text: 'Zapisz się na listę oczekujących',
+        link: 'https://docs.google.com/forms/d/e/1FAIpQLSd_JUx_7jvm80gdp9GgG-psVR8qyKEwbD-fwmRdoDeIHVtf5g/viewform?usp=sf_link'
       }
     },
 
@@ -766,8 +766,8 @@ const translations = {
     },
 
     footer: {
-      title: 'Czekamy na aplikacje do 6 grudnia',
-      'title-sm': 'Czekamy na aplikacje do 6 grudnia',
+      title: 'Powiadomimy Cię o starcie kolejnej edycji w 2021',
+      'title-sm': 'Powiadomimy Cię o starcie kolejnej edycji w 2021',
       title2: '',
       'title2-sm': '',
       title3: '',
@@ -775,9 +775,9 @@ const translations = {
       copyright: 'dareit.org ',
       copyright2: 'Wszelkie prawa zastrzeżone.',
       cta: {
-        text: 'Aplikuj do programu',
-        'text-sm': 'Aplikuj do programu',
-        link: 'https://docs.google.com/forms/d/e/1FAIpQLSeyHBArhyVHLMYqsRU-xbse7MSOVhiyya4YYmQxl4qBeZJe0A/viewform?usp=sf_link'
+        text: 'Zapisz się na listę oczekujących',
+        'text-sm': 'Zapisz się na listę oczekujących',
+        link: 'https://docs.google.com/forms/d/e/1FAIpQLSd_JUx_7jvm80gdp9GgG-psVR8qyKEwbD-fwmRdoDeIHVtf5g/viewform?usp=sf_link'
       }
     }
   }
