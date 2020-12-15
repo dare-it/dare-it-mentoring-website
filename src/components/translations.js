@@ -766,12 +766,12 @@ const translations = {
     },
 
     footer: {
-      title: 'Powiadomimy Cię o starcie kolejnej edycji w 2021',
-      'title-sm': 'Powiadomimy Cię o starcie kolejnej edycji w 2021',
+      title: 'Powiadomimy o kolejnej edycji',
+      'title-sm': 'Powiadomimy o kolejnej edycji',
       title2: '',
       'title2-sm': '',
       title3: '',
-      subtitle: 'Dołącz do IT!',
+      subtitle: '',
       copyright: 'dareit.org ',
       copyright2: 'Wszelkie prawa zastrzeżone.',
       cta: {
