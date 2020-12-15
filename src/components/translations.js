@@ -700,6 +700,18 @@ const translations = {
           {
             logo: 'django-girls-logo.png',
             name: 'Django Girls logo'
+          },
+          {
+            logo: 'nfj-logo.png',
+            name: 'No Fluff Jobs logo'
+          },
+          {
+            logo: 'jjit-logo.png',
+            name: 'Just Join IT logo'
+          },
+          {
+            logo: 'SBCC-logo.png',
+            name: 'Studenckie Forum Business Centre Club logo'
           }
         ]
       }
