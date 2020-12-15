@@ -710,6 +710,10 @@ const translations = {
             name: 'Just Join IT logo'
           },
           {
+            logo: 'bulldog-logo.png',
+            name: 'Bulldogjob logo'
+          },
+          {
             logo: 'SBCC-logo.png',
             name: 'Studenckie Forum Business Centre Club logo'
           }
