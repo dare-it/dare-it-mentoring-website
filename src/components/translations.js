@@ -97,7 +97,7 @@ const translations = {
           },
           {
             title: 'Ogłoszenie uczestniczek',
-            date: '16.12.2020'
+            date: '20.12.2020'
           }
         ]
       },
@@ -105,7 +105,7 @@ const translations = {
         steps: [
           {
             title: 'Potwierdzenie udziału od uczestniczek',
-            date: '20.12.2020'
+            date: '28.12.2020'
           }
         ]
       },
