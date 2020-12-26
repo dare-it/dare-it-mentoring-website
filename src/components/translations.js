@@ -7,7 +7,7 @@ const translations = {
       text: 'Jesteś zainteresowana wejściem do branży IT? Wesprzemy Cię w tym korzystając z własnych doświadczeń.',
       subtitle: 'Nie przegap kolejnej edycji!',
       cta: {
-        text: 'Zapisz się na listę oczekujących',
+        text: 'Zapisz się na listę oczekujących!',
         link: 'https://docs.google.com/forms/d/e/1FAIpQLSd_JUx_7jvm80gdp9GgG-psVR8qyKEwbD-fwmRdoDeIHVtf5g/viewform?usp=sf_link'
       }
     },
