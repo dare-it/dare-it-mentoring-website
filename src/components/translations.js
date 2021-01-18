@@ -484,7 +484,7 @@ const translations = {
         },
         {
           name: 'Joanna Leńczuk',
-          job: 'Accenture',
+          job: 'Allegro',
           path: 'Data Science',
           info: '',
           image: '../../assets/mentors/joanna-lenczuk.jpg',
