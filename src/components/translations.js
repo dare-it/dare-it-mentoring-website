@@ -649,15 +649,15 @@ const translations = {
             name: 'EL Passion logo'
           },
           {
-            logo: 'monterail-color.png',
+            logo: 'monterail-logo-color.png',
             name: 'Monterail logo'
           },
           {
-            logo: 'demant-color.png',
+            logo: 'demant-logo-color.png',
             name: 'Demant logo'
           },
           {
-            logo: 'perfectgym-color.png',
+            logo: 'perfectgym-logo-color.png',
             name: 'Perfect Gym logo'
           },
           {
