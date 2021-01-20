@@ -645,6 +645,22 @@ const translations = {
         title: 'Nasi Partnerzy',
         partners: [
           {
+            logo: 'elpassion-logo-color.png',
+            name: 'EL Passion logo'
+          },
+          {
+            logo: 'monterail-color.png',
+            name: 'Monterail logo'
+          },
+          {
+            logo: 'demant-color.png',
+            name: 'Demant logo'
+          },
+          {
+            logo: 'perfectgym-color.png',
+            name: 'Perfect Gym logo'
+          },
+          {
             logo: '247-logo-color.png',
             name: '247 logo'
           }
